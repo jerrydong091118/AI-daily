@@ -1,0 +1,582 @@
+{
+  "date": "2026-05-01",
+  "total": 72,
+  "articles": [
+    {
+      "title": "ChatGPT Images 2.0 is a hit in India, but not a big winner elsewhere, yet",
+      "link": "https://techcrunch.com/2026/04/30/chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big-winner-elsewhere-yet/",
+      "summary": "Users in India are embracing ChatGPT Images 2.0 for creative, personal visuals — from avatars to cinematic portraits.",
+      "published": "2026-05-01",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "早报｜苹果：下季度内存成本压力将显著加大/宇树最便宜人形机器发布/5月1日高速车流或创历史纪录",
+      "link": "https://www.ifanr.com/1664760?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 三星 Q1 芯片利润暴涨 49 倍，单部门吃掉全集团 94% 营业利润\n· 赛力斯一季度卖出 78500 辆新能源车，研发费用同比增长 70.7%\n· D 加密反制破解出新招，正版玩家被迫每 14 天联网「打卡」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-05-01",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "36氪首发｜国内首家落地“筷子夹”塔架回收技术的商业航天公司，完成5亿元融资",
+      "link": "https://36kr.com/p/3790141500366085?f=rss",
+      "summary": "作者&nbsp;|&nbsp;乔钰杰\n  编辑&nbsp;|&nbsp;袁斯来\n  硬氪获悉，近日，上海大航跃迁航天科技有限公司（下称“大航跃迁”）完成5亿元融资。本轮融资由前海方舟、厚纪资本、普华资本领投，君领资本、海愿资本、惠丰达、君川资本、重庆沙创科技、中重科技、元创资本、汉理资本、上海天使会等机构，以及产业方神猴电缆联合参与投资，部分老股东持续加仓；华兴资本担任长期财务顾问。\n  本轮资金将主要用于加速大航跃迁核心产品，国内首款塔架回收运载火箭“跃迁一号”的研制与首飞，百吨级液氧甲烷发动机研发与测试。\n  大航跃迁成立于2024年2月，是国内首家落地“筷子夹”塔架式回收技术的二代民营火",
+      "published": "2026-05-01",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "借航天展推“反向技术输出”，自然堂试炼叙事资源转化的产品力｜最前线",
+      "link": "https://36kr.com/p/3787830454787330?f=rss",
+      "summary": "在中国美妆行业竞争日趋激烈、技术叙事不断升级的背景下，企业如何构建差异化“护城河”成为核心议题。近日，中国化妆品集团自然堂联合上海天文馆推出的航天主题科普展，为观察本土品牌在科研与品牌叙事之间的平衡提供了一个样本。\n  4月24日（第十一个“中国航天日”）前后，自然堂与上海天文馆在上海奉贤“东方美谷”园区内举办“遇见宇宙 发现更美”主题展览。展览面向公众免费开放一个月，内容涵盖宇宙起源、中国空间站建设以及太空生活等多个维度，并通过模型展示、VR体验等形式强化互动性。\n  从形式上看，这类跨界活动近年来在美妆行业并不罕见，但其背后所指向的“科技背书”，正在成为品牌竞争的重要组成部分——国际美妆巨",
+      "published": "2026-05-01",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "DeepSeek 发布多模态模型及技术报告；小红书官宣组织调整：柯南出任总裁；宇树发布双臂人形机器人，2.69万元起售",
+      "link": "http://www.geekpark.net/news/363694",
+      "summary": "DeepSeek 发布多模态模型及技术报告\n\n近日，DeepSeek 在 Github 上正式发布了多模态模型，公布了背后的技术报告。\n在技术报告中，DeepSeek 提到：尽管多模态大语言模型（MLLMs）取得了显著进展，但主流的思维链（CoT）范式仍主要局限于语言学领域。虽然近期研究重点通过高分辨率裁剪技术（例如基于图像的思考）来弥合感知鸿沟，却忽视了一个更根本的瓶颈：参照鸿沟。自然语言固有的模糊性往往无法为复杂的空间布局提供精确、明确的指引，导致需要严谨参照的任务出现逻辑崩溃。\n而 DeepSeek 多模态技术报告提出基于视觉原语的思考&mdash;&mdash;这一创新推理框架将点、边",
+      "published": "2026-05-01",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "As Tim Cook steps down, Apple hit record sales — but a chip shortage looms",
+      "link": "https://techcrunch.com/2026/04/30/as-tim-cook-steps-down-apple-hit-record-sales-but-a-chip-shortage-looms/",
+      "summary": "Cook warned that Apple is facing supply-chain headwinds from RAMageddon that could impact its business.",
+      "published": "2026-04-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Y Combinator alum Skio sells for $105M cash, only raised $8M, founder says",
+      "link": "https://techcrunch.com/2026/04/30/y-combinator-alum-skio-sells-for-105m-cash-only-raised-8m-founder-says/",
+      "summary": "Subscription billing fintech Skio sold to its competitor Recharge in what was a healthy exit, according to its founder and former CEO.",
+      "published": "2026-04-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Sources: Anthropic potential $900B+ valuation round could happen within 2 weeks",
+      "link": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
+      "summary": "Anthropic is asking investors to submit allocations for the AI company’s latest fundraise within the next 48 hours, according to sources familiar with the matter.",
+      "published": "2026-04-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Apple was surprised by AI-driven demand for Macs",
+      "link": "https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/",
+      "summary": "Apple said it will be supply-constrained on Mac mini, Studio, and Neo in the next quarter, too.",
+      "published": "2026-04-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Legal AI startup Legora hits $5.6B valuation and its battle with Harvey just got hotter",
+      "link": "https://techcrunch.com/2026/04/30/legal-ai-startup-legora-hits-5-6-valuation-and-its-battle-with-harvey-just-got-hotter/",
+      "summary": "The two wildly fast-growing rivals have raised massive sums, pushed into each other's home turf, and now have dueling ad campaigns.",
+      "published": "2026-04-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Rivian downsizes DOE loan to $4.5B for Georgia factory",
+      "link": "https://techcrunch.com/2026/04/30/rivian-downsizes-doe-loan-to-4-5b-of-georgia-factory/",
+      "summary": "Rivian has reworked its loan deal with the Department of Energy and now expects to borrow $4.5 billion to build its new factory in Georgia, down from the original amount of $6.6 billion.",
+      "published": "2026-04-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Hackers are actively exploiting a bug in cPanel, used by millions of websites",
+      "link": "https://techcrunch.com/2026/04/30/hackers-are-actively-exploiting-a-bug-in-cpanel-used-by-millions-of-websites/",
+      "summary": "Web hosts are scrambling to fix the bug under active attack by hackers. One company said hackers have been abusing the bug for months.",
+      "published": "2026-04-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Trump nominates Fox News doctor to be the next surgeon general",
+      "link": "https://arstechnica.com/health/2026/04/trump-nominates-fox-news-doctor-to-be-the-next-surgeon-general/",
+      "summary": "Trump lashes out at Cassidy while announcing his new nomination.",
+      "published": "2026-04-30",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "US falls below Ukraine in press freedom as global autocracy takes hold",
+      "link": "https://arstechnica.com/tech-policy/2026/04/us-falls-below-ukraine-in-press-freedom-as-global-autocracy-takes-hold/",
+      "summary": "\"In 25 years, the average score... has never been so low.\"",
+      "published": "2026-04-30",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Russia cloaks launch schedule after spaceport falls in Ukraine's sights",
+      "link": "https://arstechnica.com/space/2026/04/russian-cloaks-launch-schedule-after-spaceport-falls-in-ukraines-sights/",
+      "summary": "\"We had serious inbound attempts to the cosmodrome that day.\"",
+      "published": "2026-04-30",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Elon Musk's 7 biggest stumbles on the stand at OpenAI trial",
+      "link": "https://arstechnica.com/tech-policy/2026/04/elon-musks-7-biggest-stumbles-on-the-stand-at-openai-trial/",
+      "summary": "Elon Musk spent three days testifying as the first witness in his trial against OpenAI.",
+      "published": "2026-04-30",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The most severe Linux threat to surface in years catches the world flat-footed",
+      "link": "https://arstechnica.com/security/2026/04/as-the-most-severe-linux-threat-in-years-surfaces-the-world-scrambles/",
+      "summary": "CopyFail threatens multi-tenant servers, CI/CD work flows, Kubernetes containers, and more.",
+      "published": "2026-04-30",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Meta cuts contractors who reported seeing Ray-Ban Meta users have sex",
+      "link": "https://arstechnica.com/gadgets/2026/04/meta-cuts-contractors-who-reported-seeing-ray-ban-meta-users-have-sex/",
+      "summary": "Meta said the Kenyan workers didn't \"meet our standards.\"",
+      "published": "2026-04-30",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Researchers try to cut the genetic code from 20 to 19 amino acids",
+      "link": "https://arstechnica.com/science/2026/04/researchers-try-to-cut-the-genetic-code-from-20-to-19-amino-acids/",
+      "summary": "Using AI tools, the team reworked part of the ribosome to need one less amino acid.",
+      "published": "2026-04-30",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Blue Origin certainly has ambitious launch targets for New Glenn",
+      "link": "https://arstechnica.com/space/2026/04/blue-origin-certainly-has-ambitious-launch-targets-for-new-glenn/",
+      "summary": "If Blue Origin wants to launch New Glenn 100 times a year, we're here for it.",
+      "published": "2026-04-30",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The craziest part of Musk v. Altman happened while the jury was out of the room",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/921713/musk-v-altman-jared-birchall-screw-up-xai",
+      "summary": "Okay, I am not a lawyer so I only understood about half of what just happened. But I am fairly sure, given the context, that Elon Musk's lawyers may have just fucked up big. Jared \"James Brickhouse\" Birchall, Musk's finance guy and all-around fixer, took the stand after Musk today. Most of his testi",
+      "published": "2026-04-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Roblox’s daily users continue to drop as age checks slow growth",
+      "link": "https://www.theverge.com/games/921694/roblox-q1-2026-132-million-dau",
+      "summary": "Roblox's daily active users continued to slip last quarter due in part to its rollout of age checks on its platform. According to its latest earnings report, Roblox currently has 132 million daily active users globally, down from 144 million at the end of last year, which was a drop from 152 million",
+      "published": "2026-04-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Congress keeps kicking surveillance reform down the road",
+      "link": "https://www.theverge.com/policy/921652/congress-fisa-section-702-45-day-extension",
+      "summary": "Congress has reauthorized Section 702 of the Foreign Intelligence Surveillance Act - but only for another 45 days. The extension is meant to give legislators more time to negotiate reforms to the controversial wiretapping bill. If the past few weeks are any indication of how future debates will go, ",
+      "published": "2026-04-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Apple&#8217;s iPhone revenue jumps to $57 billion despite chip shortages",
+      "link": "https://www.theverge.com/tech/921527/apple-iphone-revenue-q2-2026-earnings",
+      "summary": "Apple's iPhone revenue jumped 22 percent to $57 billion over the past few months, despite supply chain issues impacting the device's processor. In an interview with Reuters, Apple CEO Tim Cook said iPhone \"demand was off the charts,\" but there's \"a little less flexibility at the moment for getting m",
+      "published": "2026-04-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Rivian’s revenue is up as R2 production kicks into gear",
+      "link": "https://www.theverge.com/transportation/921295/rivian-q1-2026-earnings-revenue-profit-r2",
+      "summary": "Rivian reported its first quarter earnings of 2026, providing us a closer look at the company's financial health as it kicks off production for the crucial R2 electric vehicle. We've already got Rivian's production and delivery statement from the first three months of the year. The company sold 10,3",
+      "published": "2026-04-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Rivian downsizes new EV factory after Trump’s DOE slashes loan agreement",
+      "link": "https://www.theverge.com/transportation/921585/rivian-georgia-factory-capacity-doe-loan",
+      "summary": "Rivian announced some changes today with regard to the factory its building in the state of Georgia. The company was planning to build the facility in two phases, each resulting in 200,000 vehicles of annual production capacity, for a total of 400,000 units. Rivian held a ground breaking ceremony la",
+      "published": "2026-04-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The logic of the racist Supreme Court isn’t adding up",
+      "link": "https://www.theverge.com/policy/921597/callais-louisiana-voting-rights-act",
+      "summary": "Close watchers of the Supreme Court knew that the conservative supermajority was about to murder what was left of the Voting Rights Act. Wednesday's decision in Louisiana v. Callais took down Section 2 of the law, clearing the way for racist gerrymandering, because it is now racist to remedy racism.",
+      "published": "2026-04-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Microsoft’s Xbox mode is now available for all Windows 11 PCs",
+      "link": "https://www.theverge.com/news/921582/microsoft-xbox-mode-windows-11",
+      "summary": "Microsoft is now rolling out its Xbox mode to all Windows 11 PCs. The new Xbox mode adds a full-screen interface to the Xbox PC app, much like Steam's Big Picture Mode, and originally debuted as the Xbox Full Screen Experience (FSE) with Asus' Xbox Ally devices. \"Some players in select markets will ",
+      "published": "2026-04-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "一加 Ace 6 至尊版体验：将手机和掌机，二合一",
+      "link": "https://www.ifanr.com/1664739?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "一加想做的掌机，原来是这个样子#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-04-30",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "十年等一回！Steam 手柄再相见",
+      "link": "https://www.ifanr.com/1664641?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "问题的关键，是《半条命 3》#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-04-30",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "谁在 GPT-5.5 脑子里塞了一群「妖怪」？",
+      "link": "https://www.ifanr.com/1664679?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "GPT-5 到底在说什么鬼话？#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-04-30",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "一台比小天才还猛的「反 AI 座机」，卖爆美国家长群",
+      "link": "https://www.ifanr.com/1664605?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "剥离掉 AI 算法与屏幕，最好的社交也只需要一根电话线，和两个直面彼此的灵魂。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-04-30",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "19.98 万元起，充满电仅需 9 分钟的方程豹钛 7 EV 闪充版上市，天神之眼 B 需额外付费",
+      "link": "https://www.ifanr.com/1664606?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "续航长、操控强、高智慧、全地形。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-04-30",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "小米最新人形机器人的手，会「出汗」了",
+      "link": "https://www.ifanr.com/1664575?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "还能跟你比心🫶#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-04-30",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "我测 SBTI，但我不是 SB.skill",
+      "link": "https://www.ifanr.com/1664362?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "正式被确诊为 skill：成本低，可复制，一抓一大把#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-04-30",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "元禾原点领投，硫化物固态电解质材料商「天石科丰」完成数千万元pre-A轮融资 | 36氪首发",
+      "link": "https://36kr.com/p/3789235646094339?f=rss",
+      "summary": "文&nbsp;|&nbsp;张冰冰\n  编辑&nbsp;|&nbsp;阿至\n  36氪获悉，武汉天石科丰新能源科技有限公司（以下简称「天石科丰」）近期宣布完成数千万元pre-A轮融资，由元禾原点领投，天泓投资跟投，启辰资本担任长期财务顾问，本轮融资将主要用于产品研发及百吨级产线落地。\n  「天石科丰」成立于2022年12月，聚焦于硫化物固态电解质粉体材料研发和生产，技术孵化于武汉理工大学和德国吉森大学，开发出空气稳定性良好且室温离子电导率达12&nbsp;mS/cm的硫化物电解质粉体，室温离子电导率达3mS/cm、厚度20μm的LPSCB基复合电解质膜。\n  作为硫化物固态电池上游粉体材料供应",
+      "published": "2026-04-30",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "错过第一波投影上市潮后，索诺克想靠「枭龙系列」实现超车｜项目报道",
+      "link": "https://36kr.com/p/3785172264197384?f=rss",
+      "summary": "在投影行业深耕了几十年，从灯泡到单色激光，再到现在的三色激光，索诺克董事长朱谆见过太多技术路线的起落。\n  2014年日本研发团队加入后，索诺克就认定三色激光是显示技术的终极方案。只不过，这条路走了很久，直到2026年春天，「枭龙系列」纯三色激光工程投影机才正式发布。\n  \n  索诺克枭龙系列纯三色激光投影机\n  “不是因为我们受到什么刺激，”朱谆告诉36氪，“我们很早就开始研究三色激光如何商用，只是这个路走得有点长。”\n  近两年索诺克加快新品与技术落地节奏，源于行业格局的变化：国内多家头部品牌凭借资本加持，在新技术迭代上快步领跑，部分领域甚至实现了反超。\n  “正因如此，我们更要抢抓窗口期",
+      "published": "2026-04-30",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "巅峰集结，FBIF2026首日回顾！全球食品高层共探破局之路",
+      "link": "https://36kr.com/p/3789175930232065?f=rss",
+      "summary": "作者：FBIF媒体部\n  FBIF2026食品饮料创新论坛及FBIF食品创新展（f展）于2026年4月27-29日在杭州国际博览中心举办。\n  3天的FBIF2026将包含160+位演讲嘉宾，650+展商参展，6000+渠道观众观展，累计将吸引53000+观众观展。\n  \n  FBIF2026以“大势可为”为主题。答案藏于变局，我们将与业内共同探讨，决定产业未来走向的关键变量。\n  本次论坛将从乳品、零食、烘焙、饮料等品类，以及行业战略、功能性配料、营销、零售、包装、产品开发等不同角度讨论行业趋势及创新案例。与此同时，FBIF Wow食品创新奖 2026颁奖仪式及FBIF食品创新展，将带来更多",
+      "published": "2026-04-30",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "从扫地机到火箭车，追觅在硅谷造了一场“瞬息全宇宙”",
+      "link": "https://36kr.com/p/3789057332043016?f=rss",
+      "summary": "作者 | 邓咏仪\n  编辑 | 杨轩\n  如果你在4月27日这一周走进美国旧金山艺术宫，也许你会感到惊讶——这不像一个艺术圣地，更像一场包罗万象的博览会。\n  来自50多个国家的媒体、KOL、客户挤在展区里。映入眼帘的产品，小至智能吊坠、吹风机、LED 美容面罩、扫地机，大至洗地机、空调、冰箱、手机，甚至还有一辆“火箭车”的概念超跑。\n  \n  Nebula NEXT 01&nbsp;\n  在舞台台上，图灵奖得主 David Patterson、7-Eleven 前 CEO James Keyes、Meta 前 VP来谈论AI如何重塑物理世界；而苹果联合创始人沃兹尼亚克（Steve Wozni",
+      "published": "2026-04-30",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "HappyHorse没有惊喜",
+      "link": "https://36kr.com/p/3789098887077123?f=rss",
+      "summary": "作者&nbsp;|&nbsp;兰杰\n  编辑&nbsp;|&nbsp;乔芊\n  4月27日，预热已久的HappyHorse终于开启测试，颇为遗憾的是，它没能像横空出世的Seedance2.0那样掀起巨浪。没有惊喜，对于HappyHorse来讲是一个颇为中肯的评价。&nbsp;\n  HappyHorse是阿里巴巴ATH事业群旗下创新事业部研发的视频模型，于4月27日开启灰测，并接入千问App。\n  该视频模型饱受关注的原因有二。&nbsp;\n  一是因为在开放测试前，HappyHorse在未标注厂商的情况下，登顶了以盲测为主要形式的权威AI评测平台Artificial Analysis AI V",
+      "published": "2026-04-30",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "“小长假”前一天北京拍地91.597亿，最贵楼面价超6万",
+      "link": "https://36kr.com/p/3789084813548803?f=rss",
+      "summary": "4月最后一天，北京楼市迎来一次春季土拍盛宴，分别位于朝阳东坝、丰台万泉寺、昌平北七家的三宗宅地成交，总价合计91.597亿元。\n  2026年1-4月，北京合计出让住宅用地13宗（2025年同期成交7宗），总成交价为217.577亿元（2025年同期成交约334.9亿元），相比去年同期有约35%的金额降幅。\n  但今年1-4月成交宅地规划总建面约83.7万㎡，与去年同期成交总建面82.2万㎡的总量基本相当。\n  从成交情况来看，今年北京土地市场偏冷。目前最高溢价率为4月21日成交的亦庄新城YZ00-0802街区1401-1地块（瀛海地块），溢价率也只有8.7%。而2025年前4月成交的7宗宅地",
+      "published": "2026-04-30",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "本月玩什么｜朋友收藏、识质存在、沙罗周期",
+      "link": "https://sspai.com/post/109257",
+      "summary": "假期预防无聊，先来找点玩的。查看全文",
+      "published": "2026-04-30",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "五一假期将至，用 iPhone 轻松搞定假日出行",
+      "link": "https://sspai.com/post/88452",
+      "summary": "五一假期将至，我相信有很多派友们都会抓住难得的长假机会，策划一场期盼许久的旅行。曾几何时，我们出门旅游时要带上相机、纸质地图、旅行攻略（比如说LonelyPlanet）、纸质车票、钱包、现金等一堆东西 ...查看全文",
+      "published": "2026-04-30",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "关于中年和中年危机的一些思考",
+      "link": "https://sspai.com/post/108451",
+      "summary": "关于「中年」这个极其宏大的话题，虽然可写的方面很多，但我不想把话题铺的太满。我写这篇文章本身的核心目的，不是为了说出些什么道理，而是只是想表达自己当下的一种人生处境，同时抛砖引玉，让更多的朋友去分享自己的中年收获和困境。只要有一瞬间觉得自己并不孤单，这篇文章的目的就达到了。查看全文",
+      "published": "2026-04-30",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：Claude AI 接入多个创意软件生态、FILCO 生产方接手品牌等",
+      "link": "https://sspai.com/post/109235",
+      "summary": "Framework 推出 RTX 5070 GPU 显卡模块、蚂蚁集团百灵大模型开源 Ling-2.6-flash 等。查看全文",
+      "published": "2026-04-30",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "对话奔驰高管：AI 上车之后，豪华品牌如何重新定义智能化？",
+      "link": "http://www.geekpark.net/news/363649",
+      "summary": "几乎每个上周去过北京车展的朋友，都会跟我说起，这次在梅赛德斯-奔驰的展区，感受到了一些特殊的气质。\n这种气质首先来自审美。在当下新能源市场竞争空前激烈的背景下，过于追求原创和先锋设计几乎等同于和市场对着干。在这种环境下，奔驰带来的那些经典车型的设计，仍然会让人由衷地觉得百看不腻。\n而在经典设计之外，今年梅奔在智能化领域更是带来了一系列突破。\n在高阶辅助驾驶领域，全新交付的纯电 CLA 现已支持城区及高速辅助驾驶全国可用，年内力争实现「车位到车位」功能，一举从外界印象里的「传统燃油车」，变成一个也能上桌做压轴题的选手。\n在座舱层面，梅奔中国研发团队主导在全新后排娱乐系统部署的 VLM 大模型，将",
+      "published": "2026-04-30",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "AI 走出屏幕，家电变成「机器人」",
+      "link": "http://www.geekpark.net/news/363602",
+      "summary": "AI 正在迈向下一个十年。\n当模型能力继续提升，AI 即将走出屏幕里「回答问题、生成代码」的任务，转向真实的物理世界。\n这也是为什么，AI 硬件会成为过去 1-2 年科技行业最热的关键词。相比手机、眼镜、人形机器人等更主流的硬件形态，家电是一个很容易被低估的的关键品类。\n因为家电面对的，是清洁、烹饪、洗衣、宠物、庭院这些最日常的生活任务。它们听起来没有人形机器人酷，但足够真实且高频。AI 要走进生活，根本绕不开这些场景。\n过去一年频繁出现在行业讨论里的追觅，一度被视为一个激进的搅局者：一家从清洁机器人、智能硬件领域成长起来的公司，突然把边界拉向空调、冰箱、厨电这些传统大家电。\n但如果 AI 正",
+      "published": "2026-04-30",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "马斯克：OpenAI 是我的创意，Altman 是小偷；Claude Code 使用成本翻倍；Image 2 登顶视觉模型榜｜极客早知道",
+      "link": "http://www.geekpark.net/news/363594",
+      "summary": "结束与微软独家合作，OpenAI 模型接入亚马逊 AWS\n4 月 29 日，在亚马逊云科技（Amazon Web Services，简称 AWS）新品发布会上，AWS 宣布携手 OpenAI，将 OpenAI 最新大模型接入 Amazon Bedrock，在 Amazon Bedrock 上线 Codex 代码 Agent，并推出由 OpenAI 赋能的 Amazon Bedrock 托管 Agent（以上功能均为有限预览版）。\n4 月 27 日，OpenAI 与微软宣布对双方的合作协议作出调整，OpenAI 可通过任意云服务商向客户提供旗下全部产品服务。\n据 AWS 介绍，GPT-5.5、G",
+      "published": "2026-04-30",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Exclusive eBook: Inside the stealthy startup that pitched brainless human clones",
+      "link": "https://www.technologyreview.com/2026/04/30/1136684/exclusive-ebook-inside-the-stealthy-startup-that-pitched-brainless-human-clones/",
+      "summary": "The ultimate plan to live forever is a brand new body. This subscriber-only eBook explores R3 Bio, a small startup that has pitched a startling and ethically charged vision for &#8220;brainless clones&#8221; to serve the role of backup human bodies. by Antonio Regalado March 20, 2026 Related Stories",
+      "published": "2026-04-30",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "This startup’s new mechanistic interpretability tool lets you debug LLMs",
+      "link": "https://www.technologyreview.com/2026/04/30/1136721/this-startups-new-mechanistic-interpretability-tool-lets-you-debug-llms/",
+      "summary": "The San Francisco–based startup Goodfire just released a new tool, called Silico, that lets researchers and engineers peer inside an AI model and adjust its parameters—the settings that determine a model’s behavior—during training. This could give model makers more fine-grained control over how this",
+      "published": "2026-04-30",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The Download: the North Pole’s future and humanoid data",
+      "link": "https://www.technologyreview.com/2026/04/30/1136713/the-download-north-pole-future-humanoid-data/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Digging for clues about the North Pole’s past In the past, getting to the North Pole involved a treacherous trip through ice many meters thick. But la",
+      "published": "2026-04-30",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "消息称苹果已基本放弃Vision Pro，重心转向智能眼镜",
+      "link": "https://cn.technode.com/post/2026-04-30/apple-reportedly-gives-up-on-vision-pro-focuses-on-smart-glasses/",
+      "summary": "搭载M5芯片的新版Vision Pro未能重新带动市场兴趣",
+      "published": "2026-04-30",
+      "source": "动点科技",
+      "tag": "Startup"
+    },
+    {
+      "title": "消息称Anthropic新一轮融资估值或达8500亿至9000亿美元",
+      "link": "https://cn.technode.com/post/2026-04-30/anthropic-fundraising-valuation-850-to-900-billion/",
+      "summary": "融资规模预计在400亿至500亿美元之间",
+      "published": "2026-04-30",
+      "source": "动点科技",
+      "tag": "Startup"
+    },
+    {
+      "title": "新加坡白标SaaS平台Cata获得530万美元融资",
+      "link": "https://cn.technode.com/post/2026-04-30/cata-raises-5-3m-seed-funding/",
+      "summary": "动点出海获悉，新加坡白标SaaS平台Ca [&#8230;]",
+      "published": "2026-04-30",
+      "source": "动点科技",
+      "tag": "Startup"
+    },
+    {
+      "title": "移动端 Agent 的井喷或许近在眼前：以 ColorOS 抛砖引玉",
+      "link": "https://sspai.com/post/109062",
+      "summary": "我觉得手机 AI 再次爆发式发展的时间节点已经不远了，应用与安卓的底层权限开放像是 MCP，而基于自动操作的积木像是 Skills，配合不断增强的端侧模型，或许能让 GUI Agent 更进一步。查看全文",
+      "published": "2026-04-29",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "先别一股脑扔进洗衣机：换季衣物洗护指南",
+      "link": "https://sspai.com/post/60247",
+      "summary": "用心呵护自己的衣物，就从这个春天做起吧(๑•̀ㅂ•́)و✧查看全文",
+      "published": "2026-04-29",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "众测｜邀你一同探索随身 AI 硬件入口 YoooClaw C·ONE",
+      "link": "https://sspai.com/post/109207",
+      "summary": "现在AI工具正在从「能回答问题」逐渐走向「能替你完成事情」。我们不再只满足于打开一个App、输入一段提示词、等待一次回复，而是希望AI能理解我们的上下文，知道我们正在处理什么信息，并在合适的时候主动帮 ...查看全文",
+      "published": "2026-04-29",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "iPad 赋能电影创作：国内首部宣纸手绘长片《燃比娃》的幕后故事",
+      "link": "https://sspai.com/post/109188",
+      "summary": "《燃比娃》是由李文愉执导、上海电影(集团)有限公司及上海美术电影制片厂有限公司出品的动画电影，也是国内首部宣纸手绘动画长片。本片导演李文愉毕业于北京大学、硕士研究生学历，毕业后任教于四川大学艺术学院数 ...查看全文",
+      "published": "2026-04-29",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "OpenAI 硬件负责人的闭门分享，向我们揭示了为什么硬件「终点」仍是智能手机",
+      "link": "http://www.geekpark.net/news/363596",
+      "summary": "「你必须为模型将要去的方向设计硬件，而不是为今天的模型。」\n作者｜张勇毅\n编辑｜靖宇\n&nbsp;\n\n\n昨天，当 OpenAI 做智能手机的具体规格与供应链爆料发布时，我第一反应不是「他们要做手机了」，而是「OpenAI 最终也不得不踏出这一步」，同时想起两周前 Richard Ho 在 Stanford 那场交流。\nRichard Ho 是 OpenAI 的硬件负责人，从 Google 做 TPU 出来。\n\n\n\nRichard Ho ｜图片来源：Synopsys\n&nbsp;\n\n\n那场在 IEEE 内部组织的交流上，他没有讲过一次「手机」这个词。但把昨天的新闻和他当时说过的话放在一起看，整条",
+      "published": "2026-04-29",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "HappyHorse 1.0在千问首发开启灰测免费体验，重构 AI 视频赛道",
+      "link": "http://www.geekpark.net/news/363406",
+      "summary": "&nbsp;\n前段时间，AI 视频生成赛道迎来了一场无预热的行业震动。\n一款名为 HappyHorse 1.0 的模型以匿名形式空降权威第三方评测平台 Artificial Analysis 的 Video Arena 榜单，一度拿下第一。\n从全网对研发主体的密集猜测，到阿里巴巴 ATH 事业群正式官宣认领，这款被业内称为 「HappyHorse 1.0 」 的模型，迅速成为全球 AI 视频圈的核心讨论焦点。\n更让行业关注的，是 HappyHorse 1.0 快速完成了与千问APP的全链路深度融合 &mdash;&mdash; 目前千问 APP 可免费体验该模型能力，千问创作web端也可使用，",
+      "published": "2026-04-29",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "比亚迪天神之眼 B 选装5月1日开始涨价；微信朋友圈悄然改版；麦当劳奶昔正式回归",
+      "link": "http://www.geekpark.net/news/363496",
+      "summary": "谷歌被曝与五角大楼签署机密 AI 协议，条款宽松程度超OpenAI\n当地时间 4 月 27 日，据知情人士透露，谷歌与美国国防部签署了一项机密 AI 协议，允许五角大楼将谷歌 AI 用于任何合法的政府目的。\n协议同时要求谷歌根据政府要求协助调整其 AI 安全设置与过滤器。媒体指出，该协议的条款宽松程度被认为超过 OpenAI 今年 2 月与五角大楼达成的协议。\n截至发稿，谷歌股价小幅上涨 0.15%。\n（来源：每日经济新闻）\n\n比亚迪天神之眼 B 选装5月1日开始涨价\n4 月 28 日晚间，比亚迪官方发布公告称，受全球存储硬件成本大幅上涨的影响，比亚迪旗下 (王朝网、海洋网、方程豹) 部分车型",
+      "published": "2026-04-29",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "The Download: storing nuclear waste and orchestrating agents",
+      "link": "https://www.technologyreview.com/2026/04/29/1136666/the-download-nuclear-waste-orchestrated-ai-agents/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. It’s time to make a plan for nuclear waste Today, nuclear energy enjoys rare support across the political spectrum. Public approval has spiked, and Bi",
+      "published": "2026-04-29",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "It’s time to make a plan for nuclear waste",
+      "link": "https://www.technologyreview.com/2026/04/29/1136659/plan-nuclear-waste/",
+      "summary": "Today, nuclear energy enjoys a rare moment of support across the political spectrum in the US. Interest from tech companies that are scrambling to meet demand for massive data centers has sparked a resurgence of money and attention in the industry. That newfound interest is exactly why it’s time to ",
+      "published": "2026-04-29",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "新加坡AI设计平台FORMAS.AI获得398万美元融资",
+      "link": "https://cn.technode.com/post/2026-04-29/formas-ai-raises-3-98m-pre-seed-funding/",
+      "summary": "Vertex Ventures Southeast Asia &#038; India领投",
+      "published": "2026-04-29",
+      "source": "动点科技",
+      "tag": "Startup"
+    },
+    {
+      "title": "别担心被取代，目前用 AI 比雇人更昂贵",
+      "link": "https://cn.technode.com/post/2026-04-29/dont-worry-about-being-replaced-by-ai-yet/",
+      "summary": "据《财富》报道，美国科技行业近期出现大裁 [&#8230;]",
+      "published": "2026-04-29",
+      "source": "动点科技",
+      "tag": "Startup"
+    },
+    {
+      "title": "Spotify不只想陪你听歌",
+      "link": "https://cn.technode.com/post/2026-04-29/spotify-fitness-subscription-value/",
+      "summary": "Don’t Stop the Music",
+      "published": "2026-04-29",
+      "source": "动点科技",
+      "tag": "Startup"
+    },
+    {
+      "title": "我觉得特努斯比库克更乔布斯（用过 MacBook Neo 之后）",
+      "link": "https://cn.technode.com/post/2026-04-29/macbook-neo-john-ternus-apple/",
+      "summary": "一场设计冒险，最终大获成功。",
+      "published": "2026-04-29",
+      "source": "动点科技",
+      "tag": "Startup"
+    },
+    {
+      "title": "汽车的「OpenClaw 时刻」，到了？",
+      "link": "http://www.geekpark.net/news/363403",
+      "summary": "汽车的「OpenClaw 时刻」，到了？摘要：更聪明的智能助手，和真正的「AI 控车」。极客一问：你觉得现在车上的「AI 助手」智能化程度如何？头图来源：极客公园作者｜靖宇走完 2026 北京车展的十几个展馆，我最大的感受是，车企的高管，肯定是用上「小龙虾」了——今年，如果你的新车没搭个大模型，你都不好意思开发布会。火山引擎带着豆包宣布搭载超 700 万辆车；腾讯发布出行全场景智能体开放平台；科大讯飞推星火智能座舱；面壁智能展示端侧 Agent 框架 EmbodiedClaw，连奔驰新一代 S 级都在后排塞了一颗端侧多模态大模型 VLM。更不用说华为的鸿蒙座舱 HarmonySpace 6、宝",
+      "published": "2026-04-28",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "The Download: Musk and Altman’s legal showdown, and AI’s profit problem",
+      "link": "https://www.technologyreview.com/2026/04/28/1136479/the-download-musk-altman-openai-trial-ai-profit-problem/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Elon Musk and Sam Altman are going to court over OpenAI’s future Elon Musk and OpenAI CEO Sam Altman head to trial this week in a case with sweeping c",
+      "published": "2026-04-28",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "无人驾驶球包车，让高尔夫运动解放双手",
+      "link": "https://cn.technode.com/post/2026-04-28/robera-pro/",
+      "summary": "高尔夫这项运动在追求休闲与专注的同时，往 [&#8230;]",
+      "published": "2026-04-28",
+      "source": "动点科技",
+      "tag": "Startup"
+    },
+    {
+      "title": "Elon Musk and Sam Altman are going to court over OpenAI’s future",
+      "link": "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/",
+      "summary": "After a yearslong legal feud, Elon Musk and OpenAI CEO Sam Altman are heading to trial this week in Northern California in a case that could have sweeping consequences. Ahead of OpenAI’s highly anticipated IPO, the court could rule on whether the company is allowed to exist as a for-profit enterpris",
+      "published": "2026-04-27",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The missing step between hype and profit",
+      "link": "https://www.technologyreview.com/2026/04/27/1136456/the-missing-step-between-hype-and-profit/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. In February, I picked up a flyer at an anti-AI march in London. I can’t say for sure whether or not its writers meant to riff on South Park’s underpants gnomes. B",
+      "published": "2026-04-27",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    }
+  ]
+}
