@@ -335,6 +335,11 @@ def generate_html(articles_json_path, output_html_path=None):
     with open(output_html_path, "w", encoding="utf-8") as f:
         f.write(html)
 
+    # 同时写一份 index.html（供 GitHub Pages 根路径使用）
+    index_path = os.path.join(os.path.dirname(output_html_path), "index.html")
+    with open(index_path, "w", encoding="utf-8") as f:
+        f.write(html)
+
     print(f"✅ HTML 日报已生成: {output_html_path}")
     return output_html_path
 
