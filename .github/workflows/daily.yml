@@ -1,0 +1,54 @@
+name: AI Daily - 自动生成日报
+
+on:
+  # 每天北京时间 08:00 自动运行
+  schedule:
+    - cron: "0 0 * * *"
+  # 也支持手动触发（GitHub 网页上点 Run workflow）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install feedparser requests markdown
+
+      - name: 抓取 RSS 资讯
+        run: python fetcher/rss_fetcher.py
+
+      - name: 生成日报 HTML
+        run: python scripts/html_generator.py
+
+      - name: 部署到 GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output/
+
+  pages:
+    needs: generate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
