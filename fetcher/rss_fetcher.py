@@ -38,8 +38,13 @@ FEEDS = [
     {"name": "动点科技", "url": "https://cn.technode.com/feed/", "tag": "Startup"},
 ]
 
-def fetch_rss(feed_info, max_articles=8):
-    """抓取单个 RSS 源，返回文章列表"""
+def fetch_rss(feed_info, max_articles=8, max_days=2):
+    """抓取单个 RSS 源，返回文章列表
+
+    Args:
+        max_articles: 每个 RSS 源最多抓取的文章数
+        max_days: 只保留最近 max_days 天内发布的文章（默认2天，避免旧文章堆积）
+    """
     articles = []
     try:
         print(f"  抓取中: {feed_info['name']}...", end=" ", flush=True)
@@ -49,6 +54,10 @@ def fetch_rss(feed_info, max_articles=8):
         resp = requests.get(feed_info["url"], headers=headers, timeout=15)
         resp.raise_for_status()
         feed = feedparser.parse(resp.text)
+
+        # 计算日期阈值（只保留最近 max_days 天的文章）
+        today = datetime.date.today()
+        cutoff_date = today - datetime.timedelta(days=max_days)
 
         for i, entry in enumerate(feed.entries[:max_articles]):
             # 提取标题和链接
@@ -68,12 +77,18 @@ def fetch_rss(feed_info, max_articles=8):
 
             # 发布时间
             published = ""
+            article_date = None
             if hasattr(entry, "published_parsed") and entry.published_parsed:
                 try:
                     dt = datetime.datetime(*entry.published_parsed[:6])
                     published = dt.strftime("%Y-%m-%d")
+                    article_date = dt.date()
                 except Exception:
                     pass
+
+            # 过滤：跳过超过 max_days 天的旧文章
+            if article_date and article_date < cutoff_date:
+                continue
 
             articles.append({
                 "title": title,
@@ -95,34 +110,8 @@ def fetch_rss(feed_info, max_articles=8):
 
 def fetch_youtube():
     """通过 RSSHub 将 YouTube 频道转为 RSS 抓取"""
+    # 暂未配置 YouTube 频道，此函数预留
     articles = []
-    for ch in YOUTUBE_CHANNELS:
-        feed_url = f"https://rsshub.app/youtube/channel/{ch['id']}"
-        try:
-            print(f"  抓取中: YouTube - {ch['name']}...", end=" ", flush=True)
-            headers = {"User-Agent": "Mozilla/5.0 (compatible; AI-Daily/1.0)"}
-            resp = requests.get(feed_url, headers=headers, timeout=15)
-            resp.raise_for_status()
-            feed = feedparser.parse(resp.text)
-            count = 0
-            for entry in feed.entries[:3]:
-                import re
-                summary = ""
-                if hasattr(entry, "summary"):
-                    summary = re.sub(r'<[^>]+>', '', entry.summary)
-                articles.append({
-                    "title": entry.get("title", "").strip(),
-                    "link": entry.get("link", "") or entry.get("id", ""),
-                    "summary": summary.strip()[:300],
-                    "published": "",
-                    "source": f"YouTube: {ch['name']}",
-                    "tag": ch["tag"],
-                })
-                count += 1
-            print(f"✓ 拿到 {count} 条")
-        except Exception as e:
-            print(f"✗ 失败: {e}")
-        time.sleep(1)
     return articles
 
 

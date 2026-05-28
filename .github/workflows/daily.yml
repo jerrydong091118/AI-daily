@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: 安装 Python
         uses: actions/setup-python@v5
@@ -28,31 +30,57 @@ jobs:
           pip install feedparser requests markdown openai
 
       - name: 抓取 RSS 资讯
-        run: python fetcher/rss_fetcher.py
+        id: fetch
+        run: |
+          echo "::group::RSS 抓取日志"
+          python fetcher/rss_fetcher.py
+          RET=$?
+          echo "::endgroup::"
+          if [ $RET -ne 0 ]; then
+            echo "RSS 抓取失败，但继续执行（使用现有数据生成空日报）"
+          fi
+        continue-on-error: true
 
       - name: 生成新手解读
+        id: note
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-        run: python scripts/beginner_note.py
+        run: |
+          echo "::group::新手解读生成日志"
+          python scripts/beginner_note.py
+          RET=$?
+          echo "::endgroup::"
+          echo "exit_code=$RET" >> $GITHUB_OUTPUT
+        continue-on-error: true
 
       - name: 生成日报 HTML
-        run: python scripts/html_generator.py
+        id: html
+        run: |
+          echo "::group::HTML 生成日志"
+          python scripts/html_generator.py
+          RET=$?
+          echo "::endgroup::"
+          if [ $RET -ne 0 ]; then
+            echo "HTML 生成失败！"
+            exit 1
+          fi
 
-      - name: 提交更新到 main 分支（触发 Vercel 自动部署）
+      - name: 提交到 main 分支（触发 Vercel 部署）
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output/index.html
-          git diff --cached --quiet || (git commit -m "📰 每日更新 $(date +%Y-%m-%d)" && git push)
+          if git diff --cached --quiet; then
+            echo "内容无变化，跳过提交"
+          else
+            git commit -m "每日更新 $(date +%Y-%m-%d)"
+            git push origin HEAD:main
+            echo "PUSH_SUCCESS=true" >> $GITHUB_ENV
+          fi
 
-      - name: 整理发布文件
-        run: |
-          mkdir -p _site
-          cp output/index.html _site/
-
-      - name: 部署到 GitHub Pages
+      - name: 部署到 GitHub Pages（备用）
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          publish_dir: ./output
           publish_branch: gh-pages
