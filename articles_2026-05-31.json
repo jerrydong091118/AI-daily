@@ -1,22 +1,150 @@
 {
-  "date": "2026-05-30",
-  "total": 59,
+  "date": "2026-05-31",
+  "total": 52,
   "articles": [
     {
-      "title": "Founders seize on Indian court ruling to revive criticism of Google’s ad business",
-      "link": "https://techcrunch.com/2026/05/29/founders-seize-on-indian-court-ruling-to-revive-criticism-of-googles-ad-business/",
-      "summary": "The ruling drew support from founders, while lawyers said it could force platforms to revisit how they handle trademarked keywords.",
+      "title": "SoftBank says it will invest up to €75 billion to build French data centers",
+      "link": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+      "summary": "The goal, the firm said, is to develop and operate up to 5 gigawatts of additional data center capacity.",
       "published": "2026-05-30",
       "source": "TechCrunch",
       "tag": "Startup"
     },
     {
-      "title": "I went to the so-called ‘steroid Olympics,’ to understand why Silicon Valley is obsessed with peptides",
-      "link": "https://techcrunch.com/2026/05/29/i-went-to-the-so-called-steroid-olympics-to-understand-why-silicon-valley-is-obsessed-with-peptides/",
-      "summary": "The Enhanced Games — a singular sporting competition where a majority of the athletes were on performance enhancing drugs — may herald a new business model that the tech industry is ready to embrace.",
+      "title": "This weekend’s two biggest movies were both directed by YouTubers",
+      "link": "https://techcrunch.com/2026/05/30/this-weekends-two-biggest-movies-were-both-directed-by-youtubers/",
+      "summary": "The YouTube-to-prestige-horror pipeline is looking very strong.",
       "published": "2026-05-30",
       "source": "TechCrunch",
       "tag": "Startup"
+    },
+    {
+      "title": "Snap alums unveil Ghost Angels fund",
+      "link": "https://techcrunch.com/2026/05/30/snap-alums-unveil-ghost-angels-fund/",
+      "summary": "A group of 20 Snap alumni has come together to launch a fund called Ghost Angels to back the next generation of social media.",
+      "published": "2026-05-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs",
+      "link": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
+      "summary": "The golden age of Microsoft's Github Copilot appears to be at an end.",
+      "published": "2026-05-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Meta is reportedly developing an AI pendant",
+      "link": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
+      "summary": "Meta seems to be making big bets on AI-powered hardware.",
+      "published": "2026-05-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful",
+      "link": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+      "summary": "Gemini Spark helps automate everyday tasks, from inbox summaries to local event planning, but it’s unclear why Google made it a separate product.",
+      "published": "2026-05-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "The groupthink boom: what three top VCs really think about the AI frenzy",
+      "link": "https://techcrunch.com/2026/05/30/the-groupthink-boom-what-three-top-vcs-really-think-about-the-ai-frenzy/",
+      "summary": "\"If you're 22 years old in San Francisco and building something in AI, there may be a seed term sheet in your inbox — but if you're 19, oh my God, this means you're really good; you might already have a Series A [offer],\" said one, half-kiddingly.",
+      "published": "2026-05-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "As the browser wars heat up, here are the hottest alternatives to Chrome and Safari in 2026",
+      "link": "https://techcrunch.com/2026/05/30/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "summary": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
+      "published": "2026-05-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Grifters, cynics, and true believers: The family tree of vaccine opponents",
+      "link": "https://arstechnica.com/science/2026/05/grifters-cynics-and-true-believers-the-family-tree-of-vaccine-opponents/",
+      "summary": "A new book looks into the long history of people who have opposed vaccines.",
+      "published": "2026-05-30",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Environmentalists turn out in force to oppose Trump coal ash rollbacks",
+      "link": "https://arstechnica.com/tech-policy/2026/05/environmentalists-turn-out-in-force-to-oppose-trump-coal-ash-rollbacks/",
+      "summary": "Trump admin wants to rely on states for coal ash monitoring, enforcement, allow them to bypass national standards.",
+      "published": "2026-05-30",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Backrooms is a certified blockbuster with a $38 million opening day",
+      "link": "https://www.theverge.com/entertainment/940421/backrooms-blockbuster-38-million-opening",
+      "summary": "The Kane Parsons' film Backrooms is expected to earn up to $90 million in its opening weekend after pulling down $38 million on Friday alone. That's not only above expectations, but absolutely obliterates A24's previous opening weekend record of $25.5 million for Alex Garland's Civil War. It's also ",
+      "published": "2026-05-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Welcome to Night Vale host Cecil Baldwin shares his tech pet peeves",
+      "link": "https://www.theverge.com/entertainment/939930/welcome-to-night-vale-host-cecil-baldwin-shares-his-tech-pet-peeves",
+      "summary": "Cecil Baldwin's r&#233;sum&#233; includes appearances on Gravity Falls, narrating the documentary Scream, Queen! My Nightmare on Elm Street, and performing as part of the New York Neo-Futurists theater company. But he is best known as the host of the podcast Welcome to Night Vale, a long-running fic",
+      "published": "2026-05-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Microsoft is threatening legal action for disclosing exploits",
+      "link": "https://www.theverge.com/tech/940416/microsoft-nightmare-eclipse-zero-day-vulnerability",
+      "summary": "Microsoft is facing criticism for its handling of zero-day exploits. Someone going by the name Nightmare Eclipse has been publicly feuding with the company, posting proof-of-concept exploit code. Some of their posts suggest that they're a disgruntled former employee. But what caught cyber security r",
+      "published": "2026-05-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Two of our favorite art TVs are more than 40 percent off this weekend",
+      "link": "https://www.theverge.com/gadgets/940211/samsung-frame-hisense-canvastv-art-tv-sale-deal",
+      "summary": "Art TVs aren’t exactly known for being affordable, which is why Woot’s latest sale is notable. Now through June 26th, the retailer is discounting Samsung&#8217;s 2025 Frame TV and Hisense&#8217;s 2025 CanvasTV. The 65-inch CanvasTV is down to $779.99 ($520 off) — its best price of the year — while S",
+      "published": "2026-05-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Listen to the new Steam Controller buzz to the tune of Doom",
+      "link": "https://www.theverge.com/games/940157/valve-steam-controller-singing-music-doom",
+      "summary": "You may have heard that Valve's new Steam Controller can ring like a telephone or do the Wilhelm scream. But did you know it can sing songs, too? Let me show you. Here's the new Steam Controller performing the \"Ground Theme\" from Super Mario Bros. 2: Here is \"Still Alive\" from Portal - fitting for [",
+      "published": "2026-05-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Pebblebee’s Halo watches my back and my belongings",
+      "link": "https://www.theverge.com/gadgets/938254/pebblebee-halo-bluetooth-tracker-personal-safety-hands-on-review",
+      "summary": "I live in a part of Los Angeles where I feel safer bringing pepper spray on walks. The problem is, I don't always remember to bring it with me, and it's not legal to carry it everywhere I go. Pebblebee's $59.99 Halo Bluetooth tracker surprised me by being a suitable replacement because it doubles as",
+      "published": "2026-05-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The Arduboy FX-C is an excellent time killer you might forget you’re carrying",
+      "link": "https://www.theverge.com/tech/939782/arduboy-fx-c-arduino-handheld-hands-on",
+      "summary": "As handheld consoles continue to grow and push the limits of what you can actually hold in your hands, the Arduboy FX-C comes in a refreshingly pocketable package.&#160; It manages to squeeze the best features of past models and some welcome upgrades into a handheld that’s still no larger or thicker",
+      "published": "2026-05-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "How one founder’s bet on ‘the old school web’ is paying off",
+      "link": "https://www.theverge.com/tech/938245/past-maps-website-google-zero-ai",
+      "summary": "Craig Campbell walked away from the river of investor money flowing into AI to create, of all things, a website. Sure, Campbell probably could have started an AI company. He's a former engineer at Meta and an experienced tech founder who in 2022 sold his last venture - an e-commerce tool for busines",
+      "published": "2026-05-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
     },
     {
       "title": "早报｜曝苹果用谷歌AI训练自己模型/黄仁勋：工程师不烧Token我会气炸/工信部：动力电池进入规模化退役阶段",
@@ -25,6 +153,14 @@
       "published": "2026-05-30",
       "source": "爱范儿",
       "tag": "AI & Tech"
+    },
+    {
+      "title": "当美妆品牌走进运动场：欧莱雅把校园公益做成了一场“运动实验”｜最前线",
+      "link": "https://36kr.com/p/3831348302358408?f=rss",
+      "summary": "5月29日，欧莱雅中国在复旦大学启动2026年度“有意思青年”高校公益计划，并首次以校园运动会形式开启新一年的项目活动。活动现场，乒乓球运动员马龙、篮球运动员杨力维、足球运动员赵丽娜等体育界人士与高校学生展开互动，欧莱雅同时宣布向中国青少年发展基金会捐赠总价值约468万元的产品，并启动新一年度校园义卖活动。\n  从表面来看，这是一场校园公益活动；但放在全球美妆行业的发展背景下，它更像是美妆品牌持续拥抱运动文化和健康生活方式的一次缩影。\n  过去很长一段时间，美妆与运动被视为两个相对独立的消费领域。前者围绕审美表达展开，后者则强调竞技和功能价值。然而近年来，随着健康消费崛起、女性运动参与率提升以",
+      "published": "2026-05-30",
+      "source": "36氪",
+      "tag": "Startup"
     },
     {
       "title": "36氪首发 | 服务富士康，半年营收超两千万的机器人解决方案商完成天使轮融资",
@@ -51,51 +187,19 @@
       "tag": "Startup"
     },
     {
-      "title": "SpaceX awarded $6.45B in Space Force contracts ahead of IPO",
-      "link": "https://techcrunch.com/2026/05/29/spacex-awarded-6-45b-in-space-force-contracts-ahead-of-ipo/",
-      "summary": "SpaceX already generated one-fifth of its 2025 revenue from government contracts, the company revealed in its IPO filing.",
-      "published": "2026-05-29",
-      "source": "TechCrunch",
-      "tag": "Startup"
+      "title": "AI 如何影响你的审美？",
+      "link": "https://sspai.com/post/110172",
+      "summary": "去感受、去思考、去创作吧，这是只有身为人类的你能做到的事情。查看全文",
+      "published": "2026-05-30",
+      "source": "少数派",
+      "tag": "AI & Tech"
     },
     {
-      "title": "Coders are refusing to work without AI — and that could come back to bite them",
-      "link": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
-      "summary": "While AI is helping coders produce code faster, it may not be producing better code, researchers warn. And that could cause problems down the road for them.",
-      "published": "2026-05-29",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
-      "link": "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
-      "published": "2026-05-29",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "What happens when companies become too AI-pilled?",
-      "link": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
-      "summary": "The people deciding that AI can replace your job are also the ones least likely to understand what your job truly involves, according to Box founder Aaron Levie, who pointed to this as an example of &#8220;AI psychosis.” Indeed, ClickUp recently cut 22% of its workforce for AI agents, tech layoffs i",
-      "published": "2026-05-29",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
-      "link": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
-      "summary": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining the way AI models respond to prompted requests, per Axios.",
-      "published": "2026-05-29",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "Microsoft under fire for threatening security researcher with criminal investigation",
-      "link": "https://techcrunch.com/2026/05/29/microsoft-under-fire-for-threatening-security-researcher-with-criminal-investigation/",
-      "summary": "A public spat between Microsoft and an independent security researcher reopens a long-running debate over who is responsible for securing software.",
-      "published": "2026-05-29",
-      "source": "TechCrunch",
+      "title": "会踩奶的 AI 仿生小猫挂坠，撸多了就炸毛",
+      "link": "https://cn.technode.com/post/2026-05-30/kavvo/",
+      "summary": "不知道你有没有过这样的感受：市面上的智能 [&#8230;]",
+      "published": "2026-05-30",
+      "source": "动点科技",
       "tag": "Startup"
     },
     {
@@ -144,86 +248,6 @@
       "summary": "ABC says early renewal for all stations is unprecedented, has no legitimate purpose.",
       "published": "2026-05-29",
       "source": "Ars Technica",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "DOJ sues states that rejected ICE requests for undercover license plates",
-      "link": "https://arstechnica.com/tech-policy/2026/05/doj-sues-states-that-rejected-ice-requests-for-undercover-license-plates/",
-      "summary": "DOJ keeps accusing ICE monitoring sites of doxing, but evidence remains scarce.",
-      "published": "2026-05-29",
-      "source": "Ars Technica",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Startup offers free home cleaning—if it can record it all for robot training",
-      "link": "https://arstechnica.com/ai/2026/05/robot-training-startup-will-send-humans-wearing-cameras-to-clean-your-home/",
-      "summary": "The latest twist in paying humans to wear head cameras for robot training data.",
-      "published": "2026-05-29",
-      "source": "Ars Technica",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Nvidia, Microsoft, and Arm are all teasing Nvidia’s new N1X laptop processors",
-      "link": "https://www.theverge.com/news/940275/nvidia-n1x-laptop-processor-arm-microsoft-teaser",
-      "summary": "It's the world's worst kept secret that Nvidia is about to announce its own Arm-powered laptop chips at Computex this weekend, and now Microsoft, Nvidia, and Arm are all openly teasing the announcement. The Windows and Nvidia GeForce accounts on X both posted \"A new era of PC\" earlier today, and now",
-      "published": "2026-05-29",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "SpaceX gets $4 billion contract to build missile-tracking ‘Golden Dome’ satellites",
-      "link": "https://www.theverge.com/science/940207/spacex-golden-dome-satellite-contract",
-      "summary": "The Pentagon awarded SpaceX a $4.16 billion contract to build missile-tracking satellites linked with President Donald Trump's planned \"Golden Dome\" defense system, as reported earlier by Bloomberg. In an announcement on Friday, the US Space Force says the sensor-equipped satellites will allow it to",
-      "published": "2026-05-29",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Acer’s launching a Linux handheld for streaming your PC games",
-      "link": "https://www.theverge.com/games/940091/acer-nitro-blaze-link-linux-handheld",
-      "summary": "The Acer Nitro Blaze Link might run on Linux, but it's no Steam Deck. Acer says it's a \"streaming-first handheld and companion device,\" like a PlayStation Portal for your PC. Announced ahead of Computex on Friday, it's launching in Q4 2026 with a 7-inch (1920 x 1200) display, Wi-Fi 6, just 1GB of LP",
-      "published": "2026-05-29",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Tech companies desperately want to film you doing chores",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/940007/ai-companies-will-pay-for-robot-training-data",
-      "summary": "This week, an AI training startup called Shift said it would clean New Yorkers' homes for free. It has plans to expand into other cities as well, including London, and looking around my flat, I get the appeal. But there's a catch. There's always a catch. In exchange for the cleaning, Shift wants foo",
-      "published": "2026-05-29",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "The Verge’s 2026 high school graduation gift guide",
-      "link": "https://www.theverge.com/gadgets/932602/best-high-school-graduation-gift-ideas",
-      "summary": "High school graduation is a time of change that might be felt more deeply by family members than by the grads themselves. While some grads may immediately embark on a career path, many continue their education and delve deeper into their studies at college. Either way, they'll be taking on more resp",
-      "published": "2026-05-29",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Microsoft delays Fable (again) to avoid GTA VI",
-      "link": "https://www.theverge.com/games/939991/microsoft-fable-xbox-delay-gta-vi",
-      "summary": "Microsoft has delayed its upcoming Fable reboot once again. The game was set to launch in autumn 2026, but Microsoft now says that Fable will come out in February 2027. However, it will show a \"new look\" at the game at its Xbox Games Showcase on June 7th. \"&#8203;&#8203;This is year is packed with i",
-      "published": "2026-05-29",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Microsoft teases new Surface hardware and ‘a new era of PC’",
-      "link": "https://www.theverge.com/news/939960/microsoft-computex-teaser-surface-nvidia-windows-rumors",
-      "summary": "I pondered the other day what's next for Microsoft's Surface PC lineup, and it looks like we're about to find out. Windows and Surface chief Pavan Davuluri has just teased \"something new is coming for developers,\" complete with a mysterious image of what looks like a curved display edge. Davuluri no",
-      "published": "2026-05-29",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Trump’s mass deportations are only possible with racial profiling",
-      "link": "https://www.theverge.com/policy/939434/trump-ice-racial-profiling-dhs-mass-deportations",
-      "summary": "Border security czar Tom Homan keeps threatening to \"flood\" New York City with ICE agents. But a new investigation shows that ICE has been quietly ramping up arrests in the New York area already - and disproportionately targeting Latino neighborhoods. The City, a local nonprofit news organization, f",
-      "published": "2026-05-29",
-      "source": "The Verge",
       "tag": "AI & Tech"
     },
     {
@@ -315,14 +339,6 @@
       "tag": "Startup"
     },
     {
-      "title": "科氪 | OPPO Reno16系列发布，“3D悬浮星球+实况随心贴”引领潮流手机新风向",
-      "link": "https://36kr.com/p/3830038913558147?f=rss",
-      "summary": "2026 年 5 月 25 日，OPPO 举办 “Reno Land 奇幻夜”新品发布会，重磅发布多款新品，全新一代 OPPO Reno16 系列潮流手机、OPPO Pad 6 全能平板、 OPPO Pad Air5 学习平板、OPPO Enco Air5s 真无线降噪耳机、OPPO Bubble潮玩自拍屏同步登场。本次发布会围绕年轻用户学习、创作、社交、直播、游戏全场景需求，以潮流美学、实况影像创新、AI 智慧体验、跨设备生态协同为核心，实现手机、平板、耳机无缝联动；同时推出学生专属购机补贴，为学生群体打造一站式入学数码解决方案，重新定义年轻人的潮流移动智能生态。\n  \n  官方图片\n  梦",
-      "published": "2026-05-29",
-      "source": "36氪",
-      "tag": "Startup"
-    },
-    {
       "title": "本周看什么 | 最近值得一看的 8 部作品",
       "link": "https://sspai.com/post/110446",
       "summary": "📅本周新预告《玩具总动员5》终极预告5月26日，皮克斯动画电影《玩具总动员5》发布了终极预告，将于6月19日内地上映。安德鲁·斯坦顿、麦肯纳·哈里斯执导，胡迪、巴斯光年、翠丝等老朋友们回归，无所不能的 ...查看全文",
@@ -399,78 +415,6 @@
       "link": "https://cn.technode.com/post/2026-05-29/bleequp/",
       "summary": "近几年人工智能技术落地速度不断加快，智能 [&#8230;]",
       "published": "2026-05-29",
-      "source": "动点科技",
-      "tag": "Startup"
-    },
-    {
-      "title": "从原理到实践：年轻人的第一篇染发及洗护指南",
-      "link": "https://sspai.com/prime/story/hair-dye-tutorial",
-      "summary": "我不用染发来对抗岁月，但我用它来对抗焦虑。[......]查看全文本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
-      "published": "2026-05-28",
-      "source": "少数派",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "AI Agent 干中学，「造轮子」让我学会了什么？",
-      "link": "https://sspai.com/post/110370",
-      "summary": "AI 知识「干中学」——用两天时间梳理完 AI 发展脉络，理解 Agent 能力边界。查看全文",
-      "published": "2026-05-28",
-      "source": "少数派",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "免费试读 | 零基础美术启蒙，该如何准备适合的美术器材",
-      "link": "https://sspai.com/post/108334",
-      "summary": "按：本文是少数派共创栏目《写给家长的幼儿美术启蒙指南》的第三章，在栏目更新完成之际，免费开放给大家阅读，希望能给正在为挑选美术器材而犯难的你有所帮助。本栏目在专业的理论基础之上，结合作者多年育儿经验与 ...查看全文本文为付费栏目文章，出自《经验卷轴：写给家长的幼儿美术启蒙指南》，订阅后可阅读全文。",
-      "published": "2026-05-28",
-      "source": "少数派",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "How a new extraction process could unlock the world’s lithium",
-      "link": "https://www.technologyreview.com/2026/05/28/1138096/lithium-extraction-rock-zero/",
-      "summary": "Researchers say they’ve found a new way to extract lithium, a crucial metal used in the lithium-ion batteries that power electric vehicles and energy storage arrays. This new technique could be more environmentally friendly and cheaper than existing ones.&#160; The research was published today in Sc",
-      "published": "2026-05-28",
-      "source": "MIT Tech Review",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "The Download: climate tech goes public and the AI Hype Index returns",
-      "link": "https://www.technologyreview.com/2026/05/28/1138085/the-download-climate-tech-ipos-ai-hype-index/",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Climate tech companies are going public. What’s next? Solar and battery company Solv Energy went public in February, hitting a $6 billion valuation. X",
-      "published": "2026-05-28",
-      "source": "MIT Tech Review",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Climate tech companies are going public. What’s next?",
-      "link": "https://www.technologyreview.com/2026/05/28/1138067/climate-tech-ipos/",
-      "summary": "This year, there’s been a wave of notable energy companies going public via IPO in the US. The solar and battery company Solv Energy went public in February, to the tune of $6 billion. X-energy, which is building small modular nuclear reactors, did the same in April, and its stocks surged on its fir",
-      "published": "2026-05-28",
-      "source": "MIT Tech Review",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "The AI Hype Index: AI gets booed in graduation season",
-      "link": "https://www.technologyreview.com/2026/05/28/1138053/the-ai-hype-index-ai-gets-booed-in-graduation-season/",
-      "summary": "It is one thing to say AI will change the world. It is another to expect the class of 2026 to applaud it. In fact, when former Google CEO Eric Schmidt told University of Arizona graduates that their task is to help shape AI, he was met with a resounding chorus of boos. “I can&#8230;",
-      "published": "2026-05-28",
-      "source": "MIT Tech Review",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "这款遮光眼罩让你一键开启“大脑降速”模式",
-      "link": "https://cn.technode.com/post/2026-05-28/tranoosleep/",
-      "summary": "不知道你有没有过这样的感受：忙碌一天回到 [&#8230;]",
-      "published": "2026-05-28",
-      "source": "动点科技",
-      "tag": "Startup"
-    },
-    {
-      "title": "想睡好，你可能缺一个柔性拥抱",
-      "link": "https://cn.technode.com/post/2026-05-28/soulx/",
-      "summary": "说起具身智能，你大脑中第一个冒出来的是不 [&#8230;]",
-      "published": "2026-05-28",
       "source": "动点科技",
       "tag": "Startup"
     }
