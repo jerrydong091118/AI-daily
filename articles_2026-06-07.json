@@ -1,9 +1,129 @@
 {
-  "date": "2026-06-06",
-  "total": 58,
+  "date": "2026-06-07",
+  "total": 52,
   "articles": [
     {
-      "title": "300 款车、450 亿美元订单：高通汽车芯片的中国棋局",
+      "title": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
+      "link": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+      "summary": "Even with Lockdown Mode, ChatGPT could be still vulnerable to prompt injections, but the goal is to reduce the likelihood that sensitive data gets shared in the process.",
+      "published": "2026-06-06",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates",
+      "link": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+      "summary": "Apple's WWDC nears: Here's what you can look forward to.",
+      "published": "2026-06-06",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Sriram Krishnan is leaving his role as White House AI advisor",
+      "link": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
+      "summary": "Krishnan is reportedly starting a new institution to continue shaping Trump's AI policy.",
+      "published": "2026-06-06",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "The Trump administration might take an equity stake in OpenAI",
+      "link": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+      "summary": "President Donald Trump said he's discussing deals \"where the American people can benefit from the success of AI.\"",
+      "published": "2026-06-06",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Beyond Instagram: Introducing the next generation of social apps",
+      "link": "https://techcrunch.com/2026/06/06/beyond-instagram-introducing-the-next-generation-of-social-apps/",
+      "summary": "These newer social apps offer alternatives to Big Tech’s feeds, focusing on interests, creativity, and community.",
+      "published": "2026-06-06",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Scientists ejected from diabetes conference for distributing journal reprints",
+      "link": "https://arstechnica.com/science/2026/06/scientists-ejected-from-diabetes-conference-for-distributing-journal-reprints/",
+      "summary": "Those ousted included ADA journal editor-in-chief Steven Kahn and former ADA president Desmond Schatz",
+      "published": "2026-06-06",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Some ancient microbes frozen with Ötzi the Iceman are still growing",
+      "link": "https://arstechnica.com/science/2026/06/otzis-mummified-body-is-home-to-ancient-strains-of-yeast-and-bacteria/",
+      "summary": "What’s the difference between a person, an artifact, and an ecosystem?",
+      "published": "2026-06-06",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The first Story-Rich showcase was packed with narrative-driven games",
+      "link": "https://www.theverge.com/games/944406/fellow-traveller-story-rich-showcase-2026-announcements-trailers",
+      "summary": "Fellow Traveller, the publisher behind games like Titanium Court and 1000xResist, just wrapped up its Story-Rich Showcase, which featured a bunch of narrative-driven indie games. With more than 20 games on display, there was a lot to follow, but we've pulled together some of the most notable announc",
+      "published": "2026-06-06",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "GOG apologizes for emailing people Nazi symbols",
+      "link": "https://www.theverge.com/games/945088/gog-apologizes-email-nazi-symbols-the-end-of-the-sun",
+      "summary": "GOG sent a newsletter about the game The End of the Sun on June 5th that included symbols associated with the Nazi SS. The Steam competitor issued a statement attributing the inclusion to a \"series of mistakes,\" including miscommunication with the German QA team, inconsistent font rendering, and bei",
+      "published": "2026-06-06",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The cutest games from the Wholesome Direct 2026 showcase",
+      "link": "https://www.theverge.com/entertainment/943977/wholesome-direct-2026-cute-games-trailers",
+      "summary": "Every year at Summer Game Fest, nestled in between the splashy blockbuster showcases, the Wholesome Direct provides a nice change of pace. It's similarly packed with games - this year's edition had more than 50 - but the vibe is more chill and, well, wholesome. As in years past, I've pulled out some",
+      "published": "2026-06-06",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Summer Game Fest 2026: All the news from gaming&#8217;s busiest week",
+      "link": "https://www.theverge.com/games/939206/summer-game-fest-playstation-xbox-gaming-events-2026",
+      "summary": "Get ready for some gaming news. It&#8217;s officially June, which means splashy new events from PlayStation, Xbox, gaming hype man Geoff Keighley, and more. PlayStation kicked things off with a big event that was mostly about premium single-player games like the new God of War Laufey — a statement f",
+      "published": "2026-06-06",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "4K Blu-rays are three for $33 ahead of Father’s Day",
+      "link": "https://www.theverge.com/gadgets/944347/4k-bluray-gruv-fathers-day-deal-sale",
+      "summary": "If you know a dad with a predilection for physical media, he might really dig what you buy for him with this deal at Gruv. Ahead of Father’s Day on June 21st, the online seller (operated by Universal Pictures, in case you didn’t know) is letting you check out with three movies from a large [&#8230;]",
+      "published": "2026-06-06",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center",
+      "summary": "A proposed $2 billion data center has become a political flashpoint in the small city of Shelbyville, Indiana. And the controversy has only grown more intense after the mayor, Scott Furgeson, was caught on camera saying of the \"No Data Center\" signs going up that, \"I've seen a lot of these all over ",
+      "published": "2026-06-06",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Benn Jordan longs for the days of tech that didn’t spy on you",
+      "link": "https://www.theverge.com/report/942609/benn-jordan-music-gear-cybersecurity-surveillance-questionnaire",
+      "summary": "Benn Jordan may have initially gained notoriety for his music as Flashbulb and later, reviewing synths and effects pedals on YouTube under Benn and Gear. But about five years ago, Benn decided to take his YouTube channel in a different direction. He didn't stop covering music gear overnight, but as ",
+      "published": "2026-06-06",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "82-0 is the best basketball game, to hell with NBA 2K",
+      "link": "https://www.theverge.com/games/944975/82-0-perfect-basketball-stats-game",
+      "summary": "82-0 marries the stat nerd fun of fantasy basketball with instant gratification and a bit of dumb luck. The goal is to draft a team of players that could (theoretically) have a perfect 82-0 season. Obviously, if you just had free rein to pick whoever you wanted from throughout history, there would b",
+      "published": "2026-06-06",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "从感知智能到智能体 AI：高通汽车中国布局深化加速",
       "link": "https://www.ifanr.com/1668242?utm_source=rss&utm_medium=rss&utm_campaign=",
       "summary": "汽车迎来智能体时代。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "published": "2026-06-06",
@@ -27,6 +147,14 @@
       "tag": "Startup"
     },
     {
+      "title": "2026 Apple 设计奖正式揭晓，细数 12 款 App 的特别之处",
+      "link": "https://sspai.com/post/110763",
+      "summary": "Apple 设计大奖结果公布，而这 12 款 app 又有什么特别之处呢？查看全文",
+      "published": "2026-06-06",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
       "title": "Reid Hoffman is leaving Microsoft’s board to go ‘founder mode’ with  startup Manus",
       "link": "https://techcrunch.com/2026/06/05/reid-hoffman-is-leaving-microsofts-board-to-go-founder-mode-with-startup-manus/",
       "summary": "After a very profitable decade on Microsoft's board, Reid Hoffman is stepping down to focus on his AI drug discovery startup Manus.",
@@ -46,46 +174,6 @@
       "title": "Former cyber executive turned whistleblower accuses IBM of covering up several data breaches",
       "link": "https://techcrunch.com/2026/06/05/former-cyber-executive-turned-whistleblower-accuses-ibm-of-covering-up-several-data-breaches/",
       "summary": "IBM and two of its subsidiary companies were allegedly breached during the mid-2010s — a lawsuit filed by a former cybersecurity executive accuses IBM of not disclosing and actively covering it up.",
-      "published": "2026-06-05",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "Startup Battlefield 200 applications officially close in 3 days",
-      "link": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
-      "summary": "Applications for Startup Battlefield 200 officially close on June 8, 11:59 p.m. PT. Don't wait any longer. Secure your shot at competing on the Disrupt Stage at TechCrunch Disrupt 2026 this October at San Francisco's Moscone West.",
-      "published": "2026-06-05",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "Google will pay SpaceX $920M per month for compute",
-      "link": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
-      "summary": "In a statement, a Google representative described the deal as a result of unexpected demand for its recently launched AI products.",
-      "published": "2026-06-05",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "GM’s electric future depends on a new battery — and this facility",
-      "link": "https://techcrunch.com/2026/06/05/gms-electric-future-depends-on-a-new-battery-and-this-building/",
-      "summary": "GM wants to slash EV prices by deploying new battery tech up to a year earlier than planned. This building is key to making that happen.",
-      "published": "2026-06-05",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "As VC-backed e-bike startups went bankrupt, bootstrapped Lectric grew",
-      "link": "https://techcrunch.com/2026/06/05/as-vc-backed-e-bike-startups-went-bankrupt-bootstrapped-lectric-grew/",
-      "summary": "Lectric, which says the U.S. market is ripe for competition and choice, has launched three new brands in the past six months.",
-      "published": "2026-06-05",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "The most interesting startups right now want to get you off your phone",
-      "link": "https://techcrunch.com/video/the-most-interesting-startups-right-now-want-to-get-you-off-your-phone/",
-      "summary": "While the AI fundraising machine&#160;keeps breaking its own records, some founders are building in the other direction.&#160; Mirror founder Brynn Putnam just raised money for&#160;Board, a startup focused on bringing people together through in-person games and social experiences.&#160;Cyberdeck cr",
       "published": "2026-06-05",
       "source": "TechCrunch",
       "tag": "Startup"
@@ -139,86 +227,6 @@
       "tag": "AI & Tech"
     },
     {
-      "title": "Review: Spider-Noir recaptures the magic of a bygone era",
-      "link": "https://arstechnica.com/culture/2026/06/review-spider-noir-recaptures-the-magic-of-a-bygone-era/",
-      "summary": "Nicolas Cage was born to play 1930s PI Ben Reilly/The Spider: part Bogart, part Bugs Bunny, 100% Cage-y.",
-      "published": "2026-06-05",
-      "source": "Ars Technica",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Trump admin tries again to revive dying coal industry",
-      "link": "https://arstechnica.com/science/2026/06/trump-admin-tries-again-to-revive-dying-coal-industry/",
-      "summary": "Money would keep coal plants open, build the first new plants in over a decade.",
-      "published": "2026-06-05",
-      "source": "Ars Technica",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "More than a decade later, the team behind N++ is back with a multiplayer sequel",
-      "link": "https://www.theverge.com/entertainment/943194/metanet-n-plus-plus-multiplayer-sequel",
-      "summary": "Back in 2015, the two-person studio Metanet released N++, a brutally hard 2D platformer that was a decade in the making, building off of previous releases dating back to the freeware Flash title N. At the time, cofounder Raigan Burns issued some famous last words: \"We hope it's not another 10 years ",
-      "published": "2026-06-05",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Grand Theft Auto VI is warping the video game release calendar",
-      "link": "https://www.theverge.com/entertainment/944229/grand-theft-auto-6-release-calendar-summer-game-fest",
-      "summary": "Who's afraid of the next GTA? Based on the last few days of Summer Game Fest, just about everyone. Grand Theft Auto VI hasn't been present at any of the keynote events, but its presence was felt every time a release date was announced. The month of November, when GTA VI launches, is virtually empty.",
-      "published": "2026-06-05",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Final Fantasy VII&#8217;s remake trilogy will conclude with Revelation",
-      "link": "https://www.theverge.com/games/939396/final-fantasy-vii-revelation-remake-trilogy-third-game-announcement",
-      "summary": "Square Enix has officially announced the third and final game in its Final Fantasy VII remake trilogy: Final Fantasy VII Revelation. It will release on multiple platforms simultaneously - PC, PS5, Xbox Series X / S, and Nintendo Switch 2 - in spring 2027. In footage shown onstage at Summer Game Fest",
-      "published": "2026-06-05",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Control Resonant is a sequel — and also a starting point",
-      "link": "https://www.theverge.com/games/944151/control-resonant-hands-on",
-      "summary": "Chronologically, Control Resonant is a sequel to 2019's Control. But in most other ways, the games aren't directly connected. To developer Remedy, they're more like two sides of the same coin. When Resonant was first revealed last year, creative director Mikael Kasurinen said you can play the games ",
-      "published": "2026-06-05",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Congress still can’t decide what to do about warrantless surveillance",
-      "link": "https://www.theverge.com/policy/944615/section-702-senate-vote-fails-pulte",
-      "summary": "The deadline to reauthorize Section 702 of the Foreign Intelligence Surveillance Act is coming up a week from now on June 12th, and legislators seem no closer to reaching a deal. If this sounds like deja vu, it's because we've been here before. Congress reauthorized Section 702 in late April - but o",
-      "published": "2026-06-05",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Summer Game Fest Live 2026: The biggest news, trailers, and announcements",
-      "link": "https://www.theverge.com/games/939484/summer-game-fest-live-2026-biggest-news-trailers-announcements",
-      "summary": "Geoff Keighley&#8217;s annual June showcase for videos games has officially happened, and it was a big one. Across a two hour event — and another hour for Day of the Devs — we got news about the third Final Fantasy VII remake game, a new look at Control Resonant, the reveal of Tupac for RGG [&#8230;",
-      "published": "2026-06-05",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Gone in 60 minutes",
-      "link": "https://www.theverge.com/entertainment/944337/gone-in-60-minutes",
-      "summary": "It should have been the final straw. The new power couple of editorial failure - Bari Weiss and Nick Bilton - had fired legendary 60 Minutes journalist Scott Pelley. Why? Because he dared to question the fact that CBS had installed sycophants in its top ranks. Instead of standing in solidarity, corr",
-      "published": "2026-06-05",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "The Sonos Era 100 speaker is down to its lowest price in months",
-      "link": "https://www.theverge.com/gadgets/944095/sonos-era-100-google-nest-doorbell-deal-sale",
-      "summary": "Whether you’re considering starting a Sonos speaker setup, or adding to an existing group, the Sonos Era 100 is worth picking up. The compact, capable smart speaker is currently marked down to $189 ($30 off) at a variety of retailers, including Amazon, Best Buy, and directly from Sonos. If you want ",
-      "published": "2026-06-05",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
       "title": "奥迪 R8 继任者发布！大 V8+千匹马力，走的却是复古风",
       "link": "https://www.ifanr.com/1668220?utm_source=rss&utm_medium=rss&utm_campaign=",
       "summary": "奥迪重新走向「运动」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
@@ -269,7 +277,7 @@
     {
       "title": "Token大战中，华为云选择了第三条路｜最前线",
       "link": "https://36kr.com/p/3840016255126016?f=rss",
-      "summary": "作者 | 邓咏仪\n  编辑 | 张雨忻\n  “在国产化算力供应受限的情况下，华为云现在不太在乎Token总量是多少，也不太在乎收入的总量是多少，在乎的是国产化的算力系统所生产出来的Tokens的健康度，并且要代表着生产力提升，而不仅仅是情绪价值。”\n  6月5日，2026华为云 INSPIRE 创想者大会在上海开幕，华为云CEO周跃峰表示。\n  他举了个例子：一个人闲来无事在手机上问 AI 一个问题，也会产生 Token，但这种 Token 的价值有多大很难说明。在他看来，衡量一朵云做得好不好，不该强调它跑出了多少万亿 Token，而该看这些 Token 替企业提了多少效率。\n  \n  华为云",
+      "summary": "作者 | 邓咏仪\n  编辑 | 张雨忻\n  “在当前国产化算力正在成长的情况下，华为云现在不太在乎Token总量是多少，也不太在乎收入的总量是多少，在乎的是国产化的算力系统所生产出来的Tokens的健康度，并且要代表着生产力提升，而不仅仅是情绪价值。”\n  6月5日，2026华为云 INSPIRE 创想者大会在上海开幕，华为云CEO周跃峰表示。\n  他举了个例子：一个人闲来无事在手机上问 AI 一个问题，也会产生 Token，但这种 Token 的价值有多大很难说明。在他看来，衡量一朵云做得好不好，不该强调它跑出了多少万亿 Token，而该看这些 Token 替企业提了多少效率。\n  \n  华",
       "published": "2026-06-05",
       "source": "36氪",
       "tag": "Startup"
@@ -407,62 +415,6 @@
       "link": "https://cn.technode.com/post/2026-06-05/box-ceo-acknowledges-exclusives-are-needed-to-build-a-platform-decisions-are-still-being-made/",
       "summary": "微软 Xbox 掌舵人阿莎·夏尔玛日前接 [&#8230;]",
       "published": "2026-06-05",
-      "source": "动点科技",
-      "tag": "Startup"
-    },
-    {
-      "title": "今年最值得升级的生产力工具，可能是一整张 AI 工位",
-      "link": "https://www.ifanr.com/1667995?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "照顾好自己，就是 AI 时代最实在的生产力。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "published": "2026-06-04",
-      "source": "爱范儿",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "新玩意 243｜少数派的编辑们最近买了啥？",
-      "link": "https://sspai.com/post/110736",
-      "summary": "编注：很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。内容声明：《新玩意》栏目如含有 ...查看全文",
-      "published": "2026-06-04",
-      "source": "少数派",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "它不会是下一场新冠：简单了解汉坦病毒",
-      "link": "https://sspai.com/post/110717",
-      "summary": "人类研究了这么久流行病，虽说事故总难免，但还是有点本事在的，至少这回肯定控制得住。查看全文",
-      "published": "2026-06-04",
-      "source": "少数派",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "The Download: AI-generated lawsuits and virtual power plants for data centers",
-      "link": "https://www.technologyreview.com/2026/06/04/1138408/the-download-ai-lawsuits-virtual-power-plants-data-centers/",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How courts are coping with a flood of AI-generated lawsuits Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado,",
-      "published": "2026-06-04",
-      "source": "MIT Tech Review",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "How courts are coping with a flood of AI-generated lawsuits",
-      "link": "https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/",
-      "summary": "Most days in her chambers, Judge Maritza Braswell, a federal magistrate judge in Colorado, sifts through stacks of documents written by people without a lawyer. Many of them can’t afford to hire a lawyer, and others have cases too weak or too small to interest one. She reads each one carefully, mind",
-      "published": "2026-06-04",
-      "source": "MIT Tech Review",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "任天堂将在欧盟区销售可更换电池的 Switch 2",
-      "link": "https://cn.technode.com/post/2026-06-04/nintendo-switch-2-replaceable-battery-eu/",
-      "summary": "任天堂计划在欧盟地区推出可让用户轻松更换 [&#8230;]",
-      "published": "2026-06-04",
-      "source": "动点科技",
-      "tag": "Startup"
-    },
-    {
-      "title": "郭明錤：苹果已砍掉 Vision Pro，改玩 AI 眼镜了",
-      "link": "https://cn.technode.com/post/2026-06-04/kuo-apple-vision-pro/",
-      "summary": "知名分析师郭明錤发帖称，苹果 XR 头显 [&#8230;]",
-      "published": "2026-06-04",
       "source": "动点科技",
       "tag": "Startup"
     }
