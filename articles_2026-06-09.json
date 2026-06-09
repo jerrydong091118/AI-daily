@@ -1,0 +1,438 @@
+{
+  "date": "2026-06-09",
+  "total": 54,
+  "articles": [
+    {
+      "title": "Why Apple’s slow-and-steady AI bet is starting to look pretty smart",
+      "link": "https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart/",
+      "summary": "Can Apple's new AI glow up put to bed accusations that it's losing an all-important industry race?",
+      "published": "2026-06-09",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Mercor’s Brendan Foody calls out Sequoia, accusing it of ‘dual-pricing’ valuation tricks",
+      "link": "https://techcrunch.com/2026/06/08/mercors-brendan-foody-calls-out-sequoia-over-dual-pricing-valuation-tricks/",
+      "summary": "Sequoia is just one of the top firms that sells same equity at two different prices.",
+      "published": "2026-06-09",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "FCC lifts looming deadline for Amazon Leo satellite broadband constellation",
+      "link": "https://arstechnica.com/space/2026/06/fcc-lifts-looming-deadline-for-amazon-leo-satellite-broadband-constellation/",
+      "summary": "The waiver \"serves the public interest by promoting a second large satellite broadband constellation.\"",
+      "published": "2026-06-09",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "36氪首发 | 国内唯一POD材料产业化团队再创业，布局3C与AI芯片散热，技术积累全球领先",
+      "link": "https://36kr.com/p/3845295918909954?f=rss",
+      "summary": "作者&nbsp;|&nbsp;乔钰杰\n  编辑&nbsp;|&nbsp;袁斯来\n  硬氪获悉，苏州墨锋新材料科技有限公司（下称“墨锋科技”）近日完成新一轮千万元融资，由险峰基金、成都科创投集团投资，资金将主要用于产线扩建与产能扩张。\n  墨锋科技成立于2023年，技术源自四川大学近20年高分子材料研究成果，聚焦高性能POD（聚芳噁二唑）薄膜产业化。\n  POD作为一种耐高温聚合物，早在上世纪六七十年代便受到关注，但由于加工成型过程中的工艺问题和设备腐蚀问题，产业化难度极高，相关研究一度长期停滞。\n  国内对于POD的系统性研究起步较晚，但进展迅速。2006年前后，四川大学徐建军教授团队开始持续",
+      "published": "2026-06-09",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "36氪首发 | AI芯片处理器IP公司完成近亿元融资，核心团队来自Synopsys、ARM等顶尖半导体公司",
+      "link": "https://36kr.com/p/3845293120621057?f=rss",
+      "summary": "作者&nbsp;|&nbsp;乔钰杰\n  编辑&nbsp;|&nbsp;袁斯来\n  硬氪获悉，隼瞻科技有限公司（下称“隼瞻科技”）近日完成近亿元天使+轮融资。本轮融资引入英飞尼迪资本、白云金控、深圳中小担创投、厚天资本、华盖资本、嘉誉创投等多家战略投资人，老股东毅达资本、达泰资本持续加持。\n  隼瞻科技成立于2023年初，专注芯片处理器模块及开发平台，致力于打造基于“RISC-V+DSA”的新一代处理器设计体系，公司希望通过“IP货架+EDA工具链”的模式，降低AI时代定制化处理器设计门槛。\n  当前，AI模型快速垂直化，正在推动芯片产业从“通用计算”走向“专用计算”。\n  过去，以CPU为核",
+      "published": "2026-06-09",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "生殖学博士入局脑机接口，想做一款缓解女性经期情绪问题的脑机\"发箍\"｜早期项目",
+      "link": "https://36kr.com/p/3843971153267208?f=rss",
+      "summary": "文｜胡香赟\n  编辑｜海若镜\n  对许多女性而言，经期不只是一次生理周期的重复，更是一场身心双重的考验。腹痛、头痛、疲劳、焦虑、易怒……这些经前期综合征（PMS）带来的不适，严重时甚至会影响工作和生活。然而，目前主流的缓解方式仍然高度依赖止痛药，长期服药存在副作用风险，而物理热敷、休息调整固然能带来一定舒缓，却效果有限。\n  有没有一种更温和、无创的方式，能安全有效地缓解经期不适？这一市场痛点，吸引了一位生殖学博士跨界进入脑机接口领域，试图用科技为女性经期健康问题带来新的解题思路。\n  智子银河成立于2026年，专注于无创脑机接口等产品开发。智子银河总裁黄河龙博士毕业于中国科学技术大学，拥有多",
+      "published": "2026-06-09",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "「百奥几何」完成数亿元战略融资，打造生命科学\"微观世界模型\"｜36氪首发",
+      "link": "https://36kr.com/p/3839626642344454?f=rss",
+      "summary": "文｜胡香赟\n  编辑｜海若镜\n  36氪获悉，近日，AI原生生物科技公司百奥几何已完成数亿元战略融资。由上海生物医药创新转化基金、国科投资、达晨财智、星连资本联合领投，高榕资本、指数人工智能产业创新基金跟投。指数资本担任独家财务顾问。另据介绍，本轮募集资金将重点用于生命科学微观世界模型GeoFlow的持续迭代，以及自研药物管线的推进。\n  当前，人工智能正沿两条主线加速演进：以大语言模型与多模态模型为代表的数字AI（Digital AI），以自动驾驶与人形机器人为代表的物理AI（Physical AI）。而生命AI（Bio AI）或将成为下一个最具想象力的疆域，这一判断，正被全球顶级资本与科学",
+      "published": "2026-06-09",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "8点1氪丨苹果推出全新Siri AI；ROKID回应“智能眼镜偷拍空姐”事件；OpenAI秘密提交IPO文件",
+      "link": "https://36kr.com/p/3845196412193284?f=rss",
+      "summary": "今日热点导览\n  阿里巴巴成立Token Foundry事业部\n  微信宣布面向开发者提供接入微信AI生态的能力\n  全球70%PPE树脂断供，PCB价格大涨\n  英伟达与LG集团合建AI工厂，合作推进机器人、自动驾驶及自主AI\n  TOP3大新闻\n  苹果推出全新Siri AI，新一代操作系统iOS 27正式发布\n  在WWDC 2026开发者大会上，新一代操作系统iOS 27正式发布，本次iOS 27的升级重点，是新一代Apple Intelligence（苹果智能）以及全新Siri AI。&nbsp;\n  苹果宣布，Apple Intelligence与谷歌合作，引入Gemini大模型，",
+      "published": "2026-06-09",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "As OpenAI files for IPO, Sam Altman’s eye-scanning company is doing layoffs, report says",
+      "link": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
+      "summary": "Tools for Humanity, Sam Altman's identity verification company, is reportedly struggling to generate revenue and will downsize its staff.",
+      "published": "2026-06-08",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Apple’s WWDC AI demos looked more real after $250M false ad settlement",
+      "link": "https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/",
+      "summary": "The vibe of Apple's 2026 WWDC keynote felt like a spouse proudly listing all the honey-do-list items tackled. One subtle example: the many AI demos of someone standing, phone in hand.",
+      "published": "2026-06-08",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "OpenAI files confidentially for IPO, following Anthropic",
+      "link": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+      "summary": "The filing comes a little more than a week after its main rival, Anthropic, also filed to go public, ramping up the race between the two AI firms.",
+      "published": "2026-06-08",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Apple plays catch-up at WWDC",
+      "link": "https://techcrunch.com/2026/06/08/apple-plays-catch-up-at-wwdc/",
+      "summary": "Apple spent much of its WWDC keynote highlighting fixes, performance improvements, and long-requested features before unveiling its upgraded AI-powered Siri, signaling that the company wants users to see AI as just one part of a broader effort to improve its software.",
+      "published": "2026-06-08",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Apple bets cheaper AI will woo small developers",
+      "link": "https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/",
+      "summary": "As AI experimentation grows more expensive, Apple is waiving cloud API costs for developers with fewer than 2 million first-time App Store downloads.",
+      "published": "2026-06-08",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Waymo bought Apple’s self-driving car proving ground for $220M",
+      "link": "https://techcrunch.com/2026/06/08/waymo-bought-apples-self-driving-car-proving-ground-for-220m/",
+      "summary": "Waymo has acquired a massive 5,500-acre proving ground in Arizona owned by Route 14 Investment Partners LLC, a Delaware shell company associated with Apple, according to documents filed with Maricopa County.",
+      "published": "2026-06-08",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Tests suggest Russian satellites can jam GPS on a continental scale",
+      "link": "https://arstechnica.com/space/2026/06/tests-suggest-russian-satellites-can-jam-gps-on-a-continental-scale/",
+      "summary": "Mystery of GPS interference across Europe raises questions about Russian motives.",
+      "published": "2026-06-08",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "macOS 27 requires Apple Silicon, as Apple draws down the Intel Mac era",
+      "link": "https://arstechnica.com/gadgets/2026/06/macos-27-requires-apple-silicon-as-apple-draws-down-the-intel-mac-era/",
+      "summary": "You'll need an M1 or better to run the next release of macOS.",
+      "published": "2026-06-08",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "iOS 27 and iPadOS 27 don't drop support for any iPhones—and just a few iPads",
+      "link": "https://arstechnica.com/gadgets/2026/06/ios-27-and-ipados-27-dont-drop-support-for-any-iphones-and-just-a-few-ipads/",
+      "summary": "This promises to be a solid release for aging iPhones.",
+      "published": "2026-06-08",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Meta alleges NSO violated spyware injunction with new WhatsApp attacks",
+      "link": "https://arstechnica.com/tech-policy/2026/06/meta-alleges-nso-violated-spyware-injunction-with-new-whatsapp-attacks/",
+      "summary": "WhatsApp disrupted spear phishing attempts, asks court to hold NSO in contempt.",
+      "published": "2026-06-08",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The fastest humans in the galaxy just got a spiffy patch to prove it",
+      "link": "https://arstechnica.com/space/2026/06/artemis-ii-crew-flew-fast-earned-new-patch-astronauts-mach-39-emblem/",
+      "summary": "\"It is actually challenging how you measure [Mach] from space.\"",
+      "published": "2026-06-08",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Say hi to \"Siri AI\"—Apple announces new, more \"conversational\" voice assistant",
+      "link": "https://arstechnica.com/apple/2026/06/say-hi-to-siri-ai-apple-announces-new-more-conversational-voice-assistant/",
+      "summary": "New features coming this fall alongside two-tiered, Google-powered AI model overhaul.",
+      "published": "2026-06-08",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Gemini 3.5 and Antigravity come to Google NotebookLM",
+      "link": "https://arstechnica.com/ai/2026/06/gemini-3-5-and-antigravity-come-to-google-notebooklm/",
+      "summary": "NotebookLM is getting a big upgrade, but it's only for AI Ultra and enterprise accounts right now.",
+      "published": "2026-06-08",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Instagram is finally letting everyone reorganize their profile grid",
+      "link": "https://www.theverge.com/tech/946458/instagram-is-finally-letting-everyone-reorganize-their-grid",
+      "summary": "Nearly a year after it was announced, Instagram says it's delivering the ability to rearrange the posts in your profile grid. It had been available to some people in test groups, but as of June 8th, it's rolling out widely via the Android and iPhone mobile apps. Until now, the posts on your Instagra",
+      "published": "2026-06-08",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Apple’s Screen Time updates are too little, too late",
+      "link": "https://www.theverge.com/tech/946446/apples-screen-time-updates-are-too-little-too-late",
+      "summary": "Apple spending a big chunk of its WWDC keynote on parental controls was surprising for several reasons. But the biggest is that, despite all the airtime, it didn't announce much new beyond a redesigned interface. Almost all the features touted already exist or are upgrades to current options. Why Ap",
+      "published": "2026-06-08",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "5 things I already love from the iOS 27 beta",
+      "link": "https://www.theverge.com/tech/946391/apple-ios-27-developer-beta-1-wwdc-2026-5-things",
+      "summary": "iOS 27 has only been out for a few hours, and I've been messing around with the developer beta on my iPhone 16 Pro. I was most interested in trying out the new Siri AI, but unfortunately, I'm still on Apple's waitlist for that. In the meantime, I've been poking around a bunch of features [&#8230;]",
+      "published": "2026-06-08",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Apple is using AI to fix Safari’s extension problem",
+      "link": "https://www.theverge.com/tech/946345/apple-safari-ai-update-extensions",
+      "summary": "Apple is trying to solve one of Safari's biggest weaknesses with AI. Safari has long lacked the robust library of extensions that its rivals have, mainly due to the stringent development requirements from Apple. But now, Apple is inviting users to essentially vibe-code their own extensions. In a dem",
+      "published": "2026-06-08",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Where was tvOS 27 at WWDC?",
+      "link": "https://www.theverge.com/tech/946329/tvos-27-absent-wwdc",
+      "summary": "Every year, Apple's Worldwide Developers Conference gives us a first look at what's coming next to the company's many operating systems. But missing from today's keynote, apart from a single graphic listing all current Apple OSes next to a big \"27,\" was any mention of tvOS. The whole structure of th",
+      "published": "2026-06-08",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Apple’s new parental controls are for keeping Apple out of trouble",
+      "link": "https://www.theverge.com/policy/946331/apple-parental-controls-child-accounts-wwdc",
+      "summary": "When Apple put child safety front and center at WWDC on Monday, its stated goal was helping parents fine-tune their kids' online experiences and avoid excessive screen time. But amid a global debate over internet regulation, its latest updates also looked like a defensive move in a brewing fight aga",
+      "published": "2026-06-08",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "OpenAI files for IPO, following Anthropic",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/946335/openai-ipo-s-1-confidential",
+      "summary": "OpenAI on Monday checked off a preliminary step in the IPO race that it and rival Anthropic have been competing in for the better part of a year: The company announced it has confidentially submitted a Form S-1 with the US Securities and Exchange Commission, following Anthropic's decision to do the ",
+      "published": "2026-06-08",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "44 things coming to your Apple devices that you might have missed",
+      "link": "https://www.theverge.com/tech/946260/apple-wwdc-2026-ios-ipados-macos-watchos-visionos-27-features-missed",
+      "summary": "This year's WWDC keynote was all about AI. But with all the attention on Apple Intelligence and Siri AI, the company breezed by - or neglected to mention - a bunch of cool, smaller features across its new updates. I've rounded up a bunch of them right here. The new operating systems are available in",
+      "published": "2026-06-08",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "iPhone 终于支持 Siri AI！但国行无缘首发，闹钟成为最大惊喜",
+      "link": "https://www.ifanr.com/1668385?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "苹果迟到的 AI 反攻，从 Siri 开始#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-06-08",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "300 个 AI 和我的八块腹肌",
+      "link": "https://www.ifanr.com/1668274?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "每天都能准点下班了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-06-08",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "尊界 V800 内饰曝光！水晶壁灯上车，还有一台现磨咖啡机",
+      "link": "https://www.ifanr.com/1668353?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "把开车的麻烦留给司机，把喝茶的体面留给后排。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-06-08",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "苹果发布会最全预测：今晚你的 iPhone，会变成这个样子｜WWDC2026",
+      "link": "https://www.ifanr.com/1668275?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "库克最后一舞#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-06-08",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "对话 MiniMax 择因：Agent 终会超过人类，我们又将何去何从？",
+      "link": "https://www.ifanr.com/1668337?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "山雨欲来#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-06-08",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "英伟达：带领 PC，重铸 PC｜硬哲学",
+      "link": "https://www.ifanr.com/1668041?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "将人类从人类中解放出来#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-06-08",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "早报｜苹果发布会限量礼品曝光/字节跳动：没有造车计划/谷歌每月花9.2亿美元向SpaceX租算力",
+      "link": "https://www.ifanr.com/1668272?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 本田在华销量连续两个月接近腰斩\n· 京东与腾讯据称将围绕 AI Agent 合作\n· 全球首个预制算力中心底座在青岛投用#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-06-08",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "世界杯官方比赛用球再度“中国制造”：全球产业链迁移下，广东工厂为何仍留在赛场中央？｜最前线",
+      "link": "https://36kr.com/p/3844185422400008?f=rss",
+      "summary": "2026年美加墨世界杯进入倒计时，对于普通球迷而言，世界杯意味着绿茵场上的竞争与激情；但对于体育装备制造业来说，这项全球顶级赛事同样是检验供应链实力与技术能力的重要时刻。\n  2025年10月，阿迪达斯正式发布2026年世界杯官方比赛用球\"三重浪（TRIONDA）\"。据阿迪达斯方面介绍，这款比赛用球在中国广东的一家代工厂完成生产与检测，每一颗出厂用球均印有\"MADE IN CHINA\"字样。\n  值得说明的是，全球足球制造的版图并非由单一地区主导。公开资料显示，巴基斯坦锡亚尔科特一城便生产了全球约七成足球，历届世界杯的大量用球亦出自当地的Forward Sports等代工企业。世界杯用球的供给",
+      "published": "2026-06-08",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "氪星晚报｜追觅质押嘉美包装2.47亿股，向兴业银行贷款提供担保；黄仁勋：SK海力士到2030年将晶圆产能翻倍的计划还不够",
+      "link": "https://36kr.com/p/3844559758936582?f=rss",
+      "summary": "大公司：\n  热门中概股美股盘前多数上涨，哔哩哔哩涨超5%\n  36氪获悉，热门中概股美股盘前多数上涨，截至发稿，哔哩哔哩涨超5%，蔚来、理想汽车涨超2%，阿里巴巴涨0.87%，京东涨0.48%，小鹏集团涨0.31%，百度跌超1%，拼多多跌0.35%。\n  天娱数科：目前无物理AI业务，未形成相关业务收入\n  36氪获悉，天娱数科公告，公司股票于2026年6月5日、6月8日连续两个交易日收盘价格涨幅偏离值累计超过20%，属于股票交易异常波动。经公司自查并向第一大股东核实，公司前期披露信息无需更正补充，未发现可能对股价产生较大影响的未公开重大信息，生产经营活动正常，第一大股东在异常波动期间未买卖",
+      "published": "2026-06-08",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "腾讯汤道生评价姚顺雨、混元 3和元宝",
+      "link": "https://36kr.com/p/3844018911889924?f=rss",
+      "summary": "文｜王毓婵\n  编辑｜张雨忻\n  6月5日，腾讯云AI产业应用大会最受外界关注的是什么？\n  毫无疑问，是汤道生与姚顺雨的对话。\n  在这场发布了一系列覆盖20多个垂直场景Agent的大会上，因为产品过于To B，也没有提及大家最关注的“微信AI”，导致外界的关注重心几乎全部被那场对话吸引走。\n  腾讯集团高级执行副总裁、云与智慧产业事业群CEO汤道生，在对谈中问腾讯首席AI科学家、腾讯混元大语言模型及AI Infra负责人姚顺雨，“很多人说腾讯在AI上慢了，你觉得我们真的慢了吗？”\n  姚顺雨回答说：“感觉应该是我问你的问题。”\n  姚顺雨随后提到了两个判断标准——1.AI是一个短期游戏还是",
+      "published": "2026-06-08",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "派早报：WWDC26 全球开发者大会开幕等",
+      "link": "https://sspai.com/post/110889",
+      "summary": "少数派的近期动态少数派×AKKO联合共创带屏键盘即将上线，6月11日，来直播间一起共创。即刻预约可爱又好玩的经典萌物——监工水獭挂件复刻啦！会员点数也可兑换！给獭一个家首款MBTI定制墨水屏「口袋先知 ...查看全文",
+      "published": "2026-06-08",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "一图流 | Apple WWDC26 开幕式回顾",
+      "link": "https://sspai.com/post/110887",
+      "summary": "WWDC26 开幕式一图流来啦。查看全文",
+      "published": "2026-06-08",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Liquid Glass 精调、Apple 智能大升级：WWDC26 发布会回顾",
+      "link": "https://sspai.com/post/110888",
+      "summary": "Apple 推出 iOS 27、iPadOS 27、watchOS 27 和 macOS Golden Gate，以及全新的 Apple 智能。查看全文",
+      "published": "2026-06-08",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派评｜近期值得关注的 App",
+      "link": "https://sspai.com/post/110874",
+      "summary": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
+      "published": "2026-06-08",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "少数派正版软件 + 付费教程 618 促销活动限时开启",
+      "link": "https://sspai.com/post/110853",
+      "summary": "又到了每年的618购物节，少数派照例为大家带来了众多优质正版软件和实用教程的大型活动专场。如果你有心仪的软件或者教程，都可以趁着优惠果断出手。TL;DR:活动时间：2025年6月8日（周一）至6月22 ...查看全文",
+      "published": "2026-06-08",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "2026 美加墨世界杯观赛指南",
+      "link": "https://sspai.com/post/110681",
+      "summary": "四年一届的暑期大片，又要上演啦。查看全文",
+      "published": "2026-06-08",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "大语言模型正在变成大编程模型",
+      "link": "https://sspai.com/post/110746",
+      "summary": "大语言模型的语言能力，好像并没有随着基础模型的迭代而提升？查看全文",
+      "published": "2026-06-08",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The Download: how the World Cup ball will fly and OpenAI’s “super app”",
+      "link": "https://www.technologyreview.com/2026/06/08/1138485/the-download-world-cup-ball-openai-super-app/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Why this year’s World Cup ball may not fly as far Much is new about this month’s FIFA World Cup tournament. It hosts more teams than ever before. It’s",
+      "published": "2026-06-08",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Why this year’s World Cup ball may not fly as far",
+      "link": "https://www.technologyreview.com/2026/06/08/1138470/why-this-years-world-cup-ball-may-not-fly-as-far/",
+      "summary": "Much is new about this month’s upcoming FIFA World Cup tournament, which will be held in the US, Canada, and Mexico. It hosts more teams than ever before. It’s the first to occur in three different host countries. And, like predecessor cups for over half a century, it will employ a soccer ball with ",
+      "published": "2026-06-08",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "致那些年我们失去的 Apple 心头好",
+      "link": "https://cn.technode.com/post/2026-06-08/apple-50-years-dan-sha-li/",
+      "summary": "耳机插孔，我们永远想你。",
+      "published": "2026-06-08",
+      "source": "动点科技",
+      "tag": "Startup"
+    },
+    {
+      "title": "DayOne获45亿美元融资，TikTok Shop越南份额达41%｜SEA Now",
+      "link": "https://cn.technode.com/post/2026-06-08/2026-06-01-2026-06-07/",
+      "summary": "2026.06.01-2026.06.07",
+      "published": "2026-06-08",
+      "source": "动点科技",
+      "tag": "Startup"
+    },
+    {
+      "title": "既看重 AI 又嫌弃 AI？小岛秀夫最新发声：它只是个“创意清洁工”",
+      "link": "https://cn.technode.com/post/2026-06-08/hideo-kojima-says-hes-not-interested-in-ai/",
+      "summary": "上个月，在普拉达（Prada）以著名游戏 [&#8230;]",
+      "published": "2026-06-08",
+      "source": "动点科技",
+      "tag": "Startup"
+    },
+    {
+      "title": "微软解析 Xbox 独占新规：策略更灵活，但吸引玩家买主机仍是首要目标",
+      "link": "https://cn.technode.com/post/2026-06-08/xbox-clarifies-its-exclusivity-strategy-moving-forward-wants-you-to-buy-an-xbox/",
+      "summary": "微软调整了 Xbox 独占游戏的相关策略 [&#8230;]",
+      "published": "2026-06-08",
+      "source": "动点科技",
+      "tag": "Startup"
+    },
+    {
+      "title": "Xbox 新女掌门无惧内存短缺：Project Helix 就是要人人买得起",
+      "link": "https://cn.technode.com/post/2026-06-08/project-helix-xbox-price-report/",
+      "summary": "自今年阿莎·夏尔玛接手 Xbox 业务以 [&#8230;]",
+      "published": "2026-06-08",
+      "source": "动点科技",
+      "tag": "Startup"
+    },
+    {
+      "title": "派早报：乘用车越造越重，12 年增重近 400 公斤",
+      "link": "https://sspai.com/post/110847",
+      "summary": "乘用车越造越重，12 年增重近 400 公斤iFixit 拆解华强北山寨苹果产品Cloudflare 收购 Vite 背后公司rsync 疑因 AI 参与维护出现 bug，引发争议OpenAI 与美国政府商讨捐赠股权美国平均上路车龄达到 13 年看看就行的简讯少数派的近期动态你可能错过的好文章查看全文",
+      "published": "2026-06-07",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    }
+  ]
+}
