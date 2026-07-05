@@ -1,7 +1,135 @@
 {
-  "date": "2026-07-04",
-  "total": 62,
+  "date": "2026-07-05",
+  "total": 51,
   "articles": [
+    {
+      "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
+      "link": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+      "summary": "Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial asks: What if the Founding Fathers had access to Google Workspace?",
+      "published": "2026-07-04",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
+      "link": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+      "summary": "As part of an ongoing legal dispute with three Hollywood studios, Midjourney is seeking to compel those studios to reveal how they use AI themselves.",
+      "published": "2026-07-04",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Alibaba reportedly bans employees from using Claude Code",
+      "link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "summary": "Alibaba has reportedly classified Claude Code as high-risk software.",
+      "published": "2026-07-04",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
+      "link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+      "summary": "Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to “put frontier AI in the hands of everyone.”",
+      "published": "2026-07-04",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Review: Supergirl is not the disaster its low box office suggests",
+      "link": "https://arstechnica.com/culture/2026/07/review-supergirl-is-not-the-disaster-its-low-box-office-suggests/",
+      "summary": "It’s a pretty good movie, but it needed to be a great movie to thrive in an oversaturated superhero market.",
+      "published": "2026-07-04",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "When the ability to smell goes away",
+      "link": "https://arstechnica.com/science/2026/07/when-the-ability-to-smell-goes-away/",
+      "summary": "Disturbances in this critical sense are often linked to problems with brain health.",
+      "published": "2026-07-04",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "A martian rock has lots of carbon on it, and it's not clear why",
+      "link": "https://arstechnica.com/science/2026/07/a-martian-rock-has-lots-of-carbon-on-it-and-its-not-clear-why/",
+      "summary": "Biology could explain the find, but there are other potential explanations.",
+      "published": "2026-07-04",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "NASA launched an emergency mission to stop the Swift Observatory from crashing to Earth",
+      "link": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies",
+      "summary": "The Swift Observatory was launched in 2004, but recent solar storms have pushed its orbit lower, and it's in danger of burning up in Earth's atmosphere as soon as this year. To try and stave off its demise, NASA has enlisted Katalyst Space Technologies. The company's Link spacecraft launched Friday ",
+      "published": "2026-07-04",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "White House deletes thousands of web pages about energy conservation as heatwave slams US",
+      "link": "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion",
+      "summary": "The US Department of Energy reportedly deleted about 6,000 pages related to energy conservation as a historic heatwave tears across the country. The deletion was suspiciously timed, following Republican outrage over Mayor Zohran Mamdani asking New Yorkers to help reduce strain on the grid by setting",
+      "published": "2026-07-04",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Matic’s robot vacuum is getting a $250 price hike in September",
+      "link": "https://www.theverge.com/gadgets/960753/matic-robot-vacuum-mop-price-increase-cost-buy",
+      "summary": "The Matic is our favorite robot vacuum by a pretty comfortable margin. If you&#8217;ve been thinking about buying one, you may want to plan on doing it sooner than later. The company will raise its price by $250 on September 9th, going from $1,245 to $1,495. Matic told The Verge that the new price r",
+      "published": "2026-07-04",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Flatbush Zombies’ Erick the Architect misses his BlackBerry keyboard",
+      "link": "https://www.theverge.com/entertainment/960958/flatbush-zombies-erick-the-architect-interview",
+      "summary": "Erick the Architect is a founding member of, and the primary producer for, the legendary Flatbush Zombies. He's toured the world, performed on Kimmel and Fallon, played Coachella, and collaborated with everyone from Joey Bada$$ and the Rza to James Blake and hardcore punk band Trash Talk. But perhap",
+      "published": "2026-07-04",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Hey number pad lovers, this is a keyboard we can finally agree on",
+      "link": "https://www.theverge.com/tech/960837/epomaker-rt98-mechanical-keyboard-modular-numpad-review",
+      "summary": "I know a vocal group of people who swear by the number pad on their keyboard. And yet, for years I haven't cared about using one - until I put my hands on the Epomaker RT98. It's a mechanical keyboard with a charming retro aesthetic, a fun CRT-like screen, VIA compatibility, a nice typing feel, [&#8",
+      "published": "2026-07-04",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The square-ish phone that I wanted to love",
+      "link": "https://www.theverge.com/tech/960509/ikko-mindone-pro-hands-on",
+      "summary": "The Ikko MindOne Pro is delightfully small. I keep calling it a square phone, which isn't quite right; the screen is square, but the phone itself is slightly rectangular. The camera flips up so you can use it for selfies - you can even open it partway to use as a stand or a kind [&#8230;]",
+      "published": "2026-07-04",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The fanfiction community is at war with AI — and itself",
+      "link": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
+      "summary": "Over the past week, a new fanworks movement has kicked off, with the aim to root out authors using generative AI. But the detection methods being implemented are questionable, and any fanfic writer could be caught in the crossfire. Broad distaste around the use of Claude, ChatGPT, and other AI tools",
+      "published": "2026-07-04",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Qi fan fan",
+      "link": "https://www.theverge.com/tech/961332/qi-active-cooling-really-works",
+      "summary": "Despite my initial skepticism, I'm now sold on wireless Qi chargers that add integrated fans to keep your phone cool while charging. I figured they'd be too loud, or too weak, or too gimmicky, but I'm a convert after spending a week with the new $59.99 Kuxiu D5 Qi2.2 charging dock. Its active coolin",
+      "published": "2026-07-04",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "史上最强的 MacBook 要来了，苹果要 All in AI",
+      "link": "https://www.ifanr.com/1670819?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "近 5 年 MacBook Pro 最大升级即将到来#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-07-04",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
     {
       "title": "早报｜大疆影石专利战火烧回国内/阿里内部全面禁用Claude Code/茉莉奶白被判赔LV 1030万后，月薪4万招法务",
       "link": "https://www.ifanr.com/1670957?utm_source=rss&utm_medium=rss&utm_campaign=",
@@ -9,6 +137,14 @@
       "published": "2026-07-04",
       "source": "爱范儿",
       "tag": "AI & Tech"
+    },
+    {
+      "title": "对话傲鲨创始人徐振华：当科幻机甲成为户外装备，外骨骼如何重新定义人机关系？",
+      "link": "https://36kr.com/p/3880770270425089?f=rss",
+      "summary": "《流浪地球2》与游戏《死亡搁浅》中，主角身穿外骨骼行走的人类未来图景，正在成为户外爱好者的真实装备。\n  7月4日，阳澄湖半岛度假区，十几个人身穿“机甲”在湖畔徒步。他们穿的是傲鲨VIATRIX增程动力外骨骼机器人，走几步后很快步伐变得轻盈，这是外骨骼通过学习他们的行走姿态，在抬腿瞬间加上一定推力，使6公里的徒步体验更像一次悠闲的City walk。\n  当天的机甲徒步活动由傲鲨联合户外平台一帐之地共同策划，路线串联沿湖步道、度假空间与生态公园，沿途设置多个观景和换装点位，将前沿科技、户外美学与湖岸风光融为一体，让参与者沉浸式解锁人机协同的徒步方式，感受徒步的松弛感与探索感。\n  作为人类身体",
+      "published": "2026-07-04",
+      "source": "36氪",
+      "tag": "Startup"
     },
     {
       "title": "9点1氪｜阿里内部全面禁用Claude Code；FF洛杉矶总部人去楼空？公司回应：不实；微软砸25亿美元组建6000人AI新公司",
@@ -25,6 +161,14 @@
       "published": "2026-07-04",
       "source": "36氪",
       "tag": "Startup"
+    },
+    {
+      "title": "[送码] 聆听用户建议，1Capture 新增多项实用截图功能",
+      "link": "https://sspai.com/post/111645",
+      "summary": "各位少数派的朋友好，距离上一次在少数派介绍1Capture已经过去一年。过去这段时间里，我们开发的这款Mac截图与录屏工具继续做了多轮更新，也根据用户反馈补齐了一些更适合团队协作和产品展示的功能。市场 ...查看全文",
+      "published": "2026-07-04",
+      "source": "少数派",
+      "tag": "AI & Tech"
     },
     {
       "title": "The only AI glossary you’ll need this year",
@@ -54,22 +198,6 @@
       "title": "Chevy built an all-American EV truck — why is nobody buying it?",
       "link": "https://techcrunch.com/2026/07/03/chevy-built-an-all-american-ev-truck-why-is-nobody-buying-it/",
       "summary": "The Chevy Silverado EV is a solid first draft of an EV pickup truck. Here's what could make it better.",
-      "published": "2026-07-03",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "Politician who investigated spyware abuses had his phone hacked with Pegasus spyware",
-      "link": "https://techcrunch.com/2026/07/02/politician-who-investigated-spyware-abuses-had-his-phone-hacked-with-pegasus-spyware/",
-      "summary": "A government customer of NSO Group used the company's Pegasus spyware to hack into the phone of a European politician, who at the time was serving on an EU committee tasked with investigating the spyware industry.",
-      "published": "2026-07-03",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "Last chance to apply — Startup Battlefield Australia applications close July 6",
-      "link": "https://techcrunch.com/2026/07/02/last-chance-to-apply-startup-battlefield-australia-applications-close-july-6-2/",
-      "summary": "If you're going to apply for Startup Battlefield Australia, now is the time. Applications close July 6, and once the deadline passes, the opportunity is gone.",
       "published": "2026-07-03",
       "source": "TechCrunch",
       "tag": "Startup"
@@ -112,70 +240,6 @@
       "summary": "C:\\ArsGames takes a look at the time Chris Roberts more or less made a whole movie.",
       "published": "2026-07-03",
       "source": "Ars Technica",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Amazon updated 2023’s Fire HD 10 tablet with 4GB of RAM",
-      "link": "https://www.theverge.com/tech/961387/amazon-2023-fire-hd-10-tablet-4gb-update",
-      "summary": "The Fire HD 8 that launched in 2024 was the last new addition to Amazon's budget-minded tablet lineup, but the company has quietly updated the Fire HD 10 that debuted the year before. In 2023 it was offered with multiple storage configurations that each came with 3GB of RAM, but the 32GB version now",
-      "published": "2026-07-03",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "While you’re watching the World Cup, the feds may be watching you",
-      "link": "https://www.theverge.com/policy/961004/world-cup-america-250-surveillance-drones-cameras",
-      "summary": "It's a big year for America. It's the semiquincentennial, otherwise known as America250, and the United States is cohosting the World Cup. But spectators at these events - and the millions of people who live in the cities hosting them - may not realize that they, too, are being watched. From Kansas ",
-      "published": "2026-07-03",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "This slim camera has a transparent LCD screen for a viewfinder",
-      "link": "https://www.theverge.com/tech/961362/godox-c100-digital-camera-transparent-lcd-screen",
-      "summary": "Despite the fact that smartphones have become impressively capable shooters, standalone point-and-shoot cameras are enjoying a renaissance. The tiny Kodak Charmera is still wildly popular, while influencers are scrambling to find aging Canon cameras on eBay. Godox, a company best known for its photo",
-      "published": "2026-07-03",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "I finally got my Trump phone",
-      "link": "https://www.theverge.com/tech/961297/trump-mobile-t1-phone-first-impressions",
-      "summary": "Where's the Trump phone? We're going to keep talking about it every week. One year on, our phones have finally arrived. 12 months, 16 days, 21 hours, and 54 minutes after I first heard about Trump Mobile's T1 Phone 8002 (gold version), I'm finally holding one in my own hands. That's right, The Verge",
-      "published": "2026-07-03",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Hydration isn’t complicated: Just drink water",
-      "link": "https://www.theverge.com/column/960832/optimizer-hydration-electrolytes-health-heat-wave",
-      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. Europe is melting, the eastern US is currently trapped in a \"heat dome,\" the Midwest",
-      "published": "2026-07-03",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Anthropic wants to develop its own drugs",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
-      "summary": "At the event \"The Briefing: AI for Science\" earlier this week, Anthropic announced Claude Science, a new \"AI workbench for scientists\" that pulls fragmented tools and datasets into one environment, and generates figures and visuals. Anthropic, already dominating the industry with its popular coding ",
-      "published": "2026-07-03",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Jon Prosser responds to Apple lawsuit by blaming the other guy",
-      "link": "https://www.theverge.com/tech/961285/jon-prosser-apple-lawsuit-response-ios-leak",
-      "summary": "YouTuber Jon Prosser has finally filed a formal response to Apple's lawsuit made against him and another defendant over allegedly stealing iOS secrets. In his response, Prosser denied that he \"planned or participated in any conspiracy or coordinated scheme\" for the \"purpose of injuring Apple.\" Howev",
-      "published": "2026-07-03",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "The Verge’s annual summer ‘in’ and ‘out’ list",
-      "link": "https://www.theverge.com/entertainment/960665/the-verge-2026-summer-in-out-list",
-      "summary": "In the AI slop-loaded, algorithm-powered modern reality, trends come and go - and the tech industry is no different. For the last few years, The Verge staff has compiled a selection of things that are IN for summer and OUT for summer - and each time there are some strong feelings. (Here are the last",
-      "published": "2026-07-03",
-      "source": "The Verge",
       "tag": "AI & Tech"
     },
     {
@@ -251,14 +315,6 @@
       "tag": "Startup"
     },
     {
-      "title": "36氪首发 | 省级实验室团队做电氢耦合解决方案，获厦门高新投领投",
-      "link": "https://36kr.com/p/3879274157928449?f=rss",
-      "summary": "作者&nbsp;|&nbsp;乔钰杰\n  编辑&nbsp;|&nbsp;袁斯来\n  硬氪获悉，厦门启航氢能技术有限公司（以下简称“启航氢能”）近日完成新一轮融资，本轮由厦门高新投领投，融资资金将主要用于电氢耦合关键装备及离网制氢相关核心技术的持续研发投入与产品迭代升级。\n  启航氢能成立于2024年4月，技术起源于嘉庚创新实验室电氢耦合研究团队。公司专注于电氢耦合技术及应用场景的装备研发、生产与销售，核心团队在电力电子技术、智能电网与电化学等领域拥有近20年研究积累。嘉庚创新实验室是福建省政府设立的省级高水平科研平台之一，其氢能产业集群由实验室主任郑南峰院士、氢能研究院方晓亮院长牵头布局。\n ",
-      "published": "2026-07-03",
-      "source": "36氪",
-      "tag": "Startup"
-    },
-    {
       "title": "住久了没意思（四）：作为最「复合」的空间，客厅要为真实生活让路",
       "link": "https://sspai.com/prime/story/how-to-design-a-rental-living-room",
       "summary": "前文回顾：租房常见问题与我的改造原则从有光的地方开始动手打造能好好放松的卧室只要你的房子还有分区可言，那正常情况下就一定有一个可以称之为客厅的区域。在第一篇文章中我已经提到，对我们很多人来说，客厅可能 ...查看全文本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
@@ -301,7 +357,7 @@
     {
       "title": "A device that revives eyeballs from dead donors could make eye transplants possible",
       "link": "https://www.technologyreview.com/2026/07/03/1140148/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible/",
-      "summary": "It’s not easy to transplant a whole human eye. The surgery is difficult. And the eyes themselves start to degenerate as soon as they’ve left the body. When surgeons attempted it a few years ago, the newly-transplanted eye wasn’t able to see. But researchers believe they might have a solution: a devi",
+      "summary": "It’s not easy to transplant a whole human eye. The surgery is difficult. And the eyes themselves start to degenerate as soon as they’ve left the body. When surgeons attempted it a few years ago, the newly transplanted eye wasn’t able to see. But researchers believe they might have a solution: a devi",
       "published": "2026-07-03",
       "source": "MIT Tech Review",
       "tag": "AI & Tech"
@@ -351,150 +407,6 @@
       "link": "https://cn.technode.com/post/2026-07-03/ps5-jailbreak-homebrew-physical-games-sony-emulators-trend/",
       "summary": "企业几乎无法阻止电子游戏盗版——但索尼可 [&#8230;]",
       "published": "2026-07-03",
-      "source": "动点科技",
-      "tag": "Startup"
-    },
-    {
-      "title": "Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped",
-      "link": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
-      "summary": "At an internal meeting, the Meta CEO reportedly said that AI development efforts were not moving as quickly as anticipated.",
-      "published": "2026-07-02",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "Private space pilots are flying orbital missions for the US Space Force",
-      "link": "https://techcrunch.com/2026/07/02/private-space-pilots-are-flying-orbital-missions-for-the-us-space-force/",
-      "summary": "True Anomaly and Rocket Lab are performing Top Gun-style satellite fly-bys for the U.S. military.",
-      "published": "2026-07-02",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "Newly discovered PamStealer isn't your typical macOS malware",
-      "link": "https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/",
-      "summary": "The discovery underscores the increased effort being poured into Mac infostealers.",
-      "published": "2026-07-02",
-      "source": "Ars Technica",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "FAA proposal: Supersonic airliners can fly over US cities if they’re quiet",
-      "link": "https://arstechnica.com/gadgets/2026/07/faa-proposal-supersonic-airliners-can-fly-over-us-cities-if-theyre-quiet/",
-      "summary": "New US rules would legalize quiet supersonic flights without the sonic boom.",
-      "published": "2026-07-02",
-      "source": "Ars Technica",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Ars Live recap: When are the big rockets NASA desperately needs going to be ready?",
-      "link": "https://arstechnica.com/space/2026/07/ars-live-recap-when-are-the-big-rockets-nasa-desperately-needs-going-to-be-ready/",
-      "summary": "I have not seen anyone put out a date for a new rocket, and actually hit it.",
-      "published": "2026-07-02",
-      "source": "Ars Technica",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "法拉利大师操刀设计，预售 14.38 万起！小鹏 MONA L03 大脚步冲进市场",
-      "link": "https://www.ifanr.com/1670830?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "一辆看着像超跑的 SUV。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "published": "2026-07-02",
-      "source": "爱范儿",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "54000 元，买一个会叠衣服的机器人，值吗？",
-      "link": "https://www.ifanr.com/1670787?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "还在等具身智能的 Seedance 时刻#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "published": "2026-07-02",
-      "source": "爱范儿",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Fable 5 复活，第一批用户却沉默了",
-      "link": "https://www.ifanr.com/1670745?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "你这瓜保熟吗#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "published": "2026-07-02",
-      "source": "爱范儿",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "iOS 剪贴板管理工具 Procut：换个方式收藏碎片化信息",
-      "link": "https://sspai.com/post/110950",
-      "summary": "你一定有过这样的经历：在小红书刷到一篇感兴趣的笔记，复制链接想稍后再看，结果淹没在聊天记录里再也找不到了。微信群里有人分享了一个公众号文章，随手复制了链接，等真正有空时却想不起存到了哪里。收到快递取件 ...查看全文",
-      "published": "2026-07-02",
-      "source": "少数派",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "共创试读 | 给童年一份礼物：从是什么到为什么，找到合适的掌机",
-      "link": "https://sspai.com/post/111069",
-      "summary": "近年来，伴随着复古浪潮的席卷而来，许多玩家似乎又重新关注起了一些老游戏、老设备。从2022年的3DS涨价风波，到后来层出不穷的所谓「开源掌机」，大家似乎都在寻找一个通往童年的入口，重新回味那些历久弥新 ...查看全文",
-      "published": "2026-07-02",
-      "source": "少数派",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "家用游戏机的新选择，Steam Machine 玩起来怎么样？",
-      "link": "https://sspai.com/post/111763",
-      "summary": "本文由IGN中国编译自IGNUS相关内容，原作者JacquelineThomas、编译者Tony，少数派经IGN中国授权转载，仅对文章格式略作调整。阅读原文>在经历八个月的等待之后，SteamMach ...查看全文",
-      "published": "2026-07-02",
-      "source": "少数派",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Achieving operational excellence with AI",
-      "link": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
-      "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphasized statistical rigor and quality control; BPM created end-to-end maps of how wo",
-      "published": "2026-07-02",
-      "source": "MIT Tech Review",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Teaching AI to run with the turbines",
-      "link": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
-      "summary": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is beco",
-      "published": "2026-07-02",
-      "source": "MIT Tech Review",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "The Download: a startup has a solution for AI’s groupthink problem",
-      "link": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. LLMs are stuck in a groupthink groove. This startup is trying to get them out. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give m",
-      "published": "2026-07-02",
-      "source": "MIT Tech Review",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Why California’s carbon manure math doesn’t add up",
-      "link": "https://www.technologyreview.com/2026/07/02/1139981/why-californias-carbon-manure-math-doesnt-add-up/",
-      "summary": "Something stinks in California’s climate policies. Years ago, the state set up a system that pays cattle farmers across the country to turn the methane emitted from cattle manure into natural gas, encouraging the dairy sector to produce a gas we burn instead of one that just pollutes the air. It’s b",
-      "published": "2026-07-02",
-      "source": "MIT Tech Review",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "PlayStation 玩家即将失去的不仅是那些光盘",
-      "link": "https://cn.technode.com/post/2026-07-02/sony-playstation-physical-games-disc-drive-digital-only-ps6/",
-      "summary": "你买的游戏真的属于你吗？",
-      "published": "2026-07-02",
-      "source": "动点科技",
-      "tag": "Startup"
-    },
-    {
-      "title": "苹果 MacBook Pro 入门机型或迎外观大改",
-      "link": "https://cn.technode.com/post/2026-07-02/apple-macbook-pro-entry-level-redesign-ipad-pro-update/",
-      "summary": "据彭博社报道，苹果正在研发一款“全新”的 [&#8230;]",
-      "published": "2026-07-02",
-      "source": "动点科技",
-      "tag": "Startup"
-    },
-    {
-      "title": "索尼放弃光盘，Xbox 却在搞“实体数字化”？",
-      "link": "https://cn.technode.com/post/2026-07-02/xbox-physical-to-digital-games-feature-project-helix/",
-      "summary": "当地时间周三，索尼宣布将停止为 2028 [&#8230;]",
-      "published": "2026-07-02",
       "source": "动点科技",
       "tag": "Startup"
     }
