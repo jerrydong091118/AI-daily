@@ -1,0 +1,478 @@
+{
+  "date": "2026-07-15",
+  "total": 59,
+  "articles": [
+    {
+      "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+      "link": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+      "summary": "The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences.",
+      "published": "2026-07-15",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "早报｜OpenAI首款硬件曝光/享界G9获批北京L3自动驾驶路测牌照/雷军晒小米机器人进厂打工成绩",
+      "link": "https://www.ifanr.com/1672037?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 小米机器人汽车工厂「实习」4 个月，差 1%「转正」\n· 三星、苹果份额逆势增长，全球手机市场第二季度下滑 4%\n· 1299 元起，REDMI Note 17 系列发布#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-07-15",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：Meta 被诉借助 AI 违规裁员、Google 被诉使用版权内容训练 Gemini 模型等",
+      "link": "https://sspai.com/post/112334",
+      "summary": "Google 推出新版图片搜索功能，Spotify 开启语音交互功能内测等。查看全文",
+      "published": "2026-07-15",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Lorde says AI glasses are ‘not sexy’",
+      "link": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/",
+      "summary": "\"Increasingly in our world, it gets harder and harder to know what is real,\" Lorde said onstage.",
+      "published": "2026-07-14",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "OpenAI’s first hardware device is reportedly a screenless speaker that can move",
+      "link": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
+      "summary": "The device is weirdly described as involving \"mechanical elements that can move on their own\" and the Bloomberg report includes the detail that the device is designed to \"feel like a companion and become a physical manifestation of OpenAI’s ChatGPT.\"",
+      "published": "2026-07-14",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "OpenAI pushes back on Apple trade secret lawsuit",
+      "link": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/",
+      "summary": "OpenAI has issued another statement on the lawsuit, this time suggesting it lacks merit.",
+      "published": "2026-07-14",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "OpenAI’s new flagship model deletes files on its own, people keep warning",
+      "link": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
+      "summary": "A number of social media posts claim that GPT-5.6 Sol deleted files and data without warning. OpenAI had basically disclosed the problem in June.",
+      "published": "2026-07-14",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Apple opens its new Siri AI to everyone with the iOS 27 public beta",
+      "link": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
+      "summary": "If you’ve been waiting to try Apple’s revamped Siri without installing a developer beta, you now can. The company on Tuesday released the iOS 27 public beta, giving iPhone owners early access to its AI-powered assistant and other new features before the software’s official launch this fall.",
+      "published": "2026-07-14",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Anthropic’s newest ad is creeping people out",
+      "link": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out/",
+      "summary": "Anthropic has consistently attempted to depict itself as the ethical foil to other AI companies. This latest marketing stunt — which leans into criticism of AI as a way to make Anthropic seem aware of the responsibility it carries — would appear to be more of the same.",
+      "published": "2026-07-14",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "The founder of Hinge raised $18M to build a new AI dating service, Overtone",
+      "link": "https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/",
+      "summary": "Overtone describes itself as \"a voice- and audio-forward service, enabled by AI, that provides highly curated introductions.\"",
+      "published": "2026-07-14",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Microsoft’s Secure Boot has been broken for a decade and no one noticed until now",
+      "link": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
+      "summary": "Old and forgotten \"shims\" Microsoft failed to revoke have made Secure Boot bypasses simple.",
+      "published": "2026-07-14",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Trump admin puts Americans in Congo on \"do-not-board\" list, barring return",
+      "link": "https://arstechnica.com/health/2026/07/americans-in-congo-barred-from-returning-home-amid-ebola-outbreak/",
+      "summary": "Citizens must now spend 21 days in a third country before they are allowed to come home.",
+      "published": "2026-07-14",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Lawsuit claims Meta's layoff decisions were made by AI, not humans",
+      "link": "https://arstechnica.com/tech-policy/2026/07/lawsuit-claims-metas-layoff-decisions-were-made-by-ai-not-humans/",
+      "summary": "Meta denies using AI to terminate workers with disabilities and medical problems.",
+      "published": "2026-07-14",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Probe into explosive diarrheal cases points to Taco Bell and bad lettuce",
+      "link": "https://arstechnica.com/health/2026/07/taco-bell-eyed-in-explosive-diarrheal-outbreak-leafy-greens-suspected/",
+      "summary": "Federal officials have not confirmed a source yet—and there may be multiple sources.",
+      "published": "2026-07-14",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "US military sent explosive drone boats into combat for the first time",
+      "link": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
+      "summary": "US military’s drone boats struck an Iranian naval port as war heats up again.",
+      "published": "2026-07-14",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "These painted e-tattoos could be the future of wearable biosensors",
+      "link": "https://arstechnica.com/science/2026/07/these-painted-e-tattoos-could-be-the-future-of-wearable-biosensors/",
+      "summary": "Conductive ink is painted directly onto the skin in colorful custom designs, drying into working electrodes.",
+      "published": "2026-07-14",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Google revamps image search for its 25th anniversary with more images and more AI",
+      "link": "https://arstechnica.com/google/2026/07/google-revamps-image-search-for-its-25th-anniversary-with-more-images-and-more-ai/",
+      "summary": "The new Google image search will use your \"unique interests\" to create an always-updated gallery.",
+      "published": "2026-07-14",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "New York bans data center construction for a year, rattling AI industry",
+      "link": "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/",
+      "summary": "New York’s data center moratorium may become the blueprint for anti-AI movement.",
+      "published": "2026-07-14",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Nothing’s good-looking Watch 3 Pro smartwatch is just $69",
+      "link": "https://www.theverge.com/gadgets/965565/cmf-nothing-watch-3-pro-smartwatch-ios-android-deal-sale",
+      "summary": "While most fitness trackers are losing the screens to keep the price low, the CMF by Nothing Watch 3 Pro is a bit different. The budget-friendly smartwatch with a 1.43-inch OLED display is even cheaper than usual at Amazon, where it costs $69 in every color (the price fluctuates between $79 and $99)",
+      "published": "2026-07-14",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Windows 11&#8217;s big patch Tuesday allows you to hold off on updates for longer",
+      "link": "https://www.theverge.com/tech/965643/microsoft-windows-11-july-2026-patch-tuesday-updates",
+      "summary": "Microsoft just released a long list of improvements for Windows 11 as part of its bigger patch Tuesdays, and that includes the ability to pause updates indefinitely, as reported earlier by Windows Central. This option rolled out to Windows Insiders earlier this year, allowing you to hold off on upda",
+      "published": "2026-07-14",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "OpenAI may announce a ChatGPT smart speaker this year",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
+      "summary": "OpenAI's first device is set to be a smart speaker that lets you talk with ChatGPT, according to a report from Bloomberg. The device apparently won't have a screen, but will use a camera and additional sensors to \"understand\" your environment. The report comes just days after Apple filed a lawsuit a",
+      "published": "2026-07-14",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "SpaceXAI&#8217;s Grok programming tool was uploading its users&#8217; entire codebase to cloud storage",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
+      "summary": "SpaceXAI's Grok Build AI coding tool was spotted uploading users' entire codebases to Google Cloud before it was reported, and the company turned it off. The Register reports that Cereblab published findings on Monday showing how the Grok Build CLI was packaging and uploading entire code repositorie",
+      "published": "2026-07-14",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Philips Hue&#8217;s budget-friendly Essential starter kit has hit a new low price",
+      "link": "https://www.theverge.com/gadgets/965476/philips-hue-essential-starter-kit-hue-bridge-deal-sale",
+      "summary": "Although most of Prime Day&#8217;s unusually good Philips Hue deals have ended, a few remain, and some, including the black Philips Hue Twilight Sleep and Wake-Up Light, are even cheaper. None, however, have fallen to a new all-time low price like Philips Hue&#8217;s Essential starter kit. Right now",
+      "published": "2026-07-14",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Plex problems prevented users from streaming movies and shows",
+      "link": "https://www.theverge.com/tech/965518/plex-tv-down-outage-issues",
+      "summary": "Plex services experienced some major issues on Tuesday, with multiple users reporting problems on Plex's forums and on Reddit. Many people use Plex as a way to stream shows and movies they host locally, but users are upset because today's problems were reportedly affecting their ability to do that. ",
+      "published": "2026-07-14",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Nintendo’s Switch 2 bundle that includes a game is $50 off",
+      "link": "https://www.theverge.com/gadgets/965490/nintendo-switch-2-choose-your-game-bundle-deal-sale",
+      "summary": "Discounts on the Nintendo Switch 2 are rare, but they do happen on occasion. There’s one happening now, actually, on the company’s $499.99 console bundle that includes a digital game (Mario Kart World, Donkey Kong Bananza, or Pokémon Pokopia). Usually, the bundle saves you $20 or $30, depending on t",
+      "published": "2026-07-14",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Meta accused of using biased AI targeting for mass layoffs",
+      "link": "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
+      "summary": "A group of 26 former Meta employees is suing the company over claims that it used AI tools to unfairly target workers on leave with layoffs, as reported earlier by Reuters. In the lawsuit, the employees allege Meta determined which workers to dismiss based on performance data collected by a \"constel",
+      "published": "2026-07-14",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "比亚迪王朝大改车型命名规则：L 系列消失，MAX 和 Ultra 将代表旗舰",
+      "link": "https://www.ifanr.com/1671991?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "起名也是一种艺术。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-07-14",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "早报｜苹果iPhone 20或迎来大幅设计调整/海南规划2030年禁售燃油车/字节回应探索自动驾驶传闻",
+      "link": "https://www.ifanr.com/1671983?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 腾讯混元 Hy3 登顶 OpenRouter 周榜，单周处理 Token 超 6 万亿\n· 台积电上半年营收同比增长 35.6%，6 月营收创单月新高\n· 长鑫科技拟募资 295 亿元，员工每人可分超百万#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-07-14",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "8点1氪丨LV起诉国家知识产权局；DeepSeek梁文锋成全球AI公司领域新首富；戴比尔斯将暂停南非最大钻石矿生产",
+      "link": "https://36kr.com/p/3896138695706497?f=rss",
+      "summary": "今日热点导览\n  \n   小米机器人首次实现汽车工厂柔性工件的长时作业\n   SK海力士加速Y1工厂建设，现已开始订购DRAM制造设备\n   国际金价持续回调，后市关注美联储政策路径\n   海关总署：中国出口连续11季度保持增长，贸易增量集中于AI领域\n   韩国政府四部门将于周四召开会议，就单股杠杆ETF对股市冲击研究应对方案\n  \n  TOP 3大新闻\n  LV起诉国家知识产权局，案件定于16日开庭审理\n  人民法院公告网显示，北京知识产权法院将于2026年7月16日公开审理一起涉及路易威登的商标行政纠纷案。该案案号为（2026）京73行初4727号，原告为路易威登马利蒂，被告为国家知识产",
+      "published": "2026-07-14",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "氪星晚报 ｜智谱：完成配售新H股募资约314亿港元；荣耀与阿里将开展AI智能体终端合作；小米机器人首次实现汽车工厂柔性工件的长时作业",
+      "link": "https://36kr.com/p/3895322613185543?f=rss",
+      "summary": "大公司：\n  中国神华：预计上半年净利润同比增长6.9%-21.1%\n  36氪获悉，中国神华公告，预计2026年上半年归属于上市公司股东的净利润为263亿元至298亿元，同比增长6.9%-21.1%。业绩变动主要系煤化工业务量及自有铁路、港口、航运业务量增加，带动相关业务利润同比增长。\n  中国人寿：预计上半年净利润同比增长约215%-235%\n  36氪获悉，中国人寿公告，预计2026年半年度归属于母公司股东的净利润约1289.33亿元到1371.19亿元，同比增长约215%到235%。业绩变动主要系公司持续深化资产负债联动，优化资产配置，提升投资专业能力，取得良好投资业绩。\n  光迅科技",
+      "published": "2026-07-14",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "估值110亿美元，这家超级独角兽要帮初创公司从Day0走向全球",
+      "link": "https://36kr.com/p/3895355856403456?f=rss",
+      "summary": "凌晨三点，一家刚成立不久的AI创业公司，可能已经在同时服务旧金山的客户、采购首尔的技术服务，并与拉各斯的合作伙伴签下合同。这家公司甚至还没有招到第一名全职财务人员，业务却已经跨越多个市场、币种和监管辖区。&nbsp;\n  AI正在让这样的创业路径成为可能。过去需要市场、运营、客服等一整套全球化团队才能完成的工作，现在借助智能体就能承担相当一部分。新一代初创企业不必再按照“先站稳本土、再逐步出海”的传统顺序扩张，而可能从成立第一天起，就直接面对全球客户和供应商。\n  但当AI以足够快的速度跑在前面时，大多数企业的金融管道仍未为此做好准备。这也是为什么，全球顶级资本开始押注金融基础设施的AI化重构",
+      "published": "2026-07-14",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "🎁36氪放福利啦！体验10秒，即可免费抽AirPods 4、Redmi手环、超人帆布包！",
+      "link": "https://36kr.com/p/3894914381970438?f=rss",
+      "summary": "无门槛参与，所有微信用户都可以免费抽奖！\n  只需打开微信，扫描下方二维码进入抽奖链接，浏览10秒36氪企业全情报，任意订阅一家企业，即可获得抽奖资格。\n  无需付费，无需任何额外操作，简单体验即可参与，AirPods 4、Redmi手环3、36氪限定超人帆布包等好礼随机送出，人人都有机会中奖！\n  &nbsp;\n  直接扫描下方二维码即可参与，或直接点击参与：https://wxmpurl.cn/KEeJSzRvNFr\n  \n  扫码参与免费抽奖！\n  🎁本次活动奖品清单\n  🥇一等奖：AirPods 4\n  音质出色、佩戴舒适，无论日常通勤、运动还是办公，都能带来优秀的使用体验。\n  🥈二",
+      "published": "2026-07-14",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "36氪首发 | 浙大系桌面CNC团队获商汤国香、首形科技等近亿元天使轮，要用AI技术降低制造门槛",
+      "link": "https://36kr.com/p/3894935854677249?f=rss",
+      "summary": "作者&nbsp;|&nbsp;张子怡\n  编辑&nbsp;|&nbsp;袁斯来\n  硬氪获悉，桌面级CNC（数控机床）企业「奇塑科技」于近期完成近亿元人民币天使轮融资。本轮融资由商汤国香、首形科技、全新世、奇绩创坛共同投资。本轮资金将主要用于桌面级CNC软硬件产品的研发、量产以及后续的市场营销。\n  在消费级3D打印机和激光雕刻机已完成大众市场教育，并诞生了诸如拓竹、xTool等多个头部企业后，能够实现“从软材到硬材强三维加工”的CNC产品，被视为消费级制造领域的下一片万亿蓝海。\n  早在2018年行业普遍聚焦3D打印赛道时，奇塑科技团队就已将目光投向CNC领域。在创始人夏楠看来，CNC是制造",
+      "published": "2026-07-14",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "36氪首发 | 前博世自动驾驶算法工程师创业，用合成数据做触觉大模型",
+      "link": "https://36kr.com/p/3894821059918855?f=rss",
+      "summary": "触觉手套（图源/企业）\n  \n   本文约2400字，建议阅读6分钟\n  \n  作者丨欧雪\n  编辑丨袁斯来\n  硬氪获悉，空间智能公司「大衍科技」近期完成数千万元天使轮融资，由松禾清湛领投，浙江省省金控与广州番禺创新基金等国资背景机构参与。资金将主要用于触觉大模型研发、机器人数据产线建设及团队扩张。\n  「大衍科技」2025年5月成立于浙江桐乡，是一家专注于4D世界重建、世界模型及可控扩散模型技术的空间智能公司。\n  创始人兼CEO杨林是新加坡国立大学计算机博士，曾在速腾、酷睿程、比亚迪、苏州博世等企业深耕自动驾驶算法7-8年。此外，公司核心技术源自首席科学家、联合国科学院院士、加拿大工程院",
+      "published": "2026-07-14",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "人形机器人公司逐际动力完成2亿美元Pre-IPO轮融资，投后估值达150亿元｜最前线",
+      "link": "https://36kr.com/p/3893976502287618?f=rss",
+      "summary": "作者｜黄楠\n  编辑｜袁斯来\n  硬氪获悉，通用人形机器人公司逐际动力LimX Dynamics宣布完成Pre-IPO轮融资，融资金额近2亿美元，投资方包括IDG资本、蓝思科技、GGG Group与Redstone VC、华山资本、合肥滨湖产发集团等。此外，阿联酋磊石资本（Stone Venture）连续多轮追投，绿洲资本、基石资本、南山战新投、尚颀资本、蔚来资本等多家老股东超额加注。\n  融资资金将重点用于大小脑融合技术的突破和产品化，推动数千台全自主人形机器人的规模化部署，加强全球市场拓展。公司将进一步完善全球制造与交付能力，加快中东、欧洲及亚洲其他国家地区等重点市场的布局，并持续建设面向",
+      "published": "2026-07-14",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "8点1氪丨海南将成中国首个禁售燃油车省份；长鑫科技部分员工入股成本低至1毛；SK海力士暴跌15%",
+      "link": "https://36kr.com/p/3894729787767810?f=rss",
+      "summary": "今日热点导览\n  \n   韩国法院禁止两名前三星员工就职于SK海力士\n   字节探索自动驾驶，Seed世界模型团队负责\n   巨力索具深夜澄清商业航天业务不实传闻，提醒投资风险\n   科技记者古尔曼：苹果将跳过M6 Pro/Max芯片全力押注AI导向的M7系列\n   美众议院本周将表决永久实行夏令时法案\n  \n  TOP 3大新闻\n  海南将成中国首个禁售燃油车省份，届时车桩比保持2.5:1以下\n  近日，海南省人民政府对外发布《“十五五”海南国家生态文明试验区规划（美丽海南建设“十五五”规划）》提出，平稳推进2030年禁售燃油车，预计届时海南新能源汽车保有量占比从2025年的23.75%提升",
+      "published": "2026-07-14",
+      "source": "36氪",
+      "tag": "Startup"
+    },
+    {
+      "title": "社区速递 149｜派友热议睡眠数据化、观穹 6×24 望远镜与 RG Rotate 旋转屏掌机",
+      "link": "https://sspai.com/post/112320",
+      "summary": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文",
+      "published": "2026-07-14",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "具透 | iOS 27 首个公开测试版来了，这些是值得你关注的新功能",
+      "link": "https://sspai.com/post/112287",
+      "summary": "少数派在体验了新版系统之后，帮你整理了 iOS 27 中值得关注的新功能和新特性，希望帮你能了解新版系统的方方面面。查看全文",
+      "published": "2026-07-14",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "iOS / iPadOS 27 Public Beta 公测版来了：升降级指南 & 注意事项",
+      "link": "https://sspai.com/post/112288",
+      "summary": "7月14日凌晨，Apple终于推送了今年iOS27、iPadOS27、watchOS27、macOSGoldenGate、HomePod软件27以及AirPods固件新版的首个PublicBeta公开 ...查看全文",
+      "published": "2026-07-14",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：全球智能手机出货量创 13 年来最低水平等",
+      "link": "https://sspai.com/post/112286",
+      "summary": "少数派的近期动态声擎×少数派｜「角落新声」征文活动已经启动。投稿赚音箱少数派×AKKO灵犀Linx68键盘预售开启。看看新键盘你可能错过的文章你这图「保真」吗？AI生图时代的信息防伪依江伴湖，树影连绵 ...查看全文",
+      "published": "2026-07-14",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The Download: Claude’s inner workings, and the future of world models",
+      "link": "https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What Anthropic’s latest AI discovery does—and doesn’t—show —James O&#8217;Donnell When Anthropic announced last week that it had found a new window in",
+      "published": "2026-07-14",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "PsiQuantum has a plan to make a massive quantum computer out of light",
+      "link": "https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/",
+      "summary": "The machine that could change the world will be housed in a room that looks like a data center crossed with an ice cream factory. Inside will be some 100 stainless-steel cabinets, each about six feet tall and connected to a supply of liquid helium that keeps them only a few degrees above absolute ze",
+      "published": "2026-07-14",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "别被防沉迷骗了：半数社交平台儿童保护功能只是“面子工程”",
+      "link": "https://cn.technode.com/post/2026-07-14/half-of-social-media-child-safety-features-dont-work-report-claims/",
+      "summary": "纽约大学和美国东北大学研究人员发现，社交 [&#8230;]",
+      "published": "2026-07-14",
+      "source": "动点科技",
+      "tag": "Startup"
+    },
+    {
+      "title": "竞品都在扩边界做生态，苹果仍在死磕精品剧集",
+      "link": "https://cn.technode.com/post/2026-07-14/apple-tv-go-big-2026/",
+      "summary": "其不断推出像《寡妇湾》这样的新爆款，以及像《末日地堡》这样的回归热门剧集。",
+      "published": "2026-07-14",
+      "source": "动点科技",
+      "tag": "Startup"
+    },
+    {
+      "title": "东南亚IPO上半年募资额翻倍，马来西亚继续领跑",
+      "link": "https://cn.technode.com/post/2026-07-14/se-asia-ipo-market-malaysia-2026/",
+      "summary": "德勤近日发布的报告显示，2026年上半年 [&#8230;]",
+      "published": "2026-07-14",
+      "source": "动点科技",
+      "tag": "Startup"
+    },
+    {
+      "title": "特斯拉确认正开发轮椅无障碍版 Robotaxi",
+      "link": "https://cn.technode.com/post/2026-07-14/tesla-says-its-building-a-wheelchair-accessible-robotaxi/",
+      "summary": "据 Wired 报道，特斯拉高级政策顾问 [&#8230;]",
+      "published": "2026-07-14",
+      "source": "动点科技",
+      "tag": "Startup"
+    },
+    {
+      "title": "68 万元起！腾势 Z 开启国内预售，海外网友已吵翻",
+      "link": "https://www.ifanr.com/1671949?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "百万级的易三方，有着百万级的表现。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-07-13",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "英伟达 AIPC 中国首秀，笔记本里装下一座「曼哈顿」",
+      "link": "https://www.ifanr.com/1671945?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "英伟达想通过定义 AIPC 本身，来切走未来更大的那块蛋糕。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-07-13",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "小米澎程 4 款新车公布，纯电续航最高 380km，N90 露营版要做成房车平替",
+      "link": "https://www.ifanr.com/1671928?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "小米澎程是雷军卖给你的第一套房。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-07-13",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Codex 不限时了，我先删掉了一堆 Skills ｜附 GPT-5.6 官方指南",
+      "link": "https://www.ifanr.com/1671899?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "最后都会回到「人类学工程」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-07-13",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "今年最期待的 AI 手机，要来了",
+      "link": "https://www.ifanr.com/1671872?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "Pixel：糟了糟了，我成 Gemini 替身了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-07-13",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派评 | 近期值得关注的 App",
+      "link": "https://sspai.com/post/112229",
+      "summary": ">下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
+      "published": "2026-07-13",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "具透 Plus：Android 17 的应用内存限制；谈谈 macOS 和 Linux 如何运行可执行文件",
+      "link": "https://sspai.com/prime/story/inside-release-notes-260713",
+      "summary": "聊聊Android17的应用内存限制@克莱德：每隔一段时间，我都会整理一下自己的书桌。毕竟要在一张120×60cm的桌面上放下一块34英寸带鱼屏和一台40L机箱，留给其他常用物件的空间实在不多。前几天 ...查看全文本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+      "published": "2026-07-13",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "依江伴湖，树影连绵：南昌公园散步指南",
+      "link": "https://sspai.com/post/111776",
+      "summary": "这几年，「公园20分钟效应」在社交媒体上热度很高——不用专门运动，只要在公园里待上20分钟，就能排解负面情绪。对于整天困在写字楼和地铁里的都市人来说，公园不再只是城市公共空间，它成了触手可及的精神疗愈 ...查看全文",
+      "published": "2026-07-13",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
+      "link": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Anthropic—currently the world’s most valuable AI company, with a nearly $1 trillion valuation—has a reputation for publishing strange and heady research. It’s loo",
+      "published": "2026-07-13",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The Download: a donor conception cap and world models for AI",
+      "link": "https://www.technologyreview.com/2026/07/13/1140339/the-download-sperm-donor-limits-ai-world-models/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Sperm donors need limits, says a European fertility group Ties van der Meer doesn’t know how many siblings he has. The 47-year-old was conceived at a ",
+      "published": "2026-07-13",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "AWS拟在菲律宾投资最高50亿美元，泰国批准19.9亿美元产业项目｜SEA Now",
+      "link": "https://cn.technode.com/post/2026-07-13/2026-07-07-2026-07-12/",
+      "summary": "过去一周，东南亚科技市场有哪些新动向值得 [&#8230;]",
+      "published": "2026-07-13",
+      "source": "动点科技",
+      "tag": "Startup"
+    },
+    {
+      "title": "你在领英上崇拜的职场大佬，可能只是个 AI",
+      "link": "https://cn.technode.com/post/2026-07-13/ai-content-is-everywhere-on-social-media-especially-linkedin/",
+      "summary": "根据 Pangram 的一项分析，目前社 [&#8230;]",
+      "published": "2026-07-13",
+      "source": "动点科技",
+      "tag": "Startup"
+    },
+    {
+      "title": "苹果造车虽然没成，但他们捞到了顶级 AI 芯片",
+      "link": "https://cn.technode.com/post/2026-07-13/apples-failed-self-driving-car-program-left-a-legacy-of-powerful-ai-chips/",
+      "summary": "苹果的自动驾驶汽车项目从未真正启动，但这 [&#8230;]",
+      "published": "2026-07-13",
+      "source": "动点科技",
+      "tag": "Startup"
+    }
+  ]
+}
