@@ -1,7 +1,143 @@
 {
-  "date": "2026-07-18",
-  "total": 57,
+  "date": "2026-07-19",
+  "total": 51,
   "articles": [
+    {
+      "title": "Waymo says San Francisco service has resumed after one-hour pause",
+      "link": "https://techcrunch.com/2026/07/18/waymo-appears-to-pause-san-francisco-service-amidst-power-outage/",
+      "summary": "This isn’t the first time power outages have caused issues for Waymo.",
+      "published": "2026-07-18",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Kimi: Threat or menace?",
+      "link": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+      "summary": "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\"",
+      "published": "2026-07-18",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "All the EVs that were discontinued or killed off in the U.S. this year",
+      "link": "https://techcrunch.com/2026/07/18/all-the-evs-that-were-discontinued-or-killed-off-in-the-u-s-this-year/",
+      "summary": "Th Honda Prologue will no longer be sold in the U.S., joining a growing list of EV models to exit the market this year.",
+      "published": "2026-07-18",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Federal employees can download TikTok on their work phones again",
+      "link": "https://techcrunch.com/2026/07/18/federal-employees-can-download-tiktok-on-their-work-phones-again/",
+      "summary": "The Department of Justice says that federal employees can now download TikTok on their government devices.",
+      "published": "2026-07-18",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "A 600-mile road trip (and data) proves EV charging doesn’t suck anymore",
+      "link": "https://techcrunch.com/2026/07/18/a-600-mile-road-trip-and-data-proves-ev-charging-doesnt-suck-anymore/",
+      "summary": "A recent road trip in an EV revealed just how much faster and more reliable DC Fast charging has become in the U.S.",
+      "published": "2026-07-18",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Neil Rimer thinks the AI money is coming back out",
+      "link": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+      "summary": "Neil Rimer, the venture capitalist who co-founded Index Ventures, predicts the historic wealth AI is generating in Silicon Valley will have to be redistributed, voluntarily or involuntarily.",
+      "published": "2026-07-18",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Will AI fix prior authorization—or make it worse?",
+      "link": "https://arstechnica.com/ai/2026/07/will-ai-fix-prior-authorization-or-make-it-worse/",
+      "summary": "The government is piloting a program that uses AI for insurance-coverage decisions.",
+      "published": "2026-07-18",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Dave Eggers told OpenAI staff  that ChatGPT was ‘silencing an entire generation’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+      "summary": "Last year, Sam Altman invited author Dave Eggers to give a talk to around 200 OpenAI staffers. The man has written countless novels, screenplays, pieces of journalism, started McSweeney's, and founded multiple schools and nonprofits that support writers and the arts more broadly. So one might expect",
+      "published": "2026-07-18",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Google might not kneecap the Pixel 11a with an old processor",
+      "link": "https://www.theverge.com/tech/967612/google-pixel-11a-tensor-g6-leak",
+      "summary": "Mystic Leaks suggests that the Pixel 11a will return to featuring a flagship-grade processor with the Tensor G6. Rather than the Tensor G5 found in the Pixel 10 and 10 Pro, the Pixel 10a shipped with the previous generation Tensor G4. That was a huge disappointment since, typically, the Pixel a line",
+      "published": "2026-07-18",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Google is open-sourcing its 3D emoji",
+      "link": "https://www.theverge.com/design/967606/google-open-source-3d-emoji",
+      "summary": "Now, if you want to, you can use Google's 3D emoji in your own creations. The company shared some details about how it went about designing the little pictograms and why, as part of World Emoji Day on Friday. Things you might not necessarily worry about in a 2D illustration suddenly become very impo",
+      "published": "2026-07-18",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "GoPro&#8217;s discounted Max 2 bundle includes $100 worth of accessories",
+      "link": "https://www.theverge.com/gadgets/967311/gopro-max2-360-degree-action-cam-accessory-bundle-deal-sale",
+      "summary": "A 360-degree camera is a great way to ensure you capture every bit of the action, but prices tend to be on the high end for models worth your attention. That’s why it’s notable that the GoPro Max 2 accessory bundle is discounted to $369 at Amazon (a dollar more at Best Buy and GoPro). [&#8230;]",
+      "published": "2026-07-18",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The Guardian’s Carter Sherman fondly remembers being terrified by Ocarina of Time",
+      "link": "https://www.theverge.com/report/967583/guardian-carter-sherman-podcast-interview",
+      "summary": "Carter Sherman has been covering sex, gender, and the complex personal and national politics that accompany them for years. She was a senior reporter for Vice and has written for Elle, Ms. magazine, and Los Angeles magazine as well. Along the way, she's garnered a Scripps Howard Award, a National Pr",
+      "published": "2026-07-18",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Surprise! Facial recognition smart locks are actually good",
+      "link": "https://www.theverge.com/tech/967183/best-facial-recognition-smart-locks-review",
+      "summary": "Hands-free unlocking is the future of smart locks. The best smart home tech removes friction, and having your door unlock for you as you walk up is as frictionless as it gets - no passcodes to remember, no need to have a free hand to wave, press, or poke at the lock. One way to [&#8230;]",
+      "published": "2026-07-18",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Sony’s flagship RGB LED TV is incredible",
+      "link": "https://www.theverge.com/tech/966788/sony-bravia-9-ii-tv-review",
+      "summary": "The Sony Bravia 9 II is the most anticipated new TV in years. It's an amazing RGB LED TV. I watched Dungeons &#38; Dragons: Honor Among Thieves on the new Bravia with my son, who has been getting into the roleplaying game but had never seen the movie. The landscapes of Faer&#251;n looked natural and",
+      "published": "2026-07-18",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "More games should be on rails (literally)",
+      "link": "https://www.theverge.com/games/961152/denshattack-review",
+      "summary": "It's been a good few weeks for games on rails. Nintendo's Star Fox remake wisely kept the tightly scripted, action-packed levels from Star Fox 64 largely the same, and they're still fun to fly through nearly 20 years later. Denshattack!, a new game from Undercoders, similarly features levels packed ",
+      "published": "2026-07-18",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "iOS 27 公测版上手：国行 AI 准备好了，但系统流畅更值得升级",
+      "link": "https://www.ifanr.com/1672364?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "有可能成为新一代「钉子户」系统。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-07-18",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "6 台机器人拼长城、首款智能体手机首秀：阶跃把 AI 塞进了现实世界｜WAIC 2026",
+      "link": "https://www.ifanr.com/1672344?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "大模型的下一站，是走出屏幕，自己动手#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-07-18",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
     {
       "title": "早报｜苹果上调Apple Music价格/小米SU7虚假碰撞测评博主被判一年八个月/努比亚、阶跃星辰智能体手机亮相WAIC",
       "link": "https://www.ifanr.com/1672338?utm_source=rss&utm_medium=rss&utm_campaign=",
@@ -27,6 +163,14 @@
       "tag": "Startup"
     },
     {
+      "title": "小米 NAS 拆解与初步上手：它会是你的第一台 NAS 吗？",
+      "link": "https://sspai.com/post/112398",
+      "summary": "小米智能存储最适合两类用户：家里已经有较多米家设备的人，以及小米手机用户。查看全文",
+      "published": "2026-07-18",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
       "title": "Applications close in 48 hours — here’s everything Australian founders need to know about Stripe x Startup Battlefield",
       "link": "https://techcrunch.com/2026/07/17/applications-close-in-48-hours-heres-everything-australian-founders-need-to-know-about-stripe-x-startup-battlefield/",
       "summary": "The window is almost shut. On August 19, eight startups will take the stage at Stripe Tour Sydney in front of investors, global press, and the Australian tech community. One startup walks away with automatic entry into TechCrunch Disrupt in San Francisco — no application, no further competition, a g",
@@ -38,54 +182,6 @@
       "title": "Vertu wants executives to pay $6,880 for an AI agent — here’s how it actually performs",
       "link": "https://techcrunch.com/2026/07/17/vertu-wants-executives-to-pay-6880-for-an-ai-agent-heres-how-it-actually-performs/",
       "summary": "From AI workflows to battery life and security, here's what it's really like to live with Vertu's luxury foldable every day.",
-      "published": "2026-07-17",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "Databricks hits $188B valuation, extending its run as AI’s favorite second act",
-      "link": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
-      "summary": "Databricks has remade its image into an AI company and has published research on the cost savings of open weight AI models for coding.",
-      "published": "2026-07-17",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "The Zoom hack that says, ‘Don’t record me’",
-      "link": "https://techcrunch.com/2026/07/17/the-zoom-hack-that-says-dont-record-me/",
-      "summary": "If every meeting, watercooler conversation, and date gets transcribed and summarized, who's actually reading any of it?",
-      "published": "2026-07-17",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "Agility Robotics plants its flag in Tesla’s backyard",
-      "link": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
-      "summary": "Agility is opening a new training center for its Digit robots in Fremont, California.",
-      "published": "2026-07-17",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "AI-driven memory crunch jolts India’s smartphone market",
-      "link": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/",
-      "summary": "India's smartphone slowdown highlights how the AI boom is reshaping consumer electronics, from pricing and demand to corporate strategy.",
-      "published": "2026-07-17",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "Apple and Google ordered to purge ‘nudify’ apps from App Stores",
-      "link": "https://techcrunch.com/2026/07/17/apple-and-google-ordered-to-purge-nudify-apps-from-app-stores/",
-      "summary": "In letters sent to Apple and Google, San Francisco City Attorney David Chiu said that both companies have long been aware that they are hosting apps in violation of state law.",
-      "published": "2026-07-17",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "Nuclear startup Valar Atomics in talks to raise new funding at $6B valuation",
-      "link": "https://techcrunch.com/2026/07/17/nuclear-startup-valar-atomics-in-talks-to-raise-new-funding-at-6b-valuation/",
-      "summary": "The potential deal highlights a growing trend of complex, multi-stage funding rounds that mask true entry prices.",
       "published": "2026-07-17",
       "source": "TechCrunch",
       "tag": "Startup"
@@ -147,79 +243,7 @@
       "tag": "AI & Tech"
     },
     {
-      "title": "San Francisco orders Apple, Google to remove nudify apps from app stores",
-      "link": "https://arstechnica.com/tech-policy/2026/07/apple-google-must-stop-profiting-off-ai-nudify-apps-san-francisco-ag-says/",
-      "summary": "Official estimates Google and Apple likely made millions in nudify app fees.",
-      "published": "2026-07-17",
-      "source": "Ars Technica",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Taylor Farms pulls iceberg lettuce from the US market after cyclosporiasis outbreak",
-      "link": "https://www.theverge.com/science/967563/cyclospora-taylor-farms-taco-bell-iceberg-lettuce",
-      "summary": "Food producer Taylor Farms released a statement on the Cyclospora outbreak Friday, confirming that it's \"voluntarily removing all iceberg lettuce sourced from central Mexico from the US market.\" Reuters reports that, according to a source, Taylor Farms told customers like Yum Brands owner Taco Bell ",
-      "published": "2026-07-17",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Shark&#8217;s versatile ChillPill cooling system is back to its best price",
-      "link": "https://www.theverge.com/gadgets/967512/shark-chillpill-personal-fan-and-cooling-system-deal-sale",
-      "summary": "Portable fans are one of the easiest ways to stay cool during the summer, and you don&#8217;t have to spend much to find a decent one. If you&#8217;re looking for something more versatile, though, Shark&#8217;s ChillPill Personal Fan and Cooling System combines a rechargeable fan with a dry-touch ev",
-      "published": "2026-07-17",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "TikTok is testing an AI likeness detection tool",
-      "link": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
-      "summary": "TikTok is starting to test an opt-in tool that scans for AI likenesses and lets creators report them to the company, as spotted by social media consultant Matt Navarra. The tool is initially being tested with \"some\" US creators, TikTok US spokesperson Zachary Kizer tells The Verge. YouTube has been ",
-      "published": "2026-07-17",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Pebble founder Eric Migicovsky says his 30-day warranty is all about trust",
-      "link": "https://www.theverge.com/gadgets/967471/pebble-smartwatch-warranty-repairs-migicovsky-interview",
-      "summary": "Pebble founder Eric Migicovsky says buyers of its new e-paper smartwatches should know what they're signing up for and trust Pebble to make things right if they run into issues, despite the short warranty. \"I think the most important thing is trust,\" Migicovsky told me in an interview this week. \"Do",
-      "published": "2026-07-17",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Apple Music is getting a price hike",
-      "link": "https://www.theverge.com/tech/967379/apple-music-price-increase",
-      "summary": "Apple Music is more expensive now. In the US, an individual plan now costs $11.99 per month, a $1 bump up from the previous $10.99 price. A family plan now costs $19.99 per month, up from $16.99, and a student plan costs $6.99 per month, up from $5.99. Apple, in a statement to Music Business [&#8230",
-      "published": "2026-07-17",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Apple’s plot to crush OpenAI",
-      "link": "https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast",
-      "summary": "Apple is suing OpenAI. The complaint is readable and intense, as these things often are, though many experts seem to think many of the allegations are just the ways things are done. So what does Apple really want here, and why is it picking such a public fight with OpenAI? On this episode of The [&#",
-      "published": "2026-07-17",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Asus’ top-end 4K QD-OLED gaming monitor is $400 off",
-      "link": "https://www.theverge.com/gadgets/966907/asus-rog-swift-qd-oled-marathon-steam-deal-sale",
-      "summary": "The Asus ROG Swift 32-inch 4K QD-OLED gaming monitor has almost everything I want in a high-end gaming monitor, most notably a QD-OLED panel for inky black levels and vivid colors that go beyond what’s possible on an LCD screen. Amazon, Best Buy, and B&#38;H Photo have this model on sale for $899.99",
-      "published": "2026-07-17",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Samsung&#8217;s redesigned Z Fold 8 with a wide display just leaked",
-      "link": "https://www.theverge.com/tech/967198/samsung-galaxy-z-fold-8-images-specs-leak",
-      "summary": "Leaker Evan Blass shared images of Samsung's redesigned Galaxy Z Fold 8 just days before the July 22nd launch event where Samsung is expected to officially announce the phone. The leaked images show a shorter, wider foldable matching earlier leaks of the Z Fold 8. They also reveal some of its specs,",
-      "published": "2026-07-17",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "不听劝的阶跃闯进手机战场，造一台为人机共生的终端｜WAIC",
+      "title": "不听劝的阶跃闯进手机战场，造一台为人机共生的终端｜WAIC 2026",
       "link": "https://www.ifanr.com/1672281?utm_source=rss&utm_medium=rss&utm_campaign=",
       "summary": "现在是最好的试错时机。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "published": "2026-07-17",
@@ -383,78 +407,6 @@
       "link": "https://cn.technode.com/post/2026-07-17/netflix-says-its-already-used-ai-in-roughly-300-titles-this-year/",
       "summary": "Netflix 对人工智能的兴趣毫不掩饰 [&#8230;]",
       "published": "2026-07-17",
-      "source": "动点科技",
-      "tag": "Startup"
-    },
-    {
-      "title": "24.98 万元，新一代理想 L6 上市：51kWh 大电池、旗舰芯片下放，开始补操控这一课",
-      "link": "https://www.ifanr.com/1672196?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "六边形战士回来了。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "published": "2026-07-16",
-      "source": "爱范儿",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "实测灵犀专业版，AI 成为下一代办公入口",
-      "link": "https://www.ifanr.com/1672096?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "办公 AI，能真交付才算数#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "published": "2026-07-16",
-      "source": "爱范儿",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "新玩意 246｜少数派的编辑们最近买了啥？",
-      "link": "https://sspai.com/post/112400",
-      "summary": "编注：很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。内容声明：《新玩意》栏目如含有 ...查看全文",
-      "published": "2026-07-16",
-      "source": "少数派",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Apple 高校优惠活动开始了，今年有些不一样",
-      "link": "https://sspai.com/post/112386",
-      "summary": "又到了一年一度的Apple高校优惠活动季，高校师生们可以在活动期间，购买指定型号iPad或Mac设备，获得指定配件产品，享受到限时的教育优惠+买赠活动。与往年不同的是，今年的Apple高校优惠活动不论 ...查看全文",
-      "published": "2026-07-16",
-      "source": "少数派",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "具透 | macOS 27 首个公开测试版来了，这些是值得你关注的新特性",
-      "link": "https://sspai.com/post/112375",
-      "summary": "全面 ARM 化后的第一个 macOS 版本，Golden Gate 27 还有这些变化。查看全文",
-      "published": "2026-07-16",
-      "source": "少数派",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "翻译「世界杯」的赛事名称，为什么中文比日文更简洁？",
-      "link": "https://sspai.com/post/111086",
-      "summary": "国名也好、赛事名称也好，日语走上了片假名这条路——那为什么日本人不能像中文一样，直接造出「美加墨W杯」这样的简称？查看全文",
-      "published": "2026-07-16",
-      "source": "少数派",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "The Download: OpenAI unveils GPT-Red and heat pumps rise in the US",
-      "link": "https://www.technologyreview.com/2026/07/16/1140600/the-download-openai-unveils-gpt-red-heat-pumps-rise-us/",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring",
-      "published": "2026-07-16",
-      "source": "MIT Tech Review",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Why heat pumps are still so hot in the US",
-      "link": "https://www.technologyreview.com/2026/07/16/1140505/heat-pump-sales-us/",
-      "summary": "It feels as if it should be illegal to even think about heating appliances during the height of summer—seriously, these heat waves in New York have been brutal—but we need to talk about heat pumps. The appliances use electricity for heating, they’re incredibly efficient, and they’re on the rise. (Fo",
-      "published": "2026-07-16",
-      "source": "MIT Tech Review",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "苹果也坐不住了，据称其正全球物色 AI 芯片公司",
-      "link": "https://cn.technode.com/post/2026-07-16/apple-is-reportedly-shopping-for-ai-chip-companies/",
-      "summary": "苹果公司通常不会大手笔收购其它公司，但随 [&#8230;]",
-      "published": "2026-07-16",
       "source": "动点科技",
       "tag": "Startup"
     }
