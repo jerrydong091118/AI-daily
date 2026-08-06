@@ -1,0 +1,406 @@
+{
+  "date": "2026-08-06",
+  "total": 50,
+  "articles": [
+    {
+      "title": "Elon Musk&#8217;s attempt at an AI Wikipedia hasn&#8217;t been updated in months",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
+      "summary": "xAI's Grokipedia, an online encyclopedia with AI-generated articles that Elon Musk once promised would be a \"massive improvement\" over Wikipedia, apparently hasn't been updated since April 24th, according to a report from Lawfare. \"As far as we can tell, no entry has changed in more than three month",
+      "published": "2026-08-06",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "早报｜余承东:手机之后可能都要大规模涨价/长鑫存储拒绝苹果压价/普华永道专业报告被测出100%由AI生成",
+      "link": "https://www.ifanr.com/1674104?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 苹果首款折叠屏 iPhone Ultra 渲染图及规格曝光：配备 7.8 英寸内屏与 2nm A20 芯片\n· Anthropic 组建 Claude 芯片设计团队\n· 宇树科技科创板 IPO 开启初步询价#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-06",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：华为发布尊界 MPV 及多款新品等",
+      "link": "https://sspai.com/post/113110",
+      "summary": "英伟达宣布 Alpamayo 2 Super AI 开放商用、NVM Express 发布十一项规范集更新等。查看全文",
+      "published": "2026-08-06",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "传 DeepSeek 重启融资；华为余承东：手机之后可能都要大规模涨价；首例破坏 AI 模型刑案宣判，程序员「删库跑路」获刑",
+      "link": "http://www.geekpark.net/news/368444",
+      "summary": "传 DeepSeek 重启融资\n据多名交易人士透露，大模型公司 DeepSeek 重启了第二轮融资，本轮计划募资 500 亿元，投前估值约 5000 亿元，并计划将在 8 月下旬完成签约。\n多位投资人提到，DeepSeek 第二轮融资至少在 7 月中旬就已开启，但在 7 月底突然暂停，当时一些谈判候补名单上的投资人被告知签署融资协议的计划暂缓。\n据介绍，DeepSeek 和正在谈判桌上的投资人们希望这次融资在重启后能低调进行。目前，一些此前积极接触的投资机构表示，他们还没有接到 DeepSeek 重启融资的消息，通道仍处在暂缓状态。（来源：财经）\n\nAnthropic 证实正在组建内部芯片团队",
+      "published": "2026-08-06",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Get up to $400 off your TechCrunch Disrupt 2026 pass until Friday",
+      "link": "https://techcrunch.com/2026/08/05/get-up-to-400-off-your-techcrunch-disrupt-2026-pass-until-friday/",
+      "summary": "Starting today, you can take an additional $100 off your founder, investor, or attendee TechCrunch Disrupt 2026 pass, which is a nice bonus on top of our current discounted pricing.",
+      "published": "2026-08-05",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Nikita Bier steps down as X’s head of product",
+      "link": "https://techcrunch.com/2026/08/05/nikita-bier-steps-down-as-xs-head-of-product/",
+      "summary": "The serial entrepreneur is stepping down a little over a year after taking the \"24/7 job\" of overseeing X.",
+      "published": "2026-08-05",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Travis Kalanick’s robotics startup Atoms taps former Uber finance chief as CFO",
+      "link": "https://techcrunch.com/2026/08/05/travis-kalanicks-robotics-startup-atoms-taps-former-uber-finance-chief-as-cfo/",
+      "summary": "Kalanick continues to get the band back together, after acquiring Anthony Levandowski's autonomy startup, and even soliciting investment from Uber.",
+      "published": "2026-08-05",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Meta launches Muse Code, an AI agent for large code bases",
+      "link": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+      "summary": "Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.",
+      "published": "2026-08-05",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Trump’s DOJ gains oversight of OpenAI’s green-card employee sponsorships",
+      "link": "https://techcrunch.com/2026/08/05/trumps-doj-gains-oversight-of-openais-green-card-employee-sponsorships/",
+      "summary": "The DOJ alleged that OpenAI did not meaningful attempt to hire U.S. citizens before seeking permanent residence for Visa-holding employees.",
+      "published": "2026-08-05",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Moove raises $250M to become the backbone of the robotaxi industry",
+      "link": "https://techcrunch.com/2026/08/05/moove-raises-250m-to-become-the-backbone-of-the-robotaxi-industry/",
+      "summary": "Moove is scaling up the autonomous vehicle fleet management side of its business and plans to someday own, not just manage, Waymo robotaxis.",
+      "published": "2026-08-05",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "How Lightspeed found its newest hire … via Instagram DM",
+      "link": "https://techcrunch.com/2026/08/05/how-lightspeed-found-its-newest-hire-via-instagram-dm/",
+      "summary": "Lightspeed partners Josh Machiz and Claire Zau stopped by the Equity studio to talk about the strategies behind their growing social media presence and their podcast, Lightwork.",
+      "published": "2026-08-05",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Why Lightspeed is going all-in on creator-led venture capital",
+      "link": "https://techcrunch.com/video/why-lightspeed-is-going-all-in-on-creator-led-venture-capital/",
+      "summary": "Venture firms are turning to creators to build trust with the next generation of founders before a check is ever written.&#160;It&#8217;s&#160;a trend&#160;that&#8217;s&#160;been building with&#160;a16z&#8217;s acquisition&#160;of Erik Torenberg’s Turpentine podcast and&#160;OpenAI&#8217;s acquisiti",
+      "published": "2026-08-05",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Thousands of servers can be backdoored by exploiting buggy motherboard controllers",
+      "link": "https://arstechnica.com/security/2026/08/thousands-of-servers-can-be-backdoored-by-exploiting-buggy-motherboard-controllers/",
+      "summary": "Baseboard management controllers from the world's biggest manufacturers are a security mess.",
+      "published": "2026-08-05",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Schwartz confirmed as CDC director after bungling confirmation hearing",
+      "link": "https://arstechnica.com/health/2026/08/schwartz-confirmed-as-cdc-director-after-bungling-confirmation-hearing/",
+      "summary": "Schwartz is well-qualified for the role, but crashed and burned in Senate hearing.",
+      "published": "2026-08-05",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+      "link": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
+      "summary": "Anthropic and OpenAI models’ unprompted actions forced halt to UK cyber tests.",
+      "published": "2026-08-05",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Reddit signals ominous upcoming \"changes” for old.reddit.com",
+      "link": "https://arstechnica.com/gadgets/2026/08/reddit-signals-ominous-upcoming-changes-for-old-reddit-com/",
+      "summary": "Reddit says the beloved site is used for some \"bad behavior.\"",
+      "published": "2026-08-05",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Hank Green found the AI problem that YouTube labels can’t catch",
+      "link": "https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/",
+      "summary": "\"Slop\" isn't the only problem.",
+      "published": "2026-08-05",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "SpaceX claims Starlink Mobile will be better than AT&T, T-Mobile, and Verizon",
+      "link": "https://arstechnica.com/tech-policy/2026/08/spacex-claims-starlink-mobile-will-be-better-than-att-t-mobile-and-verizon/",
+      "summary": "SpaceX won't build large cell towers but plans small base stations across US.",
+      "published": "2026-08-05",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "This Atlantic hurricane season is looking like a dud, but there will be a price to pay",
+      "link": "https://arstechnica.com/science/2026/08/this-atlantic-hurricane-season-is-looking-like-a-dud-but-there-will-be-a-price-to-pay/",
+      "summary": "\"The models are forecasting something outside the envelope of anything we have ever observed.\"",
+      "published": "2026-08-05",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Google's AI shake-up: DeepMind's Hassabis steps aside, senior scientists depart",
+      "link": "https://arstechnica.com/gadgets/2026/08/googles-ai-shakeup-deepminds-hassabis-steps-aside-senior-scientists-depart/",
+      "summary": "Google's AI brain drain continues.",
+      "published": "2026-08-05",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "X product chief Nikita Bier is leaving after one year",
+      "link": "https://www.theverge.com/tech/975955/x-twitter-nikita-bier-leaving",
+      "summary": "X head of product Nikita Bier is stepping down and says he will move into a role as an advisor, writing that \"it's time to pass the torch and demote myself to my natural state: a poster.\" He shared the update just over a month after celebrating his one-year anniversary on the job, and just [&#8230;]",
+      "published": "2026-08-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Two of Ring&#8217;s latest video doorbells are a lot cheaper than usual",
+      "link": "https://www.theverge.com/gadgets/975723/ring-wired-doorbell-pro-battery-doorbell-plus-deal-sale",
+      "summary": "Ring&#8217;s Wired Doorbell Pro and Battery Doorbell Plus are two of the brand&#8217;s most well-rounded video doorbells, whether you&#8217;re looking for a hardwired model or one that runs on a battery. Right now, its Wired Doorbell Pro is down to $199 ($50 off) at Amazon and Best Buy, while the Ba",
+      "published": "2026-08-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Uber CEO brushes off reports of a Waymo break-up",
+      "link": "https://www.theverge.com/transportation/975651/uber-ceo-earnings-waymo-partnership",
+      "summary": "After Uber and Waymo ended their partnership in Phoenix earlier this year, experts and robotaxi watchers wondered whether the companies' improbable bromance was fraying. Not so, Uber CEO Dara Khosrowshahi said today. The two companies are committed to continue working together in Atlanta and Austin,",
+      "published": "2026-08-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Apple’s selling refurbished MacBook Neos with a $100 discount",
+      "link": "https://www.theverge.com/gadgets/975603/refurbished-apple-macbook-neo-google-wireless-charger-deal-sale",
+      "summary": "Apple’s most affordable laptop, the MacBook Neo, is available once again at its pre-price hike price. All four colors are currently discounted and available refurbished through the company, with the base 256GB model listed for $599 (usually $699 new), and the upgraded version with 512GB of storage a",
+      "published": "2026-08-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Sure seems like Fenix Flexin used AI music generator Treblo",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
+      "summary": "We were pretty sure that Fenix Flexin's \"Rubberz\" was made using AI, but musician Medasin was confident that it was made using Treblo specifically. Now the company and a new detection tool seem to confirm it. On Monday, the company announced the open-source Treblo AI Music Classifier, which detects ",
+      "published": "2026-08-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Google just announced a major shakeup of its top AI leadership",
+      "link": "https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
+      "summary": "Google is making some significant AI leadership changes, including a major shift for Google DeepMind leader Demis Hassabis. Hassabis will become the chair of Google DeepMind and the chief scientist at Alphabet, CEO Sundar Pichai announced on Wednesday. Hassabis will continue to lead Alphabet's Isomo",
+      "published": "2026-08-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "SpaceX is barely Space and mostly X",
+      "link": "https://www.theverge.com/science/975545/spacex-x-earnings-ai-data-centers-compute-space",
+      "summary": "Once, I had some questions about why SpaceX, Elon Musk's healthiest company, acquired xAI, his sickliest one. Now I have some questions about why we're calling the whole thing SpaceX. Look, what we have here, by revenue, is primarily a telecom company and a company that rents compute, according to S",
+      "published": "2026-08-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "华为全场景新品齐发，尊界 V800 领航版售价破百万，埃尔法们的加价生意不好做了",
+      "link": "https://www.ifanr.com/1674060?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "尊界整顿百万级 MPV 市场。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-05",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "MacBook Air 快断货了，等等党不能再等了",
+      "link": "https://www.ifanr.com/1674038?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "《地主家也没有余粮了 II》#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-05",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "8GB 内存也能跑 Kimi K3？2026 本地部署大模型配置全指南",
+      "link": "https://www.ifanr.com/1673990?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "本地 AI 设备会越来越贵吗#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-05",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "31.98 万元的腾势 Z9S，开始为腾势「去登味」",
+      "link": "https://www.ifanr.com/1673908?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "但一辆 Z9S，解决不了腾势的问题。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-05",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "早报｜OpenAI发文回击苹果:你做错了/我国发布L3、L4自动驾驶国标/鸿蒙智行回应「竹知了」事件",
+      "link": "https://www.ifanr.com/1673981?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 大众汽车启动史上最大规模重组，计划削减四分之一产能\n· 苹果拟为欧盟 iPhone 与 Windows 加入跨设备剪贴板\n· Telegram 短暂下架 App Store 后重新上架#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-05",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "196 张盗版碟，和我的游戏启蒙史",
+      "link": "https://sspai.com/post/112831",
+      "summary": "游戏首先要传播出去才会具备被用户接受和讨论的价值，那些曾经陪伴你我的盗版游戏，是否也为今天的你埋下过一颗种子？查看全文",
+      "published": "2026-08-05",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Bookology：从藏书到笔记，打造你的私人阅读档案",
+      "link": "https://sspai.com/post/112953",
+      "summary": "作为长期阅读的用户，多年以来，我一直在使用Kindle、AppleBooks、PDF等多种工具读书。在管理阅读方面，我使用多款应用来进行：管理书籍我使用的是Calibre；追踪阅读和数据统计，我使用计 ...查看全文",
+      "published": "2026-08-05",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "角落新声｜桌面音箱进化史：换了 4 套搭配，我才明白自己的「心声」",
+      "link": "https://sspai.com/post/112891",
+      "summary": "从最初放个音箱响了就行的混沌，到后来对摆位与频响的死磕，这篇文章记录的，是我如何在这 1 平米的空间里，通过对声音和设备的不断调整，一步步厘清并重构自己精神生活一角的全过程。查看全文",
+      "published": "2026-08-05",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：OPPO A7 Pro Max 发布、CMF 推出开放式耳机 Clip Pro 等",
+      "link": "https://sspai.com/post/113087",
+      "summary": "索尼发布 FE 100-400mm F5.6-8 OSS 全画幅超远摄变焦镜头，国内航线燃油附加费下调等。查看全文",
+      "published": "2026-08-05",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "办公 Agent 爆火，模型大战进入下一阶段",
+      "link": "http://www.geekpark.net/news/368429",
+      "summary": "作者｜Cynthia \n编辑｜ 靖宇\n&nbsp;\n从今年 6 月到 8 月初，短短不到 60 天时间，有一件事几乎同时在新 BAT 发生。\n先是 6 月，阿里率先开启内部 Agent 的产品线与能力大整合，到 8 月 3 日，官宣在编程（Coding）和专业办公（Cowork）能力大幅提升的 Qwen3.8 模型的同时，正式将内部孵化的三款 Agent 产品 QoderWork、悟空、MuleRun 合并为统一的 Agent 产品「千问办公」。\n紧随其后，7 月 20 日，腾讯开启业务整合，QClaw 的相关业务和团队被并入 WorkBuddy 体系。\n10 天后的 7 月 30 日， 字节",
+      "published": "2026-08-05",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "鸿蒙智行发布「竹知了」相关情况说明；小红书封禁 AI 毒动画，未成年陪聊等 10 万账号；马斯克财富缩水2.45万亿元｜极客早知道",
+      "link": "http://www.geekpark.net/news/368389",
+      "summary": "​鸿蒙智行发布「竹知了」相关情况说明\n\n8 月 4 日晚，@ 鸿蒙智行发言人 发布关于近期「竹知了」相关网络信息的情况说明。\n\n鸿蒙智行表示：长期以来，网络上持续存在恶意剪辑、仿冒相关高管声音、利用 AI 丑化肖像、虚假归因、侮辱诽谤等侵害个人合法权益的内容。我们一直依法开展日常取证和投诉。本次投诉是日常维权工作的一部分，针对的是具体侵权内容，并非针对「竹知了」玩具。\n截至 8 月 4 日晚，共监测到相关网络信息累计 5.6 万余条。我们实际对其中 171 条具体侵权内容发起投诉，平台反馈下架 144 条。\n经多部门复核，相关投诉均有明确侵权事实和留存证据，不存在仅为正常把玩、制作、展示或者销",
+      "published": "2026-08-05",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Puzzle Corner",
+      "link": "https://www.technologyreview.com/2026/08/05/1141230/puzzle-corner-84/",
+      "summary": "Ready for a fresh set of puzzles? Click here for the September/October 2026 Puzzle Corner, brought to you by Michael S. Branicky, ScD ’95, of the Puzzle Corner Puzzle Crew (aka PC2), which also includes Edward Faulkner ’03, MEng ’04, and Abe Kunin ’03. This column includes solutions to the May/June ",
+      "published": "2026-08-05",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The Download: NASA’s new telescope and Chinese tech import curbs",
+      "link": "https://www.technologyreview.com/2026/08/05/1141212/the-download-nasa-telescope-chinese-tech-import-curbs/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. NASA’s new dark energy space telescope can also detect killer asteroids   At the end of August, NASA is set to launch the Nancy Grace Roman Space Tele",
+      "published": "2026-08-05",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "NASA’s new dark-energy space telescope can also detect killer asteroids",
+      "link": "https://www.technologyreview.com/2026/08/05/1141200/nasas-roman-telescope-detect-asteroids/",
+      "summary": "At the end of August, NASA is set to launch the Nancy Grace Roman Space Telescope from Kennedy Space Center in Florida. Its goal is to help us better understand how the universe works, from the glue-like dark matter that keeps galaxies together to the elusive dark energy that drives the expansion of",
+      "published": "2026-08-05",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "深度｜开源大模型的「奥本海默时刻」",
+      "link": "https://www.ifanr.com/1673954?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "极致的智力，终将摧毁一切？#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-04",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "中国奥委会与李宁品牌联合发布了亚运会中国代表团领奖装备，背后有中国航天的技术",
+      "link": "https://www.ifanr.com/1673939?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "领奖装备的科技含量具有象征意义，也有现实意义。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-04",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "敬畏热度、保持热情：如何在夏季坚持跑步",
+      "link": "https://sspai.com/post/74342",
+      "summary": "无论你是初跑者，还是跑步老手，相信这份「夏季跑步指南」都能帮助到你。查看全文",
+      "published": "2026-08-04",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "家庭饮品 DIY 指南（三）：常用固体物料推荐",
+      "link": "https://sspai.com/prime/story/home-made-beverages-3",
+      "summary": "往期文章：（一）工欲善其事，必先利其器（二）常用液体物料推荐之前说的液体物料只是把最常用的几类跟大家分享一下，其实还有非常多好喝的好用的液体物料无法一一说明，后边配方中如果需要会顺带介绍。这篇聊一聊固 ...查看全文本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+      "published": "2026-08-04",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "社区速递 152 | 派友的固定回购清单、治愈系果壳风铃与超轻薄迷你风扇",
+      "link": "https://sspai.com/post/113060",
+      "summary": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文",
+      "published": "2026-08-04",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "飞书并入豆包：字节跳动的一次目标重塑",
+      "link": "http://www.geekpark.net/news/368374",
+      "summary": "&nbsp;\n头图来源：视觉中国\n&nbsp;\n7 月 30 日，字节跳动下发内部邮件，完成了近年来力度最大的一次 ToB 业务架构调整：飞书产品团队与豆包产品团队整合，成立新的豆包产品团队，由豆包负责人赵祺统筹，飞书负责人谢欣向其汇报；飞书商业化团队则与火山引擎整合，成立新的 ToB GTM 组织「创造力服务平台」，由火山引擎负责人谭待负责。\n关于这次调整，字节暂时还没有对外给出系统性的解读，但如果我们站在今天这个时间节点去观察，这件事可能并不只是一次简单的部门合并、汇报关系变化或者组织架构调整，而有可能是飞书自诞生以来最根本的一次使命转向。\n这件事背后，既藏着字节对 AI 未来的战略下注，",
+      "published": "2026-08-04",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "互联网流量，崩塌了",
+      "link": "http://www.geekpark.net/news/368373",
+      "summary": "作者｜Wildcard\n编辑｜靖宇\n&nbsp;\n2026 年一季度，百度 App 月活跃用户降至 6.55 亿，同比下降 10%。\n百度不是一个普通的 App，在过去 20 年的中国互联网里，「百度一下」几乎是「上网搜东西」的同义词。它是流量的起点、信息的入口、无数网站赖以生存的「水龙头」。\n但是，在 AI 时代&mdash;&mdash; 用户越来越倾向于直接从 AI 助手获取答案，而不是通过搜索引擎点击链接。\n环球同此凉热。\n在太平洋的另一边，同样的剧本正在以更剧烈的方式上演。一场波及整个互联网的「流量大崩塌」正在发生。\n而人们，并不在意。\n01\n无人生还\n2026 年 3 月，分析公司",
+      "published": "2026-08-04",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "传新 iPhone 最高涨价 1350 元；阿里发 Qwen3.8，2.4 万亿参数；DuckDuckGo 推「反科技」太阳镜",
+      "link": "http://www.geekpark.net/news/368341",
+      "summary": "白宫拟召集 OpenAI 和 Anthropic 等巨头，讨论 AI 模型安全测试框架\n据五位知情人士透露，特朗普政府已邀请 OpenAI、谷歌、Anthropic 等大型科技企业工作人员于周二前往白宫，审议人工智能监管框架最终版本。该框架将设立一套自愿性机制，要求人工智能实验室在向合作方及公众推出模型前，向政府提交相关模型。\n今年 6 月初的行政命令要求在 8 月 1 日前完成框架制定，本次会议定于该期限结束数日之后召开。另一名消息人士称，会议由行政分支下属的国家网络总监办公室主办，邀请函写明，会议将探讨该框架后续推进方案，同时商议一项尚未披露的相关活动。\n两名知情人士表示，参会代表为企业中",
+      "published": "2026-08-04",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "The Download: US robot restrictions and ICE’s DNA grab",
+      "link": "https://www.technologyreview.com/2026/08/04/1141098/the-download-robot-restrictions-ice-dna/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Trump’s AI protectionism has come for robotics   —James O’Donnell&#160; Humanoid robots usually elicit more cringe than awe: They&#160;stumble,&#160;k",
+      "published": "2026-08-04",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    }
+  ]
+}
