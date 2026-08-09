@@ -1,7 +1,119 @@
 {
-  "date": "2026-08-08",
-  "total": 51,
+  "date": "2026-08-09",
+  "total": 46,
   "articles": [
+    {
+      "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
+      "link": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+      "summary": "As part of a planned Texas data center, Amazon is investing in an on-site power plant that could reportedly become the largest source of climate pollution in the United States.",
+      "published": "2026-08-08",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "OpenAI acquires presentation startup NextSlide",
+      "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "summary": "NextSlide says its team members are now working on ChatGPT.",
+      "published": "2026-08-08",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "X replaces ‘misaligned’ revenue sharing program with Original Content Rewards",
+      "link": "https://techcrunch.com/2026/08/08/x-replaces-misaligned-revenue-sharing-program-with-original-content-rewards/",
+      "summary": "X is winding down its existing Revenue Sharing program.",
+      "published": "2026-08-08",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "The Kindle Scribe Colorsoft is a lot of fun, but it’s not a must-have",
+      "link": "https://techcrunch.com/2026/08/08/the-kindle-scribe-colorsoft-is-a-lot-of-fun-but-its-not-a-must-have/",
+      "summary": "While the device is pretty and lightweight, it’s not something the everyday person needs due to its hefty price tag and size.",
+      "published": "2026-08-08",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Google’s top hacker hunter explains why hacking groups get codenames",
+      "link": "https://techcrunch.com/2026/08/08/googles-top-hacker-hunter-explains-why-hacking-groups-get-codenames/",
+      "summary": "Google recently changed how it refers and assigns names to hacking groups. TechCrunch spoke with one of the world’s foremost experts on tracking hackers to understand why companies give hackers codenames.",
+      "published": "2026-08-08",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "The first self-driving vehicle on Mars has proven to be a smashing success",
+      "link": "https://arstechnica.com/space/2026/08/the-first-self-driving-vehicle-on-mars-has-proven-to-be-a-smashing-success/",
+      "summary": "About 90 percent of the distance driven by Perseverance has been autonomous.",
+      "published": "2026-08-08",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "DeepMind’s hurricane breakthrough has surprised weather scientists",
+      "link": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
+      "summary": "Open source WeatherNext model can make accurate predictions with lower-resolution weather data.",
+      "published": "2026-08-08",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "X replaces its revenue-sharing program with ‘Original Content Rewards’",
+      "link": "https://www.theverge.com/tech/977143/x-revenue-sharing-original-content-rewards",
+      "summary": "X is ending its controversial revenue-sharing program for content creators, which has seen numerous revisions under Elon Musk's reign. In its place, it's launching a new Original Content Rewards program on September 8th. To be eligible, creators must have at least 500 verified followers and at least",
+      "published": "2026-08-08",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "An Amazon data center could have the worst polluting power plant in the country",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
+      "summary": "To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to the New York Times. The new gas-burning plant in Pecos County, Texas has received significant investment",
+      "published": "2026-08-08",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Buc-ee’s dodges John Oliver to sue another small business",
+      "link": "https://www.theverge.com/business/977112/buc-ees-john-oliver-lawsuit-beaver-mini-mart",
+      "summary": "Buc-ee's became something of a viral sensation during the World Cup, but it has a troubling history of suing small gas stations and convenience stores. On a recent episode of Last Week Tonight, John Oliver literally begged the company to sue him for selling merch featuring his squirrel mascot, Mr. N",
+      "published": "2026-08-08",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Musician and entrepreneur Tom Vek is building a digital music player, but don’t call it retro",
+      "link": "https://www.theverge.com/report/976872/tom-vek-musician-entrepreneur-sleevenote-interview",
+      "summary": "Tom Vek burst onto the scene in 2005 with his album We Have Sound, which garnered a solid 7.6 from the tastemakers of the day over at Pitchfork. His undeniably catchy brand of dancy indietronica landed him an appearance on The OC and placement on the Grand Theft Auto IV soundtrack. His follow-up, Le",
+      "published": "2026-08-08",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Is this $450 laptop from an unknown brand too good to be true?",
+      "link": "https://www.theverge.com/tech/977031/chuwi-unibook-laptop-intel-wildcat-lake-review",
+      "summary": "Finding a good laptop under $500 was hard enough before RAMageddon. They nearly always had cheap hardware and underpowered, often outdated chips. That's what made the MacBook Neo so disruptive: It offered great build quality and good-enough performance starting at $599. Windows laptops couldn't touc",
+      "published": "2026-08-08",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "My favorite feel-good show is back",
+      "link": "https://www.theverge.com/tech/977084/ted-lasso-bose-tony-installer",
+      "summary": "Hi, friends! Welcome to Installer No. 139, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, barbecue sauce, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about Johnny Knoxville and Google Zero and the histor",
+      "published": "2026-08-08",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Nitecore’s latest power bank is the lightest and most compact yet",
+      "link": "https://www.theverge.com/tech/976506/nitecore-nb10000-gen4-review-adventure-battery",
+      "summary": "There's two things you should know about me, your intrepid reviewer: I hate the feature creep associated with modern power banks, and I love shaving grams off the gear I carry when backpacking, bikepacking, and trail running. So imagine my delight when Nitecore released a new generation of its ultra",
+      "published": "2026-08-08",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
     {
       "title": "早报｜微信上线「撤回的撤回」/苹果上调多款设备以旧换新回收价/曝字节开始预训练10万亿参数大模型",
       "link": "https://www.ifanr.com/1674478?utm_source=rss&utm_medium=rss&utm_campaign=",
@@ -9,6 +121,22 @@
       "published": "2026-08-08",
       "source": "爱范儿",
       "tag": "AI & Tech"
+    },
+    {
+      "title": "就内容创作而言，说话还是替代不了打字",
+      "link": "https://sspai.com/post/112901",
+      "summary": "创作本就不是一个「速度为先」的行为——而打字，本质上是一个思考的过程。查看全文",
+      "published": "2026-08-08",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "苹果删除Apple智能接入阿里千问页面；苹果或近期上调 iPhone17 价格；5 年后 AI 网络流量是人类 1000 倍",
+      "link": "http://www.geekpark.net/news/368577",
+      "summary": "苹果中国官网删除 Apple 智能接入阿里千问使用手册\n8 月 9 日消息，8 月 8 日，一篇名为《在 Mac 上配合 Apple 智能使用千问》的支持文档现身苹果官网 Mac 简体中文使用手册，其中明确提到 Apple 智能可配合阿里巴巴千问模型工作。然而，现在这份中文操作手册已从苹果官网被删除，原网页链接无法正常访问。\n据苹果官网此前所述，千问扩展适用于 macOS 26.6 或更高版本，用户满足以下三种情形之一可以开启：位于中国大陆且 Apple 账户国家或地区需为中国大陆、Mac 机型是中国大陆版本、物理位置位于中国大陆且尚未登陆 Apple 账户。\n同时，用户可前往 macOS 的",
+      "published": "2026-08-08",
+      "source": "极客公园",
+      "tag": "Startup"
     },
     {
       "title": "王兴兴回应 DeepSeek 投资宇树：将展开重点合作；微信内测朋友圈 AI 新功能；美国科学家首次用AI设计出新型病毒｜极客早知道",
@@ -38,46 +166,6 @@
       "title": "Wacom’s MovinkPad 11 is a fun, midpriced entry point for digital artists",
       "link": "https://techcrunch.com/2026/08/07/wacoms-movinkpad-11-is-a-fun-and-mid-priced-entry-point-for-digital-artists/",
       "summary": "The MovinkPad 11 a versatile little graphics tablet that can help make your wildest digital art dreams come true.",
-      "published": "2026-08-07",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "Security researchers scanned the Polish web and found courts, hospitals, and airports at risk of hacks",
-      "link": "https://techcrunch.com/2026/08/07/security-researchers-scanned-the-polish-web-and-found-courts-hospitals-and-airports-at-risk-of-hacks/",
-      "summary": "Researchers found common points of failure, like software used to organize and display web content, could have allowed hackers to run riot through government websites.",
-      "published": "2026-08-07",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
-      "link": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
-      "summary": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.",
-      "published": "2026-08-07",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "Computer maker Framework notifies ‘all customers’ of a data breach",
-      "link": "https://techcrunch.com/2026/08/07/computer-maker-framework-notifies-all-customers-of-a-data-breach/",
-      "summary": "Framework told \"all\" of its customers that hackers accessed their names, email addresses, phone numbers, and physical addresses in a data breach.",
-      "published": "2026-08-07",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "Today’s the last day to get up to $400 off your TechCrunch Disrupt 2026 ticket",
-      "link": "https://techcrunch.com/2026/08/07/todays-the-last-day-to-get-up-to-400-off-your-techcrunch-disrupt-2026-ticket/",
-      "summary": "Starting today, you can take an additional $100 off your founder, investor, or attendee TechCrunch Disrupt 2026 pass, which is a nice bonus on top of our current discounted pricing.",
-      "published": "2026-08-07",
-      "source": "TechCrunch",
-      "tag": "Startup"
-    },
-    {
-      "title": "Trump administration has spent nearly $4B to cancel offshore wind farms",
-      "link": "https://techcrunch.com/2026/08/07/trump-administration-has-spent-nearly-4b-to-cancel-offshore-wind-farms/",
-      "summary": "The Trump administration has now convinced developers to abandon 12 offshore wind leases. The latest will cost taxpayers $1.2 billion.",
       "published": "2026-08-07",
       "source": "TechCrunch",
       "tag": "Startup"
@@ -131,81 +219,9 @@
       "tag": "AI & Tech"
     },
     {
-      "title": "OpenAI’s expensive smart speaker will use moving parts to seem “more alive”",
-      "link": "https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive/",
-      "summary": "Gurman report claims OpenAI confirmed the speaker is not an Apple ripoff.",
-      "published": "2026-08-07",
-      "source": "Ars Technica",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "How snails engineer their slime",
-      "link": "https://arstechnica.com/science/2026/08/how-snails-engineer-their-slime/",
-      "summary": "Collagen and calcium work in tandem to achieve varying mechanical properties of different kinds of mucus.",
-      "published": "2026-08-07",
-      "source": "Ars Technica",
-      "tag": "AI & Tech"
-    },
-    {
       "title": "The gaming site sponsored by Walmart lays off its editorial staff",
       "link": "https://www.theverge.com/games/977056/restart-gaming-site-walmart-moonrock-layoffs",
       "summary": "Restart, a games media website launched in late 2024 that was sponsored by Walmart, has laid off its \"entire editorial team,\" according to a Friday post from Brandy Berthelson, the site's former editor-in-chief. Other staffers have also posted about being laid off. Restart is operated by Moonrock, a",
-      "published": "2026-08-07",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
-      "summary": "It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI de",
-      "published": "2026-08-07",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Watching Roku’s AI channel is like eating from a trough",
-      "link": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
-      "summary": "The appeal of free ad-supported streaming television (FAST) channels has always been the way they make it easier to (re)discover classic films and series. But Roku's latest experiment in the FAST space has less to do with traditionally produced entertainment and is entirely focused on giving viewers",
-      "published": "2026-08-07",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-      "summary": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face. Anthropic and Meta have al",
-      "published": "2026-08-07",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "The only instant cameras worth your money",
-      "link": "https://www.theverge.com/23133103/best-instant-cameras-fujifilm-polaroid-kodak",
-      "summary": "There’s something magical about using instant cameras that smartphones can’t match. You can capture a moment, print it out, and then give the photo as a gift or hold onto it. Image quality won’t be all that good, but imperfections are part of the allure. We tested instant camera models from popular ",
-      "published": "2026-08-07",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Disney Plus tries a new AI-powered search",
-      "link": "https://www.theverge.com/streaming/976881/disney-plus-ai-recommendation-espn-search",
-      "summary": "Disney is testing a new AI-powered tool for Disney Plus that uses a natural language search, a voice query, or a suggested prompt to create a customized row of show and movie recommendations. Disney Plus, like other streaming services, can recommend shows to watch based on your viewing history. But ",
-      "published": "2026-08-07",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Microsoft Edge is about to lock out older ad blockers, just like Chrome did",
-      "link": "https://www.theverge.com/tech/976880/microsoft-edge-extensions-ad-blockers-mv2-mv3",
-      "summary": "Microsoft Edge is ending support for the Manifest V2 extensions platform, which will cut off the uBlock Origin adblocker and others like it, just like Google Chrome did earlier this year. According to Microsoft, there are only 58 extensions on the Edge Add-On Store \"with any meaningful usage\" that s",
-      "published": "2026-08-07",
-      "source": "The Verge",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Grab the entire Lord of the Rings trilogy on 4K Blu-ray for $50",
-      "link": "https://www.theverge.com/gadgets/976792/lord-of-the-rings-trilogy-4k-uhd-blu-ray-deal-sale",
-      "summary": "Looking to spend a weekend inside with a good binge? Gruv has The Lord of the Rings trilogy on 4K Blu-ray marked down to $49.99, just below Amazon’s price and only a little bit higher than the all-time low we usually see around Black Friday. This version includes both the original theatrical release",
       "published": "2026-08-07",
       "source": "The Verge",
       "tag": "AI & Tech"
@@ -351,62 +367,6 @@
       "link": "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
       "summary": "This article was produced in partnership with Type Investigations, with support from the Wayne Barrett Project. One morning in April 2025, employees of a small office in the US State Department got the email many of them had been dreading.&#160; For months, Elon Musk’s Department of Government Effic",
       "published": "2026-08-07",
-      "source": "MIT Tech Review",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "Wan 3.0 有了自己的镜头美学",
-      "link": "https://www.ifanr.com/1674218?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "真正好的工具不替你做决定，它只是让你的决定更容易落地。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "published": "2026-08-06",
-      "source": "爱范儿",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "新玩意 248｜少数派的编辑们最近买了啥？",
-      "link": "https://sspai.com/post/113139",
-      "summary": "编注：很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。内容声明：《新玩意》栏目如含有 ...查看全文",
-      "published": "2026-08-06",
-      "source": "少数派",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "TDS REVIEW | vivo TWS 5 Pro 降噪真无线耳机体验",
-      "link": "https://sspai.com/post/112916",
-      "summary": "这篇文章是TDSStudio在少数派上的第27篇文章，依然是全平台首发。在去年的年度企划之一「中价位TWS横评」中，vivo/iQOO的TWS5系列表现在多个方面都有优势，尤其是降噪综合能力的表现给人 ...查看全文",
-      "published": "2026-08-06",
-      "source": "少数派",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "角落新声｜音乐，刻在时光里的私人地图",
-      "link": "https://sspai.com/post/113017",
-      "summary": "没什么特别的，但无处不在，刚刚好。查看全文",
-      "published": "2026-08-06",
-      "source": "少数派",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "派早报：华为发布尊界 MPV 及多款新品等",
-      "link": "https://sspai.com/post/113110",
-      "summary": "英伟达宣布 Alpamayo 2 Super AI 开放商用、NVM Express 发布十一项规范集更新等。查看全文",
-      "published": "2026-08-06",
-      "source": "少数派",
-      "tag": "AI & Tech"
-    },
-    {
-      "title": "对话刘靖康：镜头之外的「智能」和「审美」，才是 Camera Agent 的主战场",
-      "link": "http://www.geekpark.net/news/368503",
-      "summary": "未来的影像设备，应该是「前轻后重」的。\n这是影石Insta360 创始人刘靖康在 AGI Playground 2026 上对影像行业未来趋势的判断。上个月，影石刚刚宣布了「打造 Cameraman」的最新产品愿景&mdash;&mdash;它代表着一种「更简单操作+更好的交付」的影像体验。\n刘靖康说：「也可以认为这是一种 Camera Agent」。\n产品形态大概率是多样的。因为哪怕「前轻」，不同出片场景里人们依然需要不一样的镜头、焦段以及第一人称、第三人称等不同拍摄形式。\n和具身领域一样，目前距离让设备本体在通用场景里「自由移动」，仍有不小的挑战。但 Cameraman 未必需要一个「通用",
-      "published": "2026-08-06",
-      "source": "极客公园",
-      "tag": "Startup"
-    },
-    {
-      "title": "The Download: Google’s AI shake-up and Meta’s rogue model",
-      "link": "https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Google’s AI empire is being reshaped. Here’s what’s changed. After a wave of painful losses in the tech talent wars, delays to its next flagship model",
-      "published": "2026-08-06",
       "source": "MIT Tech Review",
       "tag": "AI & Tech"
     }
