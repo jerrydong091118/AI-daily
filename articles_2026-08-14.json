@@ -1,0 +1,390 @@
+{
+  "date": "2026-08-14",
+  "total": 48,
+  "articles": [
+    {
+      "title": "DeepSeek Harness 公测，对标 Claude Cowork ；长鑫科技市值超越腾讯；OpenAI 年化营收有望翻番达 400 亿美元",
+      "link": "http://www.geekpark.net/news/368789",
+      "summary": "对标 Claude Cowork：DeepSeek Harness 公测，同步开放插件生态\n8 月 13 日消息，DeepSeek-V4-Pro-0813 正式开源，同时还推出了其开源（MIT 协议）的代码智能体框架 Harness 的 v0.1 开发者预览版（基于 Cordis），并同步开放了配套的插件生态系统。相关 GitHub 仓库也已公开。\n\nDeepSeek 正式开源 DeepSeek‑V4‑Pro‑0813 模型，同步推出基于 Cordis、采用 MIT 协议的代码智能体框架 Harness v0.1 开发者预览版，并开放配套插件生态，GitHub 仓库现已公开，开发者可通过 np",
+      "published": "2026-08-14",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Investors sue Selena Gomez alleging fraud tied to her mental health startup",
+      "link": "https://techcrunch.com/2026/08/13/investors-sue-selena-gomez-alleging-fraud-tied-to-her-mental-health-startup/",
+      "summary": "The plaintiffs say they invested nearly $1.2 million in the company, and are accusing Gomez of failing to build and market the startup.",
+      "published": "2026-08-13",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Flock says its new tool will help identify police abuse, but hasn’t explained how it works",
+      "link": "https://techcrunch.com/2026/08/13/flock-says-its-new-tool-will-help-identify-police-abuse-but-hasnt-explained-how-it-works/",
+      "summary": "The surveillance company announced it's making a tool called \"Audit Assistance\" mandatory for all customers, claiming it's already helped catch abuse. But the company has yet to explain how the tool works in detail, raising questions about its effectiveness.",
+      "published": "2026-08-13",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "If Apple sends you a push notification alerting you to a spyware attack, take it seriously",
+      "link": "https://techcrunch.com/2026/08/13/if-apple-sends-you-a-push-notification-alerting-you-to-a-spyware-attack-take-it-seriously/",
+      "summary": "Apple now sends out push notifications to iPhone lock screens when the company identifies government spyware targeting someone's devices.",
+      "published": "2026-08-13",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Writer introduces new AI model and upgraded harness to contain token costs",
+      "link": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+      "summary": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
+      "published": "2026-08-13",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+      "link": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
+      "summary": "AI is expensive, Ali Ghodsi tells TechCrunch. With so many investors wanting into his latest round, he said yes to more than planned.",
+      "published": "2026-08-13",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed",
+      "link": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+      "summary": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
+      "published": "2026-08-13",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "IBM partners with OpenAI to bolster enterprise AI push",
+      "link": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
+      "summary": "IBM plans to train and certify tens of thousands of consultants on OpenAI's technologies as part of this deal.",
+      "published": "2026-08-13",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
+      "link": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+      "summary": "Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.",
+      "published": "2026-08-13",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "US wait times for cancer surgeries are getting longer and longer",
+      "link": "https://arstechnica.com/health/2026/08/us-wait-times-for-cancer-surgeries-are-getting-longer-and-longer/",
+      "summary": "Study finds wait times for cancer surgeries hit 10-year high.",
+      "published": "2026-08-13",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Private security firms will soon be allowed to hack overseas cybercriminals",
+      "link": "https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/",
+      "summary": "Trump memo is first time gov't has authorized private sector to perform cyberattacks.",
+      "published": "2026-08-13",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Virgin Galactic wants your help naming its new Delta class spaceship",
+      "link": "https://arstechnica.com/space/2026/08/virgin-galactic-wants-your-help-naming-its-new-delta-class-spaceship/",
+      "summary": "Will it be the VSS... Horizon, Explorer, Ascend or Apeiron?",
+      "published": "2026-08-13",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Ukrainian drones wipe out entire US tank brigade in live war game",
+      "link": "https://arstechnica.com/gadgets/2026/08/ukrainian-drones-wipe-out-entire-us-tank-brigade-in-live-war-game/",
+      "summary": "Ukrainian drone pilots teach the US military and NATO hard battlefield lessons.",
+      "published": "2026-08-13",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Flock “can’t tech its way out” of the stalker cop problem, experts say",
+      "link": "https://arstechnica.com/tech-policy/2026/08/flock-cant-tech-its-way-out-of-the-stalker-cop-problem-experts-say/",
+      "summary": "Flock to lock out cops who stalk exes, but agencies can still hide abuse.",
+      "published": "2026-08-13",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Pet owners say smart pet feeder outage led to furry ones going unfed",
+      "link": "https://arstechnica.com/gadgets/2026/08/pet-owners-say-smart-pet-feeder-outage-led-to-furry-ones-going-unfed/",
+      "summary": "\"I've lost trust ...\"",
+      "published": "2026-08-13",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The new Instagram logo is the perfect embodiment of AI slop",
+      "link": "https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop/",
+      "summary": "Opinion: Some remarks about the new wordmark accidentally being perfectly awful.",
+      "published": "2026-08-13",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Google announces Gemini 3.7 Flash just three weeks after previous release",
+      "link": "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release/",
+      "summary": "Gemini 3.6 Flash debuted just 3 weeks ago, but Google says 3.7 has \"substantial improvements.\"",
+      "published": "2026-08-13",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Apple and Epic argue over how much Apple should get from purchases made outside the App Store",
+      "link": "https://www.theverge.com/tech/979967/apple-epic-games-external-links-fees-filing",
+      "summary": "In a new filing in its long-running legal dispute with Epic Games, Apple has proposed a structure that would allow it to collect fees on digital purchases made via external links that don't use the company's in-app purchase system. Epic has already responded, saying that Apple's request is \"far outs",
+      "published": "2026-08-13",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "‘That is not acceptable’: Judge orders Google to make rival app store installs easier",
+      "link": "https://www.theverge.com/policy/979852/that-is-not-acceptable-judge-orders-google-to-make-rival-app-store-installs-easier",
+      "summary": "One month after Epic Games and Google seemingly stopped fighting over the future of Android app distribution, they were back in a San Francisco courtroom today - where Judge James Donato just ordered Google to make it easier to install rival app stores on Android. It's been nearly three years since ",
+      "published": "2026-08-13",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The fight over Flock and other ALPRs",
+      "link": "https://www.theverge.com/tech/979869/flock-alpr-ai-surveillance-protest-privacy",
+      "summary": "There are over 120,000 of Flock’s automatic license plate reader (ALPR) cameras installed all over the US. Flock’s cameras, and others like them, use AI to identify and track vehicles based on their license plate number, make, model, color, and other info, networked together to track vehicles and pe",
+      "published": "2026-08-13",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
+      "link": "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired",
+      "summary": "Microsoft Copilot will no longer show its emotive yellow blob, Mico, when you use the chatbot's voice mode. In a support page, Microsoft says it's going to move Mico to its Learn Live platform, where the avatar will have \"more to react to,\" as reported earlier by GeekWire. Mico launched in Copilot's",
+      "published": "2026-08-13",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Netflix is closing two game studios",
+      "link": "https://www.theverge.com/games/979855/netflix-shut-down-night-school-studio-moonloot-games",
+      "summary": "Netflix plans to shut down two of its gaming studios, as reported by Game File and Variety, as it makes a bigger shift toward party games and titles streamed to TVs. One of the studios being shut down is Night School Studio, creators of the Oxenfree series. Netflix bought Night School in 2021, and i",
+      "published": "2026-08-13",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "This school-friendly laptop from HP is $300 off",
+      "link": "https://www.theverge.com/gadgets/979699/hp-omnibook-x-flip-pixel-buds-pro-2-deal-sale",
+      "summary": "With memory prices still high and showing no signs of dropping, we’re always happy to find a good deal on a budget-friendly system with an adequate amount of RAM. Best Buy has the HP OmniBook X Flip discounted by $300, bringing the cost down to $699.99. This model is equipped with an Intel Core Ultr",
+      "published": "2026-08-13",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "OpenAI is losing its second executive this week",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
+      "summary": "Another OpenAI executive is departing. Denise Dresser, who joined OpenAI as its chief revenue officer in December after serving as CEO of Slack, will be leaving in the \"coming weeks\" to \"pursue other opportunities,\" she said in a team note posted to LinkedIn. Dali Rajic, president and COO of Wiz, wi",
+      "published": "2026-08-13",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The Trump admin will start letting private firms launch international cyberattacks",
+      "link": "https://www.theverge.com/policy/979734/trump-administration-cybercrime-private-firms",
+      "summary": "The Trump administration is launching a new program that will allow private firms to perform cyberattacks against foreign criminals, as reported earlier by Bloomberg. The private firms would operate \"under the control and oversight\" of the federal government, giving them permission to surveil and di",
+      "published": "2026-08-13",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "9.99 万元起，EV 版 9 分钟充到 97%，秦 MAX 正式上市",
+      "link": "https://www.ifanr.com/1675157?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "秦 MAX，将以最强形态出击。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-13",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "首发体验 | DeepSeek Harness 来了，它不想做下一个Codex",
+      "link": "https://www.ifanr.com/1675083?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "一切皆插件#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-13",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "打工人的办公三件套，被 WorkBuddy 用 AI 重做了",
+      "link": "https://www.ifanr.com/1674810?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "AI 时代的新 Office 长什么样？WorkBuddy 给出了一种答案\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-13",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Pixel 11 上手：AI 不支棱，涨价不消停",
+      "link": "https://www.ifanr.com/1675041?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "差不多得了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-13",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "具身智能迎来「DeepSeek 时刻」：国产机器人用更低成本反超 Figure AI",
+      "link": "https://www.ifanr.com/1675007?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "只用了两只标准夹爪#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-13",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "对话影石创始人刘靖康：全景相机的新范式，是「空间相机」",
+      "link": "https://www.ifanr.com/1675029?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "全景相机的未来，是一片旷野。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-13",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "DeepSeek V4 Pro 正式版上线，多项指标逼近 Fable 5",
+      "link": "https://www.ifanr.com/1674964?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "DeepSeek V4 Pro 正式版来了。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-13",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "早报｜9999起，荣耀Robot Phone发布/Google发布Pixel 11系列/岚图董事长卢放:开发周期短不等于「速成车」",
+      "link": "https://www.ifanr.com/1674986?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 抖音处置 1.28 万条台风不实内容，重点治理 AI 虚构灾害画面\n· 激进投资者要求狮门影业加速 AI 转型，否则考虑出售\n· 面壁智能启动 IPO 辅导#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-13",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "实测正式版 DeepSeek V4 Pro，补齐 Agent 能力｜AI 上新",
+      "link": "http://www.geekpark.net/news/368777",
+      "summary": "作者｜桦林舞王\n编辑｜靖宇\n&nbsp;\n没有预告，没有倒计时，甚至连更新日志都没来得及写好。DeepSeek V4 Pro 的正式版，就这么悄悄的来了。\n8 月 13 日凌晨，DeepSeek 官网悄悄刷新了 API 文档。模型名还是那个 deepseek-v4-pro，但 fingerprint 已经变成了 fp_v4pro_20260812。打开社区一看，消息已经炸开&mdash;&mdash; V4 Pro 正式版，来了。\n从 4 月 24 日预览版上线算起，整整 111 天。\n这期间 Kimi K3 高调发布抢走了开源头条，V4 Flash 正式版先行一步在 7 月 31 日上线，A",
+      "published": "2026-08-13",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "「美国豆包手机」全系涨价，新东西全留给了 Gemini",
+      "link": "http://www.geekpark.net/news/368766",
+      "summary": "Pixel 11 不是一台想赢的手机，它是 Gemini 的身体。\n\n作者｜张勇毅\n编辑｜靖宇\n\n纽约时间 8 月 12 日下午，谷歌在布鲁克林开完了今年的 Made by Google 发布会。\nPixel 11 全系四款手机、Pixel Watch 5，加上防丢器 Pixel Tag，一口气全发了，当天就开预购。\n热闹是足够热闹。但两个小时看下来，最能概括这场发布会的，是 Pixel 11 背面新增的那一小圈灯。\n\n本次发布的全系 Pixel 新品｜图片来源：Google\n全系背面都多了这圈环形 LED，在 Pro 机型上，它顶替的正是上一代温度传感器的位置。官方名字叫 HiLight。\n",
+      "published": "2026-08-13",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Deepseek V4 Pro 正式版 API 上线，百万 Token 仅 6 元；腾讯计划近期发布 HY4 大模型；曝 iPhone18 至少涨价 2000 元起 | 极客早知道",
+      "link": "http://www.geekpark.net/news/368747",
+      "summary": "DeepSeek V4 Pro 正式版 API 更新上线，多项测试性能接近 Fable 58 月 13 日消息，DeepSeek V4 Pro 正式版正式发布，已更新至 API，调用模型名不变。新版本增强了 Agent 能力，支持 Responses API 和 Codex 接入。从官方群放出的评测对比表可以看到，DeepSeek V4 Pro 正式版（DeepSeek-V4-Pro-0813）在多项测试中接近 Fable 5 水平，相比之前的预览版能力大幅提升。定价如下：百万 tokens 输入（缓存命中）：0.025 元百万 tokens 输入（缓存未命中）：3 元百万 tokens 输出",
+      "published": "2026-08-13",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Roundtables: Inside the “Censorship-Industrial Complex” Idea Shaping US Policy",
+      "link": "https://www.technologyreview.com/2026/08/13/1141399/roundtables-inside-the-censorship-industrial-complex-idea-shaping-us-policy/",
+      "summary": "Listen to the session or watch below The “censorship-industrial complex” is an idea that a network of government, tech, and research groups is collaborating to suppress conservative online speech. This was fodder for the right-wing information sphere for years—then it began making its way into US po",
+      "published": "2026-08-13",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Building a practical path to post-quantum cryptography",
+      "link": "https://www.technologyreview.com/2026/08/13/1141041/building-a-practical-path-to-post-quantum-cryptography/",
+      "summary": "Quantum computing has alternated between breakthrough darling and overhyped promise in technology circles. Its powerful new capabilities come with a threat to break current cryptography, but for business leaders navigating the noise, the signal should be clear: post-quantum cryptography (PQC) is a m",
+      "published": "2026-08-13",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Flock is tightening its rules in response to a growing surveillance backlash",
+      "link": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
+      "summary": "The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid concerns about mass surveillance and police abuse. Several changes aim directly ",
+      "published": "2026-08-13",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The Download: kids’ thoughts on AI, and female clones of male mice",
+      "link": "https://www.technologyreview.com/2026/08/13/1141896/the-download-kids-thoughts-on-ai-female-clones-male-mice/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How kids feel about AI, in their own words —Jen Swetzoff and Keeley McNamara, the founding editors of Anyway, an independent print magazine for tweens",
+      "published": "2026-08-13",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "What’s behind this summer’s heat, and why 2027 could be worse",
+      "link": "https://www.technologyreview.com/2026/08/13/1141788/summer-heat-el-nino/",
+      "summary": "This summer has been a scorcher for much of the Northern Hemisphere. June and July marked the hottest two-month stretch in Europe since record-keeping began. The contiguous US endured its hottest month on record in July. South Korea saw its highest-ever recorded temperature.   The heat isn’t over ye",
+      "published": "2026-08-13",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "How kids feel about AI, in their own words",
+      "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+      "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they",
+      "published": "2026-08-13",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "实测 GenOffice Alpha 版：补上办公工作流最后一环｜AI 上新",
+      "link": "http://www.geekpark.net/news/368744",
+      "summary": "作者｜lfei\n编辑｜靖宇\n&nbsp;\n8 月 3 日， Genspark 创始人&amp;CEO 景鲲在 AGI Playground 2026 大会上发布了 GenOffice 。这是一款 AI 深度集成的本地 Office 客户端，其亮点在于打通了从 AI 生成到工作交付间的链路：通过 GenOffice 打造的软件工程框架，模型得以 直接操作 Office 文件最复杂的底层格式，将生成内容转化为可编辑、可交付的 Word 和 PPT 成品。\nGenspark 推出这样一款产品并不令人意外。\n在 Genspark 的产品体系 AI WorkSpace 6.0 中，AI 办公套件是核心价",
+      "published": "2026-08-12",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "AI 入口，开始收费",
+      "link": "http://www.geekpark.net/news/368740",
+      "summary": "作者｜宇航猿\n编辑｜靖宇\n&nbsp;\nAI 将成为未来唯一的「入口」，这几乎是近年来的一个行业共识，但是这个「入口」如何变现，没人能给出答案。\n不过，现在中国大厂的探索路径，已经清晰出现了。\n8 月 10 日这个周末，两条看起来不相关的新闻几乎同时出现。\n豆包宣布，通过其 AI 对话推荐跳转抖音来客成交的酒店订单，正式执行 12% 的独立佣金费率。\n同一天，千问开放平台上线，顺丰、自如、盈米基金等十多个领域的服务商以 AI 智能体形态接入千问。\n一个开始变现，一个把门打开。\n这两件事放在一起看，信号非常明确&mdash;&mdash;AI 助手喊了两年的「新入口」故事，现在终于开始探索变现了",
+      "published": "2026-08-12",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "造物100 #02｜能打游戏的「牙套」键盘、众筹 249 万美元的电子假花、能用卫星找狗的项圈",
+      "link": "http://www.geekpark.net/news/368707",
+      "summary": "作者｜徐珊\n编辑｜郑玄\n\n上周 的 WAIC，人山人海。\n每个展台 都在讲 AI，每件硬 件都说自己是「智能终端的下一代」。可你挤出场馆冷 静下来想想， 记住的产品 有几个？ 大部分设备，把 logo 遮住，你根本分不清谁是谁。\n这就是 2026 年硬件行业最拧巴的地方，造东西从没这么容易过：模型写代码、3D 打印出外壳、深圳供应链一条龙。但也正因为谁都能造，同质化像潮水一样漫上来。真正的创新，成了比芯片还稀缺的东西。\n可潮水底下，总有人在憋大招。而且我们发现，一旦谁真的跑出一个好的产品形态，市场会毫不犹豫地把钱砸过去。这就是造物时代的掘金逻辑：淘金的人挤破头，卖水的闷声发财，而定义新品类的人",
+      "published": "2026-08-12",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "林俊旸创办 AI 公司，估值20亿美元；Gemini 月活用户达 10 亿；Manus 宣布恢复独立运营",
+      "link": "http://www.geekpark.net/news/368700",
+      "summary": "&nbsp;\n\n&nbsp;\nManus 宣布脱离 Meta 恢复独立运营\n8 月 11 日消息，Manus 在官网发布声明，宣布脱离 Meta 并恢复独立公司形式运营，继续为全球数百万用户提供服务。在此过程中，部分用户的账户将受到影响。\n为遵守特定司法辖区的监管要求，部分用户在 2025 年 12 月 29 日当前或之后产生的数据，将于北京时间 2026 年 8 月 23 日 08:00 起至 8 月 24 日期间被删除。受影响用户将会在 Manus App 和电子邮件收件箱中看到通知。如果用户是使用 Apple 账户或 Facebook 账户注册 Manus，则需要留意应用内通知。\n在此期",
+      "published": "2026-08-12",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Scientists just created female clones of male mice",
+      "link": "https://www.technologyreview.com/2026/08/12/1141768/scientists-just-created-female-clones-of-male-mice/",
+      "summary": "Scientists have deliberately turned male mouse embryos into females for the first time. A team based in Japan used a CRISPR-based approach to remove the Y chromosome from male cells and create female clones of male mice.&#160; “No one has done this before,” says Monika Ward, a reproductive biologist",
+      "published": "2026-08-12",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Scaling AI agents with trustworthy data",
+      "link": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+      "summary": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges o",
+      "published": "2026-08-12",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    }
+  ]
+}
