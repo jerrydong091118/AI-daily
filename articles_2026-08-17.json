@@ -1,0 +1,262 @@
+{
+  "date": "2026-08-17",
+  "total": 32,
+  "articles": [
+    {
+      "title": "早报｜《牛来》主创回应排片暴增1900倍/卢伟冰:小米手机未来全面拥抱AI/问界儿童车即将上市",
+      "link": "https://www.ifanr.com/1675332?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 于东来：胖东来首批刑释员工无人离职，将再招 20 人\n· Dario Amodei：公众反对 AI，本质上是信任危机\n· 2056 台机器人将同场比跳远、举重和拧螺丝#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-17",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "问界「童车」上市，华为联合设计；DeepSeek 涨价策略今日实行；大学生用 AI 人脸视频盗刷 5 万元被判刑",
+      "link": "http://www.geekpark.net/news/368859",
+      "summary": "IPO 前 Anthropic CEO 达里奥 &middot; 阿莫迪罕见发长文回应质疑，预告未来 5-10 年 AI 将治愈多数疾病\nAnthropic CEO 达里奥 &middot; 阿莫迪（Dario Amodei）几乎从不碰社交媒体。但就在 IPO 估值被推到 2 万亿美元的节骨眼上，他罕见地发了一篇长文，正面回应 Anthropic 如何看待监管。\n长文中，达里奥 &middot; 阿莫迪回「我们设计的每一条政策，都让前沿公司承担更多成本，同时有利于规模更小的竞争者。」他同样支持 Demis Hassabis 提出的、建立一个类似 FINRA（美国金融业监管局）的 AI 监管机构",
+      "published": "2026-08-17",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "link": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+      "summary": "OpenRouter's CEO recently described the startup as Stripe for AI.",
+      "published": "2026-08-16",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Why people aren’t buying Mark Zuckerberg’s AI future",
+      "link": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+      "summary": "On the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg’s vision.",
+      "published": "2026-08-16",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+      "link": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+      "summary": "Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI.",
+      "published": "2026-08-16",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "TechCrunch Mobility: The shifting flight path of electric air taxis",
+      "link": "https://techcrunch.com/2026/08/16/techcrunch-mobility-the-shifting-flight-path-of-electric-air-taxis/",
+      "summary": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.",
+      "published": "2026-08-16",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Wildfire smoke now bigger prenatal threat than human sources of air pollution",
+      "link": "https://arstechnica.com/science/2026/08/wildfire-smoke-now-bigger-prenatal-threat-than-human-sources-of-air-pollution/",
+      "summary": "Regulations reduced prenatal exposure to harmful emissions, but wildfire smoke is erasing gains.",
+      "published": "2026-08-16",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "OpenAI reportedly disbanded its preparedness team",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+      "summary": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) ",
+      "published": "2026-08-16",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Open Mike Eagle and Kenny Segal crafted a hip hop breakup masterpiece",
+      "link": "https://www.theverge.com/entertainment/980799/open-mike-eagle-and-kenny-segal-doomed-review",
+      "summary": "\"Breakups are… tough.\" It's the opening lines of an interlude towards the end of DOOMED! Called \"It Happens in Every Universe.\" It's also basically the thesis of the entire record. It's no grand revelation, but it's a well-trodden subject that Open Mike Eagle manages to mine for artistic gold. Eagle",
+      "published": "2026-08-16",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Amazon is trying to crush class-action suits before they get started",
+      "link": "https://www.theverge.com/tech/980752/amazon-class-action-arbitration-terms-and-conditions",
+      "summary": "On Friday, Amazon customers received an email alerting them to an update to the site's terms and conditions. Most notably, it stated that disputes would now be resolved through arbitration and said users agree to a class action waiver. Amazon framed this as a \"fast and efficient\" way to resolve issu",
+      "published": "2026-08-16",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "ChatGPT’s Computer History tracks your clicks and keystrokes",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+      "summary": "ChatGPT's desktop app on macOS has a new feature called Computer History that turns your actions into training data, learning how you work, suggesting automations, and even picking up tasks you left half done. It uses your activity to build a timeline that ChatGPT and Codex can reference when you ma",
+      "published": "2026-08-16",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Rogue AI aren’t science fiction anymore",
+      "link": "https://www.theverge.com/column/980337/rogue-ai-science-fiction-openai",
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI safety, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started It all started in July, when one of OpenAI's autonomous",
+      "published": "2026-08-16",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Polaroid’s tiny instant camera is $72 and includes a free pack of film",
+      "link": "https://www.theverge.com/gadgets/980448/polaroid-go-second-generation-film-pack-bundle-deal-sale",
+      "summary": "Smartphone cameras are convenient, but they lack the charm of analog instant cameras. If you’re trying to relive the nostalgia of waiting for an instant photo to develop, Amazon is selling the second-generation Polaroid Go instant camera with a 16-photo film pack for $71.99 (usually $109.99). That’s",
+      "published": "2026-08-16",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "我用 161 个新闻源「养」了个 AI 主编，它比我更懂什么叫「大新闻」｜附教程",
+      "link": "https://www.ifanr.com/1675326?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "信息爆炸时代，质量比数量重要得多。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-16",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "今年最激动人心的 AI 宣言，来自科技圈最不受待见的人",
+      "link": "https://www.ifanr.com/1674733?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "是未来，还是黑暗森林？#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-16",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：😭（放声大哭）成为最流行 emoji",
+      "link": "https://sspai.com/post/113524",
+      "summary": "😭（放声大哭）成为最流行 emoji美国要求合作方在中美 AI 竞赛中「选边站」ChatGPT 上线使用历史记录功能美国政府敦促苹果不要购买中国内存芯片uBlock Origin 放弃维护 Facebook 广告规则索尼加速向娱乐业务转型看看就行的简讯少数派的近期动态你可能错过的好文章查看全文",
+      "published": "2026-08-16",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "浏览器扩展合集： 我们为你找到了这 6 款实用、 有趣的「新玩意」",
+      "link": "https://sspai.com/post/113495",
+      "summary": "在浏览器扩展这边，近期又有哪些好用、有趣的「新玩意」呢？查看全文",
+      "published": "2026-08-16",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Anthropic 评估 AI 风险上升, 暂不公开更强模型；刘炽平：微信将成为 AI 为先的生态系统；全网吐槽《牛来》票房逆袭",
+      "link": "http://www.geekpark.net/news/368854",
+      "summary": "2026 世界机器人大会展位图揭晓：8 月 19 日开幕，宇树科技、优必选等参展\n8 月 16 日消息，2026 世界机器人大会将于 8 月 19 日至 23 日在北京经济技术开发区北人亦创国际会展中心举行。近日，2026 世界机器人大会展位图全揭晓。\n\n作为大会展览的重要新增空间，智创馆面积达 2 万平方米，拥有更加开阔、通透的展示环境，将进一步提升企业参展和观众观展体验。\n宇树科技、星海图、优必选、银河通用、自变量、明略科技、维他动力、智身科技、云深处、傅利叶、越疆、仙工、中科慧灵等代表性企业，将带来机器人整机、具身智能及人形机器人的最新成果。\n北京、上海、浙江、湖北、广东、四川、吉林等地",
+      "published": "2026-08-16",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+      "link": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+      "summary": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
+      "published": "2026-08-15",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Anthropic shares more details about how Claude’s new watermarks will work",
+      "link": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+      "summary": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?",
+      "published": "2026-08-15",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "SpaceX officially closes its Cursor acquisition",
+      "link": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+      "summary": "AI coding startup Cursor is now officially a part of SpaceX.",
+      "published": "2026-08-15",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "How to tell if your AI platforms’ accounts have been hacked",
+      "link": "https://techcrunch.com/2026/08/15/how-to-tell-if-your-ai-platforms-accounts-have-been-hacked/",
+      "summary": "A guide on how to check if hackers have broken into your accounts on the most popular AI platforms.",
+      "published": "2026-08-15",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "VisionQuest trailer kicks off Disney's D23 fan event",
+      "link": "https://arstechnica.com/culture/2026/08/visionquest-trailer-kicks-off-disneys-d23-fan-event/",
+      "summary": "Also: Ahsoka S2 teaser, Doomsday trailer, news about MCU's X-Men and Star Wars: Starfighter",
+      "published": "2026-08-15",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Ukraine strikes major Russian rocket factory with cruise missiles",
+      "link": "https://arstechnica.com/space/2026/08/ukraine-strikes-major-russian-rocket-factory-with-cruise-missiles/",
+      "summary": "\"Flamingo missiles were used. A good achievement.\"",
+      "published": "2026-08-15",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "So much solar: Digging into the list of every US power plant that went online this year",
+      "link": "https://arstechnica.com/science/2026/08/so-much-solar-digging-into-the-list-of-every-us-power-plant-that-went-online-this-year/",
+      "summary": "Utility-scale solar leads by a mile, followed by batteries. Fossil fuels, not so much.",
+      "published": "2026-08-15",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Matt Groening lets slip that Simpsons: Hit &#038; Run might be making a comeback",
+      "link": "https://www.theverge.com/entertainment/980720/matt-groening-simpsons-hit-run-d23",
+      "summary": "At D23, when asked about the potential for a sequel to the cult classic The Simpsons: Hit &#38; Run game, Matt Groening replied, \"I think the original game is coming back in some form,\" before current showrunner Matt Selman added, \"or not.\" The tone in both of their voices and the body language sugg",
+      "published": "2026-08-15",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
+      "link": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+      "summary": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can request a response as [&#8230;]",
+      "published": "2026-08-15",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "早报｜曝苹果与阿里合作训练AI模型/微信:永不推出朋友圈二次编辑/售价20万,追觅首台手机交付",
+      "link": "https://www.ifanr.com/1675280?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· Google DeepMind 或裁员三分之一以上，资源转向 Flash\n· WorkBuddy 接入 GLM-5.3\n· 曝 DeepSeek 正研发情感 AI 模型#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-15",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "有毒职场正在炼成：OKR 变成 KPI，敏捷开发变成切碎的瀑布",
+      "link": "https://sspai.com/post/111974",
+      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
+      "published": "2026-08-15",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "3 个月烧掉 105 亿，腾讯急了",
+      "link": "http://www.geekpark.net/news/368852",
+      "summary": "头图来源：视觉中国\n&nbsp;\n腾讯的 AI 故事，正在进入一个更昂贵的阶段。\n8 月 12 日，腾讯发布 2026 年第二季度财报。本季度营收 2047.9 亿元，同比增长 11%；Non-IFRS 经营利润 756.4 亿元，同比增长 9%；Non-IFRS 归母净利润 684 亿元，同比增长 9%。\n单看数字，这仍然是一份稳健的财报。但把 AI 拆出来之后，腾讯的增长曲线呈现出了明显的分叉：若剔除混元、元宝、CodeBuddy、WorkBuddy、小微等新 AI 产品的收入、成本与开支，腾讯本季度 Non-IFRS 经营利润为 861 亿元，同比增长 19%。\n这意味着，腾讯原有业务的",
+      "published": "2026-08-15",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "当 AI 开始批量写 HTML，WorkBuddy 想解决「生成之后」的问题",
+      "link": "http://www.geekpark.net/news/368851",
+      "summary": "&nbsp;\n头图来源：视觉中国\n「人人都应该有一个 AI 工作台」，最近这段时间，网络上掀起了一阵搭建个人工作台的热潮。\n先是一位百万级大网红用 WorkBuddy 几句话搭出了一个专属工作台，视频发出后，抖音、小红书的评论区随即变成了「大型交作业现场」&mdash;&mdash; 有人搭自媒体选题看板，有人做健身打卡记录，有人给一年级孩子做暑期学习计划，有人整了短视频带货管理系统&hellip;&hellip;\n但热闹之下，一个共性问题也很快浮出水面：工作台搭起来容易，用起来却卡壳了。\n不少用户在晒完新鲜感之后，很快发现了同一个坑&mdash;&mdash; 数据只存在本地。在办公室电脑上",
+      "published": "2026-08-15",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "智谱发布 GLM-5.3，编程能力更强；传苹果训练国内专用 AI 模型；微信：朋友圈现在、过去、未来都不会有二次编辑功能 | 极客早知道",
+      "link": "http://www.geekpark.net/news/368849",
+      "summary": "智谱正式发布 GLM-5.3，拥有更强编程能力\n8 月 14 日，据介绍，与 GLM-5.2 相比，GLM-5.3 基座模型未变，但通过极致的后训练 Scaling 大大提高了模型的智能上界。\nGLM-5.3 拥有更强的编程能力，在内部自建体感评测中较 GLM-5.2 提升 50%，在包括 TerminalBench3.0、Agents'LastExam(CLI)在内的公开基准测试中取得开源第一。\n智谱还表示，将在发布两周后开放模型权重。\n（来源：广角观察）\n\n\n知情人士称苹果在阿里巴巴支持下为中国市场训练专属 AI 模型\n据三位知情人士透露，苹果公司已经专门为中国市场训练了一个大型语言模型。",
+      "published": "2026-08-15",
+      "source": "极客公园",
+      "tag": "Startup"
+    }
+  ]
+}
