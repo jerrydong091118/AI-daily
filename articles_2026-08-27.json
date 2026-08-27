@@ -1,0 +1,454 @@
+{
+  "date": "2026-08-27",
+  "total": 56,
+  "articles": [
+    {
+      "title": "Nvidia closes in on Hugging Face acquisition",
+      "link": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
+      "summary": "Nvidia has reportedly agreed to buy Hugging Face, the popular open-source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
+      "published": "2026-08-27",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
+      "link": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
+      "summary": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns.",
+      "published": "2026-08-27",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "苹果发布会最全爆料：折叠 iPhone 和新 CEO 都来了，还有一个 One more thing",
+      "link": "https://www.ifanr.com/1676900?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "苹果今年最重要的一场发布会，终于来了！#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-27",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "MiniMax 违背「祖训」，企业收入暴涨 700%，偷偷变成了「卖铲子」的",
+      "link": "https://www.ifanr.com/1676874?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "8 亿美元 ARR 背后，MiniMax 的 Agent 基建与效率暗战.#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-27",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "早报｜苹果新iPhone 9月10日见/特斯拉中国辟谣上海数据中心撤离/工信部:严禁未经充分测试验证的汽车产品进入市场",
+      "link": "https://www.ifanr.com/1676848?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· ChatGPT Business 开放 Premium 席位，用量提高至 5 倍\n· 顺丰回应薪酬结构调整：15% 纳入季度考核，不涉及一、二线员工\n· 百度股东会通过双重主要上市相关决议#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-27",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "来自 1997 年的迷你笔记本电脑，东芝 Libretto 50M 怀旧手记",
+      "link": "https://sspai.com/post/113222",
+      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
+      "published": "2026-08-27",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Ox Alpha「牛来」 身份揭晓；黄仁勋：AI 已迈过商业化拐点；世界人形机器人运动会闭幕：天工 Ultra 百米跑出 8 秒 64｜极客早知道",
+      "link": "http://www.geekpark.net/news/369414",
+      "summary": "智谱正式发布并开源 GLM-5.3-Flash，Ox Alpha「牛来」 身份揭晓\n8 月 26 日，智谱正式上线并开源 GLM-5.3-Flash（320B-A18B），这是 GLM-5 系列的首个原生多模态模型，也正是上周以来匿名登顶 OpenRouter、被社区称为 \"牛来\" 的 Ox Alpha 的正式身份。\n该模型总参数 320B、激活 18B，在权威的 Artificial Analysis 综合智能指数中取得 57 分、与 Claude Opus 4.8 持平，编程表现亦与 Opus 4.8 相当；定价仅为 GLM-5.3 的 1/10（限时折扣内约为 Opus 4.8 的 1/",
+      "published": "2026-08-27",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
+      "link": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
+      "summary": "Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years. But this extended partnerships stretches beyond buying more chips.",
+      "published": "2026-08-26",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Meta’s $18B child-safety deal hinges on age-verification tech that doesn’t work well",
+      "link": "https://techcrunch.com/2026/08/26/metas-18b-child-safety-deal-hinges-on-age-verification-tech-that-doesnt-work-well/",
+      "summary": "The historic settlement reignites ongoing concern around how age-verification technology puts privacy at risk.",
+      "published": "2026-08-26",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
+      "link": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
+      "summary": "The new deal with the infrastructure provider is the latest example of Anthropic's white-hot compute-gobbling streak.",
+      "published": "2026-08-26",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Google’s Gemini has a branding problem, and so does the rest of AI",
+      "link": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
+      "summary": "Consumer AI apps need to stop making users learn their product architecture.",
+      "published": "2026-08-26",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "How do we explain OpenAI’s executive exodus?",
+      "link": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
+      "summary": "Was Greg Brockman the right executive all along?",
+      "published": "2026-08-26",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "OpenAI releases its official report on the Hugging Face breach",
+      "link": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
+      "summary": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
+      "published": "2026-08-26",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "RIP, Tim Curry: Ars remembers his top 10 iconic performances",
+      "link": "https://arstechnica.com/culture/2026/08/rip-tim-curry-ars-remembers-his-top-10-iconic-performances/",
+      "summary": "A dashing pirate, a butler, a killer clown, an alien mad scientist in drag—the man had range.",
+      "published": "2026-08-26",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "AI agents meant to replace Meta workers made “large-scale, disruptive actions”",
+      "link": "https://arstechnica.com/ai/2026/08/metas-scrapped-plans-to-go-ai-native-included-slashing-teams-by-60-percent/",
+      "summary": "Report shows Meta's challenges replacing people with AI agents.",
+      "published": "2026-08-26",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "New Twitter launches, says Musk's X gave up the name",
+      "link": "https://arstechnica.com/tech-policy/2026/08/new-twitter-launches-says-musks-x-gave-up-the-name/",
+      "summary": "Judge hasn't ruled on X Corp’s preliminary injunction, but Operation Bluebird plows ahead",
+      "published": "2026-08-26",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Meta settles states' child-safety claims for $18B; Florida rejects deal as \"peanuts\"",
+      "link": "https://arstechnica.com/tech-policy/2026/08/meta-settles-states-child-safety-claims-for-18b-florida-rejects-deal-as-peanuts/",
+      "summary": "Meta to impose daily limit on child social media use in deal with nearly every state.",
+      "published": "2026-08-26",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Florida Catholics slap down state AG by rejecting religious vaccine exemptions",
+      "link": "https://arstechnica.com/health/2026/08/catholic-bishops-tell-florida-theres-no-religious-reason-for-vaccine-exemptions/",
+      "summary": "The bishops' snub comes as the state continues to attack vaccines.",
+      "published": "2026-08-26",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Google announces Gemini 3.5 Transcribe for AI-powered speech-to-text",
+      "link": "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-5-transcribe-for-ai-powered-speech-to-text/",
+      "summary": "The AI that powers Gboard's Rambler is coming to more Google products, including Chrome.",
+      "published": "2026-08-26",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The Porsche 911 GT3 Touring punches above its weight class",
+      "link": "https://arstechnica.com/cars/2026/08/driven-the-992-2-porsche-911-gt3-touring-earns-its-keep/",
+      "summary": "The \"everyday\" GT3 delivers, despite looming regulations and an ever-inflating price tag.",
+      "published": "2026-08-26",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Xbox’s new disc-to-digital program gives physical games a digital future",
+      "link": "https://arstechnica.com/gaming/2026/08/xboxs-new-disc-to-digital-program-gives-physical-games-a-digital-future/",
+      "summary": "\"Most\" Xbox One and Series X games are compatible; discs will still work after being claimed.",
+      "published": "2026-08-26",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Nvidia is about to be a hundred-billion-dollar-a-quarter company",
+      "link": "https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue",
+      "summary": "Nvidia's predicting it will pull in $108 billion in revenue within just a few months. It wouldn't be the first company to rake in over $100 billion in quarterly revenue - Amazon, Apple, and Alphabet have repeatedly reached the milestone. Nvidia said in its latest earnings report that it brought in a",
+      "published": "2026-08-26",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "OpenAI’s rogue AI model incident was worse than we thought",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
+      "summary": "In July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get access to the internet, allowed AI agents to talk to each other using a secret \"message board,\" and hacked into the internal systems of a different AI lab, Hugging Face. It took nearly two weeks for Ope",
+      "published": "2026-08-26",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "All the ways Instagram and Facebook are changing for teens",
+      "link": "https://www.theverge.com/tech/985329/instagram-facebook-meta-settlement-changes",
+      "summary": "Meta just agreed to make sweeping changes for teens as part of a child safety settlement reached with attorneys general across the US. Under the agreement, Meta must apply new safeguards across Instagram and Facebook that will change how teens interact with the social media platforms, as well as res",
+      "published": "2026-08-26",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Amazon knocks $150 off Pixel 11 phones, with up to $200 in gift cards",
+      "link": "https://www.theverge.com/gadgets/984516/pixel-11-promo-code-doom-dark-ages-deal-sale",
+      "summary": "If you’ve been on the fence about Google’s latest Pixel phones, this might be your best chance to save some cash. Amazon is offering an extra $150 off the Pixel 11, Pixel 11 Pro, and Pixel 11 Pro XL when you use the coupon code PIXEL11 at checkout. While the discounted price appeared at checkout [&#",
+      "published": "2026-08-26",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Being a mom is hard — the heat is making it harder",
+      "link": "https://www.theverge.com/news/985225/heat-stress-children-climate-change-study",
+      "summary": "It's 8:52 AM and 86 degrees Fahrenheit (30 Celsius) where I live in Southern California. My husband just came back from a morning outing with our four-month-old. \"How was the botanic garden?\" I ask him. \"It was okay. It was just too hot,\" he tells me. I didn't expect us to spend so much of [&#8230;]",
+      "published": "2026-08-26",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The Switch 2’s $50 price increase is happening next week",
+      "link": "https://www.theverge.com/gadgets/984331/switch-2-price-increase-psa",
+      "summary": "This is a friendly reminder that the Nintendo Switch 2 will jump in price by $50 starting on September 1st. That’s next Tuesday! The company gave plenty of notice, but the time has finally come. The base 256GB model that ships without a game will go from $449.99 to $499.99. Nintendo recently announc",
+      "published": "2026-08-26",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Apple Maps has ads now",
+      "link": "https://www.theverge.com/tech/985249/apple-maps-iphone-ads",
+      "summary": "Ads have started popping up in Apple Maps, following Apple's announcement in March that it would let businesses pay for top spots. They're appearing on my iPhone as the first entry in the \"suggested places\" section in search, but Apple says they'll also show up at the top of search results. Accordin",
+      "published": "2026-08-26",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Google’s new AI transcription edits out your &#8216;ums&#8217; and &#8216;ahs&#8217;",
+      "link": "https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai",
+      "summary": "Google has updated Gemini Audio with new transcription capabilities that automatically detect specialized jargon and more than 85 languages. Gemini 3.5 Transcribe is a new addition to the Gemini family that follows the launch of 3.5 Live Translate, and comes as we're still waiting for Google to rele",
+      "published": "2026-08-26",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "AI 开始给自己造芯了，OpenAI 只用了九个月",
+      "link": "https://www.ifanr.com/1676824?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "造芯片，是大模型公司的必备素养#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-26",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "科隆游戏展 2026：米哈游出动作游戏，杰洛特又要回来了",
+      "link": "https://www.ifanr.com/1676805?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "中国游戏的大舞台#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-26",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "特斯拉辟谣数据中心「人去楼空」，但 FSD 仍遥遥无期，特斯拉车主还要等多久？",
+      "link": "https://www.ifanr.com/1676793?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "特斯拉的车主们仍在等待。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-26",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "OpenAI 自研「辣椒芯片」首测超英伟达，会让 ChatGPT 更便宜吗？",
+      "link": "https://www.ifanr.com/1676738?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "会让英伟达不开心#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-26",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "早报｜6999起,苹果发布新款Mac mini/追觅官宣收缩探索阶段业务/「豆包工作」正式推出,可读取飞书上下文",
+      "link": "https://www.ifanr.com/1676731?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 《道路交通安全法》拟大改，自动驾驶违法由车企担责\n· 星宇股份被曝批量劝退应届生，当地人社局通报\n· 大众汽车酝酿史上最大重组，或再削减 5 万个岗位#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-08-26",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：Apple 调整妙控键盘的键帽符号、闪迪推出宝可梦纪念款产品等",
+      "link": "https://sspai.com/post/113873",
+      "summary": "OpenAI 发布 ChatGPT Admin 插件、Commodore 推出《赛博朋克 2077》主题复古电脑等。查看全文",
+      "published": "2026-08-26",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "开学季 | 这些软件和服务的教育优惠，能帮你省下不少钱",
+      "link": "https://sspai.com/post/68227",
+      "summary": "学生党到底有哪些专享福利？看这一篇就对了。查看全文",
+      "published": "2026-08-26",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "装了啥特别篇：少数派编辑部最近都 vibe 了啥？",
+      "link": "https://sspai.com/prime/story/zhuanglesha-260826",
+      "summary": "如今，vibecoding的话题热度居高不下。但抛开那些被吹上天的一人公司「壮举」，vibecoding能给一般用户的日常使用带来什么帮助呢？本期「装了啥」中，编辑部成员就分享了一些近期折腾出的小玩意 ...查看全文本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+      "published": "2026-08-26",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "《巫师 3：重制版》正式公开：科隆游戏展 2026 消息汇总",
+      "link": "https://sspai.com/post/113851",
+      "summary": "编注：本文首发于机核网，少数派经授权转载，仅对文章格式略作调整。科隆游戏展2026开幕夜为我们带来了海量新作公布与续作消息：从《巫师3：重制版》《魔法门之英雄无敌3：重制版》等经典IP重制，到《寂静岭 ...查看全文",
+      "published": "2026-08-26",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "在正镶白旗，用五天共同生活理解现代牧场",
+      "link": "https://sspai.com/post/113714",
+      "summary": "这一趟田野调查旅行打破了以往我对旅行的传统认识，不再是到了一个地方打卡就结束，而是要和当地人产生连接。查看全文",
+      "published": "2026-08-26",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：Apple 发布新款 Mac mini 和 Mac Studio 等",
+      "link": "https://sspai.com/post/113847",
+      "summary": "索尼正式发布 Xperia 10 VIII 手机，Apple 钱包上线郑州绿城通交通卡等。查看全文",
+      "published": "2026-08-26",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "从「告警找人」到「Agent 先接手」，「古茗」如何用 AI Agent 重构万店运维？",
+      "link": "http://www.geekpark.net/news/369401",
+      "summary": "AI to B，要真的能「救火」。\n去年年底的一个深夜，古茗科技集团运维负责人刘星光再次被手机震动惊醒&mdash;&mdash;屏幕上跳动着上百条数据库告警短信。\n「这不是什么意外。」刘星光说，「古茗全国上万家门店，每一杯奶茶的下单、库存调度、会员积分、联名营销，都跑在 100 多个数据库实例上&mdash;&mdash;RDS、Redis、MongoDB、PolarDB，什么都有。门店在扩，订单在涨，联名活动的频率比以往翻了一倍，尖刺流量来得快去得也快。」\n而支撑这一切的 DBA 团队，一共就那么几个人。\n「每天 70% 的时间耗在『接警&mdash;登跳板机&mdash;看 Proces",
+      "published": "2026-08-26",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "离开剪映后创业，她想把一支设计团队装进 AI 工作台",
+      "link": "http://www.geekpark.net/news/369395",
+      "summary": "&nbsp;\n头图来源：OJO 官网\n&nbsp;\n极客公园获悉，前剪映中国负责人张琪智已离职创业，创办 AI 产品原型设计工作台 OJO，并于近日完成近亿元首轮融资，由顺为资本、联想创投联合投资，高鹄资本担任独家财务顾问。\n这是张琪智离开字节跳动后的第一个创业项目。她于 2017 年加入脸萌担任产品经理，2018 年随团队进入字节，此后长期参与剪映相关产品与业务。\n在外界看来，她在剪映的经历是理解这次创业的重要背景：经历了一款工具产品从 0 到 1、再到大规模增长后寻找新曲线的完整过程。而当 Claude Code、Codex、Cursor 等 coding agent 让「做出一个产品」越",
+      "published": "2026-08-26",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "苹果突袭发布 M6 与 M5 Ultra 芯片与新款 Mac Mini；字节发布 AI 办公产品「豆包工作」；SpaceX 拟千亿美元建设第二座「星际基地」｜极客早知道",
+      "link": "http://www.geekpark.net/news/369355",
+      "summary": "苹果突袭发布 M6 与 M5 Ultra 芯片，新 Mac mini、Mac Studio 全面押注本地 AI\n8 月 25 日，苹果未举办发布会，直接上架了两款全新自研芯片 M6 与 M5 Ultra，以及搭载它们的新款 Mac mini 与新款 Mac Studio，并即刻开启预购。M6 是苹果首颗采用 2 纳米工艺的芯片，配备 12 核 CPU 与 12 核 GPU，苹果称其拥有「全球最快的单线程性能」。\n根据苹果介绍，配备 M6 芯片后，Mac mini 的 AI 性能最高可提升 4 倍，存储速度与图形处理速度提升 2 倍，CPU 性能提升 40%。而搭载 M5 Pro 芯片的 Mac",
+      "published": "2026-08-26",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "The inside story on why OpenAI agents hacked Hugging Face",
+      "link": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
+      "summary": "The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were",
+      "published": "2026-08-26",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The Download: the Kids issue arrives, and Bill Gates reveals his AI fears",
+      "link": "https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: the Kids issue If the desire to limit kids&#8217; use of technology was once a subcurrent, it has become a raging flood. Countries around",
+      "published": "2026-08-26",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Raised on AI",
+      "link": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
+      "summary": "When my oldest child was born, I immediately set up Gmail and Twitter accounts in her name. I broadly announced her birth online and proceeded to plaster her photo across all sorts of platforms. In short, I began creating her digital footprint long before she could stand on her own two feet.&#160; F",
+      "published": "2026-08-26",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "AI models flub these intelligence tests. Can you fare any better?",
+      "link": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
+      "summary": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming gauntlet. The term “machine learning” was popularized in a 1959 article by the IB",
+      "published": "2026-08-26",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Bill Gates says we’ve passed AI’s danger thresholds. Now what?",
+      "link": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/",
+      "summary": "It’s a glorious day in Kirkland, Washington, an affluent Seattle suburb on the eastern shore of Lake Washington. The temperature is in the mid-80s, and the sky is incapable of being any more blue. The view from the Gates Ventures conference room overlooks the Carillon Point Marina, where a flotilla ",
+      "published": "2026-08-26",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "社区速递 155 | 适马千元人像神头与七月派友剁手清单",
+      "link": "https://sspai.com/post/113828",
+      "summary": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文",
+      "published": "2026-08-25",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "从被找到、被用好到被修好，HarmonyOS 7 给出开发者一套新解法",
+      "link": "http://www.geekpark.net/news/369356",
+      "summary": "原来关注 App 被打开的次数，现在关注的是服务被调用的次数。\n\n作者｜张勇毅\n编辑｜靖宇\n\n对应用开发者来讲，一天里有三个时刻经常会想起操作系统：早上看数据。昨天的新增还剩多少，七日留存掉到了哪条线，还有那一大批装了就再没打开过的用户&mdash;&mdash;你的图标被留在第四屏，和几十个 App 挤在一起。\n下午改代码。一个编译错误卡了半小时，AI 给的写法改了三遍还是不对，因为它根本没见过多少这个平台的代码。\n半夜被告警叫醒。线上崩溃率抬头，后台堆了几千条日志，没有一条直接告诉你为什么。\n被找到、被用好、被修好&mdash;&mdash;这三件事和操作系统的关系，过去十年几乎没变过：系",
+      "published": "2026-08-25",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "苹果 Mac mini M6 发布：两年涨 2500 块，AI 税反噬「龙虾神机」",
+      "link": "http://www.geekpark.net/news/369354",
+      "summary": "「内存涨价狂潮」，专门吃掉便宜的那一档\n\n作者｜张勇毅\n编辑｜靖宇\n\n只要是今年持续有关注 AI 软件领域的人，你一定不会忘记 Mac mini 在其中的「江湖」地位：因为 OpenClaw 爆火，这类工具要一台机器长期开着跑，因此量大管饱的 Mac mini M4 成为了版本答案，即使它已经是 2024 年的产品，但依旧没有阻挡大家的热情，最终将其捧上龙虾神机的宝座。\n半年过去，北京时间 8 月 25 日晚，苹果突然更新了 Mac mini 和 Mac Studio。国行 Mac mini 6999 元起，Mac Studio 19999 元起。\n\n两台机器，一台每个配置都涨了 2500 元",
+      "published": "2026-08-25",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "字节AI 产品向豆包集结，Agent 时代第一场巨头战役打响",
+      "link": "http://www.geekpark.net/news/369344",
+      "summary": "&nbsp;\n头图来源：视觉中国、ChatGPT 生成\n8 月 25 日，字节做了一个大动作：正式发布面向生产力场景的 Agent 产品「豆包工作」。\n它可以自主拆解任务、调用工具，完成文档、表格、PPT 及多媒体内容制作，并通过虚拟桌面操作电脑和浏览器；接入飞书后，还能调用企业的消息、文档、会议和权限等上下文，进一步完成周报、解决方案、风险识别与经营分析等复杂工作。\n\n图片来源：「豆包工作」公众号\n这次发布，也让字节近期密集的产品与组织调整有了一个明确落点。\n一天前，字节完成了新一轮办公 AI 产品整合：TRAE、扣子团队整体并入豆包体系，相关产品与运营团队统一向豆包产品负责人赵祺汇报。\n此",
+      "published": "2026-08-25",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "《有头有脸的大模型公司，集体搞起「匿名公测」》",
+      "link": "http://www.geekpark.net/news/369324",
+      "summary": "头图来源：oxalpha.com\n&nbsp;\n最近，海外开发者圈又被一个没有名字的模型刷屏了。\n8 月 20 日，OpenRouter 上多了一个叫 Ox Alpha 的模型，100 万 token 上下文、支持图片和视频输入、能调用工具、免费。随后，它被接进 OpenCode、Hermes 等编程 Agent。有人拿它修代码，有人用它跑软件工程基准，还有人盯着 tokenizer 和报错信息，试图猜出它到底是谁家的。\n目前，Ox Alpha 的身份还没有得到官方确认。社区最流行的猜测是，它与智谱 GLM-5.x 系列关系很近；依据是 tokenizer、推理模式报错和部分输出习惯的相似性。",
+      "published": "2026-08-25",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Addressing a sticking point in sustainable adhesives",
+      "link": "https://www.technologyreview.com/2026/08/25/1140902/addressing-a-sticking-point-in-sustainable-adhesives/",
+      "summary": "Petroleum-based adhesives are everywhere: bonding the wood and drywall in a construction project, holding together the joints of furniture, and even sticking labels to otherwise recyclable containers.  “The labels on a container are held up with petroleum-based glue. And because of that, even though",
+      "published": "2026-08-25",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "YouTuber finds niche as college admissions mentor",
+      "link": "https://www.technologyreview.com/2026/08/25/1140905/youtuber-finds-niche-as-college-admissions-mentor/",
+      "summary": "As a first-generation student from a small town, Gohar Khan ’21 had to navigate the college admissions process largely on his own. He founded his YouTube channel, Gohar’s Guide, to make things easier for other young people. Today, more than 10 million people follow Khan on social media for college a",
+      "published": "2026-08-25",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Launching youth entrepreneurship",
+      "link": "https://www.technologyreview.com/2026/08/25/1140911/launching-youth-entrepreneurship/",
+      "summary": "Even as a teenager, Laurie Stach ’06 says, she had a “crazy ambition to take on the world and solve problems.” At MIT, she realized she wasn’t the only one. “Adults always see these youth who are good at math and science and say, ‘You’re going to do great things—someday,’” says Stach. “Meanwhile, tr",
+      "published": "2026-08-25",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    }
+  ]
+}
