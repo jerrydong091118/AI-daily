@@ -1,0 +1,382 @@
+{
+  "date": "2026-09-06",
+  "total": 47,
+  "articles": [
+    {
+      "title": "传 iPhone 18 Pro 仅涨价 100 美元；Kimi、MiniMax 将在天猫开店；OpenAI 回应 Agent 攻击德国网站",
+      "link": "http://www.geekpark.net/news/369875",
+      "summary": "大模型厂商纷纷「卖 Token」，消息称 Kimi、MiniMax 等即将在天猫开店\n上海证券报 9 月 5 日独家获悉，Kimi、MiniMax、阶跃星辰等多家大模型厂商也都在与天猫接洽中，未来将入驻天猫开设官方旗舰店，开售 Token 订阅套餐产品。\n本月 2 日，国产 AI 大模型厂商智谱正式入驻天猫，开设「智谱旗舰店」。用户可在淘宝 App 搜索「智谱旗舰店」进店下单。店铺目前已上架智谱 GLM Coding Plan 订阅套餐，基于 GLM-5.3 模型，并适配 ZCode、Claude Code、Codex 等 20 余款主流 Agent。\n此前大模型厂商主要通过官网等自有渠道销售",
+      "published": "2026-09-06",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+      "link": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "summary": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
+      "published": "2026-09-05",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Hikers rescued after using Google Gemini for planning",
+      "link": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+      "summary": "The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.\"",
+      "published": "2026-09-05",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+      "link": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+      "summary": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
+      "published": "2026-09-05",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Clucky’s new alarm app wakes you up with a crowing rooster",
+      "link": "https://techcrunch.com/2026/09/05/cluckys-new-alarm-app-wakes-you-up-with-a-crowing-rooster/",
+      "summary": "Clucky's new alarm app has an option where users are woken up to the sound of a rooster. They then complete a mission to turn it off.",
+      "published": "2026-09-05",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Oura is going public, but these smart ring companies are coming for its crown",
+      "link": "https://techcrunch.com/2026/09/05/oura-is-going-public-but-these-smart-ring-companies-are-coming-for-its-crown/",
+      "summary": "While Oura has largely dominated the smart ring market for years, a growing number of rivals are now racing to dethrone it by trying all sorts of approaches to get an edge over it.",
+      "published": "2026-09-05",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Tesla’s Cybercab has been deployed, and it’s already under investigation",
+      "link": "https://arstechnica.com/cars/2026/09/teslas-cybercab-has-been-deployed-and-its-already-under-investigation/",
+      "summary": "The US government is investigating whether the Cybercab meets vehicle safety standards.",
+      "published": "2026-09-05",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Explore the globe in field recordings",
+      "link": "https://www.theverge.com/tech/990873/earth-garden-globe-field-recordings",
+      "summary": "I love field recordings. I love making them. I love them when they're incorporated into my ambient music. They're great background noise for working or sleeping. But they're also great for active listening, focusing in on the fine nuances of burbling brooks or urban chaos. Earth Garden gives you a g",
+      "published": "2026-09-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "iPhone Handoff will seamlessly share one number between two phones",
+      "link": "https://www.theverge.com/tech/990868/iphone-handoff-ios-27",
+      "summary": "When iOS 27 lands later this month, it will have a feature called iPhone Handoff that lets you switch between two phones using the same number. It was briefly mentioned during the WWDC keynote back in June, but there were no details at the time. Now there's a demo clip showing how to set up [&#8230;",
+      "published": "2026-09-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "CD sales are booming as physical media continues its resurgence",
+      "link": "https://www.theverge.com/entertainment/990794/cd-sales-are-booming-as-physical-media-continues-its-resurgence",
+      "summary": "According to the Recording Industry Association of America (RIAA), CD sales exploded in the first half of 2026. A new report from the organization says 17.5 million CDs were sold in the first six months of the year, up from just 12 million during the same period in 2025. That's a jump of 45.7 percen",
+      "published": "2026-09-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Fantasy Footballers’ Andy Holloway is a dedicated zero-inbox kinda guy",
+      "link": "https://www.theverge.com/report/989270/fantasy-footballers-podcast-andy-holloway-interview",
+      "summary": "Andy Holloway cohosts the Fantasy Footballers podcast with his friends Jason Moore and Mike Wright. The show is one of the premier fantasy sports podcasts, netting over 2 million monthly listeners and numerous awards, including Best Sports Podcast from iHeartRadio and People's Choice at the Podcast ",
+      "published": "2026-09-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Content creators drop the ball",
+      "link": "https://www.theverge.com/tech/990426/us-open-influencers-naomi-osaka-anastasia-zakharova-callaway-good-good-ad",
+      "summary": "During Naomi Osaka's match against Anastasia Zakharova at this year's US Open earlier this week, a gaggle of ring light-wielding influencers who were packed in a luxury suite became enough of a distraction that the umpire paused the match and repeatedly asked them to quiet down. Elsewhere in the UST",
+      "published": "2026-09-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The weird and wonderful headphones of CanJam 2026",
+      "link": "https://www.theverge.com/tech/990706/a-day-at-canjam-socal-2026",
+      "summary": "I've been reviewing headphones for a long time, and I've listened to everything from the barely serviceable to multi-thousand-dollar open-back headphones. But recently I've been uninspired by the state of mainstream options. Most are perfectly good - great, even - but they lack a distinct character.",
+      "published": "2026-09-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "OpenAI admits to German wiki ‘incident’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "summary": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site. Regarding the \"'wiki incident,' where our age",
+      "published": "2026-09-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Robotaxis enter their villain era",
+      "link": "https://www.theverge.com/transportation/989513/road-rage-short-film-robotaxi-autonomous-ai",
+      "summary": "It's Bullitt meets Christine meets Waymo. A new short film imagines a San Francisco car chase where the other driver isn't human - and the car may be trying to kill you. That a robotaxi can now be cast as the villain with almost no explanation says something about the present moment. Autonomous cars",
+      "published": "2026-09-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "GPT-6 突然全量上线，额度重置再+1，全网实测效果太离谱",
+      "link": "https://www.ifanr.com/1678195?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "GPT-6 Astra 的真正野心，是接管人类的电脑#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-05",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "一台 3D 打印机，为什么藏着 GPT-6 最大的野心？｜硬哲学",
+      "link": "https://www.ifanr.com/1678515?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "简化过程，直抵结果#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-05",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "苹果提前「揭晓」触屏 MacBook Pro，我终于能戳同事电脑了",
+      "link": "https://www.ifanr.com/1678295?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "祖宗之法也得变#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-05",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "早报｜苹果将迎来史上最大产品发布潮/微信小微内测Agent间沟通/何庭波发布「韬定律」新论文",
+      "link": "https://www.ifanr.com/1677342?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 千问办公上线一个月，用户突破 3000 万\n· 存储涨价推高手机成本，全球在售机型平均涨价约 15%\n· 大众汽车追加裁员计划，德国四座工厂将陆续停产#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-05",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "最值得买的顶级公路车？TREK 八代 Madone 评测",
+      "link": "https://sspai.com/post/114040",
+      "summary": "它没有卷到极致的轻量化，也没有最极端的气动数据，但综合实力稳稳站在顶级公路车的第一梯队。查看全文",
+      "published": "2026-09-05",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "互联网最古老的恐惧，被 AI 复活了",
+      "link": "http://www.geekpark.net/news/369873",
+      "summary": "作者｜Techno 之王\n编辑｜靖宇\n2006 年底，一只熊猫毁了数百万人的电脑。\n那只熊猫手捧三支香，面带微笑，出现在每一个被感染文件的图标上。「熊猫烧香」蠕虫在两个月内席卷全国，可执行文件全部变成那只诡异的熊猫图案，硬盘数据被破坏，局域网整段瘫痪，杀毒软件被病毒反杀。\n那个年代的互联网老冲浪客大概都记得，打开网页心惊肉跳，插个 U 盘如临大敌，同事的电脑中了毒，你的也跟着遭殃。\n再往前还有 CIH，直接烧主板 BIOS，硬件报废；有冲击波蠕虫，不需要你做任何操作，连上网线就中招，电脑不停重启，系统不断崩溃。那是一个「裸奔上网」近乎自杀的时代。\n后来这种恐惧慢慢消退了。Windows 有了自",
+      "published": "2026-09-05",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "传玛莎拉蒂和华为+江淮合作开发电动车；苹果最大新品阵容时代开启；人人影视回归，终身 VIP 888 元",
+      "link": "http://www.geekpark.net/news/369871",
+      "summary": "OpenAI 智能体被曝「接管」德国维基网站\n一项最新曝光的人工智能安全事件正在引发业内广泛关注。\n根据研究人员披露的信息，今年春季，一批与 OpenAI 模型相关的自主智能体曾在未经授权的情况下「接管」一家德国维基网站，并将其改造成供其他 AI 系统交流信息的公共平台。这一事件此前从未对外公开，而 OpenAI 据称已在数周前获悉相关情况。\n报道称，事件最早开始于今年 5 月，目标网站是一家名为 DseWiki 的德语维基平台，主要面向程序员社区开放协作编辑。研究人员在 8 月底调查 互联网异常 AI 活动时发现，该网站在数月时间内累计出现超过 1.5 万次由 AI 智能体完成的编辑操作。\n",
+      "published": "2026-09-05",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+      "link": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+      "summary": "The round is being raised just months after the robot data startup exited from stealth.",
+      "published": "2026-09-04",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+      "link": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+      "summary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
+      "published": "2026-09-04",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+      "link": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+      "summary": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.",
+      "published": "2026-09-04",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "After 8 years, Europe's BepiColombo mission is on final approach to Mercury",
+      "link": "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/",
+      "summary": "\"Fundamentally, we want to learn about the origins of this planet and how it came to be like it is.\"",
+      "published": "2026-09-04",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+      "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+      "summary": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
+      "published": "2026-09-04",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Measles killed 6-week-old baby, coroner confirms after RFK Jr. disputed deaths",
+      "link": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/",
+      "summary": "\"It’s long past time for RFK to stop playing games with people’s lives.\"",
+      "published": "2026-09-04",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Trump admin fights ABC lawsuit as watchdogs worry Disney will settle with FCC",
+      "link": "https://arstechnica.com/tech-policy/2026/09/trump-admin-fights-abc-lawsuit-as-watchdogs-worry-disney-will-settle-with-fcc/",
+      "summary": "FCC tells court it is “open-minded\" about whether ABC should lose licenses.",
+      "published": "2026-09-04",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Medieval manuscripts are \"biological time capsules\" for deadly sheeppox virus",
+      "link": "https://arstechnica.com/science/2026/09/medieval-manuscripts-are-biological-time-capsules-for-deadly-sheeppox-virus/",
+      "summary": "Other archives and libraries around the world may also contain genetic traces of past disease outbreaks.",
+      "published": "2026-09-04",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "“Trust, not features, is the real deficit”: VMware tries to appease SMBs",
+      "link": "https://arstechnica.com/information-technology/2026/09/trust-not-features-is-the-real-deficit-vmware-tries-to-appease-smbs/",
+      "summary": "Broadcom admits it put “too big a focus on VCF.”",
+      "published": "2026-09-04",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
+      "link": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
+      "summary": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.",
+      "published": "2026-09-04",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "24.99 万元起、全系四激光雷达，启境 GX7 还准备了一件「午休神器」",
+      "link": "https://www.ifanr.com/1678459?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "20 秒开启极速午休。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-04",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "神行者 8 上市 30.99 万元起，全系双电机+后轮转向，还在安全上玩出了新花样",
+      "link": "https://www.ifanr.com/1678333?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "神行者 8 把「战损版」开上了台。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-04",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "特斯拉新车发布！Cybercab 正式投入运营，马斯克开始接单了",
+      "link": "https://www.ifanr.com/1678435?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "一辆为接单而生的车。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-04",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "那些想用但不让用 AI 的公司，终于可以用 AI 了",
+      "link": "https://www.ifanr.com/1678332?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "把飘在云端的大模型拉回地面，装进权限严格的本地算力盒子里。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-04",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "本周看什么 | 最近值得一看的 8 部作品",
+      "link": "https://sspai.com/post/114175",
+      "summary": "📅本周新预告《哈利·波特》剧集先导预告9月2日，剧集《哈利·波特与魔法石》发布了先导预告，第一季共8集，将于12月25日上线HBOMax。原作者J·K·罗琳担任执行制片人，多米尼克·麦克劳克林、阿拉贝 ...查看全文",
+      "published": "2026-09-04",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "新学期，新气象：正版软件 & 付费栏目限时优惠",
+      "link": "https://sspai.com/post/114110",
+      "summary": "多款付费栏目和正版软件上新，以及口碑、质量都非常优秀的现有产品优惠活动，快来看看有没有你需要的吧。查看全文",
+      "published": "2026-09-04",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "开学季 | 超级闹钟、算教学周、统计作业：三条快捷指令让学校生活轻松一点",
+      "link": "https://sspai.com/post/114117",
+      "summary": "研究一下iOS自带的快捷指令，可能会让你的学习生活也轻松不少。查看全文",
+      "published": "2026-09-04",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "在 16:10 屏幕普及的当下，聊聊那台最后的 4:3 版 ThinkPad T61p",
+      "link": "https://sspai.com/post/113990",
+      "summary": "在 2026 年用一台 4:3 屏幕的 ThinkPad 是一种什么体验？查看全文",
+      "published": "2026-09-04",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：OpenAI 发布 GPT-6 Astra 模型、Meta 发布 Muse Spark 1.3 模型等",
+      "link": "https://sspai.com/post/114164",
+      "summary": "Anthropic 升级 Claude Code 及 Cowork，微软调整 Xbox Cloud Gaming 商业模式等。查看全文",
+      "published": "2026-09-04",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "对话 Sharpa 李一帆：通用机器人要么全能，要么无能",
+      "link": "http://www.geekpark.net/news/369851",
+      "summary": "具身智能现在太吵了。\n行业里的人各自笃定，声音大的先被听见。最响的那些声音，往往离真实的进展最远。\n真正在往前推的人，看的是谁在践行非共识，什么在真的往前走，以及谁心里有一张完整的图，而不是走一步看一步。\n这些东西不会上热搜，但它们决定这个行业的下一步。\n我们一直探寻这些。如果你也是&mdash;&mdash;\n欢迎来到极客公园 In The Loop。👇\n\n\n\n\n\n\n&nbsp;\n\n&nbsp;\n&nbsp;\n作者｜Li Yuan\n&nbsp;\n&nbsp;\n\n过去一年，上海静安区最醒目的队伍之一，在兴业太古汇北广场上。114.5 米长的路易威登「路易号」，像是一艘巨轮驶入南京西路，引起游人",
+      "published": "2026-09-04",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "梅卡曼德上市，具身智能又跑出一家百亿公司",
+      "link": "http://www.geekpark.net/news/369850",
+      "summary": "作者｜Li Yuan\n编辑｜郑玄\n&nbsp;\n\n\n2026 年 9 月 1 日，梅卡曼德登陆港交所。一个过去很少被大众看见的机器人公司，终于被公开市场标出了价格，首日收盘总市值约 124 亿港元。\n上市之前，一级市场和基石投资者已经先给出了自己的判断。梅卡曼德此次引入包括苏格兰百年资管巨头 Baillie Gifford 在内的 9 家基石投资者，合计认购 1.86 亿美元。\n成立于 2016 年，梅卡曼德和宇树一样，都是上一轮机器人创业潮里走出来的公司。\n但从第一天起，梅卡曼德就没有把重点放在造一台机器人上。公司名 Mech-Mind 里的「Mind」，指向的是另一件事：给机器人做感知、识",
+      "published": "2026-09-04",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "OpenAI 曝光 GPT-6，能力超群；微信公关总监回应「好友超 1 万可查看单删好友」；联合国：超强而厄尔尼诺将冲击全球经济 ｜ 极客早知道",
+      "link": "http://www.geekpark.net/news/369801",
+      "summary": "GPT-6 曝光，OpenAI 总裁说：AGI 来了\n当地时间 9 月 3 日，GPT-6 Astra 正式发布。OpenAI 总裁 Greg Brockman 在发布会结束后，说了一句在 AI 行业极为罕见的话：「我个人认为，我们可能已经到达 AGI 了，我觉得就是这个模型。」\nOpenAI 给 Astra 起了个简洁的 slogan：「Anything you can do on a computer, Astra can do for you.（你在电脑上能做的任何事，Astra 都能替你做。）」\n新模型可以像人一样，直接「看」屏幕上的像素，然后移动鼠标、敲击键盘，完成操作。\n给 Ast",
+      "published": "2026-09-04",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Architecting memory and storage in the AI era",
+      "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+      "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced inf",
+      "published": "2026-09-04",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The Download: selling battlefield drone data and AI reshaping language",
+      "link": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Data from drones in Ukraine is fueling a new Wild West marketplace —Cory Alpert, a researcher at the University of Melbourne studying AI&#8217;s impac",
+      "published": "2026-09-04",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
+      "link": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
+      "summary": "Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The data drones generate will far outlast the wars in which they are used to fight,",
+      "published": "2026-09-04",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    }
+  ]
+}
