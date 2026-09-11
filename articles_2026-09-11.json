@@ -1,0 +1,454 @@
+{
+  "date": "2026-09-11",
+  "total": 56,
+  "articles": [
+    {
+      "title": "早报｜iPhone Duo提前开炒，最高有人挂到9.9万/人人影视回归约10天再次下架/高德上线「避雷指南1.0」",
+      "link": "https://www.ifanr.com/1679695?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 三星借 iPhone Duo 发布调侃苹果「热剩饭」\n· OpenAI 限制图像和音频生成竞品在 ChatGPT 投放广告\n· 曝奥迪在华重划双品牌：一汽负责四环、上汽主攻 AUDI#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-11",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "DeepSeek V4.1 Flash 发布；罗永浩狂喷苹果折叠屏：全是抄的；马斯克「无聊公司」融资 30 亿美元｜极客早知道",
+      "link": "http://www.geekpark.net/news/370157",
+      "summary": "DeepSeek V4.1 Flash 模型正式发布：全面超越 V4 Pro、原生多模态视觉理解，最高降价 60%\n9 月 10 日消息，深度求索今日正式发布DeepSeek V4.1 Flash 模型。这是其全新模型结构系列中的最小尺寸的模型，具备原生多模态视觉理解能力。\n新模型结构的设计初衷是：能力上限更高、推理速度更快、吞吐更大、可扩展到更大参数模型。\nDeepSeek V4.1 Flash 为 552B 参数的 MoE 模型，采用了全新的 Causal-Encoder-Decoder 结构，输入和输出不对称，输入激活只有 8B，输出激活 16B，成本显著低于已知的同尺寸模型。同时，V4",
+      "published": "2026-09-11",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Thrive Capital led VCs into pro sports ownership; Collaborative Fund just upped that play",
+      "link": "https://techcrunch.com/2026/09/10/thrive-capital-showed-vcs-the-way-into-pro-sports-ownership-collaborative-fund-is-now-trying-its-own-version-of-the-same-play/",
+      "summary": "Collaborative Fund just bought into D.C. United and its stadium, with  firm founder Craig Shapiro pitching it as a way to showcase for the firm's startups.",
+      "published": "2026-09-10",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
+      "link": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
+      "summary": "Nvidia has its finger in every pie, and sees another year of plenty in its future, Jensen Huang says. But, he insists, its deals are not circular.",
+      "published": "2026-09-10",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Mark Wahlberg is coming to TechCrunch Disrupt 2026, and he wants to talk about your work, not his",
+      "link": "https://techcrunch.com/2026/09/10/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/",
+      "summary": "Mark Wahlberg joins Bruce K. Lee at Disrupt to discuss investing, entrepreneurship, healthcare, wellness and building businesses.",
+      "published": "2026-09-10",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
+      "link": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
+      "summary": "The company said Pro subscriptions put the most strain on its systems, so it's pausing sign-ups while adding more capacity.",
+      "published": "2026-09-10",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+      "link": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+      "summary": "A new report released Thursday by Anthropic alleges persistent distillation attacks by China-based AI companies, which have escalated in recent months as competition in the space has intensified.",
+      "published": "2026-09-10",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Furo’s founders left Silicon Valley — and it’s paying off",
+      "link": "https://techcrunch.com/2026/09/10/furos-founders-left-silicon-valley-and-its-paying-off/",
+      "summary": "The three 28-year-old founders behind energy startup Furo moved from Silicon Valley and back to Germany, and yet secured $4 million in funding from mostly U.S. backers.",
+      "published": "2026-09-10",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+      "link": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+      "summary": "Meta's newest app Muse is off to a slower start than the company's other apps, like Meta AI or Threads.",
+      "published": "2026-09-10",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Proxima Fusion bets €140M on a critical fusion ingredient dominated by Asian suppliers",
+      "link": "https://techcrunch.com/2026/09/10/proxima-fusion-bets-e140m-on-a-critical-fusion-ingredient-dominated-by-asian-suppliers/",
+      "summary": "Proxima Fusion said Wednesday it plans to build a €140 million ($162.6 million) factory to produce fusion-grade high-temperature superconducting (HTS) tape, which will provide the startup with key component to its reactor design.",
+      "published": "2026-09-10",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Boy developed \"toasted skin\" condition from using a laptop every day",
+      "link": "https://arstechnica.com/health/2026/09/boy-developed-toasted-skin-condition-from-using-a-laptop-every-day/",
+      "summary": "Laptops don't usually get hot enough to burn—but they can still be harmful.",
+      "published": "2026-09-10",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "LinkedIn beats \"BrowserGate\" lawsuits over scanning users' Chrome extensions",
+      "link": "https://arstechnica.com/tech-policy/2026/09/linkedin-beats-browsergate-lawsuits-over-scanning-users-chrome-extensions/",
+      "summary": "Judge tosses lawsuits, says plaintiffs didn't allege any real privacy violation.",
+      "published": "2026-09-10",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Europe will go it alone on Venus mission after NASA yanks radar instrument",
+      "link": "https://arstechnica.com/space/2026/09/europe-will-go-it-alone-on-venus-mission-after-nasa-yanks-radar-instrument/",
+      "summary": "Europe is looking inward, and perhaps to China, as the White House tries to cancel some NASA partnerships.",
+      "published": "2026-09-10",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Android can now securely migrate your logins between password managers",
+      "link": "https://arstechnica.com/gadgets/2026/09/android-can-now-securely-migrate-your-logins-between-password-managers/",
+      "summary": "App support is slim right now, but Google says more are coming.",
+      "published": "2026-09-10",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Panic builds over bankrupt Spirit’s looming data sale to Google",
+      "link": "https://arstechnica.com/tech-policy/2026/09/panic-builds-over-bankrupt-spirits-looming-data-sale-to-google/",
+      "summary": "\"Bankruptcy cannot become the new land grab for AI.”",
+      "published": "2026-09-10",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Physicist does the math on Star Trek’s “Picard maneuver”",
+      "link": "https://arstechnica.com/science/2026/09/physicist-does-the-math-on-star-treks-picard-maneuver/",
+      "summary": "The trick from Next Generation would be even more effective in real life.",
+      "published": "2026-09-10",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Kimmel's ABC show won't air interview with Democrat because of Trump FCC threats",
+      "link": "https://arstechnica.com/tech-policy/2026/09/kimmels-abc-show-wont-air-interview-with-democrat-because-of-trump-fcc-threats/",
+      "summary": "Talarico talk to be on YouTube to save ABC stations the hassle of dealing with FCC.",
+      "published": "2026-09-10",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "China’s drone supremacy shows in airlifting bodies and food after Nepal flood disaster",
+      "link": "https://arstechnica.com/gadgets/2026/09/drones-deliver-food-and-remove-bodies-after-nepals-flood-disaster/",
+      "summary": "DJI drones that already supply Mount Everest camps assist Nepal’s flood relief.",
+      "published": "2026-09-10",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Slack can now vibe-code interactive charts and reports inside chats",
+      "link": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch",
+      "summary": "A new feature coming to Slack will allow you to build interactive reports, polls, dashboards, presentations, microsites, and other tools directly inside a chat. With Slackforce Surfaces, you can describe to Slackbot what you need, and it will use AI to gather information from relevant conversations ",
+      "published": "2026-09-10",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Schools are catching on to Big Tech’s playbook",
+      "link": "https://www.theverge.com/policy/993308/computer-science-ai-education-coding-kids",
+      "summary": "It's the hot new thing in tech, and it's where all the jobs are. Students who don't learn to use it fall behind. And to help them catch up in time, its creators are graciously providing the resources and curriculum for learning it, often pro bono. That's the narrative AI companies are pitching schoo",
+      "published": "2026-09-10",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Amazon’s Fire TV Stick 4K is over half off at under $20",
+      "link": "https://www.theverge.com/gadgets/993455/fire-tv-stick-4k-resident-evil-requiem-deal-sale",
+      "summary": "Looking to take full advantage of your 4K television, but your current streaming stick doesn’t have the right features? Through September 13th, you can grab an Amazon Fire TV Stick 4K from Woot for just $16.09 when you use the coupon code FIRE30 at checkout. With support for Wi-Fi 6 and 2GB of memor",
+      "published": "2026-09-10",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Electric air taxis get the green light for test flights in Texas",
+      "link": "https://www.theverge.com/transportation/993341/evtol-air-taxi-aviation-eipp-texas",
+      "summary": "A new federal program to test the feasibility of electric, hybrid-electric, and autonomous aircraft kicks off today in Texas - before the rules governing this new technology have even been finalized. Earlier this year, the Federal Aviation Administration's Advanced Air Mobility and Electric Vertical",
+      "published": "2026-09-10",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Universal Music is launching an AI music platform with ElevenLabs",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai",
+      "summary": "Universal Music Group is launching a new AI-powered platform that will allow users to draw from its catalog of licensed music to create song remixes, mashups, and new takes on tracks, according to an announcement on Thursday. The record label is developing the platform through a multiyear licensing ",
+      "published": "2026-09-10",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Where to preorder the new Apple Watch Series 12 and Ultra 4",
+      "link": "https://www.theverge.com/gadgets/988579/apple-watch-series-12-5g-ultra-4-preorder-buy",
+      "summary": "The iPhone Duo was the unequivocal star of Apple's \"Surprise and shine\" event, but not for people who were mostly paying attention for news on wearables. Thankfully, Apple had a lot to share about its new Apple Watch Series 12 and Ultra 4. There's no update to the SE model for 2026, which isn't nece",
+      "published": "2026-09-10",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Wolverine on the PS5 goes back to a simpler (and bloodier) style of action game",
+      "link": "https://www.theverge.com/games/992937/wolverine-review-ps5",
+      "summary": "Marvel's Wolverine captures just how angry its lead character is. The latest PS5 exclusive from Spider-Man developer Insomniac, Wolverine is a straightforward action game that is at its best when you're (literally) slicing through enemies or thrust into a sequence pulled from a blockbuster movie, li",
+      "published": "2026-09-10",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Meta’s Muse AI works and creeps me out",
+      "link": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on",
+      "summary": "Meta has launched its new Muse assistant, marking the company's first real foray into AI-powered productivity tools. The company says its AI agent can \"take the busywork off your plate\" by helping you with online shopping, emails, trip-planning, and more. I decided to try out the new tool and see ho",
+      "published": "2026-09-10",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "20.99 万元起！全新智己 LS6 预售，全线控底盘全系标配",
+      "link": "https://www.ifanr.com/1679681?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "「全线控」已成智己的招牌。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-10",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "补贴后 12.99 万元起，银河 TT 上市：全系 800V+宁德时代定制电池",
+      "link": "https://www.ifanr.com/1679668?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "银河 TT 想通吃性能党和家庭用户。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-10",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "iPhone 18 Pro 发布速览：「面子」变化不大，「里子」全面升级",
+      "link": "https://www.ifanr.com/1679651?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "更贵了，也更强了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-10",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "理想 i6 换上中创新航电芯，极氪 9X 光辉、Model Y 性能版现身，9 月新车提前看",
+      "link": "https://www.ifanr.com/1679445?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "长城也许该思考一下命名的延续性了。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-10",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "iPhone Duo 首发上手：唯一值两万元的折叠屏",
+      "link": "https://www.ifanr.com/1679531?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "宛若透明，全方位超预期#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-10",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：商务部回应美国 AI 蒸馏指控",
+      "link": "https://sspai.com/post/114439",
+      "summary": "商务部回应美国 AI 蒸馏指控谷歌声称为了合规将「降级」欧盟搜索服务Apple 智能将有用量限制OpenAI 将与三星合作开发芯片小岛秀夫新游戏被索尼取消，转由微软发行DeepSeek V4.1 发布看看就行的简讯少数派的近期动态你可能错过的好文章查看全文",
+      "published": "2026-09-10",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "App+1｜下一节：教学工作紧张忙碌，下一节课从从容容",
+      "link": "https://sspai.com/post/114384",
+      "summary": "祝每一位老师教师节快乐！查看全文",
+      "published": "2026-09-10",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "走出聊天框，Agent 开始进入现实世界",
+      "link": "http://www.geekpark.net/news/370064",
+      "summary": "&nbsp;\n头图来源：小度\nAgent 正在寻找自己的「身体」。\n过去一年，智能体的主要工作对象是文件、网页和软件。它们可以搜索资料、分析数据、制作 PPT，也可以打开浏览器、调用工具，把一句需求推进成一份可供交付的结果。衡量一个 Agent 能力的方式，也集中在任务能不能做完、执行路径是否稳定、生成结果是否可用。\n但屏幕里的 Agent 仍然与现实世界隔着一层。\n它可以替人整理一周的工作记录，却不知道会议室里刚刚讨论了什么；能够生成一套家庭计划，却看不到孩子有没有开始写作业；可以给出老人用药的注意事项，却无法确认提醒是否被听见。文件、网页和软件提供的是结构化信息，现实世界则充满持续变化的人",
+      "published": "2026-09-10",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "微信，悄悄迈出 AI 社交的第一步",
+      "link": "http://www.geekpark.net/news/370155",
+      "summary": "&nbsp;\n头图来源：视觉中国、ChatGPT 生成\n&nbsp;\n最近，微信开始小范围测试一项新的「小微 AI 社交」功能。\n用户如果想联系一位朋友，可以先把诉求告诉自己的「小微」。小微找到对方的小微后，会说明此次沟通的话题，并向对方本人请求授权。获得同意后，两个小微先行交流；遇到需要用户作出选择或者确认的地方，再分别回来提醒各自的主人。\n这和「帮我给某某发一条微信」并不相同。\n代发消息仍然由用户决定说什么，AI 只是代替用户点击发送。小微 AI 社交中，用户交给 AI 的是一个目的。如何发起询问、交换哪些信息、怎样归纳分歧，部分沟通过程已经交给两个 AI 完成。\n据极客公园实测，两个小微",
+      "published": "2026-09-10",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "对话极壳创始人孙宽：年出货 3 万台后，外骨骼「全班第一」的成长和焦虑",
+      "link": "http://www.geekpark.net/news/370150",
+      "summary": "在刚刚结束的 IFA 柏林国际消费电子展上，几乎每家机器人公司的展台上，都会摆上一台可穿戴外骨骼设备。就像 10 年前，很多互联网新锐创业者都喜欢在办公桌上摆一台无人机。这既是对这个品类「前沿」的认可，也表露出某种对市场增长的看好。\n2025 年被认为是「消费级外骨骼元年」。今年，这个行业迅速涌入了上百个新玩家。\n极壳 Hypershell 去年的全球出货量超过了 3 万台，是这个细分领域里公认的头号玩家。创始人孙宽认为，这仍然是一个相对早期和小众的品类，现有的产品体验还有大量提升的空间。\n在孙宽看来，竞争并不是当下驱动行业创新的核心动力。他希望跨越鸿沟，把外骨骼产品的目标用户从户外、老年等几",
+      "published": "2026-09-10",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "苹果进入特努斯时代，首发 15999 元折叠屏 iPhone；Deepseek 被曝备战科创板 IPO；谷歌埃森哲组建千人 FDE 团队 | 极客早知道",
+      "link": "http://www.geekpark.net/news/370089",
+      "summary": "苹果首款折叠 iPhone Duo 亮相，国行 15999 元起\n北京时间 9 月 10 日凌晨，苹果发布首款折叠手机 iPhone Duo，国行 15999 元起，10 月 16 日开启预售，23 日正式发售。同场推出 iPhone 18 Pro 系列，9999 元起；标准版 iPhone 18 推迟至明年春季发布。\n\n该机采用书本式内折设计，内外屏尺寸与小米 18 Fold 接近，价格高出 5000 元。机身重 254 克，厚度在同类折叠机型中偏厚重，但支持 IP68 防水。机型取消长焦镜头与面容 ID，改用侧边 Touch ID，搭载 A20 Pro 芯片。iOS 27 首次加入手机分屏",
+      "published": "2026-09-10",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "The Download: a “God-driven” cryptocurrency and a solar engineering roadmap",
+      "link": "https://www.technologyreview.com/2026/09/10/1143828/the-download-christian-cryptocurrency-scandal-solar-engineering-roadmap/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. God told them to sell crypto. Their investors lost everything. When Eli Regalado first heard God speak to him, he wondered whether he was hallucinatin",
+      "published": "2026-09-10",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Powering AI is an architecture problem",
+      "link": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
+      "summary": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world&#8217;s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn&#8217;t the first time. Two years earlier, a single failed surge arrester dropped roughly 60 Virginia",
+      "published": "2026-09-10",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "This road map could help us decide whether to deploy solar geoengineering",
+      "link": "https://www.technologyreview.com/2026/09/10/1143804/this-road-map-could-help-us-decide-whether-to-deploy-solar-geoengineering/",
+      "summary": "A San Francisco nonprofit has published a detailed road map of the experiments, studies, and infrastructure that it says would be needed to make informed decisions about the use of solar geoengineering, MIT Technology Review can reveal. Scientists have now spent half a century exploring the possibil",
+      "published": "2026-09-10",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Can the US battery market untangle from China?",
+      "link": "https://www.technologyreview.com/2026/09/10/1143791/us-china-batteries/",
+      "summary": "The US is hitting records for the rapid growth of its energy storage market. That’ll go a long way to shoring up the grid, increasing reliability and also cutting emissions, since batteries can help store energy from intermittent renewables like wind and solar. Crucially, this is all happening with ",
+      "published": "2026-09-10",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "God told them to sell crypto. Their investors lost everything.",
+      "link": "https://www.technologyreview.com/2026/09/10/1143588/indxcoin-god-regalados-sell-crypto-investors-lost-everything/",
+      "summary": "This article was produced in partnership with Type Investigations and with support from the Fund for Investigative Journalism. When Eli Regalado first heard God speak to him, he wondered whether he was hallucinating. Now he likens the experience to having “a thought that is not my thought.” Divine w",
+      "published": "2026-09-10",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Healthcare AI’s next test is integration",
+      "link": "https://www.technologyreview.com/2026/09/10/1141421/healthcare-ais-next-test-is-integration/",
+      "summary": "The entrance of major AI companies into healthcare is a meaningful and welcome development, accelerating the technical foundation available to the industry. Their models are increasingly capable of processing long clinical records, interpreting complex terminology, comparing documentation against ev",
+      "published": "2026-09-10",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "GPT Images 2.5 突发上线！网友的「灵魂画作」一个比一个离谱",
+      "link": "https://www.ifanr.com/1679329?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "过于抽象#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-09",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "首个走进联合国的中国教育 Agent，正在打开下一个 Token 入口",
+      "link": "https://www.ifanr.com/1678673?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "Coding 之后，教育 Agent 正在成为下一场 Token 战争#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-09",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：Apple 发布 iPhone Duo 折叠屏等",
+      "link": "https://sspai.com/post/114394",
+      "summary": "奥之心发布 OM SYSTEM PEN 相机、Sonos 更新音频系统等。查看全文",
+      "published": "2026-09-09",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "一图流 | 一张图带你看完 2026 Apple 秋季发布会",
+      "link": "https://sspai.com/post/114393",
+      "summary": "9 月 10 日凌晨，Apple 召开新品发布会。推出了新一代的 iPhone 18 Pro 系列、Apple Watch Series 12、Apple Watch Ultra 4 以及 AirPods 5 系列。查看全文",
+      "published": "2026-09-09",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "可以「折」的 iPhone 正式亮相：Apple 发布会看点回顾",
+      "link": "https://sspai.com/post/114392",
+      "summary": "9 月 10 日凌晨，Apple 召开新品发布会。推出了新一代的 iPhone 18 Pro 系列、Apple Watch Series 12、Apple Watch Ultra 4 以及 AirPods 5 系列。查看全文",
+      "published": "2026-09-09",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "我一定会回来……吗？小手用户与 iPhone 17 Pro Max 的一年",
+      "link": "https://sspai.com/post/114366",
+      "summary": "为啥那么多人喜欢大手机呢？既然上了 70 mm 我都握不住，要不买个 Pro Max 试试？查看全文",
+      "published": "2026-09-09",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "华人世界被忽视的游戏主机：扩写中国家用游戏主机的时间线",
+      "link": "https://sspai.com/post/113842",
+      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
+      "published": "2026-09-09",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Velastar：喜欢仰望星空的你，有了一个探索异星的新选择",
+      "link": "https://sspai.com/post/113668",
+      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
+      "published": "2026-09-09",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "苹果第一台折叠 iPhone，15999 元起",
+      "link": "http://www.geekpark.net/news/370088",
+      "summary": "iPhone Duo，国行 15999 元起\n\n作者｜张勇毅\n编辑｜靖宇\n\n北京时间今天凌晨，苹果发布了第一台折叠屏手机，名字叫 iPhone Duo。国行 15999 元起，10 月 16 日晚 8 点预购，10 月 23 日发售。同场发布的 iPhone 18 Pro 系列 9999 元起，9 月 12 日晚 8 点预购，18 日发售。\n\n三天前，小米发布了 18 Fold：外屏 5.38 英寸，内屏 7.58 英寸，10999 元起。iPhone Duo 按苹果规格页的标准矩形口径，外屏 5.36 英寸，内屏 7.58 英寸。\n两块屏幕的尺寸，差别在小数点后第二位。价格差了 5000 元",
+      "published": "2026-09-09",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "千问办公发布多人工作台，重写企业软件的最后一公里",
+      "link": "http://www.geekpark.net/news/370061",
+      "summary": "作者｜Cynthia\n编辑｜郑玄\n\n2026 年 2 月 3 日，由 Anthropic 带头，华尔街替 SaaS 写好了讣告。\n几天前，Anthropic 正式官宣把 Claude Cowork 的插件能力扩展到法律、销售、金融等知识工作。与普通聊天机器人不同，这些插件可以携带部门工作流、调用外部工具和数据，并按照预设规则完成一段具体工作。\n市场很快把这种能力翻译成了另一个词：替代。2 月 3 日，高盛一篮子美国软件股单日下跌 6%；彭博统计，当天软件、金融服务和资产管理相关股票合计蒸发约 2850 亿美元。一天之后，Wind 香港 SaaS 指数又下跌 6.39%，板块总市值缩水近 150",
+      "published": "2026-09-09",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "折叠屏 iPhone 初期产量受限，每日仅数百部；环比增长 379%，腾讯 HY4 登顶全球大模型调用榜；特斯拉时隔 19 个月再降价｜极客早知道",
+      "link": "http://www.geekpark.net/news/370026",
+      "summary": "消息称苹果折叠屏 iPhone 初期产量受限，每日仅数百部\n9 月 8 日，据日经中文网报道，根据多位知情人士指出，市场期待已久的首部苹果折叠 iPhone，由于苹果极为严格的质量管控标准，初期生产量每天仅有「数百部」，而苹果及其供货商正全力加快产量爬坡。\n熟悉情况的供应链主管向《日经亚洲》透露：「苹果设定了极高的质量标准，在正式量产之前，8 月又追加了一轮试产」。该人员表示：「截至 8 月下旬日产量仅数百部。按这样的初期产能计算，有可能难以满足市场需求」。\n《日经亚洲》先前报导，苹果计划今年内生产 800 万~1000 万部折叠屏 iPhone，并希望凭借这款全新外型设计的机型激发市场需求，",
+      "published": "2026-09-09",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "The Download: OpenAI’s turning point for math and a battery record",
+      "link": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What OpenAI’s latest controversy tells us about the future of math OpenAI says its agents have solved one of the most important open problems in mathe",
+      "published": "2026-09-09",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Batteries just broke another record in the US",
+      "link": "https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/",
+      "summary": "Battery installations hit a new record in the US in the second quarter of 2026. In total, 20.2 gigawatt-hours of new capacity came online, according to a new report. That’s enough to supply the daily electricity needs of about 700,000 homes. The surge is putting the country on a trajectory to see 71",
+      "published": "2026-09-09",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    }
+  ]
+}
