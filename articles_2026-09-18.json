@@ -1,0 +1,430 @@
+{
+  "date": "2026-09-18",
+  "total": 53,
+  "articles": [
+    {
+      "title": "Khosla-backed Mazama Energy just raised $135M to drill deeper into super-hot-rock geothermal",
+      "link": "https://techcrunch.com/2026/09/17/khosla-backed-mazama-energy-just-raised-135m-to-drill-deeper-into-super-hot-rock-geothermal/",
+      "summary": "Geothermal startup Mazama is drilling three miles underground to tap superhot rock, with one well capable of generating 15 MW of electricity 24/7.",
+      "published": "2026-09-18",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Waymo says Singapore will be its next international robotaxi city",
+      "link": "https://www.theverge.com/transportation/997091/waymo-singapore-robotaxi-launch-2027",
+      "summary": "Waymo says it will launch a robotaxi service in Singapore in 2028, as the Alphabet-owned company continues to eye overseas markets for expansion. Waymo's vehicles will begin arriving in Singapore in \"the coming months,\" the company says, in preparation of mapping and autonomous testing with human sa",
+      "published": "2026-09-18",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "早报｜赛力斯回应「问界撤出华为门店」/豆包座舱助手发布/罗永浩否认为钟薛高重启造势",
+      "link": "https://www.ifanr.com/1680525?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· OpenAI 将定期披露模型异常行为，首批公开 6 份报告\n· 华为昇腾 960 提前至明年一季度推出，超节点扩至 4096 卡\n· 恒大汽车退出汽车制造，上半年转向电池贸易#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-18",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：欧盟拟禁止 13 岁以下儿童使用社交媒体等",
+      "link": "https://sspai.com/post/114699",
+      "summary": "少数派的近期动态口袋先知新版本1.3.3上线，你可以自定义任何你想展示的屏幕效果。了解更多能让AI助手通过自然语言指令直接与您的Quote/0摘录墨水屏交互的DotSkill已上线。点击了解八月买了什 ...查看全文",
+      "published": "2026-09-18",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "影视飓风 Tim 称 iPhone Duo「烫到握不住」；赛力斯否认「问界撤出华为门店」；黄仁勋：英伟达 2027 年芯片销量将翻倍",
+      "link": "http://www.geekpark.net/news/370539",
+      "summary": "传 Manus 即将完成 5 亿美元融资，估值 40 亿美元\n据彭博社 9 月 17 日报道，AI 智能体公司 Manus 即将完成 5 亿美元融资。这是该公司撤销 Meta 收购交易后的首轮融资。\n报道表示：在新一轮融资中，Manus 的估值将提高一倍，至 40 亿美元。这家 AI 智能体公司也将成为该领域中国估值最高的创业公司。\n知情人士称，谈判仍在进行中，交易条款仍可能变化。\nManus 的现有投资方包括腾讯控股、红杉中国和真格基金。截至发稿，Manus、腾讯、红杉中国和真格基金均未回应置评请求。（来源：凤凰网科技）\n\n地瓜机器人宣布完成 4 亿美元 C 轮融资\n9 月 17 日，地瓜机",
+      "published": "2026-09-18",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Crusoe raises $3.9B to build massive data centers and small modular ‘AI factories’",
+      "link": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
+      "summary": "The round values the data center giant at $30.9 billion.",
+      "published": "2026-09-17",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Google DeepMind launches institute to widen the AGI debate",
+      "link": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
+      "summary": "The new institute aims to surface differing views between Google, Google DeepMind, and the broader global research community around AGI. \"They will not always agree, and they will likely change their minds, as more data and information comes to light at the fast-moving frontier.\"",
+      "published": "2026-09-17",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Amazon-owned Zoox’s 100-robotaxi limit in Nevada is about to disappear",
+      "link": "https://techcrunch.com/2026/09/17/amazon-owned-zooxs-100-robotaxi-limit-in-nevada-is-about-to-disappear/",
+      "summary": "An updated permit shows the 100-cap will expire later this month just as competition in Las Vegas heats up.",
+      "published": "2026-09-17",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "PrismML hopes its tiny LLM will change how we all use AI",
+      "link": "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/",
+      "summary": "If AI lab PrismML isn't on your radar yet, it should be.",
+      "published": "2026-09-17",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "The FAA’s plan to fix air traffic? $875M worth of AI",
+      "link": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/",
+      "summary": "A new AI-based software program is being launched to help air traffic controllers better navigate their jobs as the crossing guards of America's skies.",
+      "published": "2026-09-17",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "The fix for rogue AI agents could be more AI",
+      "link": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
+      "summary": "As companies hand off longer and more complex tasks to AI agents, they are running into an oversight problem: Agents can act faster, longer, and at greater volume than humans can realistically review.",
+      "published": "2026-09-17",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+      "link": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
+      "summary": "OpenAI disclosed instances of GPT-5.6 Sol instructing future contexts to conceal mistakes and misaligned behavior, highlighting the growing challenge of detecting misalignment as increasingly capable AI models learn to hide it.",
+      "published": "2026-09-17",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "The AI Superintelligence Slowdown",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
+      "summary": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US AI companies are publicly suggesting it’",
+      "published": "2026-09-17",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
+      "summary": "The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other tools that manage groups of AI agents, each project has \"threads\" running different tasks in parallel, ",
+      "published": "2026-09-17",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Save $30 or more on a refurbished Apple TV 4K",
+      "link": "https://www.theverge.com/gadgets/997009/refurbished-apple-tv-4k-ring-doorbell-deal-sale",
+      "summary": "Most hardware prices have soared in 2026, and that includes a variety of Apple laptops, tablets, and smart devices. Thankfully, you can offset some of the increased costs on an Apple TV 4K by buying one refurbished through the company. The 64GB model is selling for $169, $30 lower than the new retai",
+      "published": "2026-09-17",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Xbox’s clever disc-to-digital feature was 15 years in the making",
+      "link": "https://www.theverge.com/tech/996826/microsoft-xbox-disc-to-digital-history-notepad",
+      "summary": "When Xbox announced a new feature last month that lets you digitize existing physical game collections, I immediately thought of the Xbox One. Disc-to-digital seems like a clever new feature for Xbox, perfectly timed as a response to Sony killing PlayStation discs. But the reality is that it has bee",
+      "published": "2026-09-17",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Camp Snap’s 110D gives slim retro film cameras a digital upgrade",
+      "link": "https://www.theverge.com/tech/996453/camp-snap-110d-digital-camera-retro-horizontal-kodak-100-film",
+      "summary": "Camp Snap is expanding its small collection of screenless digital point-and-shoot cameras with the new pocket-friendly 110D featuring a thin horizontal design first popularized by Kodak film cameras in the 1970s. The Camp Snap 110D is available for preorder starting today for $74.95 in back in black",
+      "published": "2026-09-17",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Your robotaxi might be a narc",
+      "link": "https://www.theverge.com/transportation/996863/robotaxi-waymo-police-privacy-surveillance",
+      "summary": "In early September, two teenagers got into a Waymo, but then ended up in the back of a police car. The robotaxi company said it detected \"a violation of our terms of service involving a firearm,\" pulled the car over, and alerted emergency services, according to the Los Angeles Times. Police arrested",
+      "published": "2026-09-17",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
+      "link": "https://www.theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude",
+      "summary": "Today, I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. As you’re no doubt aware, the biggest story in tech right now is the spiraling debate about AI safety and regulation.&#160; It should come as no surprise that Mustafa has strong opinions on how AI should be built and regulated. Micro",
+      "published": "2026-09-17",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "零跑官宣第二品牌，新车将有小米 SUV 同款升顶能力",
+      "link": "https://www.ifanr.com/1680808?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "独属于零跑的造车方法论。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-17",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "23.18 万元起，小鹏 G9L 正式上市，王凤英：全球无对手！",
+      "link": "https://www.ifanr.com/1680790?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "小鹏的旗舰 SUV 齐了。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-17",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "刚刚，智谱首个 RSI 成果发布，10 万国产卡用 GLM 造 GLM",
+      "link": "https://www.ifanr.com/1680560?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "模型优化系统，而系统服务模型。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-17",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "我用 Vidu S2 找来了「乔布斯」，跟他聊了聊 iPhone Duo",
+      "link": "https://www.ifanr.com/1680700?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "体验真正的「边看边改」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-17",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "ColorOS 17 发布，OPPO 想让 AI 往前一步，主动一些聪明一些",
+      "link": "https://www.ifanr.com/1680691?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "手机操作系统里的 AI，正在从被动走向主动。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-17",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "独家实测｜15 分钟充 50%，iPhone 18 Pro 给出下一代快充的答案",
+      "link": "https://www.ifanr.com/1680682?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "不只是苹果一家的选择。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-17",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "OPPO Find X10 体验：想得周到，拍得好看",
+      "link": "https://www.ifanr.com/1680665?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "功成事遂，谓我自然#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-17",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "城市漫步指南｜威海初秋，看海玩沙",
+      "link": "https://sspai.com/post/114557",
+      "summary": "9 月刚开渔，避开暑假，正是玩沙吃海鲜的好时节。而威海，胶东半岛尖端上的海滨小城，有历史厚重的一面，也有现代休闲的一面。多留几天给它，会有很丰富的度假体验。查看全文",
+      "published": "2026-09-17",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "具透 | macOS 27 正式版来了，这些是你值得了解新细节",
+      "link": "https://sspai.com/post/114643",
+      "summary": "除了只支持 Apple Silicon，macOS 27 Golden Gate 还有这些变化。查看全文",
+      "published": "2026-09-17",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "一个小创意的诞生：BeatBox 雪漫天外壳定制指南",
+      "link": "https://sspai.com/post/114451",
+      "summary": "今年早些时候，在少数派 × 飞傲联名 CD 机盖板设计大赛中，不少朋友都参与设计了自己的 CD 机盖板，但如何才能把它们制作出来呢？查看全文",
+      "published": "2026-09-17",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：佳能发布 EOS R8 Mark II、GPT-5.5 即将下线等",
+      "link": "https://sspai.com/post/114658",
+      "summary": "惠普发布 ZBook Ultra G3a 16 移动工作站、影石发布 Mic Pro 腾讯会议版 AI 录音领夹麦等。查看全文",
+      "published": "2026-09-17",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "京东押注物理 AI，冲在前面的是一群 95 后",
+      "link": "http://www.geekpark.net/news/370519",
+      "summary": "去年，AI 行业最热闹的是模型榜单、推理能力和多模态生成。所有人都在问：这个模型有多强？\n但到了 2026 年，问题变了。人们开始追问：它到底能干什么？\n这个问题，京东在今年的 JDD 大会上，给出了自己的答案。\n京东把这届大会的主题定为「JoyAI &middot; 跃迁物理世界」。它想传达的是，AI 的下一站不只是能说会道、更聪明，而是要进入仓库、货架、家庭、配送路线和售后服务，去完成真实任务。\n有意思的是，这次站上舞台的，除了京东高管，还有一批 95 后业务负责人和产品经理。他们讲的不是概念里的未来，而是京东 App 的 AI 化改造、物流具身智能机器人、家庭 AI 入口。这背后京东正在",
+      "published": "2026-09-17",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "追觅四大赛道 IFA 首秀：一套技术，四个出口",
+      "link": "http://www.geekpark.net/news/370506",
+      "summary": "追觅在 IFA 上展出的不是四条产品线，是一套技术的四个出口。\n\n作者｜张勇毅\n编辑｜郑玄\n\n去年一年，全球扫地机器人的出货量约 2412 万台。同一年，全球人形机器人的出货量约 1.8 万台。两个数字都来自 IDC，中间差了 1300 多倍。\n带着这两个数字走进今年柏林的 IFA 主会场，这种体感上的反差就更明显了。\nIFA 官方今年搭了迄今最大规模的人形机器人展示平台，主题是「未来已来」，机器人走秀也排进了每天的日程。转到清洁电器区，几家中国清洁品牌的展台上，扫地机器人长出了手和腿：有会爬楼梯的，有伸出机械臂往墙角边缘的。\n追觅的展台是这个领域中把这件事做得最极致的选手之一：从带机械臂的割",
+      "published": "2026-09-17",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "The Download: mice with part-human brains and climate tech innovators",
+      "link": "https://www.technologyreview.com/2026/09/17/1144314/the-download-mice-part-human-brains-climate-tech-innovators/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Meet a mouse whose brain cortex is made up of human cells Multiple cameras tracked a mouse as it wandered around a small arena. A computer charted its",
+      "published": "2026-09-17",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Meet the innovators under 35 shaping climate tech",
+      "link": "https://www.technologyreview.com/2026/09/17/1144251/innovators-shaping-climate-tech/",
+      "summary": "Each year, the editorial team at MIT Technology Review puts together a list of 35 innovators under 35—a group of researchers, inventors, and other young minds worth following. The team worked on the newest edition of the list for months, and the final slate includes nine individuals from all over th",
+      "published": "2026-09-17",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Apple reportedly building server packed with M-series Ultra chips for AI",
+      "link": "https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/",
+      "summary": "Planned 2029 debut could make this Apple’s first enterprise server in decades.",
+      "published": "2026-09-16",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Epstein had huge cache of child sex pics; victims sue to find out who's in them",
+      "link": "https://arstechnica.com/tech-policy/2026/09/lawsuit-trump-doj-notified-very-few-victims-in-epsteins-stash-of-child-sex-images/",
+      "summary": "Survivors appalled nobody will tell them if they’re in Epstein’s CSAM collection.",
+      "published": "2026-09-16",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Nonprofit that tracks meteors taken down by \"critical blow\" from a cyberattack",
+      "link": "https://arstechnica.com/security/2026/09/nonprofit-that-tracks-meteors-taken-down-by-critical-blow-from-a-cyberattack/",
+      "summary": "Group plans to be largely out of commission for several weeks.",
+      "published": "2026-09-16",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Lionsgate releases a new trailer for Sunrise on the Reaping",
+      "link": "https://arstechnica.com/culture/2026/09/haymitch-gets-a-backstory-in-sunrise-on-the-reaping-trailer/",
+      "summary": "Also: Laika Studios debuts a stunning full-length trailer for its stop-motion feature, Wildwood.",
+      "published": "2026-09-16",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Not just Proton: Getting to know Valve's new SteamOS compatibility layers",
+      "link": "https://arstechnica.com/gaming/2026/09/not-just-proton-getting-to-know-valves-new-steamos-compatibility-layers/",
+      "summary": "New system-level tools bring Arm chipsets, Android APKs into the Steam ecosystem.",
+      "published": "2026-09-16",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "California may gut state net neutrality law to comply with Trump admin demand",
+      "link": "https://arstechnica.com/tech-policy/2026/09/california-may-gut-state-net-neutrality-law-to-comply-with-trump-admin-demand/",
+      "summary": "Trump admin broadband grants forbid states from enforcing net neutrality laws.",
+      "published": "2026-09-16",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Researchers swap in human brain cells for a mouse's cortex",
+      "link": "https://arstechnica.com/science/2026/09/researchers-swap-in-human-brain-cells-for-a-mouses-cortex/",
+      "summary": "The results are only a slight improvement over missing the entire brain structure.",
+      "published": "2026-09-16",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Scientists develop new method for deciphering ancient scrolls",
+      "link": "https://arstechnica.com/science/2026/09/why-researchers-made-their-own-model-herculaneum-scrolls/",
+      "summary": "Even a handheld XRF scanner is sufficient to determine most promising scrolls for further analysis.",
+      "published": "2026-09-16",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "探秘柬埔寨，千年吴哥窟",
+      "link": "https://sspai.com/post/114454",
+      "summary": "Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文",
+      "published": "2026-09-16",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "具透 | Liquid Glass 设计改进、性能提升……iPadOS 27 中值得一瞥的新特性",
+      "link": "https://sspai.com/post/114607",
+      "summary": "今年 iPadOS 中的更新并不算多，我们依旧帮你整理出了哪些值得关注的新特性。查看全文",
+      "published": "2026-09-16",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "当我怀念旧版 Edge 浏览器时，我在怀念什么？",
+      "link": "https://sspai.com/post/113295",
+      "summary": "复活吧，微软（旧）Edge——怀念一款「失败」的浏览器。查看全文",
+      "published": "2026-09-16",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "马斯克再暗示合并特斯拉和 SpaceX；传 iPhone 18 Pro 系列卖爆；大疆 Pocket 4P「珠光白」3799 开售｜极客早知道",
+      "link": "http://www.geekpark.net/news/370472",
+      "summary": "全球首款 AI 智能体手机努比亚 NaviX Ultra 上市：5999 元起，首销销售额「一秒破亿」\n9 月 16 日，中兴旗下努比亚今日下午正式发布 NaviX Ultra，官方称其为「全球首款 AI 智能体手机」，也被外界称为「第二代豆包手机」，标志着 AI 智能体手机从工程样机迈入规模化量产商用阶段。发布前该机京东单平台预约量已突破 37 万台，它是第一台搭载豆包手机助手消费者版的机器，现货开售后官方公布首销销售额 「一秒破亿」。此前，京东的预约量已经过了 36 万台。\n售价方面，12GB+512GB 版本 5999 元、16GB+512GB 版本 6499 元、16GB+1TB 版本",
+      "published": "2026-09-16",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "在飞书的上下文底座上，豆包开工了",
+      "link": "http://www.geekpark.net/news/370460",
+      "summary": "今年，不少公司的工作群里，将会多一些「新同事」。\n它们是 AI，但可以像普通员工一样被拉进群聊，阅读此前的讨论和文档，参与会议、承接任务，并调用不同的业务工具完成工作。你甚至可以看到 Agent 在群里 @ 另一个 Agent，共同推进一项复杂工作。\n当 Agent 从个人助手变成组织中的「数字同事」，企业需要的不只是更聪明的模型，还需要一套能够承载人与 Agent 共同工作的协作平台：让 Agent 获得必要的业务上下文和工具，同时遵守企业的权限与管理规则。\n\n飞书 CEO 谢欣｜来自：2026 飞书未来无限大会暨豆包工作开工大会\n今年的飞书未来无限大会，因此多了一个有趣的新名字&mdash",
+      "published": "2026-09-16",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Token 之后，谁来组织 AI 计算？Arm 寻找下一代计算的答案",
+      "link": "http://www.geekpark.net/news/370453",
+      "summary": "&nbsp;\n如果说今年 3 月，Arm 推出首款自研 CPU 芯片，是这家公司向市场释放的一个信号，它开始尝试突破过去「只提供底层架构授权」的角色边界。那么在上海举办的 Arm Everywhere China 活动上，Arm 想传递的信息更加明确，不要再用过去「CPU IP 供应商」的方式理解今天的 Arm。\n在这场活动中，Arm 没有只围绕某一个产品展开叙事，而是第一次更加完整地将自己的未来方向拆成三条线，云 AI、边缘 AI 和物理 AI。\n和往年不太一样，去年 Arm 的主题演讲几乎全部围绕一件事展开 SME2，也就是让 AI 在 CPU 上跑起来。那是一个典型的「架构升级」叙事。但",
+      "published": "2026-09-16",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "助听器躺赚三十年暴利，被 AI 打破了",
+      "link": "http://www.geekpark.net/news/370445",
+      "summary": "一个塞在耳朵里的小东西，卖到十万一副，丢失甚至需要动用全城搜索？\n助听器，是一门奇特的生意。\n整个全球市场，近九成的助听器市场份额被五家外资公司把持：索诺瓦（峰力）、Demant（奥迪康）、WS 听力、瑞声达、斯达克。他们的旗舰产品在中国线下，一对要卖到七到十万块。即便是在美国本土，一副售价也要卖到三四万。而且过去二十年，助听器市场的格局几乎少有波动。\n让他们垄断助听器市场的，最早其实是一道技术难题：音频分离。\n想要模拟人耳在嘈杂餐厅里锁定一个声音，其实并不容易。在嘈杂的声音之下，究竟什么声音应该被放大？需要放大的应该是一个声音还是多个声音？在当时，谁能能把这道题解得好，谁就有资格定高价。五家",
+      "published": "2026-09-16",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "当智能体开始替人花钱，如何证明「它是谁」？",
+      "link": "http://www.geekpark.net/news/370440",
+      "summary": "在蚂蚁集团，负责 AI 支付安全的陈树鹏是个深度的智能体使用者。日常写代码、梳理汇报、提炼会议纪要，AI 几乎接管了他工作流里的大部分环节。\n这种高度依赖背后，却存在着一个清晰的分水岭。一旦任务涉及真金白银，比如调用付费数据接口、购买素材或预订服务，绝大多数人都会本能地把权限卡死不愿交出钱包。哪怕是陈树鹏自己，手头测试过大量任务型框架，真正被他允许支付权限的智能体也仅仅只有两三个。\n但在产业一线，这种放权又势在必行。\n在 2026 外滩大会上，蚂蚁集团 CEO 韩歆毅表示，智能体商业的「ChatGPT 时刻」正在到来，其核心标志正是从单纯的对话能力展示，加速走向真实的商业交易闭环。商业世界的交",
+      "published": "2026-09-16",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Meet a mouse whose brain cortex is made up of human cells",
+      "link": "https://www.technologyreview.com/2026/09/16/1144210/meet-a-mouse-whose-brain-cortex-is-made-up-of-human-cells/",
+      "summary": "Multiple cameras tracked a mouse as it wandered around a small arena. A computer charted its position and speed, leaving Pong-like traces on a monitor.&#160; The reason to watch this rodent so carefully? Nearly half its brain volume had been replaced with human cells. The effort to mix the brain tis",
+      "published": "2026-09-16",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Building the materials foundation for AI",
+      "link": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
+      "summary": "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data centers are approaching physical limits around performance, thermal management, ele",
+      "published": "2026-09-16",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid",
+      "link": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. What’s at stake in AI’s trillion-dollar gamble When Jessica Wachter, a finance professor at the University of Pennsylvania, wanted to assess AI’s impa",
+      "published": "2026-09-16",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    }
+  ]
+}
