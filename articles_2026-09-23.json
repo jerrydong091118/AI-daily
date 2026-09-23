@@ -1,0 +1,454 @@
+{
+  "date": "2026-09-23",
+  "total": 56,
+  "articles": [
+    {
+      "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+      "summary": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians tasked with advising it and other AI compa",
+      "published": "2026-09-23",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Claude 5.5 发布，性能直逼 Fable，还要卷价格",
+      "link": "https://www.ifanr.com/1681629?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "最卷一夜！ #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-23",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "⁡⁤‬‍⁤‬​‌‍⁢⁡⁢⁣‌‌﻿⁡⁡​⁤​​﻿⁢⁡‬⁡‬​‍⁣​​﻿⁤⁡‍​⁡‬‌‬⁣⁡⁣​⁡‬⁤刚刚，GPT-6 新模型掀桌！「白菜价」杀进 DeepSeek 腹地",
+      "link": "https://www.ifanr.com/1681605?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "DeepSeek 的价格护城河，迎来 OpenAI 的挑战#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-23",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "早报｜GPT-6 Sol发布，价格腰斩/特努斯：Siri AI不应代替人际关系/4999起，OPPO Find X10系列发布",
+      "link": "https://www.ifanr.com/1681566?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 第六代骁龙 8 双旗舰发布，iQOO 16、红魔 12 Pro+ 首批搭载\n· Qwen Intelligence 亮相，荣耀 Magic9 系列、Robot Phone 首批搭载\n· 前小米 XLA 负责人陈龙创业，研发「自进化」具身大模型#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-23",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "OpenAI 发布 GPT-6 Sol 和 Luna；传字节跳动豆包收缩对话团队；千问发布 AI 手机全栈解决方案 | 极客早知道",
+      "link": "http://www.geekpark.net/news/370829",
+      "summary": "OpenAI 发布 GPT-6 Sol 和 Luna 模型，API 价格大降 50%\n9 月 23 日消息，OpenAI 今日发布 GPT-6 系列模型的最新成员 GPT-6 Sol 和 GPT-6 Luna。\nOpenAI 官方表示，两款模型采用与 GPT-6 Astra 类似的方法进行训练，将 Astra 在专业工作、事实性、编码、计算机使用和对齐等方面最先进的性能带入更快、更经济的模型。\nGPT-6 Sol 和 Luna 模型的 API 价格相比 GPT-5.6 促销价降低 50%。不过 OpenAI 官方也表示，GPT-6 Astra 依然是其整体上最优秀的模型，如果你想要最佳效果和无",
+      "published": "2026-09-23",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "TechCrunch Founder Summit’s agenda revealed: Unlock fundraising, hiring, and AI insights in Boston on November 4",
+      "link": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
+      "summary": "Founders shouldn't have to learn the hardest lessons the hardest way. TechCrunch Founder Summit is designed to make the challenges of starting a company easier and the highs that much greater.",
+      "published": "2026-09-22",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Snorkel AI triples valuation to $3.5B as demand for AI training data booms",
+      "link": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+      "summary": "The seven-year-old startup has raised a $350 million Series E to fuel its data-as-a-service approach.",
+      "published": "2026-09-22",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Qualcomm launches two new smartphone chips with emphasis on AI",
+      "link": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
+      "summary": "Qualcomm said that its new top chip can run 30B mixture-of-expert model locally.",
+      "published": "2026-09-22",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Apple could take on Whoop with a new fitness tracker, report says",
+      "link": "https://techcrunch.com/2026/09/22/apple-could-take-on-whoop-with-a-new-fitness-tracker-report-says/",
+      "summary": "Apple may be developing a new fitness tracker as part of its new generation of hardware devices.",
+      "published": "2026-09-22",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Meta admits Muse’s likeness to OpenClaw isn’t a coincidence",
+      "link": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
+      "summary": "Meta says Muse was built from scratch, but acknowledges the AI assistant was \"heavily inspired\" by OpenClaw — down to some of its workspace filenames and content.",
+      "published": "2026-09-22",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Hacking group ShinyHunters claims it breached the FBI, stole agents’ and applicants’ data",
+      "link": "https://techcrunch.com/2026/09/22/hacking-group-shinyhunters-claims-it-breached-the-fbi-stole-agents-and-applicants-data/",
+      "summary": "The theft of agents' personal information could present a major counterintelligence threat, where agents and their families are extorted into cooperating with a foreign government.",
+      "published": "2026-09-22",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "a16z is challenging Silicon Valley’s love for drop-outs by launching a school",
+      "link": "https://techcrunch.com/2026/09/22/a16z-is-challenging-silicon-valleys-love-for-drop-outs-by-launching-a-school/",
+      "summary": "This academy for promising high school grads is somewhere between a trade school, Y Combinator, and Peter Thiel's Fellowship Program.",
+      "published": "2026-09-22",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+      "link": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+      "summary": "OpenAI is launching two new models, which it says are cut from the same cloth as Astra.",
+      "published": "2026-09-22",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Woman's brain worm infection confirmed after eggs grow tails in lab test",
+      "link": "https://arstechnica.com/health/2026/09/womans-brain-worm-infection-confirmed-after-eggs-grow-tails-in-lab-test/",
+      "summary": "There is no single definitive test for these worms, but the tail is fairly convincing.",
+      "published": "2026-09-22",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "New Anthropic, OpenAI models make same promise: A little more for a lot less money",
+      "link": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
+      "summary": "The frontier AI model race has entered its comparison shopping phase.",
+      "published": "2026-09-22",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Cities across US oppose Trump FCC plan to preempt local broadband rules",
+      "link": "https://arstechnica.com/tech-policy/2026/09/cities-across-us-oppose-trump-fcc-plan-to-preempt-local-broadband-rules/",
+      "summary": "Cities defend permit requirements, say ISPs aren't building networks fast enough.",
+      "published": "2026-09-22",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Microsoft disrupts AI-assisted platform that compromised 12,000 accounts",
+      "link": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
+      "summary": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
+      "published": "2026-09-22",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Lawsuit demands OpenAI pay for new school after ChatGPT used in shooting",
+      "link": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-pay-for-new-school-after-chatgpt-used-in-shooting/",
+      "summary": "British Columbia sues OpenAI, demands Tumbler Ridge shooter’s ChatGPT logs.",
+      "published": "2026-09-22",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Adobe Premiere finally brings powerful video editing to Android, and it's free",
+      "link": "https://arstechnica.com/gadgets/2026/09/adobe-premiere-finally-brings-powerful-video-editing-to-android-and-its-free/",
+      "summary": "You don't even need a Creative Cloud login to edit clips, but AI features cost extra.",
+      "published": "2026-09-22",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Review: Resident Evil might just be the best gaming adaptation yet",
+      "link": "https://arstechnica.com/culture/2026/09/review-resident-evil-is-the-fresh-take-this-flagging-franchise-really-needed/",
+      "summary": "Director Zach Cregger's clever reboot strikes perfect balance between horror, humor, and over-the-top gore.",
+      "published": "2026-09-22",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Toyota orders workers to train humanoid robots but says humans won't be replaced",
+      "link": "https://arstechnica.com/ai/2026/09/toyota-claims-plan-for-400000-factory-robots-wont-replace-human-workers/",
+      "summary": "Toyota's push comes as automakers race to develop and deploy humanoid robots.",
+      "published": "2026-09-22",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Paramount will need to release way more movies to make this merger work",
+      "link": "https://www.theverge.com/entertainment/999056/paramount-warner-bros-discovery-merger-annual-film-quota-guardrails",
+      "summary": "Now that Paramount has reached a settlement with the 12 states that were suing to block its $110 billion merger with Warner Bros. Discovery (WBD), the studio is even closer to becoming one of the world's biggest production houses. In addition to spending at least $300 million more on film and TV pro",
+      "published": "2026-09-22",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
+      "summary": "Rabbit, the company behind the underwhelming R1 device, is rolling out a standalone AI agent that you don't need its hardware to use, as reported earlier by Wired. The startup says its new OS3 \"agentic operating system\" runs in the cloud but operates locally across Windows, Mac, and Linux devices. A",
+      "published": "2026-09-22",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Saudi Arabia’s new Exobot EVs make the Cybertruck look normal",
+      "link": "https://www.theverge.com/transportation/998791/ceer-ev-saudi-arabia-foxconn-exobot",
+      "summary": "The Kingdom of Saudi Arabia is mostly known for its global dominance over petroleum production and oil reserves - not necessarily cars and auto manufacturing, and certainly not electric vehicle production. So it was a little surprising on Monday when a Saudi startup called Ceer unveiled a pair of hy",
+      "published": "2026-09-22",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Qualcomm’s Snapdragon 8 Elite Gen 6 comes in an Extreme version too",
+      "link": "https://www.theverge.com/gadgets/998842/qualcomm-snapdragon-8-elite-extreme-gen-6",
+      "summary": "Qualcomm has announced the Snapdragon 8 Elite Gen 6, this year joined by the 8 Elite Extreme Gen 6 too. The company describes both new phone chips as flagships, and the spec differences are relatively minor, mostly limited to improved AI processing, video capture, and gaming performance on the Extre",
+      "published": "2026-09-22",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Motorola’s wild-looking Signature 27 runs Qualcomm’s new Extreme chipset",
+      "link": "https://www.theverge.com/tech/998844/motorola-signature-27-specs-snapdragon-8-elite-extreme-gen-6",
+      "summary": "Motorola is the first company to announce a phone running Qualcomm's top-end Snapdragon 8 Elite Extreme Gen 6 chip. The Signature 27 looks set to be Motorola's most advanced flagship in some years, though we're still waiting for the full specs, price, and release date. Any prospective buyers will fi",
+      "published": "2026-09-22",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Apple clarifies that Texture and Grain controls are exclusive to the latest iPhones’ cameras",
+      "link": "https://www.theverge.com/tech/998874/apple-iphone-18-pro-ios-27-camera-texture-grain-photographic-style",
+      "summary": "Apple's new texture and grain controls for stylizing photos will be more limited on older phones than initially expected. A confusingly worded press release from Apple indicated that the new features, announced alongside the iPhone 18 and 18 Pro earlier this month, would be \"available\" on older devi",
+      "published": "2026-09-22",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Score free Pixel Buds 2A when you preorder a Googlebook at Best Buy",
+      "link": "https://www.theverge.com/gadgets/998932/googlebook-preorder-pixel-buds-2a-deal-sale",
+      "summary": "The Android-powered Googlebooks are coming soon, with familiar brands and specs that rival Windows Copilot machines. For anyone eager to get their hands on any the new laptops, there’s a preorder perk you may want to know about lasting until October 25th, 2026. When you add a Googlebook to your cart",
+      "published": "2026-09-22",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "10.99 万元起！日产新 N7 这次是真加量还降价",
+      "link": "https://www.ifanr.com/1681515?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "「沙发厂」上新。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-22",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "涨价 9 万？岚图梦想家 9 凭什么敢卖 41.99 万元",
+      "link": "https://www.ifanr.com/1681478?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "把「旗舰感」做得更具体。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-22",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "OPPO 新旗舰塞满了「两亿」，却只要 6799 元起",
+      "link": "https://www.ifanr.com/1681522?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "堆料堆满了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-22",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "16.18 万元起！广汽传祺越 7 配备三把锁，「可城可野」有了新答案",
+      "link": "https://www.ifanr.com/1681498?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "2026 年也是方盒子的大年。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-22",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "光帆携手韶音，以 AI OS 破局单点功能内卷",
+      "link": "https://www.ifanr.com/1681475?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "好 AI，不必自己造。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-22",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：OPPO Find X10 系列发布、Beats 360 头戴式耳机发布等",
+      "link": "https://sspai.com/post/114889",
+      "summary": "高通发布两款第六代骁龙 8 旗舰芯片，Claude Opus 5.5 与 GPT-6 Sol/Luna 发布等。查看全文",
+      "published": "2026-09-22",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "可定制、更出彩，头戴式耳机新选择：Beats 360 首发体验",
+      "link": "https://sspai.com/post/114878",
+      "summary": "在BeatsStudioPro发布3年之后，Beats终于想起来要更新一下自家头戴式耳机的旗舰款了，推出了全新的Beats360。值得一提的是，Beats不久前刚刚度过了成立后的20周年生日，Beat ...查看全文",
+      "published": "2026-09-22",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "怀旧手记｜25 年前的笔记本，如何兼顾轻薄、时尚与性能？",
+      "link": "https://sspai.com/post/114551",
+      "summary": "黄金时代「时尚与科技结合」的浪漫。查看全文",
+      "published": "2026-09-22",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Coast：用十年经验，给记账这件事一个「终点」",
+      "link": "https://sspai.com/post/114479",
+      "summary": "从大学时代入不敷出开始记账，到 10 年后发现记账数据没有被充分利用，再到用 Vibe Coding 把自己的想法做成了一款 App——10 年的记账经验变成了产品设计的基础，而 Vibe Coding 让一个非技术出身的人有能力把这些想法实现出来。查看全文",
+      "published": "2026-09-22",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "少数派独家｜泡泡骚 Low Pro 碳纹黑款，把握持与支撑收进 2.6mm",
+      "link": "https://sspai.com/post/114823",
+      "summary": "如果你关注了前段时间的少数派众测，应该已经见过PopSockets泡泡骚LowPro极薄站立支架。它是一款颠覆以往所有磁吸支架形态的产品，够薄、够轻，最重要的是足够好用。这款在活动中预告过的独家款支架 ...查看全文",
+      "published": "2026-09-22",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：vivo 发布 X500 系列，Google 推出首批 Googlebook 等",
+      "link": "https://sspai.com/post/114840",
+      "summary": "少数派的近期动态少数派会员2026周边现已开放兑换，点击兑换给电话加上「辅助驾驶」？我们想听听你的意见。我们将从提交的问卷中挑选40份用心回答，每份送出50元面值京东卡。参与调研口袋先知新版本1.3. ...查看全文",
+      "published": "2026-09-22",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Meta 个人 AI 助手刚火 13 天，Amazon 就拉闸了",
+      "link": "http://www.geekpark.net/news/370797",
+      "summary": "9 月 21 日，一条弹窗开始出现在试图用 Meta Muse 在 Amazon 上购物的用户屏幕上：「未经授权的 AI Agent 继续访问，将违反 Amazon 使用条款。」\n这距离 Muse 正式上线，仅仅过了 13 天。\n\nMeta 推出的个人 AI 助手 Muse 最近爆火｜图片来源：Meta\nMeta 在 9 月 8 日发布了 Muse，把它定义为「全球第一款，为所有人打造的个人 AI Agent」。和 ChatGPT、Claude 这些聊天机器人不同，Muse 不只是回答问题，它能打开浏览器、登录你的邮箱、填表格、订机票，甚至直接替你下单买东西。\n效果立竿见影，Sensor To",
+      "published": "2026-09-22",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "黄仁勋：AI 时代，企业应该尽可能多付薪酬；宇树科技发布 Dex5-S 灵巧手；OpenAI 新模型 24 天解决 100+ 世界级数学难题 | 极客早知道",
+      "link": "http://www.geekpark.net/news/370768",
+      "summary": "消息称华为 Mate 90 系列年度旗舰手机将在 9 月 29 日发布\n9 月 21 日消息，昨日早些时候，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东刚刚宣布，智界 RX 及鸿蒙智行新品发布会定档 9 月 28 日 14:30 举行。\n根据此前爆料，华为 Mate 90 系列手机也将在本月发布，但遗憾的是，今天华为并未官宣这款年度旗舰的发布会时间。但博主 @熠熠玩数码 透露，Mate 90 系列发布会将在 9 月 29 日 14:30 举行。（来源：IT 之家）\n\n\n英伟达员工平均年薪 28.2 万美元，黄仁勋喊话企业「尽可能多付薪酬」\n英伟达 CEO 黄仁勋近日接受 CB",
+      "published": "2026-09-22",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "link": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+      "summary": "The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people",
+      "published": "2026-09-22",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The Download: why AI’s latest breakthroughs and fears may be more hype than reality",
+      "link": "https://www.technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Don’t be fooled by this summer of AI hype&#160; —Timnit Gebru, executive director of the Distributed AI Research Institute (DAIR), and Emily M. Bender",
+      "published": "2026-09-22",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Don’t be fooled by this summer of AI hype",
+      "link": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+      "summary": "It’s been a busy few months for AI hype. At the end of April, Anthropic claimed that its model Claude Mythos is better at finding software vulnerabilities than most security experts. Then we had the OpenAI–Hugging Face hacking incident, after which Anthropic (proudly) and Meta (reluctantly) disclose",
+      "published": "2026-09-22",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "一台主机，多重角色：新款 Mac mini 首发体验",
+      "link": "https://sspai.com/post/114829",
+      "summary": "Macmini虽然不是性能最强、体验最完整的Mac电脑，但在AI时代，它或许比以往任何时候都更适合家庭用户。从年初OpenClaw的现象级走红，到如今Codex引领Agent工作方式潮流，这台小巧精悍 ...查看全文",
+      "published": "2026-09-21",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派评 | 近期值得关注的 App",
+      "link": "https://sspai.com/post/114815",
+      "summary": ">下载少数派客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
+      "published": "2026-09-21",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "零跑的新目标：从「小米」成为「苹果」",
+      "link": "http://www.geekpark.net/news/370765",
+      "summary": "这一次，零跑主动放弃了「第一」的位置，并表示将全力「争当第三」。\n在零跑 2026 技术日上，零跑汽车创始人朱江明只用了一次「新势力」这个词，说的是「零跑的销量长期处于新势力的前列」。而真正报出排名时，他换了一套坐标：「国内新能源汽车品牌销量的前三名，全球新能源汽车品牌销量的前四名。」\n「第一」前面的定语是「新势力」，通常指 2015 年前后成立、带着互联网思维造车的那批公司。零跑从 2025 年 5 月登上这张榜的头名之后就几乎没下来过，最近两个月月交付连续突破 10 万台，8 月交付 10.3 万台，同比增长 80.7%。\n「第三」前面的定语，则换成了「全球新能源品牌」。今年 1 到 8 ",
+      "published": "2026-09-21",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Jev，让全球程序员玩疯了",
+      "link": "http://www.geekpark.net/news/370758",
+      "summary": "作者｜宇航猿\n编辑｜靖宇\n&nbsp;\n智能家居社区 Home Assistant 最近出现了一个名为 HA-Jev 的插件。\n它的逻辑极其简单，传感器读取洗衣机的功率变化与洗衣房门的状态，然后抛出一个问题给模型，「洗衣机洗完了，衣服是不是被忘在里面了？」模型不输出任何文字分析，只返回一个概率值。当置信度超过 0.8 时，手机就会弹出一则取衣提醒。\n\nHA-Jev 仅仅用来提醒用户洗完的衣服是不是还留在洗衣机里｜图片来源：pitchhut\n一次判断耗时几十毫秒，花费 0.000015 美元 。\n插件开发者在论坛里留下一句意味深长的话，「我过去一直在用大语言模型回答根本不需要它的问题。衣服忘没忘",
+      "published": "2026-09-21",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "把未来做成基础设施｜亚马逊 CTO Dr.Werner Vogels 与云计算 20 年",
+      "link": "http://www.geekpark.net/news/370759",
+      "summary": "作者｜Cynthia \n编辑｜ 郑玄\n&nbsp;\nAI 时代，开发者要如何跟上技术的变化？亚马逊 CTO Werner Vogels，用了二十多年的时间来解答这个问题：基于他主导的 S3、EC2、Lambda&hellip;&hellip;无数企业与开发者实现了加速奔跑。他每一年的 re:Invent 演讲，也成为了无数人的认知风向标。\n虽然自 2025 年之后，他将不再登上 re:Invent 的主舞台。\n但今年 10 月 13 日，他将带着 2026 年最新技术洞察，出席中国深圳的亚马逊云科技软件企业峰会「创业加速营巅峰路演&mdash;&mdash;通往 re:Invent」，并与极客",
+      "published": "2026-09-21",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "对话桥介数物：机器人运动的下一步是让任何机器人半小时内学会跳特定的舞",
+      "link": "http://www.geekpark.net/news/370717",
+      "summary": "具身智能现在太吵了。行业里的人各自笃定，声音大的先被听见。最响的那些声音，往往离真实的进展最远。真正在往前推的人，看的是谁在践行非共识，什么在真的往前走，以及谁心里有一张完整的图，而不是走一步看一步。这些东西不会上热搜，但它们决定这个行业的下一步。我们一直探寻这些。如果你也是——欢迎来到极客公园 In The Loop。👇作者｜Li Yuan8 月，具身智能圈最热闹的一件事是宇树机器人上市。对大多数人来说，宇树的形象非常鲜明：春晚上跳舞的机器人，以及那些流畅得不像机器的动作。人形机器人的价值感，很大程度上正是由这些动作建立起来的。那么，让机器人动得这么好，究竟有多难？机器人首先得有一副足够好的",
+      "published": "2026-09-21",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Figure AI 宣称找到了机器人版 scaling law，同行却说它其实根本不会泛化",
+      "link": "http://www.geekpark.net/news/370607",
+      "summary": "作者｜Li Yuan\n\n390 亿美元的 Figure AI 已经把机器人送进 30 个陌生家庭，同行却说失败一半还谈不上会干活\n「这是 Figure AI 成立以来最重要的项目。」\n在 Helix 2.5 的发布视频里，Figure AI 创始人 Brett Adcock 把话说得很满。\nFigure AI 目前估值达到 390 亿美元，是全球最贵的未上市人形机器人公司，致力于以人形完成人类的日常任务。\n过去几代 Helix 的发布都留下了颇有记忆点的画面：两台机器人合作拉平被子，或者在腾不出手时用屁股顶上洗碗机。不过，此前的 Helix 虽然已经能够自主工作，收获的最大诟病之一就是，每次的",
+      "published": "2026-09-21",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "The Download: investigating deaths at the US border’s “virtual wall”",
+      "link": "https://www.technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The US spent billions on border surveillance. Why can’t it catch people before they die? When José Morales Bernal crossed the border into the US in Ap",
+      "published": "2026-09-21",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
+      "link": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
+      "summary": "Our 15-month investigation into death and surveillance along the US-Mexico border began with a simple question: Why did so many people die near government surveillance towers meant to help track and apprehend them? This story is part of&#160;Dying on Camera, a collaboration between&#160;MIT Technolo",
+      "published": "2026-09-21",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "4 ways to address the failures we found along the US border’s “virtual wall”",
+      "link": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/",
+      "summary": "MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of people who walked undetected through areas surveilled by advanced, AI-enabled tower",
+      "published": "2026-09-21",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The US spent billions on border surveillance. Why can’t it catch people before they die?",
+      "link": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
+      "summary": "When José Morales Bernal crossed the border into the United States on April 8, 2024, the day before his 32nd birthday, it should have triggered a chain of technological alerts and human responses.&#160; As he walked through the desert in southern New Mexico that morning, he was within range of three",
+      "published": "2026-09-21",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "She died at the San Diego border. A surveillance camera was in plain sight",
+      "link": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
+      "summary": "She had only walked for a couple of hours, and already she was lost.&#160; It was early afternoon on Sept. 14, 2025, when 30-year-old Graciela Gómez Hernández crossed the border from the eastern edge of Tijuana into Southern California, sending voice messages to her mother and sister as she walked.&",
+      "published": "2026-09-21",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    }
+  ]
+}
