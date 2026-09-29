@@ -1,0 +1,414 @@
+{
+  "date": "2026-09-29",
+  "total": 51,
+  "articles": [
+    {
+      "title": "Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort",
+      "link": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/",
+      "summary": "Thirteen of the 18 startups in Peak XV’s latest Surge cohort are targeting global markets, while more than half are based in India.",
+      "published": "2026-09-29",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "可灵4.0首发实测，国产AI视频再次掀桌？",
+      "link": "https://www.ifanr.com/1682361?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "能文能武#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-29",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "5000 吨的星舰入轨，人类最大的火箭开始「送快递」了",
+      "link": "https://www.ifanr.com/1682333?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "星舰是现在，太空计算是未来#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-29",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "早报｜苹果修复iPhone 18 Pro面容ID卡死重启/AMD收购李飞飞世界模型/智界RX上市，余承东：鸿蒙智行「最好开的车」",
+      "link": "https://www.ifanr.com/1682292?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· Anthropic 发布 Claude Sonnet 5.5，称生成速度提升逾三成\n· 星舰首次进入地球轨道，部署 26 颗 Starlink V3 卫星\n· Counterpoint：2030 年低于 200 美元的手机年出货量或减少逾 2.3 亿部#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-29",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：荣耀发布荣耀 Magic9 系列，鸿蒙智行发布智界 RX 等",
+      "link": "https://sspai.com/post/115134",
+      "summary": "少数派的近期动态给电话加上「辅助驾驶」？我们想听听你的意见。我们将从提交的问卷中挑选40份用心回答，每份送出50元面值京东卡。参与调研泡泡骚LowPro碳纹黑少数派独家款上架，把握持与支撑收进2.6m ...查看全文",
+      "published": "2026-09-29",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "逝世 12 年后，乔布斯给创业者留下的遗产今天仍然有价值",
+      "link": "http://www.geekpark.net/news/371476",
+      "summary": "本文首发于 Founder Park 公众号 · 2023 年 4 月 21 日相当长的一段时间内，科技界已经不怎么提乔布斯的名字了。乔布斯逝世已经超过 10 年，他的影响力也在逐渐消散，很多新生代的年轻人可能只是听过这个名字，或者甚至不知道他是谁。有一些老头子还记得乔布斯，比如黄仁勋把 ChatGPT 描述为 AI 的「iPhone 时刻」——乔布斯发明的 iPhone。乔布斯档案馆（Steve Jobs Archive）最近上线了一本乔布斯的访谈录《Where Something Wonderful》，记录了他过往的访谈、演讲和电子邮件。本文来自 Evan Armstrong，Tidema",
+      "published": "2026-09-29",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "对话斯坦福爆款论文作者：创造可信Agents、突破上下文限制、个体智能和集体智能",
+      "link": "http://www.geekpark.net/news/371474",
+      "summary": "本文首发于 Founder Park 公众号 · 2023 年 4 月 19 日25 个智能体（agents），在一个貌似早期宝可梦游戏的虚拟小镇，自行制定计划、执行行动、反思行为。上周，题为《生成式代理：人类行为的交互模拟体》（Generative Agents: Interactive Simulacra of Human Behavior）的论文火遍全网。游戏从业者们看到了梦寐以求的开放世界中智能 NPC 的可行性，而人工智能的研究者们，则意识到一个多年悬而未决的问题，因为大语言模型的出现，初见解决的可能性。论文链接：https://arxiv.org/pdf/2304.03442v1.",
+      "published": "2026-09-29",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "信息爆炸的 10 篇 AGI 访谈，我们从中整理了 14 个关键问题",
+      "link": "http://www.geekpark.net/news/371473",
+      "summary": "本文首发于 Founder Park 公众号 · 2023 年 4 月 16 日自从 GPT-4 发布以来，媒体高度关注 OpenAI 和其内外部相关人士，重要角色的视频、播客和文章访谈频频出现。为了节省读者时间，我们整理了过去几周传播较广的 10 篇/支访谈内容，以问题梳理，以下是整理后的内容。访谈对象包括：Sam Altman: OpenAI CEOIlya Sutskever: OpenAI 联合创始人，首席科学家Greg Brockman: OpenAI 联合创始人，董事长兼 CTOGeoffrey Hinton: 认知心理学家和计算机科学家，2018 年图灵奖获得者，「人工智能教父」",
+      "published": "2026-09-29",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Sam Altman 的创业手册 | 周末长文",
+      "link": "http://www.geekpark.net/news/371471",
+      "summary": "本文首发于 Founder Park 公众号 · 2023 年 4 月 15 日Sam Altman 可以说是改变了 YC 和 OpenAI 的发展轨迹，这篇由他创作，发表于 2015 年的创业手册，在当下 AGI 带来的新一波创业热潮里，适合重新拿出来读一读。作者：Sam Altman翻译：海松&nbsp;英文版：https://playbook.samaltman.com/在 YC，我们花了很多时间给创始人们提供建议。尽管一对一的提出建议永远是最有效的，但是我们认为，如果我们能够把这些给 YC 系创始人们的建议里面最通用的一部分提炼出来变成一个创业手册，也许能够帮助我们扩大 YC 的规模。",
+      "published": "2026-09-29",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "有了插件的 ChatGPT，可能会成为未来互联网的唯一入口",
+      "link": "http://www.geekpark.net/news/371469",
+      "summary": "本文首发于 Founder Park 公众号 · 2023 年 4 月 14 日3 月 23 号，OpenAI 宣布发布官方版 ChatGPT 插件，帮助 ChatGPT 访问最新信息、运行计算或使用第三方服务。功能包括：1. 浏览：一种知道何时以及如何浏览互联网的实验模型；2. 代码解释器：一个可以使用 Python 处理上传和下载的实验性 ChatGPT 模型；3. 检索：开源检索插件使 ChatGPT 能够访问个人或组织信息源（经许可）；4. 第三方插件：一个知道何时以及如何使用插件的实验模型。OpenAI 这样一套从 ChatGPT 到 GPT-4，再到 plugins 的产品组合拳将",
+      "published": "2026-09-29",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "张鹏对谈王俊煜、李志飞：ChatGPT 插件模式会如何颠覆互联网格局？",
+      "link": "http://www.geekpark.net/news/371468",
+      "summary": "本文首发于 Founder Park 公众号 · 2023 年 4 月 12 日3 月 23 日，OpenAI 宣布计划推出 Plugins 插件以「帮助 ChatGPT 访问最新信息、运行计算或使用第三方服务」。插件可以显著增强自然语言处理能力，使其与用户的交流更加有效。拥有了插件之后，本来作为演示产品而存在的 ChatGPT 突然成为了一个面向普通消费者的服务平台，很多商业落地场景有了新的想象，甚至于不少传统互联网巨头的业务模式都受到了新的挑战，这会是互联网巨头的「诸神黄昏」吗？搜索引擎的形态会如何变化，还会是具有核心商业价值的产品吗？以及，如果 OpenAI 之后，其他大模型应该怎么走？",
+      "published": "2026-09-29",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "ChatGPT 发布后，马斯克老师的 100 条迷思",
+      "link": "http://www.geekpark.net/news/371467",
+      "summary": "本文首发于 Founder Park 公众号 · 2023 年 4 月 6 日&nbsp;一开始，马斯克很兴奋。他和所有人一样陷入了 ChatGPT 狂热。没两天，不知道发生了什么，马斯克发现事情不对头。「ChatGPT 好得有点可怕了。我们距离危险的强人工智能不远了。」他马上行动做出应对。他取消了 OpenAI 对推特数据库的访问，这原本是收购推特前就在合同中白纸黑字写着的。从这以后，作为推特老板的马斯克老师就开始占据「人工智能危险论」的舆论高台。并且开始阴阳怪气了。2 月 2 日，马斯克在回复一名用户提到的 ChatGPT 对保守派存在政治偏见时，他提到「这是一个严重的问题」2 月 18 ",
+      "published": "2026-09-29",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "千人联名叫停 AI 研究？是个好问题，但更像一场行为艺术",
+      "link": "http://www.geekpark.net/news/371466",
+      "summary": "本文首发于 Founder Park 公众号 · 2023 年 3 月 29 日马斯克和「深度学习三巨头」之一的 Bengio 等一千多位学界业界人士，联名呼吁叫停 AI 大模型研究的新闻，刷屏网络，掀起轩然大波。GPT 的研究会被叫停吗？在学界业界看来，AI 真的会对人类产生威胁吗？这封联名信是证据凿凿的警示还是徒有恐慌的噱头？支持者、反对者纷纷表态，吵作一团。在混乱中，我们发现，这份联名信的真实性和有效性都存在问题。很多位列署名区的人们，连他们自己都不知道签署了这封联名信。另一方面，联名信本身的内容也值得商榷，呼吁人们重视 AI 安全性的问题当然没错，可叫停 AI 研究 6 个月，甚至呼吁",
+      "published": "2026-09-29",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "OpenAI reportedly ditches model over safety concerns",
+      "link": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+      "summary": "A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders.",
+      "published": "2026-09-28",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Aurora CFO says 30,000 driverless trucks by 2030 isn’t as far-fetched as it sounds",
+      "link": "https://techcrunch.com/2026/09/28/aurora-cfo-says-30000-driverless-trucks-by-2030-isnt-as-far-fetched-as-it-sounds/",
+      "summary": "Self-driving truck company Aurora laid out an audacious plan for 2030. Its CFO says its targets aren't aspirational.",
+      "published": "2026-09-28",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Source: Inference provider Modal Labs closing in on $750M round at $15.75B valuation",
+      "link": "https://techcrunch.com/2026/09/28/source-inference-provider-modal-labs-closing-in-on-750m-round-at-15-75b-valuation/",
+      "summary": "The new financing is expected to more than triples the AI infrastructure startup's valuation from just four months ago.",
+      "published": "2026-09-28",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "AMD will acquire Fei-Fei Li’s World Labs for $8.2 billion",
+      "link": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+      "summary": "The acquisition will see World Labs founder Fei-Fei Li join AMD as executive vice president and chief scientist.",
+      "published": "2026-09-28",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Shopify opens checkout to browser-based AI agents",
+      "link": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+      "summary": "Shopify is expanding WebMCP support to checkout, allowing browser-based AI agents to update order details and complete purchases with a buyer’s authorization.",
+      "published": "2026-09-28",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Tesla delays Roadster 2 event again due to bad weather",
+      "link": "https://techcrunch.com/2026/09/28/tesla-delays-roadster-2-event-again-due-to-bad-weather/",
+      "summary": "Tesla says the event \"can only be held outdoors,\" as it's expected to show the car flying in some form using SpaceX thrusters.",
+      "published": "2026-09-28",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "The AI boom took over Climate Week and not everyone is happy about it",
+      "link": "https://techcrunch.com/2026/09/28/the-ai-boom-took-over-climate-week-and-not-everyone-is-happy-about-it/",
+      "summary": "Just like the rest of the U.S., data centers and AI are dividing climate tech founders and investors.",
+      "published": "2026-09-28",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Boeing \"incredibly excited\" to serve as nation's only astronaut transportation",
+      "link": "https://arstechnica.com/space/2026/09/boeing-incredibly-excited-to-serve-as-nations-only-astronaut-transportation/",
+      "summary": "\"We couldn't provide detailed pricing to the CLD suppliers.\"",
+      "published": "2026-09-28",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Experts worry about Nvidia's AI chip sales in China and influence over Trump",
+      "link": "https://arstechnica.com/tech-policy/2026/09/nvidia-may-sell-more-chips-in-china-as-jensen-huangs-influence-over-trump-grows/",
+      "summary": "China is reportedly mulling letting ByteDance, Alibaba buy banned Nvidia chips.",
+      "published": "2026-09-28",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "SpaceX's Starship goes orbital, deploying first next-gen Starlinks",
+      "link": "https://arstechnica.com/space/2026/09/starships-first-orbital-launch-gives-lift-to-spacexs-next-gen-starlinks/",
+      "summary": "Starship had already flown 99 percent of the way to low-Earth orbit. Monday's flight added the last bit.",
+      "published": "2026-09-28",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Florida invokes extinction fears in legal bid to halt OpenAI development",
+      "link": "https://arstechnica.com/ai/2026/09/florida-asks-court-to-put-the-brakes-on-openais-frontier-ai-development/",
+      "summary": "State says LLMs threaten civilization as \"the greatest public nuisance ever created.\"",
+      "published": "2026-09-28",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "New device captures carbon dioxide by pumping it across a battery",
+      "link": "https://arstechnica.com/science/2026/09/new-device-captures-carbon-dioxide-by-pumping-it-across-a-battery/",
+      "summary": "The design requires less energy to capture CO2 than current systems.",
+      "published": "2026-09-28",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "To keep drug prices high, pharma has been piling up the patents",
+      "link": "https://arstechnica.com/health/2026/09/to-keep-drug-prices-high-pharma-has-been-piling-up-the-patents/",
+      "summary": "Add-on patents have increased drug patent periods from two years to over six.",
+      "published": "2026-09-28",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Trump cuts fuel economy standards back to 2014 levels",
+      "link": "https://arstechnica.com/cars/2026/09/trump-cuts-fuel-economy-standards-back-to-2014-levels/",
+      "summary": "In 2020, Trump cut CAFE to 40 mpg. Now he’s cut it again to just 35 mpg.",
+      "published": "2026-09-28",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Kalshi loses again as judges rule prediction markets must obey gambling laws",
+      "link": "https://arstechnica.com/tech-policy/2026/09/another-court-rules-kalshi-sports-bets-arent-swaps-says-states-can-crack-down/",
+      "summary": "Kalshi's defiance of state gambling laws may be headed to Supreme Court.",
+      "published": "2026-09-28",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+      "link": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
+      "summary": "AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of months. The startup launched its first commerci",
+      "published": "2026-09-28",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Bose starts adding Auracast to its headphones",
+      "link": "https://www.theverge.com/tech/1001522/bose-headphones-get-auracast-support",
+      "summary": "A new firmware update for the $449 Bose QuietComfort Ultra Headphones Gen 2 adds support for Bluetooth LE Audio and Auracast as beta features. The flagship Ultra headphones are the first from Bose to support the audio sharing technology, which the company plans to bring to more devices soon. Only a ",
+      "published": "2026-09-28",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "OpenAI’s AI agents need to catch up",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent",
+      "summary": "OpenAI popularized the modern generative AI chatbot, but as its 2026 DevDay event approaches, it's fallen behind in one of the industry's hottest categories: continuously running, consumer-facing AI agents. On Tuesday, it will likely try to capture the lead in that race. Rumors abound that OpenAI wi",
+      "published": "2026-09-28",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Trump finalizes rule to make cars less fuel efficient",
+      "link": "https://www.theverge.com/news/1001610/trump-weakens-fuel-efficiency-standards",
+      "summary": "The US Department of Transportation finalized its plans today to weaken fuel efficiency standards, calling it \"among the largest deregulatory actions under the second Trump Administration.\" It's a nail in the coffin for Biden-era standards that would have required fleet average fuel economy to reach",
+      "published": "2026-09-28",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "AI is supercharging hacking, and your local hospitals and banks aren’t ready",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001427/ai-is-supercharging-hacking-and-your-local-hospitals-and-banks-arent-ready",
+      "summary": "In March, Janice Malone began getting calls about suspicious activity from her nonprofit organization, Vivian's Door. Vivian's Door, headquartered in Alabama, typically provided training, resources, and community to underserved and minority-owned businesses. The work sometimes put it in close contac",
+      "published": "2026-09-28",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Florida seeks a ban on ChatGPT acting like a person",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids",
+      "summary": "Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from \"giving ChatGPT false human attributes,\" a few months after Florida sued the AI company over safety concerns. According to Uthmeier, users are lulled into a false sense of security by the AI bot, as \"ChatGPT's use of",
+      "published": "2026-09-28",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "OpenAI keeps bulldozing mathematicians",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001477/openai-math-advisory-group",
+      "summary": "In a chaotic few months, OpenAI has demonstrated it can do two things with remarkable consistency: make impressive breakthroughs in mathematics, then colossally screw up announcing them. OpenAI is now trying to do better. Somehow, it has botched that too. OpenAI's latest attempt to repair fractured ",
+      "published": "2026-09-28",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Walmart won’t hike prices based on your shopping history, CEO says",
+      "link": "https://www.theverge.com/tech/1001492/walmart-dynamic-pricing-digital-shelf-labels",
+      "summary": "Walmart says it won't change product prices based on your personal information or the time of day, as reported earlier by The Wall Street Journal. In a letter to customers, Walmart CEO John Furner writes that the company's switch to digital shelf labels is meant to save store associates time, rather",
+      "published": "2026-09-28",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "余承东：鸿蒙智行「最好开的车」来了！智界 RX 上市，25.98 万元起",
+      "link": "https://www.ifanr.com/1682272?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "智界背水一战。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-28",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "豆包输入法大更新，AI 最自然的入口回到了键盘",
+      "link": "https://www.ifanr.com/1682232?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "AI 改变输入法，从少折腾开始#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-28",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "补能行业变天！蔚来迎来新盟友，吉利将推出换电新车型",
+      "link": "https://www.ifanr.com/1682222?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "换电走到今天，或许才刚刚进入第二阶段。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-28",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "百万阿莱失踪案｜荣耀Magic9 Pro Max 首发评测",
+      "link": "https://www.ifanr.com/1682199?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "一份保密协议，一部失踪的手机，这次我们不只介绍荣耀Magic9 Pro Max，而是用它拍一场关于谁拿了它的电影。所有线索都在画面里——至少，一开始我们是这么以为的。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-28",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "早报｜苹果Vision新项目曝光，减重成为第一目标/三大运营商暂停「零元购机」/问界确认仍属鸿蒙智行",
+      "link": "https://www.ifanr.com/1682201?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· OpenAI DevDay 将于 9 月 29 日举行\n· 苹果触觉反馈专利案被裁赔 57 亿美元，称将上诉\n· 罗永浩回应「溜溜凳」质量问题#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-28",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派评 | 近期值得关注的 App",
+      "link": "https://sspai.com/post/115094",
+      "summary": ">下载少数派客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
+      "published": "2026-09-28",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "基于 Termux 的 Android 手机开发服务器实操",
+      "link": "https://sspai.com/prime/story/dev-env-on-android-with-termux",
+      "summary": "不 root、不刷机，在随身设备上跑通 AI Agent 与微型 Linux 环境。查看全文本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+      "published": "2026-09-28",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "比起折痕， iPhone Duo 的交互设计更加令人着迷",
+      "link": "https://sspai.com/post/114972",
+      "summary": "一起来看看 Apple 是如何围绕一块会改变形状的屏幕，重新思考人与界面的关系。查看全文",
+      "published": "2026-09-28",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "摸鱼+3 | 还剩三天班，一天一个解谜游戏",
+      "link": "https://sspai.com/post/114967",
+      "summary": "节后再说！查看全文",
+      "published": "2026-09-28",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "link": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+      "summary": "Listen to the session or watch below The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review ",
+      "published": "2026-09-28",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "When can we say AI made a scientific discovery?",
+      "link": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents read and conjecture about hard biology pro",
+      "published": "2026-09-28",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The Download: rogue agent liability and the AI Hype Index",
+      "link": "https://www.technologyreview.com/2026/09/28/1145202/the-download-rogue-agent-liability-and-the-ai-hype-index/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Who&#8217;s liable when AI agents go rogue? Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI di",
+      "published": "2026-09-28",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Who’s liable when AI agents go rogue?",
+      "link": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a ",
+      "published": "2026-09-28",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：OpenAI 称与苹果合作效果不佳",
+      "link": "https://sspai.com/post/115079",
+      "summary": "OpenAI 称与苹果合作效果不佳iPhone 4「天线门」媒体问答录像时隔十六年现身F-Droid 2.0 发布三星冰箱固件升级后罢工，影响韩国用户过中秋Excel 单元格将支持数组微软不再使用 Copilot+ PC 品牌看看就行的简讯少数派的近期动态你可能错过的好文章查看全文",
+      "published": "2026-09-27",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "本月玩什么｜鬼武者 剑之道、火焰纹章 万缕千丝、轨道双子星等",
+      "link": "https://sspai.com/post/115056",
+      "summary": "《鬼武者》系列的惊艳复活，《风花雪月》的世界观延续，赛璐珞动画风格的双人历险……查看全文",
+      "published": "2026-09-27",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    }
+  ]
+}
