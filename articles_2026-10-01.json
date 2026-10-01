@@ -1,0 +1,430 @@
+{
+  "date": "2026-10-01",
+  "total": 53,
+  "articles": [
+    {
+      "title": "Vivo’s X Fold 6 accidentally feels like a throwback",
+      "link": "https://www.theverge.com/tech/1002680/vivo-x-fold-6-global-release-specs-cameras",
+      "summary": "It's a quirk of the release calendar that when Vivo's X Fold 6 launched in China this June, it was just another foldable. Now that it's ready for its global release, the size and aspect ratio feel oddly old-fashioned. The X Fold 6 is much the same size as Vivo's previous foldables, and most other [&",
+      "published": "2026-10-01",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Elon Musk’s Grokipedia has a ‘newly refreshed’ design",
+      "link": "https://www.theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai",
+      "summary": "Grokipedia, SpaceXAI's AI-powered competitor to Wikipedia, recently started incorporating edits again, and today, it got some design tweaks as part of a v0.3 update, including a new logo and refreshes to its homepage and live edits page. SpaceXAI head of design Benji Taylor calls it a \"newly refresh",
+      "published": "2026-10-01",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车票预订/东方甄选溜溜凳双倍退款",
+      "link": "https://www.ifanr.com/1682780?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 美光全年营收达 1331.88 亿美元，预计下一季营收 615 亿美元\n· 派拉蒙获准完成华纳收购，美泰 CEO 将任合并公司联席 CEO豆包接入机票、火车票预订，出行服务新增统一入口#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-10-01",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Gemini 4 正式发布，我们终于有了一个写作强于代码的前沿模型",
+      "link": "https://www.ifanr.com/1682765?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "跑分不可思议，能力谨慎怀疑#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-10-01",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "从数据到智能，再到进化：Agent正在重写AI基础设施",
+      "link": "http://www.geekpark.net/news/372065",
+      "summary": "&nbsp;\n一个工程师写完数据处理代码，点下提交，然后去喝了杯咖啡。十几分钟甚至几十分钟之后，他才回到屏幕前看结果、改代码、再提交。这条「等待&mdash; 反馈」的空隙，过去一直是数据平台默认的节奏。\nAgent 没有这个空隙。它拿到一次结果，立刻验证，紧接着并发地去试第二种、第三种方案，飞快拿到反馈，再发起下一轮调用。\n人用平台，发过来的是一个相对确定的任务，算完、给结果、走人；Agent 用平台，会不停地换着法子去完成你交代的那个目标。压力就这样被放大了&mdash;&mdash; 管控的压力和隐形计算的压力，会十倍、百倍地往上翻。\n这正在成为 2026 年云计算需要面对的一种新负载。",
+      "published": "2026-10-01",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "谷歌 Gemini 4 Argon 曝光；中国生成 AI 用户超 7 亿；美光 2026 财年净利暴涨 895%",
+      "link": "http://www.geekpark.net/news/372064",
+      "summary": "苹果即将发布「智能家居中枢」新品\n据彭博社报道，苹果公司计划于 10 月 13 日推进其拖延已久的智能家居市场布局，这是该公司在新任 CEO 约翰&middot;特努斯领导下的一次关键产品扩张。\n据知情人士透露，该战略的核心是一款代号为 J490 的智能家居中枢设备。该设备将采用大约 6 英寸的方形显示屏设计，提供可安装在墙上或放置在台面上的版本。\n按照苹果的设想，用户会在家中多处放置多台这种显示屏。它们可用于控制恒温器、门锁和其他联网产品，也可用于视频通话、对讲式沟通、播放音乐，以及查看存储在苹果 iCloud 服务中的照片幻灯片。\n苹果还把这台设备视为厨房里的通信和信息中枢，用户可以在做饭",
+      "published": "2026-10-01",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+      "link": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+      "summary": "Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
+      "published": "2026-09-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "The Pentagon taps Elon Musk and Palmer Luckey to help decide what the military should do next",
+      "link": "https://techcrunch.com/2026/09/30/the-pentagon-taps-elon-musk-and-palmer-luckey-to-help-decide-what-the-military-should-do-next/",
+      "summary": "Defense Secretary Pete Hegseth just launched a 120-day study on the future of warfare, led by Elon Musk, Palmer Luckey, and Newt Gingrich, and while it makes sense given their ties to the administration, critics could point out that Musk's and Luckey's companies already sell the kinds of technology ",
+      "published": "2026-09-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
+      "link": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+      "summary": "Flow Engineering, which is bringing AI agents to hardware design, also landed Roelof Botha as an angel investor and board member.",
+      "published": "2026-09-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Factory CEO just accused his VC board adviser of spying for Cognition",
+      "link": "https://techcrunch.com/2026/09/30/factory-ceo-just-accused-his-vc-board-advisor-of-spying-for-cognition/",
+      "summary": "VC Chris Degnan and former board adviser to Factory AI has taken a job as chief revenue officer for competitor Cognition -- and everyone is arguing on X about it.",
+      "published": "2026-09-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Is Neko Health’s body scan worth it? Spotify billionaire’s startup has come to America",
+      "link": "https://techcrunch.com/video/is-neko-healths-body-scan-worth-it-spotify-billionaires-startup-has-come-to-america/",
+      "summary": "Spotify founder Daniel Ek’s Neko Health raised $700 million to build a business around scanning your body, but it’s not the only company centering its roadmap around a new kind of preventative healthcare. Midjourney is building its own body scanner, while Function Health has also raised significant ",
+      "published": "2026-09-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Hackers stole millions of US military personnel records during months-long data breach",
+      "link": "https://techcrunch.com/2026/09/30/hackers-stole-millions-of-us-military-personnel-records-during-months-long-data-breach/",
+      "summary": "The Department of Defense notified millions of current and former U.S. military personnel that their personal information had been stolen in a months-long breach.",
+      "published": "2026-09-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "DoorDash’s drone strategy started on the ground",
+      "link": "https://techcrunch.com/2026/09/30/doordashs-drone-strategy-started-on-the-ground/",
+      "summary": "DoorDash unveiled the six-propeller aircraft that will be used in its new drone delivery business at its annual Dash Forward 2026 event.",
+      "published": "2026-09-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "BMW built the same car for gas and electric. The EV is $4,400 cheaper.",
+      "link": "https://techcrunch.com/2026/09/30/bmw-built-the-same-car-for-gas-and-electric-the-ev-is-4400-cheaper/",
+      "summary": "The new BMW 3 Series shows just how quickly EVs have caught up to fossil fuel vehicles on pricing.",
+      "published": "2026-09-30",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Dinosaur-killing impact crater might have been teeming with life",
+      "link": "https://arstechnica.com/science/2026/09/dinosaur-killing-impact-crater-might-have-been-teeming-with-life/",
+      "summary": "Hot, nutrient water might have lasted for over 5 million years after the impact.",
+      "published": "2026-09-30",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Fifth unvaccinated person dies of measles; CDC still not counting all deaths",
+      "link": "https://arstechnica.com/health/2026/09/fifth-unvaccinated-person-dies-of-measles-cdc-still-not-counting-all-deaths/",
+      "summary": "State health officials race to vaccinate residents by giving over 8,500 doses.",
+      "published": "2026-09-30",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Returning from vacation? The government can search your phone without a warrant.",
+      "link": "https://arstechnica.com/tech-policy/2026/09/immigration-advocate-sues-border-agents-for-demanding-his-cell-phone/",
+      "summary": "Reminder: The \"border exemption\" to your rights is real.",
+      "published": "2026-09-30",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "A local network of implants uses your body as the wiring",
+      "link": "https://arstechnica.com/science/2026/09/scientists-built-implants-that-talk-to-each-other-through-body-tissue/",
+      "summary": "It's possible to send electrical signals right through human tissues.",
+      "published": "2026-09-30",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Attackers have been exploiting critical Zimbra flaw to steal emails",
+      "link": "https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/",
+      "summary": "A simple email gives the attackers the ability to remotely inject OS commands.",
+      "published": "2026-09-30",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Google announces Gemini 4 Argon AI model, but you can't use it yet",
+      "link": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet/",
+      "summary": "So much for Gemini 3.5 Pro.",
+      "published": "2026-09-30",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Reddit is putting more limits on Old.Reddit.com",
+      "link": "https://arstechnica.com/gadgets/2026/09/reddit-will-block-old-reddit-com-from-people-who-havent-used-it-in-6-months/",
+      "summary": "Reddit says it's fighting \"automated abuse.\"",
+      "published": "2026-09-30",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "RFK Jr. thinks AI will free us from the \"tyranny\" of medical facts, expertise",
+      "link": "https://arstechnica.com/health/2026/09/rfk-jr-says-ai-backs-his-anti-vaccine-views-we-checked-it-doesnt/",
+      "summary": "AI is far from a perfect resource. But it seems to hallucinate less than Kennedy.",
+      "published": "2026-09-30",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The new and huger Paramount has a new co-CEO",
+      "link": "https://www.theverge.com/news/1003037/paramount-david-ellison-co-ceo-ynon-kriez",
+      "summary": "Paramount is appointing a new co-CEO ahead of the close of its $110 billion merger with Warner Bros. Discovery. Ynon Kreiz, previously Mattel's chairman and CEO, will be joining Paramount to lead alongside chairman and CEO David Ellison. According to Paramount, \"Ellison will focus on the company's l",
+      "published": "2026-09-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Neon sticks it to A24 by announcing a Creative Commons SCP Foundation movie",
+      "link": "https://www.theverge.com/entertainment/1002958/neon-a24-creative-commons-scp-foundation-movie",
+      "summary": "A24 pissed off one of the internet's largest horror communities when it announced it was working on an SCP Foundation film, but apparently hadn't bothered to contact the SCP Wiki team, nor did it commit to releasing it under a Creative Commons license as required. Seeing an easy PR win, Neon is cash",
+      "published": "2026-09-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Google announces Gemini 4 and says it&#8217;s so capable that only &#8216;trusted cyber defenders&#8217; can have it right now",
+      "link": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
+      "summary": "Google today revealed its next AI frontier model, which it's calling Gemini 4 Argon. The new model delivers \"frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense,\" according to chief AI architect",
+      "published": "2026-09-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The AI Tamagotchis are coming",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices",
+      "summary": "While AI has made plenty of inroads on people's phones and computers, it's largely failed in dedicated devices. But over the next year, two major AI companies, Meta and OpenAI, will attempt to change that. And they're apparently betting on a similar path: testing appetites for physical hardware with",
+      "published": "2026-09-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Reddit says it has to cut back access to ‘Old Reddit’ because of AI bots",
+      "link": "https://www.theverge.com/tech/1002788/old-reddit-ai-scraping",
+      "summary": "Reddit is further limiting who can use the \"Old Reddit\" experience as part of its efforts to combat scraping and automated traffic. Reddit recently started forcing users to log in to be able to use Old Reddit, but in the \"next few months,\" the company says that you'll have to be logged in and have [",
+      "published": "2026-09-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Amazon&#8217;s delivery driver smart glasses will reportedly take photos &#8216;almost constantly&#8217;",
+      "link": "https://www.theverge.com/tech/1002766/amazon-delivery-driver-smart-glasses-privacy",
+      "summary": "Amazon deliveries could soon come with a new catch: the delivery driver's smart glasses will be snapping photos of anything they see while they're in use, including people and private property. Bloomberg reports that the glasses could take \"several thousand captures in a single driver's typical shif",
+      "published": "2026-09-30",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "突发！苹果全新产品线曝光，Siri AI 进家门",
+      "link": "https://www.ifanr.com/1682750?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "致敬 2002，面向 2030#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-30",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "iQOO 16 体验：可能是今年最卷的「性能旗舰」",
+      "link": "https://www.ifanr.com/1682609?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "把日常当主场#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-30",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "问界新 M8 预售 38.98 万元，自行主导后，赛力斯迎来第一场实战",
+      "link": "https://www.ifanr.com/1682703?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "赛力斯有一场持久战要打。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-30",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "宝马新一代 3 系亮相！内外全换新，顶配还有 3.0T 六缸",
+      "link": "https://www.ifanr.com/1682682?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "3 系迈向「新世代」。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-30",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "ChatGPT 一夜抄完半个 AI 圈，现场演示频频翻车",
+      "link": "https://www.ifanr.com/1682644?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "奥特曼：AI 将带来新文艺复兴，而非新工业革命#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-30",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "早报｜曝苹果新CEO想更快发产品/华为Mate 90真机进店/GPT‑6.1 Sol推出，价格仅Astra的五分之一",
+      "link": "https://www.ifanr.com/1682554?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· DeepSeek Harness 推出桌面端预览版\n· 特斯拉 Roadster 发布会因天气推迟\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-30",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "从玩家的世界掠过：Bungie 的「列车」如何驶向终焉",
+      "link": "https://sspai.com/post/115070",
+      "summary": "Bungie 究竟是在和时间赛跑，还是在和自己赛跑？查看全文",
+      "published": "2026-09-30",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "经典任务管理软件的现代重构：新版 2Do 详解",
+      "link": "https://sspai.com/post/115166",
+      "summary": "完全重构的 2Do 是我的心目中最佳的任务管理工具。查看全文",
+      "published": "2026-09-30",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "别再把攻略全甩给 AI：国庆七天河南自驾，我是这样用 Agent 的",
+      "link": "https://sspai.com/post/114945",
+      "summary": "祝你旅途顺遂，假期自由。查看全文",
+      "published": "2026-09-30",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "OpenAI 推出个人 AI 智能体 dots；传豆包将推个人 AI 产品「Spell」；SpaceX 发射星舰成功入轨 | 极客早知道",
+      "link": "http://www.geekpark.net/news/372005",
+      "summary": "OpenAI 开发者大会推出智能体 dots，重构会员定价，意图打造 AI 超级入口\n北京时间 9 月 30 日凌晨，OpenAI 举办其宣称规模最大的一届开发者大会，一次性发布 25 项更新，覆盖新模型、API、智能体、插件生态与企业软件市场。大会现场，Sam Altman 公布 ChatGPT Pro 会员调整方案时台下一片沉寂，套餐调价成为本次发布最受争议的内容。\n会员体系重新划分档位：原有 200 美元 / 月的 Pro 200 售价不变，但新订阅用户额度减半；新增 500 美元 / 月的 Pro 500 套餐，额度为 Plus 的 25 倍，独家开放 Astra Ultrafast ",
+      "published": "2026-09-30",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "The Download: OpenAI’s chief research officer explains its hacking response",
+      "link": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. “We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer Two months after OpenAI’s agents hacked into ",
+      "published": "2026-09-30",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
+      "link": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+      "summary": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised s",
+      "published": "2026-09-30",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：OpenAI 发布 Dot 智能体、Apple 移动睡眠呼吸暂停迹象提示软件国内获批等",
+      "link": "https://sspai.com/post/115197",
+      "summary": "Nothing 发布旗舰耳机 Headphone 1 Pro，AMD 斥资 82 亿美元收购 World Labs 等。查看全文",
+      "published": "2026-09-29",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "社区速递 160 | 水月雨首款游戏耳机与八月派友剁手清单",
+      "link": "https://sspai.com/post/115153",
+      "summary": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。临近国庆长假 ...查看全文",
+      "published": "2026-09-29",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "更懂你的心，也更懂你：Apple Watch Series 12 体验",
+      "link": "https://sspai.com/post/115061",
+      "summary": "全新 Apple Watch Series 12，有哪些可感知的升级？查看全文",
+      "published": "2026-09-29",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "可塑的白昼：ColorOS17 深度评测",
+      "link": "https://sspai.com/post/114728",
+      "summary": "时间倾斜，触碰我，发出清澈的金属般的声响。我的感官在战栗，我觉我能——我能抓住这可塑的白昼。——里尔克《时辰祈祷》AppleEvent'26上，主动智能赋能的SiriAI终于正式发布。Craig一句「 ...查看全文",
+      "published": "2026-09-29",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：荣耀发布荣耀 Magic9 系列，鸿蒙智行发布智界 RX 等",
+      "link": "https://sspai.com/post/115134",
+      "summary": "少数派的近期动态给电话加上「辅助驾驶」？我们想听听你的意见。我们将从提交的问卷中挑选40份用心回答，每份送出50元面值京东卡。参与调研泡泡骚LowPro碳纹黑少数派独家款上架，把握持与支撑收进2.6m ...查看全文",
+      "published": "2026-09-29",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "除了更贵的订阅和砍半的额度，OpenAI 想做的还是「微信」",
+      "link": "http://www.geekpark.net/news/372003",
+      "summary": "模型越来越便宜，付费给的用量却砍了半\n\n作者｜Alan\n\n北京时间 9 月 30 日凌晨，OpenAI 开完了它口中「迄今规模最大的一届」开发者大会。官方汇总页上一共列了 25 项发布，从新模型、新 API，一路排到给企业买软件用的应用市场。\n\n现场最安静的一刻，出现在 Sam Altman 讲到 ChatGPT Pro 会员调整的时候。台下没有一个人鼓掌。\n调整本身不复杂：每月 200 美元的 Pro 200 价格不变，新订阅的用量缩水；另外新增一档 Pro 500，每月 500 美元，用量是 Plus 的 25 倍，外加一个个人套餐里只有它能用的提速档 Astra Ultrafast。\n那",
+      "published": "2026-09-29",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "AMD 82 亿美元收购 World Labs，买的不只是世界模型",
+      "link": "http://www.geekpark.net/news/372000",
+      "summary": "9 月 3 日，英伟达宣布以约 130 亿美元收购 Hugging Face。25 天后，AMD 宣布以约 82 亿美元收购李飞飞创办的 World Labs。\n两笔交易放在一起看，更觉得有意思。CNBC 最新的报道提到，Hugging Face 在被英伟达拿下之前，AMD 和 Salesforce 都曾表达过收购兴趣。\n没抢到 AI 世界里最大的模型「集散地」，AMD 转身买下了一支造模型的顶级团队。\n根据 AMD 的公告，这是一笔全股票交易，预计在 2026 年底前完成交割，仍需通过监管审批。交割之后，李飞飞将出任 AMD 执行副总裁兼首席科学家，直接向 CEO 苏姿丰汇报。\n这也是 AM",
+      "published": "2026-09-29",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Anthropic 招股书里，最耐人寻味的 7 个细节",
+      "link": "http://www.geekpark.net/news/371994",
+      "summary": "作者｜Techno 之王\n编辑｜靖宇\n&nbsp;\n\n当地时间 9 月 28 日，外媒披露了一份 Anthropic 的 IPO 招股书。\n先要说清楚这份文件的性质。它并不是 Anthropic 主动公开的版本。今年 6 月，Anthropic 以公益公司身份向美国证交会秘密递交了 S-1 注册声明草案，为普通股首次公开发行做准备。按照规则，公司要在向机构投资者路演前至少 15 天公开递交修订版 S-1，完整财务数据到那时才会被外界看到。路透此次看到的是一份尚未公开的版本，Anthropic 对此拒绝置评。\n这意味着其中的数字仍可能随证交会的审阅意见调整，不少细节也只能通过路透的转述窥见一角。",
+      "published": "2026-09-29",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "三个月，5000 人：拼多多在这里搭起一座新业务基地",
+      "link": "http://www.geekpark.net/news/371850",
+      "summary": "互联网大厂很久没有如此密集地在线下招人了。\n今年 5 月底，拼多多正式进入雄安。三个多月后，这家公司的雄安团队已经超过 5000 人。\n速度甚至比原来的计划更快。按照拼多多披露的信息，其雄安公司已经提前完成年度专项招聘计划，新办公楼和员工食堂也陆续投入使用。\n5000 人是什么概念？\n在今天的互联网大厂，这已经不是一个普通区域办公室的规模。尤其是在互联网公司普遍强调降本增效、控制人员扩张的背景下，一次性在一座新城市搭起数千人的团队，本身就是一个值得观察的动作。\n但拼多多在雄安做的，并不是再建一个研发总部。\n从已经落地的业务看，这里更像是拼多多新建的一座大型后台业务基地：一头连接平台治理和数据生",
+      "published": "2026-09-29",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Manus 正式发布 2.0！个人 AI 助手、云电脑、远程控制，Manus 想做 AI 时代全家桶",
+      "link": "http://www.geekpark.net/news/371493",
+      "summary": "头图来源：Manus\n&nbsp;\n突然地，Manus 在官网和社交平台上公布了 Manus 2.0 版本的更新。\n这并非一次简单的产品迭代，更像是Manus 团队尝试将当下所有最热门的 AI 场景和功能，融合到一个「AI 全家桶中」。\n此次升级中，团队打造的底层 Cascade Agent 框架，能将任务 Token 消耗减少 23.2%，任务完成时间缩短 28.2%，运行成本降低 32%。同时，Manus 现在也提供「云电脑」的选项供用户选择。\n向上，从视频编辑、游戏开发、远程控制和 AI Studio，Manus 为所有用户常用的场景，提供了相关产品。\n\nManus 正式推出个人助手应用",
+      "published": "2026-09-29",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "The Download: climate tech companies to watch and AI’s discovery problem",
+      "link": "https://www.technologyreview.com/2026/09/29/1145249/the-download-climate-tech-ai-scientific-discovery/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Coming soon: our 2026 list of Climate Tech Companies to Watch With the planet nearing 1.5 °C of warming, climate policies being unraveled, and Big Tec",
+      "published": "2026-09-29",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Coming soon: Our 2026 list of Climate Tech Companies to Watch",
+      "link": "https://www.technologyreview.com/2026/09/29/1145183/2026-climate-tech-companies-to-watch-preview/",
+      "summary": "Earlier this month, the UN announced the planet will tip past 1.5 ˚C of warming, “likely within the next few years,” squashing any lingering hope that nations would cut emissions fast enough to achieve the loftiest goal of the Paris climate agreement. In the US, the world’s second-largest-emitting c",
+      "published": "2026-09-29",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Making AI an asset, not an expense",
+      "link": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
+      "summary": "When customers talk about AI costs, the conversation usually starts with token prices and ends with access to the latest, most capable model in the cloud. Do they always need that level of capability? Not necessarily. But that is often where the conversation goes. As AI moves from experimentation to",
+      "published": "2026-09-29",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    }
+  ]
+}
