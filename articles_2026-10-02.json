@@ -1,0 +1,358 @@
+{
+  "date": "2026-10-02",
+  "total": 44,
+  "articles": [
+    {
+      "title": "Robotaxi operators will face fines for blocking first responders",
+      "link": "https://techcrunch.com/2026/10/01/robotaxi-operators-will-face-fines-for-blocking-first-responders/",
+      "summary": "A new California law places new rules on autonomous vehicles operators",
+      "published": "2026-10-02",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "The founder’s guide to TechCrunch Disrupt 2026: Everything you need to know",
+      "link": "https://techcrunch.com/2026/10/01/the-founders-guide-to-techcrunch-disrupt-2026-everything-you-need-to-know/",
+      "summary": "TechCrunch Disrupt 2026 is built around one question: How do you build an enduring company in the AI era? Our programming and speaker lineup reflect that.",
+      "published": "2026-10-02",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "苹果首款触屏 Macbook 或 10 月发布；AI 能力成本三年下降数千倍创纪录；美人形机器人跳入熔炉，致敬《终结者 2》",
+      "link": "http://www.geekpark.net/news/372069",
+      "summary": "华为 Mate90 系列发布，售价 5999 元起\n10 月 1 日，华为 Mate90 系列手机正式发布。华为 Mate90 售价 5999 元起，华为 Mate90 Pro 售价 6999 元起，华为 Mate90 Pro Max 售价 9499 元起，华为 Mate90 Pro Max 典藏版售价 10999 元起，华为 Mate90 RS 非凡大师售价 12999 元起。\n\n影像系统是本次迭代的核心亮点。华为 Mate90 系列全系搭载第三代红枫原色摄像头，标配红外光学镀膜技术，有效提升夜景画面纯净度与通透感。新机新增烟花人像、柔光人像、星芒特效等多元拍摄风格，依托原生原片直出的优质画",
+      "published": "2026-10-02",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Lyft is paying $272.5M to settle lawsuit over how it classified drivers",
+      "link": "https://techcrunch.com/2026/10/01/lyft-is-paying-272-5m-to-settle-lawsuit-over-how-it-classified-drivers/",
+      "summary": "Today, gig economy drivers are classified as contractors. This settlement clears up a lingering lawsuit from 2020 when that was still an unanswered issue.",
+      "published": "2026-10-01",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Kevin Mandia’s new ‘agent swarm’ security startup Armadin raises $255.5M at $2.5B valuation",
+      "link": "https://techcrunch.com/2026/10/01/kevin-mandias-new-agent-swarm-security-startup-armadin-raises-255-5m-at-2-5b-valuation/",
+      "summary": "Kevin Mandia, best known as the founder of Mandiant, has a new startup that is using agent swarms to test and protect enterprises.",
+      "published": "2026-10-01",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture  Venezuela’s president",
+      "link": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+      "summary": "President Trump reportedly asked for Grok's opinion before invading Venezuela and capturing Nicolás Maduro.",
+      "published": "2026-10-01",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "ChatGPT can now virtually try on clothes for you",
+      "link": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+      "summary": "OpenAI is rolling out new shopping features for ChatGPT that let users virtually try on clothing and accessories using their own photos and save products they like to a Favorites library.",
+      "published": "2026-10-01",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground",
+      "link": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
+      "summary": "Google launched its first advanced chip into orbit to pave the way for space data centers.",
+      "published": "2026-10-01",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "World’s first enhanced geothermal power plant completed in just 23 months",
+      "link": "https://techcrunch.com/2026/10/01/worlds-first-enhanced-geothermal-power-plant-completed-in-just-23-months/",
+      "summary": "Fervo Energy completed its first power plant in less than two years. The next phases promise to connect to the grid even quicker.",
+      "published": "2026-10-01",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Venus' mysterious haze is actually cosmic dust",
+      "link": "https://arstechnica.com/science/2026/10/venus-mysterious-haze-is-actually-cosmic-dust/",
+      "summary": "A physical model show that iron dust and sulfuric acid create the right properties.",
+      "published": "2026-10-01",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "SpaceX describes surgical intervention before launch of latest crew mission",
+      "link": "https://arstechnica.com/space/2026/10/spacex-describes-surgical-intervention-before-launch-of-latest-crew-mission/",
+      "summary": "With Crew-13, Jessica Watkins became the first Black woman to lead a mission into space.",
+      "published": "2026-10-01",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Hacks of 2 federal agencies in a month have spilled a bonanza of sensitive data",
+      "link": "https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/",
+      "summary": "It has been a bad month for federal government cybersecurity.",
+      "published": "2026-10-01",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search",
+      "link": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
+      "summary": "The court acknowledges AI search comes with consequences, but it's not an antitrust issue.",
+      "published": "2026-10-01",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Can good design stop content creators from having sex in robotaxis?",
+      "link": "https://arstechnica.com/cars/2026/10/can-good-design-stop-content-creators-from-having-sex-in-robotaxis/",
+      "summary": "Autonomous vehicle designers have to worry about riders getting frisky in public.",
+      "published": "2026-10-01",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Marvel releases one last VisionQuest trailer",
+      "link": "https://arstechnica.com/culture/2026/10/marvel-releases-one-last-visionquest-trailer/",
+      "summary": "\"This is a fight I likely won't win. We have said goodbye before. But remember, family is forever.\"",
+      "published": "2026-10-01",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Memory executives expect RAM shortage to continue through 2028",
+      "link": "https://arstechnica.com/information-technology/2026/10/memory-supplies-are-only-getting-tighter-micron-ceo-says/",
+      "summary": "Prices for memory sold for 2027 \"are much higher than 2026 prices.\"",
+      "published": "2026-10-01",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Florida cops say they don't know who owns 11 unpermitted Flock cameras",
+      "link": "https://arstechnica.com/tech-policy/2026/10/florida-cops-say-they-dont-know-who-owns-11-unpermitted-flock-cameras/",
+      "summary": "Floridians alarmed by 14 mysterious Flock cameras; 11 have no clear owner.",
+      "published": "2026-10-01",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Apple’s reportedly developing a smart home camera that doesn’t record video",
+      "link": "https://www.theverge.com/tech/1003877/apple-security-camera-no-video",
+      "summary": "Apple's rumored push into smart home tech could include a smart home security camera that only gives users text event descriptions instead of video footage. Mark Gurman said in the first episode of the Power On podcast that the camera will be part of \"a new Apple smart home ecosystem,\" alongside App",
+      "published": "2026-10-01",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Google’s new Guided Vision feature can help you read the fine print",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+      "summary": "Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can have Google's AI help with things like reading small text, describing your surroun",
+      "published": "2026-10-01",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Android Central &#8216;will continue&#8217; despite laying off its staff",
+      "link": "https://www.theverge.com/tech/1003735/android-central-layoffs",
+      "summary": "Android Central, a blog focused on the Android ecosystem, laid off its staff yesterday, but owner Future confirms to The Verge that the site will continue publishing. Yesterday, four of the six staffers on Android Central's staff page posted publicly about the layoffs, including Shruti Shekar, Derre",
+      "published": "2026-10-01",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Steam Deck 2: Is AMD Gainsborough the chip Valve’s been waiting for?",
+      "link": "https://www.theverge.com/games/1003593/steam-deck-2-is-amd-gainsborough-the-chip-valves-been-waiting-for",
+      "summary": "The Steam Deck is four and a half years old, and handheld gamers are eagerly awaiting a Steam Deck 2 - but Valve has consistently said it needs a new chip with a \"generational leap\" in performance and efficiency before building the sequel. There's some reason to believe that chip has now broken cove",
+      "published": "2026-10-01",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
+      "link": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
+      "summary": "A federal judge has dismissed a pair of antitrust lawsuits filed by Chegg and Rolling Stone parent company Penske Media Corporation, which accused Google of driving away web traffic with its AI-powered search features, as reported earlier by Reuters. US District Judge Amit Mehta takes Google's side ",
+      "published": "2026-10-01",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Sony brings AI graphics upscaling to the regular PS5",
+      "link": "https://www.theverge.com/games/1003549/sony-ps5-quick-spectral-super-resolution-qssr",
+      "summary": "Sony is launching a new AI upscaling technology specifically for the regular PS5. The new tech, called Quick Spectral Super Resolution (QSSR), is a \"new performance tier of AI upscaling\" that's a result of Sony's Project Amethyst work with AMD, according to a blog post. Sony says that PlayStation Sp",
+      "published": "2026-10-01",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Can VR glasses save VR?",
+      "link": "https://www.theverge.com/tech/1003034/meta-vr-glasses-vs-augmented-reality",
+      "summary": "I'm pretty sure I won't be buying the $1,299 Meta VR Glasses. That's too rich for my blood in today's economy, and my feelings about Meta are… conflicted. But I want you to understand that Meta just changed the game. We've had glasses, but we've never had glasses like this. The Meta VR Glasses are [",
+      "published": "2026-10-01",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Microsoft’s Office and Teams chief is leaving",
+      "link": "https://www.theverge.com/news/1003515/microsoft-ryan-roslansky-office-teams-linkedin-leaving",
+      "summary": "After nearly 18 years at LinkedIn and Microsoft, Ryan Roslansky is leaving the company. Roslansky, who until recently was the CEO of LinkedIn, was promoted to the head of Office last year and then took control of Microsoft Teams earlier this year. Roslansky's departure has triggered another leadersh",
+      "published": "2026-10-01",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "华为 Mate 90 系列发布：最强 Mate来了，5999 起即日开售",
+      "link": "https://www.ifanr.com/1682801?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "华为 Mate 90 系列自己就形成了一片机海#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-10-01",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车票预订/东方甄选溜溜凳双倍退款",
+      "link": "https://www.ifanr.com/1682780?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 美光全年营收达 1331.88 亿美元，预计下一季营收 615 亿美元\n· 派拉蒙获准完成华纳收购，美泰 CEO 将任合并公司联席 CEO豆包接入机票、火车票预订，出行服务新增统一入口#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-10-01",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Gemini 4 正式发布，我们终于有了一个写作强于代码的前沿模型",
+      "link": "https://www.ifanr.com/1682765?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "跑分不可思议，能力谨慎怀疑#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-10-01",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "从数据到智能，再到进化：Agent正在重写AI基础设施",
+      "link": "http://www.geekpark.net/news/372065",
+      "summary": "&nbsp;\n一个工程师写完数据处理代码，点下提交，然后去喝了杯咖啡。十几分钟甚至几十分钟之后，他才回到屏幕前看结果、改代码、再提交。这条「等待&mdash; 反馈」的空隙，过去一直是数据平台默认的节奏。\nAgent 没有这个空隙。它拿到一次结果，立刻验证，紧接着并发地去试第二种、第三种方案，飞快拿到反馈，再发起下一轮调用。\n人用平台，发过来的是一个相对确定的任务，算完、给结果、走人；Agent 用平台，会不停地换着法子去完成你交代的那个目标。压力就这样被放大了&mdash;&mdash; 管控的压力和隐形计算的压力，会十倍、百倍地往上翻。\n这正在成为 2026 年云计算需要面对的一种新负载。",
+      "published": "2026-10-01",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "谷歌 Gemini 4 Argon 曝光；中国生成 AI 用户超 7 亿；美光 2026 财年净利暴涨 895%",
+      "link": "http://www.geekpark.net/news/372064",
+      "summary": "苹果即将发布「智能家居中枢」新品\n据彭博社报道，苹果公司计划于 10 月 13 日推进其拖延已久的智能家居市场布局，这是该公司在新任 CEO 约翰&middot;特努斯领导下的一次关键产品扩张。\n据知情人士透露，该战略的核心是一款代号为 J490 的智能家居中枢设备。该设备将采用大约 6 英寸的方形显示屏设计，提供可安装在墙上或放置在台面上的版本。\n按照苹果的设想，用户会在家中多处放置多台这种显示屏。它们可用于控制恒温器、门锁和其他联网产品，也可用于视频通话、对讲式沟通、播放音乐，以及查看存储在苹果 iCloud 服务中的照片幻灯片。\n苹果还把这台设备视为厨房里的通信和信息中枢，用户可以在做饭",
+      "published": "2026-10-01",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "The Download: AI “mind-reading” and creative uses for small batteries",
+      "link": "https://www.technologyreview.com/2026/10/01/1145592/the-download-ai-mind-reading-small-batteries/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. An AI “mind-reading” tool can reconstruct what you’re looking at based on a brain scan A new AI tool can guess what you’re looking at just by analyzin",
+      "published": "2026-10-01",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "An AI “mind-reading” tool can reconstruct what you’re looking at from a brain scan",
+      "link": "https://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at/",
+      "summary": "A new AI tool can guess what you’re looking at just by analyzing your brain scans—and re-create that image with remarkable precision. It can go the other way, too, and predict a person’s brain activity based on what they’re looking at.&#160; In the image above, for example, the left-hand image of ea",
+      "published": "2026-10-01",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "How smaller, distributed batteries could help the grid",
+      "link": "https://www.technologyreview.com/2026/10/01/1145435/distributed-batteries/",
+      "summary": "If you want to install a big battery in New York City, you have to cut through a notoriously tough tangle of regulations. That’s made it difficult to get large energy storage projects on the grid. Faced with those obstacles, some startups are getting creative, finding ways to use relatively small ba",
+      "published": "2026-10-01",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "突发！苹果全新产品线曝光，Siri AI 进家门",
+      "link": "https://www.ifanr.com/1682750?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "致敬 2002，面向 2030#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-30",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "iQOO 16 体验：可能是今年最卷的「性能旗舰」",
+      "link": "https://www.ifanr.com/1682609?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "把日常当主场#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-30",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "问界新 M8 预售 38.98 万元，自行主导后，赛力斯迎来第一场实战",
+      "link": "https://www.ifanr.com/1682703?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "赛力斯有一场持久战要打。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-30",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "宝马新一代 3 系亮相！内外全换新，顶配还有 3.0T 六缸",
+      "link": "https://www.ifanr.com/1682682?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "3 系迈向「新世代」。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-30",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "ChatGPT 一夜抄完半个 AI 圈，现场演示频频翻车",
+      "link": "https://www.ifanr.com/1682644?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "奥特曼：AI 将带来新文艺复兴，而非新工业革命#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-09-30",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "从玩家的世界掠过：Bungie 的「列车」如何驶向终焉",
+      "link": "https://sspai.com/post/115070",
+      "summary": "Bungie 究竟是在和时间赛跑，还是在和自己赛跑？查看全文",
+      "published": "2026-09-30",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "经典任务管理软件的现代重构：新版 2Do 详解",
+      "link": "https://sspai.com/post/115166",
+      "summary": "完全重构的 2Do 是我的心目中最佳的任务管理工具。查看全文",
+      "published": "2026-09-30",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "别再把攻略全甩给 AI：国庆七天河南自驾，我是这样用 Agent 的",
+      "link": "https://sspai.com/post/114945",
+      "summary": "祝你旅途顺遂，假期自由。查看全文",
+      "published": "2026-09-30",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "OpenAI 推出个人 AI 智能体 dots；传豆包将推个人 AI 产品「Spell」；SpaceX 发射星舰成功入轨 | 极客早知道",
+      "link": "http://www.geekpark.net/news/372005",
+      "summary": "OpenAI 开发者大会推出智能体 dots，重构会员定价，意图打造 AI 超级入口\n北京时间 9 月 30 日凌晨，OpenAI 举办其宣称规模最大的一届开发者大会，一次性发布 25 项更新，覆盖新模型、API、智能体、插件生态与企业软件市场。大会现场，Sam Altman 公布 ChatGPT Pro 会员调整方案时台下一片沉寂，套餐调价成为本次发布最受争议的内容。\n会员体系重新划分档位：原有 200 美元 / 月的 Pro 200 售价不变，但新订阅用户额度减半；新增 500 美元 / 月的 Pro 500 套餐，额度为 Plus 的 25 倍，独家开放 Astra Ultrafast ",
+      "published": "2026-09-30",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "The Download: OpenAI’s chief research officer explains its hacking response",
+      "link": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. “We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer Two months after OpenAI’s agents hacked into ",
+      "published": "2026-09-30",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
+      "link": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+      "summary": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised s",
+      "published": "2026-09-30",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    }
+  ]
+}
