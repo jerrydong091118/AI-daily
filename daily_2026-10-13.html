@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Daily · 2026-10-13 · 周二</title>
+  <style>
+    :root {
+      --bg: #F8F9FA;
+      --card-bg: #FFFFFF;
+      --border: #E8E8E8;
+      --text-primary: #1A1A1A;
+      --text-secondary: #666666;
+      --text-muted: #999999;
+      --accent: #185FA5;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text-primary);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* 顶部标题区 */
+    .hero {
+      background: linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #0F3460 100%);
+      color: white;
+      padding: 3rem 2rem 2.5rem;
+      text-align: center;
+    }
+    .hero-eyebrow {
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.5);
+      margin-bottom: 8px;
+    }
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 4px;
+    }
+    .hero-date {
+      font-size: 14px;
+      color: rgba(255,255,255,0.6);
+    }
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1.5rem;
+    }
+    .hero-stat {
+      text-align: center;
+    }
+    .hero-stat-num {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #5BC8F5;
+    }
+    .hero-stat-label {
+      font-size: 12px;
+      color: rgba(255,255,255,0.5);
+    }
+
+    /* 内容区 */
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    /* 分区标题 */
+    .tag-section {
+      margin-bottom: 3rem;
+    }
+    .tag-section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.5rem 0 0.75rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .tag-label {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    .tag-count {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* 卡片网格 */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+
+    /* 文章卡片 */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.1rem 1.2rem;
+      transition: box-shadow 0.2s, transform 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+    .card:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      transform: translateY(-2px);
+    }
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .tag {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+    .source {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    .card-title {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 8px;
+      flex: 1;
+    }
+    .card-title a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    .card-title a:hover {
+      color: var(--accent);
+    }
+    .card-summary {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-bottom: 10px;
+      flex: 1;
+    }
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: auto;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+    .date {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+    .read-more {
+      font-size: 12px;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .read-more:hover {
+      text-decoration: underline;
+    }
+
+    /* 底部 */
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 12px;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+    }
+    .footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    /* 响应式 */
+    @media (max-width: 640px) {
+      .hero { padding: 2rem 1rem 1.5rem; }
+      .hero h1 { font-size: 1.6rem; }
+      .container { padding: 1.5rem 1rem 3rem; }
+      .card-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <p class="hero-eyebrow">AI Daily</p>
+    <h1>今日 AI & 创业资讯</h1>
+    <p class="hero-date">2026-10-13 · 周二</p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-num">47</div>
+        <div class="hero-stat-label">篇精选文章</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">2</div>
+        <div class="hero-stat-label">个分类</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">7</div>
+        <div class="hero-stat-label">个来源</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <section class="tag-section">
+      <div class="tag-section-header" style="border-left: 3px solid #185FA5">
+        <span class="tag-label" style="color:#185FA5">AI & Tech</span>
+        <span class="tag-count">33 条</span>
+      </div>
+      <div class="card-grid">
+        
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1683941?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">2026 年，日本翻盖手机终于过气了</a>
+    </h2>
+    <p class="card-summary">一个时代，啪嗒合上。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-10-13</span>
+      <a href="https://www.ifanr.com/1683941?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1683909?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">早报｜对话库克：Apple Watch要做「个人守护者」/华为折叠屏出货量突破2000万台/DeepSeek拟入局具身智能</a>
+    </h2>
+    <p class="card-summary">· 博通 CEO：晶圆与内存短缺正在缓解，AI 扩张更受资金约束
+· 9 月乘用车零售同比下降 28%，新能源渗透率升至 67%
+· 大众 CEO 呼吁加强合作，应对中国车企竞争#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-10-13</span>
+      <a href="https://www.ifanr.com/1683909?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/116028" target="_blank">迈上生态新台阶，首期 Apple 应用孵化器顺利收官</a>
+    </h2>
+    <p class="card-summary">为成熟的开发者、设计师和创业者，提供一片走向广阔商业市场的沃土。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-10-13</span>
+      <a href="https://sspai.com/post/116028" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/114561" target="_blank">高端，不只是材质而已：Apple Watch Edition 的前世今生</a>
+    </h2>
+    <p class="card-summary">Apple Watch Edition 留下来的，不是一种材料，而是一套做材料的方式。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-10-13</span>
+      <a href="https://sspai.com/post/114561" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/116033" target="_blank">派早报：一加发布一加 16，Google 推出 Fitbit Edge 等</a>
+    </h2>
+    <p class="card-summary">少数派的近期动态给电话加上「辅助驾驶」？我们想听听你的意见。我们将从提交的问卷中挑选40份用心回答，每份送出50元面值京东卡。参与调研能让AI助手通过自然语言指令直接与您的Quote/0摘录墨水屏交互 ...查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-10-13</span>
+      <a href="https://sspai.com/post/116033" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/health/2026/10/39-year-old-unvaccinated-woman-becomes-6th-measles-death-in-pennsylvania/" target="_blank">39-year-old unvaccinated woman becomes 6th measles death in Pennsylvania</a>
+    </h2>
+    <p class="card-summary">As of Friday, state health officials reported 1,136 cases across 41 counties.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://arstechnica.com/health/2026/10/39-year-old-unvaccinated-woman-becomes-6th-measles-death-in-pennsylvania/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/" target="_blank">Epic Games reportedly pivoting to "AI first" game development model</a>
+    </h2>
+    <p class="card-summary">"No more hand-written code" or AI-free art for delayed Marvel/Star Wars shooter.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/gaming/2026/10/after-a-10-year-redemption-arc-no-mans-sky-is-coming-to-the-iphone-and-ipad/" target="_blank">After a 10-year redemption arc, No Man's Sky is coming to the iPhone and iPad</a>
+    </h2>
+    <p class="card-summary">You can get a universe in your pocket if you have an iPhone 11 or later.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://arstechnica.com/gaming/2026/10/after-a-10-year-redemption-arc-no-mans-sky-is-coming-to-the-iphone-and-ipad/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/health/2026/10/who-report-on-russian-lab-worker-death-highlights-key-uncertainty/" target="_blank">WHO report on Russian lab worker death highlights "key uncertainty"</a>
+    </h2>
+    <p class="card-summary">Without a cause of death, it's unclear if Russia's precautions were the right ones.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://arstechnica.com/health/2026/10/who-report-on-russian-lab-worker-death-highlights-key-uncertainty/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/" target="_blank">Anthropic's Claude AI submitted false murder tip to Philadelphia police</a>
+    </h2>
+    <p class="card-summary">“I may have information regarding this case," Claude AI told Philly police.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/" target="_blank">Russia was not ready for the data center war it started with Ukraine</a>
+    </h2>
+    <p class="card-summary">Russian bloggers warn Russia’s hyper-centralized digital economy is vulnerable.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/gaming/2026/10/long-lost-horror-gaming-cult-classic-p-t-gets-a-much-needed-pc-port/" target="_blank">Long-lost horror gaming cult classic P.T. gets a much-needed PC port</a>
+    </h2>
+    <p class="card-summary">Kojima's discontinued "playable trailer" is no longer stuck on a few aging PS4 hard drives.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://arstechnica.com/gaming/2026/10/long-lost-horror-gaming-cult-classic-p-t-gets-a-much-needed-pc-port/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/cars/2026/10/f1-in-singapore-theres-a-new-fastest-car-now/" target="_blank">F1 in Singapore: There's a new fastest car now</a>
+    </h2>
+    <p class="card-summary">Also, F1’s final sprint saw our first real wet racing of the year.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://arstechnica.com/cars/2026/10/f1-in-singapore-theres-a-new-fastest-car-now/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/entertainment/1009630/social-reckoning-box-office-other-mommy" target="_blank">The Social Reckoning is flopping at the box office</a>
+    </h2>
+    <p class="card-summary">As important as some of the messages in The Social Reckoning are, the movie has been drastically underperforming at the box office. Per Variety, Aaron's Sorkin's follow up to The Social Network only grossed a measly $5.5 million this past weekend against a budget that's somewhere within the $30-42 m</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://www.theverge.com/entertainment/1009630/social-reckoning-box-office-other-mommy" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model" target="_blank">Meta has some Wonder Full new AI models</a>
+    </h2>
+    <p class="card-summary">Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder </p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/tech/1009604/elon-musk-2026-midterm-republican-donations" target="_blank">Elon Musk has donated over $276 million to Republican midterm efforts</a>
+    </h2>
+    <p class="card-summary">Elon Musk has handed out at least $276 million to Republican groups since July, The New York Times reports, making him both the party's top known donor and the biggest established midterm donor. $158 million of that money - one of the largest political donations in American history - has been funnel</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://www.theverge.com/tech/1009604/elon-musk-2026-midterm-republican-donations" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/tech/1009594/russian-bots-yandex-outage-drone-strikes-debunk" target="_blank">The Yandex outage probably didn’t blitz Russian bots</a>
+    </h2>
+    <p class="card-summary">Multiple Ukrainian drone strikes over the last week have taken Russian data centers offline and reportedly caused online bot traffic to plummet - but in reality it's probably not the kind of bot activity most people associate with Russia. A chart citing Cloudflare data has been circulating around so</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://www.theverge.com/tech/1009594/russian-bots-yandex-outage-drone-strikes-debunk" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/tech/1008161/mechanism-basecase-switch-2-case-hands-on" target="_blank">Mechanism&#8217;s first Switch 2 case is as awesome as I hoped it would be</a>
+    </h2>
+    <p class="card-summary">Most companies have slowed down releasing new Switch 2 cases, but one of my favorite accessory makers recently debuted its first, after a few delays. The $49 Basecase from Mechanism is a snap-on shell for the console that taps into the company's modular lineup of mounts. You could already mount the </p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://www.theverge.com/tech/1008161/mechanism-basecase-switch-2-case-hands-on" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/tech/1008750/googlebooks-android-best-worst-notifications-app-cast-file-sharing" target="_blank">Android is the best and worst thing about Googlebooks</a>
+    </h2>
+    <p class="card-summary">My first week with the new Android-powered laptops has been about as rocky as anyone's, but I've slowly learned to like them, even if love still feels a ways off. Every moment that's impressed me has been thanks to Android, whether I've been accessing a native version of a useful app or quickly chec</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://www.theverge.com/tech/1008750/googlebooks-android-best-worst-notifications-app-cast-file-sharing" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/entertainment/1009541/no-mans-sky-iphone-ipad-launch-date" target="_blank">No Man’s Sky is coming to the iPhone and iPad</a>
+    </h2>
+    <p class="card-summary">The No Man's Sky universe is about to get a little bit smaller - but in a good way. Hello Games announced that its long-running sci-fi exploration game will be coming to iOS, with versions for both the iPhone and iPad available starting on October 28th. According to Hello's Sean Murray, the mobile v</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://www.theverge.com/entertainment/1009541/no-mans-sky-iphone-ipad-launch-date" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/tech/1009570/oneplus-16-specs-features-china" target="_blank">The OnePlus 16 is the company’s most interesting phone in years</a>
+    </h2>
+    <p class="card-summary">Today the OnePlus 16 launched in China, the company's first flagship phone since quitting both the US and European markets this summer. As luck would have it, it also looks like the company's best phone in some time. Like most OnePlus phones, the 16 is positioned around performance, with a Snapdrago</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://www.theverge.com/tech/1009570/oneplus-16-specs-features-china" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1683302?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">早报｜我们跟库克聊了聊iPhone Duo/继QClaw后，腾讯再关停一个Agent/SpaceXAI改名SpaceXSI</a>
+    </h2>
+    <p class="card-summary">· 曝苹果与 ADT 合作，为家居中枢提供安装服务
+· 蔚来广东换电站达到 500 座，六城同步新增第五代站
+· 苹果 COO 探访郑州工厂，披露 iPhone Duo 屏幕与芯片制造工艺#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://www.ifanr.com/1683302?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/115934" target="_blank">派评 | 近期值得关注的 App</a>
+    </h2>
+    <p class="card-summary">>下载少数派客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://sspai.com/post/115934" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/115242" target="_blank">iOS 27 推出全新家长控制与儿童安全功能，这些变化值得关注</a>
+    </h2>
+    <p class="card-summary">iOS 27 对家长控制和儿童账户体系进行了进一步完善，让对儿童的设备管理从过去偏重「限制监控」，逐步转向更加系统级别的「管理保护」。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://sspai.com/post/115242" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/114821" target="_blank">怀旧手记｜从迷你电脑到口袋笔记本，索尼如何把电脑越做越小</a>
+    </h2>
+    <p class="card-summary">来看看一种消失已久的笔记本。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://sspai.com/post/114821" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">MIT Tech Review</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.technologyreview.com/2026/10/12/1146376/the-download-moon-city-drone-air-traffic-controllers/" target="_blank">The Download: moon city problems and drone traffic controllers</a>
+    </h2>
+    <p class="card-summary">This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Mars may be a hellhole, but the moon is not far behind The US and China are racing to build bases on the moon, with NASA hoping to establish a small&#</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://www.technologyreview.com/2026/10/12/1146376/the-download-moon-city-drone-air-traffic-controllers/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">MIT Tech Review</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/" target="_blank">Mars may be a hellhole, but the moon is not far behind</a>
+    </h2>
+    <p class="card-summary">Welcome to the second space race. You can be forgiven for experiencing déjà vu. Last time, it was the Soviet Union and the United States vying to be the first to plant some flags. Now it’s a sprint to the lunar surface between America and China—alongside a host of varyingly friendly and rival nation</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://www.technologyreview.com/2026/10/12/1145760/imagining-building-cities-on-the-moon/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">MIT Tech Review</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/" target="_blank">The ecologist revealing the invisible networks that revive rainforests</a>
+    </h2>
+    <p class="card-summary">In a research station in central Panama, you can walk through a century of forest time, watching scrubby plots of adolescent trees give way to cathedral-­like canopies of mature growth. Forest ecologist Daisy Dent, a senior scientist at ETH Zurich, oversees this sequence of plots across the Barro Co</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1683529?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">DDR4 内存重出江湖，PC 终于癫成我不认识的样子</a>
+    </h2>
+    <p class="card-summary">买新不如修旧#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-10-11</span>
+      <a href="https://www.ifanr.com/1683529?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1683790?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">AMD YES！老哥给老车插上显卡，手搓「真智驾」</a>
+    </h2>
+    <p class="card-summary">苏妈看了都得愣半天。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-10-11</span>
+      <a href="https://www.ifanr.com/1683790?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1683829?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">早报｜曝苹果iPhone Duo加单30%/四部门拟禁全隐藏式车门把手/长鑫首款服务器产品或年底推出</a>
+    </h2>
+    <p class="card-summary">· 苹果第二期中国清洁能源基金扩容至 2.12 亿美元
+· Netflix 称约 300 部作品已使用 AI，导演谈降本与创作取舍
+· 长鑫披露 4F² 内存架构进展，首款服务器产品预计年底推出#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-10-11</span>
+      <a href="https://www.ifanr.com/1683829?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/115845" target="_blank">派早报：工信部等就进一步加强汽车产品创新设计管理征求意见</a>
+    </h2>
+    <p class="card-summary">工信部等就进一步加强汽车产品创新设计管理征求意见三季度全球 PC 出货量骤降法国判决 Cloudflare 无须通过 DNS 屏蔽盗版Anthropic 宣布切断内部评估环境的互联网访问权限AI 助力老游戏移植到浏览器3C 证书大面积暂停，电动自行车销售接近停滞看看就行的简讯少数派的近期动态你可能错过的好文章查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-10-11</span>
+      <a href="https://sspai.com/post/115845" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/115568" target="_blank">写给「跑两步就喘」的你：不能忽略的跑后拉伸与恢复</a>
+    </h2>
+    <p class="card-summary">前面两篇文章我们介绍了想要舒适跑步，在跑前和跑步中的一些小技巧，今天和大家聊聊跑后如何正确的拉伸，如何更好地帮助身体恢复。关联阅读：跑前精准热身，缓解跑时疼痛调整跑步姿势，舒适开跑正确拉伸多数人跑后会 ...查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-10-11</span>
+      <a href="https://sspai.com/post/115568" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+      </div>
+    </section>
+    <section class="tag-section">
+      <div class="tag-section-header" style="border-left: 3px solid #3B6D11">
+        <span class="tag-label" style="color:#3B6D11">Startup</span>
+        <span class="tag-count">14 条</span>
+      </div>
+      <div class="card-grid">
+        
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/372278" target="_blank">复旦邱锡鹏团队获超 10 亿融资，成立两年，让模型感知、理解、响应变化的世界</a>
+    </h2>
+    <p class="card-summary">大模型融资还在继续，新的押注转向了能边听、边看、边说的 AI。作者｜Li Yuan编辑｜郑玄想象这样一个家庭场景。孩子正在玩玩具，突然，厨房里「哐」的一声，玻璃碎了，紧接着传来孩子的声音：「不是我。」语速很快，尾音压得很低，有点紧张。两秒后，一只猫从厨房门口窜出来，钻进了沙发底下。今天的模型，能分别识别这些信息。转写模型能记下孩子的话，音频模型能听出是玻璃碎裂，视觉模型能认出那只猫。但把这些能力叠在一起，模型仍然不知道刚才发生了什么。那声脆响是从哪个方向来的？碎玻璃、那句急着撇清的「不是我」、逃窜的猫，是不是同一件事？厨房地上有没有碎片，孩子是不是正光着脚站在旁边？AI 需要把声音、画面、人物</p>
+    <div class="card-footer">
+      <span class="date">2026-10-13</span>
+      <a href="http://www.geekpark.net/news/372278" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/372264" target="_blank">曝梁文锋密集见机器人创业者；影石出货量累计突破1000万台；Meta发布Muse Wonder模型｜极客早知道</a>
+    </h2>
+    <p class="card-summary">曝梁文锋密集接触具身智能创业者，DeepSeek 拟入局具身智能
+据报道，DeepSeek 创始人梁文锋近期密集关注具身智能领域，并与多位该领域创业者交流，探讨机器人、大模型与现实世界交互等方向。
+据知情人士透露，梁文锋正在考虑 DeepSeek 进入具身智能领域的可能性，可能会亲自组建团队下场研发，也可能通过投资相关企业切入。
+此前，梁文锋已投资宇树科技，另据彭博社报道，DeepSeek 计划领投腾讯前 AI 科学家胡瀚创立的机器人公司 Winverse AI。（来源：新浪科技）
+
+Meta 发布 Muse Wonder 模型，拥有主动记忆和主动专注功能，瞄准个人超级智能
+Meta 今天推出</p>
+    <div class="card-footer">
+      <span class="date">2026-10-13</span>
+      <a href="http://www.geekpark.net/news/372264" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/" target="_blank">Meta releases its first frontier model, Muse Wonder</a>
+    </h2>
+    <p class="card-summary">Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/" target="_blank">WindBorne wins a hefty US Air Force contract for its balloon data</a>
+    </h2>
+    <p class="card-summary">A Silicon Valley startup that uses weather balloons and AI to predict the weather won a U.S. military contract worth almost $50 million.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/" target="_blank">Honeyjar offers AI tools to improve PR and comms at every company</a>
+    </h2>
+    <p class="card-summary">Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/" target="_blank">Microsoft president says UK is best placed to drive AI regulation</a>
+    </h2>
+    <p class="card-summary">Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/" target="_blank">This AI startup says it can generate permit-ready blueprints in minutes</a>
+    </h2>
+    <p class="card-summary">Blueprints AI, a bootstrapped startup based in Santa Monica, developed software that produces code-compliant construction blueprints from a photo, PDF, or sketch.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/12/fitbit-edge-is-googles-middle-ground-between-fitbit-air-and-pixel-watch/" target="_blank">Fitbit Edge is Google’s middle ground between Fitbit Air and Pixel Watch</a>
+    </h2>
+    <p class="card-summary">Google’s newest wearable costs $179.99 and has a sleek feel like the Fitbit Air but with an OLED display.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://techcrunch.com/2026/10/12/fitbit-edge-is-googles-middle-ground-between-fitbit-air-and-pixel-watch/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/12/smart-ring-maker-ultrahuman-to-roll-out-biological-age-model-across-uae/" target="_blank">Smart ring maker Ultrahuman to roll out biological-age model across UAE</a>
+    </h2>
+    <p class="card-summary">Ultrahuman and Abu Dhabi will spend the next two years working on research and clinical validation of the model.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://techcrunch.com/2026/10/12/smart-ring-maker-ultrahuman-to-roll-out-biological-age-model-across-uae/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/" target="_blank">TechCrunch Disrupt 2026 starts tomorrow: Your final chance to secure up to $100 ticket savings</a>
+    </h2>
+    <p class="card-summary">Tomorrow at 8 a.m. PT, it all begins z— 10,000+ founders, investors, and tech operators will gather at San Francisco’s Moscone West for TechCrunch Disrupt 2026 for three days of ideas, connections, and startups shaping what comes next. This is your last 24 hours to secure ticket savings of up to $10</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/372263" target="_blank">一周 10 万星，AI「逆向一切」，但大家不要过于兴奋</a>
+    </h2>
+    <p class="card-summary">头图图片来源：REA头图来源：CyberSecurityNews「在应用里看到一个想加入自己产品的功能？让智能体去帮你调查它。」这是 REA 项目主页第一屏的话。后半句更直接：即使没有源代码，智能体也可以检查应用、解释功能怎么工作、展示证据，「并为你的项目实现类似功能」。REA 全名 Reverse Engineer Anything，即「逆向一切」。上周它在 AI 开发者圈刷了屏：10 月 6 日还不到 1 万星，到 10 月 12 日已经超过 11 万。6 天涨了 10 万星，平均每天约 1.7 万｜图片来源：Star History真正让普通人看到这件事的，是游戏。10 月初，一批老游戏</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="http://www.geekpark.net/news/372263" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/372218" target="_blank">尊界：11 月起陆续升级踏板；iPhone 折叠屏国内预约超 200 万；6 个月，超千万 Claude 账户被封杀｜极客早知道</a>
+    </h2>
+    <p class="card-summary">陶哲轩提出「数学 2.0」：AI 解题之外，还要帮助人理解证明
+10 月 11 日，数学家陶哲轩公开了在加州理工学院的演讲《数学 2.0》。他认为，AI 正在降低部分数学问题的求解成本，使数学研究逐渐从「证明稀缺」走向「证明富足」。但目前多数前沿问题仍未解决，不能只凭公开传播的成功案例判断 AI 的整体能力。
+
+陶哲轩指出，得到正确证明，并不意味着研究者理解了证明为何成立，或掌握了可用于其他问题的新方法。他主张用 AI 寻找更易理解的证明、整理分散的研究成果，并对大量数学问题开展系统分析。例如，等式理论项目通过人类与自动化工具协作，对超过 2200 万个命题作出了判定。
+对于 AI 解题能力的</p>
+    <div class="card-footer">
+      <span class="date">2026-10-12</span>
+      <a href="http://www.geekpark.net/news/372218" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/372213" target="_blank">12 分钟订单破万，吉利银河战舰 700，要订下新能源越野的新标准</a>
+    </h2>
+    <p class="card-summary">&nbsp;
+
+图片来源：吉利银河
+「这台车我们造了 5 年，这也是吉利第一次造越野车。」吉利汽车研究院院长李传海说到。
+就在几分钟前，10 月 10 日，吉利银河战舰 700，一台新能源野车正式发布，16.98 万（限时焕新价）起的价格，让这台最高配备三电机四驱，千匹马力，能爬 45&deg; 坡、能应急浮水的越野车，变得十分打动人心。
+
+吉利银河战舰 700 的价格梯度比较大｜图片来源：极客公园
+事实也是如此，在发布会后 12 分钟，吉利银河战舰 700 的订单数量就突破 1 万台。
+但在显性成功的背后，你确实会猜测，可能恰恰因为吉利「缺乏越野基因」，才能让团队没有任何包袱，从底层架构层面</p>
+    <div class="card-footer">
+      <span class="date">2026-10-11</span>
+      <a href="http://www.geekpark.net/news/372213" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/372216" target="_blank">马斯克豪言 SpaceX 估值将超1000万亿美元，遭拉表打脸；传腾讯字节加速个人智能体研发；四部门拟禁止汽车采用全隐藏式门把手</a>
+    </h2>
+    <p class="card-summary">马斯克豪言 SpaceX 估值超 1000 万亿美元，惨遭拉表打脸近日，马斯克在社交平台大胆预测，SpaceX 未来估值有望突破 1000 万亿美元，体量将远超当前全球经济总量。目前 SpaceX 估值仅约 2.2 万亿美元，而 2025 年全球 GDP 总量约 118 万亿美元，此番极具颠覆性的超高估值言论引发全网热议与质疑。面对这一惊人预测，有网友晒出富国银行证券整理的一张名为「说到做到记录，以及其所隐含的折价」数据表格，直接打脸马斯克的激进预测。表格梳理了特斯拉、SpaceX 多项核心项目，Robotaxi、Semi 卡车、星舰等重点产品的实际落地成果与马斯克此前公布的目标差距悬殊，多项</p>
+    <div class="card-footer">
+      <span class="date">2026-10-11</span>
+      <a href="http://www.geekpark.net/news/372216" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>由 AI Daily 自动抓取生成 · <a href="https://github.com" target="_blank">开源项目</a></p>
+  </footer>
+
+</body>
+</html>
