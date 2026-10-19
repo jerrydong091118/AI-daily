@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Daily · 2026-10-19 · 周一</title>
+  <style>
+    :root {
+      --bg: #F8F9FA;
+      --card-bg: #FFFFFF;
+      --border: #E8E8E8;
+      --text-primary: #1A1A1A;
+      --text-secondary: #666666;
+      --text-muted: #999999;
+      --accent: #185FA5;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text-primary);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* 顶部标题区 */
+    .hero {
+      background: linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #0F3460 100%);
+      color: white;
+      padding: 3rem 2rem 2.5rem;
+      text-align: center;
+    }
+    .hero-eyebrow {
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.5);
+      margin-bottom: 8px;
+    }
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 4px;
+    }
+    .hero-date {
+      font-size: 14px;
+      color: rgba(255,255,255,0.6);
+    }
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1.5rem;
+    }
+    .hero-stat {
+      text-align: center;
+    }
+    .hero-stat-num {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #5BC8F5;
+    }
+    .hero-stat-label {
+      font-size: 12px;
+      color: rgba(255,255,255,0.5);
+    }
+
+    /* 内容区 */
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    /* 分区标题 */
+    .tag-section {
+      margin-bottom: 3rem;
+    }
+    .tag-section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.5rem 0 0.75rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .tag-label {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    .tag-count {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* 卡片网格 */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+
+    /* 文章卡片 */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.1rem 1.2rem;
+      transition: box-shadow 0.2s, transform 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+    .card:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      transform: translateY(-2px);
+    }
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .tag {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+    .source {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    .card-title {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 8px;
+      flex: 1;
+    }
+    .card-title a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    .card-title a:hover {
+      color: var(--accent);
+    }
+    .card-summary {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-bottom: 10px;
+      flex: 1;
+    }
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: auto;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+    .date {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+    .read-more {
+      font-size: 12px;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .read-more:hover {
+      text-decoration: underline;
+    }
+
+    /* 底部 */
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 12px;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+    }
+    .footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    /* 响应式 */
+    @media (max-width: 640px) {
+      .hero { padding: 2rem 1rem 1.5rem; }
+      .hero h1 { font-size: 1.6rem; }
+      .container { padding: 1.5rem 1rem 3rem; }
+      .card-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <p class="hero-eyebrow">AI Daily</p>
+    <h1>今日 AI & 创业资讯</h1>
+    <p class="hero-date">2026-10-19 · 周一</p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-num">30</div>
+        <div class="hero-stat-label">篇精选文章</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">2</div>
+        <div class="hero-stat-label">个分类</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">6</div>
+        <div class="hero-stat-label">个来源</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <section class="tag-section">
+      <div class="tag-section-header" style="border-left: 3px solid #185FA5">
+        <span class="tag-label" style="color:#185FA5">AI & Tech</span>
+        <span class="tag-count">18 条</span>
+      </div>
+      <div class="card-grid">
+        
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1684840?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">实测 Lovart 2.0 ，设计 AI 进入个人助理时代</a>
+    </h2>
+    <p class="card-summary">你下班了，Arti 还能继续工作#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-10-19</span>
+      <a href="https://www.ifanr.com/1684840?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1684815?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">早报｜曝苹果机械臂版HomeView正在开发/蔚来三季度销量首次超BBA/英伟达否认RTX 5090停产</a>
+    </h2>
+    <p class="card-summary">· 曝三星拟采用台积电 3nm 工艺，为英伟达定制 HBM
+· 智界拟取得独立造车资质，内部人士确认独立上市计划
+· Tibo 回应 Codex 用户许愿：五项建议中有两项正在做#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-10-19</span>
+      <a href="https://www.ifanr.com/1684815?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/" target="_blank">Anthropic gives outside AI watchdog “employee-like” access</a>
+    </h2>
+    <p class="card-summary">The outside watchdog can publish its findings without Anthropic's approval.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-18</span>
+      <a href="https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband" target="_blank">A Savannah police officer gave her Flock login to her ICE agent husband</a>
+    </h2>
+    <p class="card-summary">Now, former Savannah police officer Amber Harpe was fired in August following a department investigation that found she had shared her Flock login information with her husband, Tyler Harpe, an ICE agent. SPD does not share its Flock data with ICE and said sharing access to the system violated the de</p>
+    <div class="card-footer">
+      <span class="date">2026-10-18</span>
+      <a href="https://www.theverge.com/policy/1013573/spd-officer-fired-flock-ice-husband" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/entertainment/1013545/mister-organ-horror-documentary-review" target="_blank">Mister Organ is one of the most unsettling documentaries I’ve ever seen</a>
+    </h2>
+    <p class="card-summary">Mister Organ doesn't reach the level of societal horror of The Act of Killing or the creepypasta-meets-true-crime gruesomeness of Beware the Slenderman, but there's something deeply unsettling about Michael Organ and his intimate campaign of terror against everyone who enters his life. Mister Organ </p>
+    <div class="card-footer">
+      <span class="date">2026-10-18</span>
+      <a href="https://www.theverge.com/entertainment/1013545/mister-organ-horror-documentary-review" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot" target="_blank">A woman was arrested in Philly for blocking a delivery robot</a>
+    </h2>
+    <p class="card-summary">Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 "I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by </p>
+    <div class="card-footer">
+      <span class="date">2026-10-18</span>
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/policy/1013521/video-game-ownership-bill-congress-power-to-the-players-act" target="_blank">Video game ownership bill introduced in Congress</a>
+    </h2>
+    <p class="card-summary">Rep. Ritchie Torres of New York's 15th congressional district in the Bronx introduced the Power To The Players Act this week. If passed, the bill would direct the Federal Trade Commission to establish regulations that guarantee consumers ownership of a game when they pay for it, rather than a licens</p>
+    <div class="card-footer">
+      <span class="date">2026-10-18</span>
+      <a href="https://www.theverge.com/policy/1013521/video-game-ownership-bill-congress-power-to-the-players-act" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/gadgets/1013436/lenovo-legion-go-s-steamos-handheld-deal-sale" target="_blank">Lenovo’s fast, comfy SteamOS handheld is hundreds off</a>
+    </h2>
+    <p class="card-summary">The Legion Go S with SteamOS is a pretty solid alternative to the $789 Steam Deck OLED. It runs identical software, but ships in a design with two-stage triggers, a bigger eight-inch IPS screen (1080p and up to 120Hz versus 800p and 90Hz in the Deck OLED), and it’s got double the RAM and storage [&#</p>
+    <div class="card-footer">
+      <span class="date">2026-10-18</span>
+      <a href="https://www.theverge.com/gadgets/1013436/lenovo-legion-go-s-steamos-handheld-deal-sale" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/entertainment/1012442/j-mascis-dinosaur-jr-fender-interview" target="_blank">J Mascis has nothing better to do</a>
+    </h2>
+    <p class="card-summary">Dinosaur Jr. frontman J Mascis is known as something of a slacker guitar god. He stands stoically onstage, barely moving, as he seemingly effortlessly works through deft guitar solos and lopsided riffs. Unfortunately, Mascis has developed a similar reputation as an interview subject, quietly sitting</p>
+    <div class="card-footer">
+      <span class="date">2026-10-18</span>
+      <a href="https://www.theverge.com/entertainment/1012442/j-mascis-dinosaur-jr-fender-interview" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/policy/1013485/trump-google-kiss-my-ass" target="_blank">Trump says Google kisses his ass</a>
+    </h2>
+    <p class="card-summary">During a rally on Saturday, October 17th, in Highland Heights, Kentucky, Donald Trump bragged about how much more powerful and influential he was during his second term. While listing off his accomplishments, he mentioned his decision to rename the Gulf of Mexico and Lake Ontario. "This is a much mo</p>
+    <div class="card-footer">
+      <span class="date">2026-10-18</span>
+      <a href="https://www.theverge.com/policy/1013485/trump-google-kiss-my-ass" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/gadgets/1013257/milk-frother-cold-foam-gadget" target="_blank">The best gadget I bought this year is a milk frother</a>
+    </h2>
+    <p class="card-summary">Back in February, I went to Los Angeles to take in some art and stayed in Koreatown. Down the street from my hotel, there was this little coffee shop - Stagger - that is, I think, best known for its matcha, which is good. But the drink I unexpectedly found myself obsessed with was their [&#8230;]</p>
+    <div class="card-footer">
+      <span class="date">2026-10-18</span>
+      <a href="https://www.theverge.com/gadgets/1013257/milk-frother-cold-foam-gadget" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1683441?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">消费电子太无聊，连设计大师都想逃</a>
+    </h2>
+    <p class="card-summary">好设计的坏时代#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-10-18</span>
+      <a href="https://www.ifanr.com/1683441?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/116641" target="_blank">派早报：三季度全球手机出货量继续两位数下降</a>
+    </h2>
+    <p class="card-summary">三季度全球手机出货量继续两位数下降Roadster 发布会留下诸多疑问闰时将取代闰秒微软声称 Windows 11 响应提速 20%，为 8GB 优化E Ink 发布 Kaleido 4全国铁路列车车次编排更新看看就行的简讯少数派的近期动态你可能错过的好文章查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-10-18</span>
+      <a href="https://sspai.com/post/116641" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/115241" target="_blank">Quote/0 妙用 +1，把墨水屏变成点餐助手</a>
+    </h2>
+    <p class="card-summary">Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-10-18</span>
+      <a href="https://sspai.com/post/115241" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/science/2026/10/science-says-your-boss-should-talk-less-in-meetings/" target="_blank">Science says your boss should talk less in meetings</a>
+    </h2>
+    <p class="card-summary">Research suggests listening more while talking less. Killing aimless meetings can help, too.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-17</span>
+      <a href="https://arstechnica.com/science/2026/10/science-says-your-boss-should-talk-less-in-meetings/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/gaming/2026/10/why-biowares-neverwinter-nights-still-has-thousands-of-active-players/" target="_blank">Why BioWare's Neverwinter Nights still has thousands of active players</a>
+    </h2>
+    <p class="card-summary">The single-player is just OK, but according to the players, that doesn't matter.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-17</span>
+      <a href="https://arstechnica.com/gaming/2026/10/why-biowares-neverwinter-nights-still-has-thousands-of-active-players/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1684782?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">早报｜iPhone Duo开启预购，发货排到明年/特斯拉超跑发布会现场飞了/华为阔直板出货量超71万台</a>
+    </h2>
+    <p class="card-summary">· 华为云下月调整 AI 专业服务价格，原型开发基础版升至 85.12 万元
+· 17 岁研究员陈广宇离开 Kimi，否认将加入 Anthropic
+· 四部门要求车企规范产品宣传，不得诱导驾驶人忽视安全责任#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-10-17</span>
+      <a href="https://www.ifanr.com/1684782?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/104231" target="_blank">被量化的心跳：HRV 是身体的晴雨表，还是制造焦虑的数字游戏？</a>
+    </h2>
+    <p class="card-summary">这些设备最好的用途，不是让你更依赖它们，而是帮助你重新学会倾听自己。然后，在某个清晨，你不再需要看任何数字，就知道今天会是美好的一天。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-10-17</span>
+      <a href="https://sspai.com/post/104231" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+      </div>
+    </section>
+    <section class="tag-section">
+      <div class="tag-section-header" style="border-left: 3px solid #3B6D11">
+        <span class="tag-label" style="color:#3B6D11">Startup</span>
+        <span class="tag-count">12 条</span>
+      </div>
+      <div class="card-grid">
+        
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/372514" target="_blank">OpenAI 三个神秘模型曝光；DeepSeek 开放搜索与网页抓取 API；智界将获独立造车资格，公司计划上市 ｜ 极客早知道</a>
+    </h2>
+    <p class="card-summary">OpenAI 三个神秘模型曝光10 月 18 日，有开发者发现，OpenAI 的 API 模型列表中突然出现了三个陌生名字：aurora-red-alpha、aurora-green-alpha、aurora-blue-alpha。三个模型都以 Aurora（极光）命名，分别对应红、绿、蓝三种颜色。但相关条目很快便从模型列表中消失。此次发现来自第三方维护的 OpenAI 模型列表镜像，并非官方公告。因此，这些模型究竟是什么、是否会正式发布，目前都还是未知数。有网友推测，这些模型极有可能是 GPT-6 Astra 后续版本的内部检查点，专门对标 Fable 5.5 的强项，创意编码、长程 age</p>
+    <div class="card-footer">
+      <span class="date">2026-10-19</span>
+      <a href="http://www.geekpark.net/news/372514" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/18/no-agenda-no-rush-no-leaving-san-francisco-benchmarks-partners-on-investing-in-a-frenzied-market/" target="_blank">No agenda, no rush, no leaving San Francisco: Benchmark’s partners on investing in a frenzied market</a>
+    </h2>
+    <p class="card-summary">Benchmark may have grown its funds and swapped out some partners, but onstage the five who are left sounded like friends who just happen to be running one of the Valley’s most storied firms</p>
+    <div class="card-footer">
+      <span class="date">2026-10-18</span>
+      <a href="https://techcrunch.com/2026/10/18/no-agenda-no-rush-no-leaving-san-francisco-benchmarks-partners-on-investing-in-a-frenzied-market/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/" target="_blank">Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’</a>
+    </h2>
+    <p class="card-summary">Anthropic said that it will commit 5% of its shares to the fund.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-18</span>
+      <a href="https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/18/everyones-watching-the-elizabeth-holmes-documentary-you-can-see-everything/" target="_blank">Everyone’s watching the Elizabeth Holmes documentary ‘You Can See Everything’</a>
+    </h2>
+    <p class="card-summary">"You Can See Everything" is having the second biggest opening weekend ever for a documentary film.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-18</span>
+      <a href="https://techcrunch.com/2026/10/18/everyones-watching-the-elizabeth-holmes-documentary-you-can-see-everything/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/" target="_blank">Disney agrees to hire the majority of Character.AI’s workforce</a>
+    </h2>
+    <p class="card-summary">The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-18</span>
+      <a href="https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/18/techcrunch-mobility-rivians-next-act/" target="_blank">TechCrunch Mobility: Rivian’s next act</a>
+    </h2>
+    <p class="card-summary">Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-18</span>
+      <a href="https://techcrunch.com/2026/10/18/techcrunch-mobility-rivians-next-act/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/372512" target="_blank">DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早知道</a>
+    </h2>
+    <p class="card-summary">DeepSeek V4.1 Flash 新版本上线：许愿式编程一键成真
+10 月 17 日，DeepSeek V4.1 Flash 更新至 V4.1-Flash-1017 版本，官方网页端、APP 与 API 模型已同步变更为新模型。相比上一版本的 DeepSeek V4.1 Flash，新模型在各方面的基准测试中取得了长足的提升。
+在提升性能的同时，模型的任务运行时间与输出长度还缩短了，让用户能够以更低成本、更快速度完成任务，在多个 Harness 下达到了新的性能-费用帕累托最优。
+特别地，此次优化着重针对 DeepSeek Harness、腾讯 CodeBuddy、WorkBuddy 等</p>
+    <div class="card-footer">
+      <span class="date">2026-10-18</span>
+      <a href="http://www.geekpark.net/news/372512" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/" target="_blank">Meta removes language that raised scraping and AI training concerns</a>
+    </h2>
+    <p class="card-summary">A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-17</span>
+      <a href="https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/17/tiktok-permanently-bans-musk-documentary-advertising-account/" target="_blank">TikTok permanently bans ‘Musk’ documentary advertising account</a>
+    </h2>
+    <p class="card-summary">A four-hour documentary about Elon Musk continues to meet resistance from social media platforms.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-17</span>
+      <a href="https://techcrunch.com/2026/10/17/tiktok-permanently-bans-musk-documentary-advertising-account/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/" target="_blank">Anthropic says its workforce has become less junior and is spending more time in meetings</a>
+    </h2>
+    <p class="card-summary">The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-17</span>
+      <a href="https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/372509" target="_blank">1 分钟售罄、发货排到明年，iPhone Duo 卖爆背后的真相</a>
+    </h2>
+    <p class="card-summary">人们已经很多年没见过，苹果的新品被这样抢了。
+10 月 16 日晚 8 点，苹果首款折叠屏 iPhone Duo 开启预购。社交媒体上流传的说法是，开售 1 分钟，全型号库存就空了，京东、天猫页面相继显示售罄。
+大约 40 分钟后，苹果官网的预计送达时间已经跳到了 2027 年 1 月底。
+几个小时后，大洋彼岸的美国东部时间上午 8 点，同样的剧情再演一遍。分析师 Max Weinbach 在 X 上说，纽约及周边、康涅狄格州的门店大约 3 分钟就被抢光。半小时内，美国所有配置的交付日期都变成了 1 月 25 日。eBay 上，一台 2TB 版的预购机挂出了 5000 美元的成交价，比官方价格</p>
+    <div class="card-footer">
+      <span class="date">2026-10-17</span>
+      <a href="http://www.geekpark.net/news/372509" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/372488" target="_blank">iPhone Duo 一秒售罄，发货排到明年；马斯克：考虑自建电商平台；谷歌创始人：AI 正开始自己造自己</a>
+    </h2>
+    <p class="card-summary">苹果官网 2026 年的 iPhone Duo 已售罄！发货日期排到明年 1 月 22 日
+10 月 16 日，苹果首款折叠屏 iPhone Duo 于当晚 8 点开启线上预购，大量用户同时涌入苹果官网、Apple Store App 及天猫、京东等官方直营渠道，购买页面一度无法正常打开。开售一分钟左右，各大电商平台即显示该机型售罄。
+
+目前官网仍可下单，预计发货时间排至 1 月 22 日，2026 年的备货已全部售罄。受折叠屏铰链、柔性内屏产能爬坡周期长于直板机型、首批备货有限叠加首发集中抢购影响，交期被拉长。后续随着产能释放，发货排期将逐步前移，已抢到 11 月、12 月批次的用户或提前半</p>
+    <div class="card-footer">
+      <span class="date">2026-10-17</span>
+      <a href="http://www.geekpark.net/news/372488" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>由 AI Daily 自动抓取生成 · <a href="https://github.com" target="_blank">开源项目</a></p>
+  </footer>
+
+</body>
+</html>
