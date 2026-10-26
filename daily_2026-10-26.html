@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Daily · 2026-10-26 · 周一</title>
+  <style>
+    :root {
+      --bg: #F8F9FA;
+      --card-bg: #FFFFFF;
+      --border: #E8E8E8;
+      --text-primary: #1A1A1A;
+      --text-secondary: #666666;
+      --text-muted: #999999;
+      --accent: #185FA5;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text-primary);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* 顶部标题区 */
+    .hero {
+      background: linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #0F3460 100%);
+      color: white;
+      padding: 3rem 2rem 2.5rem;
+      text-align: center;
+    }
+    .hero-eyebrow {
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.5);
+      margin-bottom: 8px;
+    }
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 4px;
+    }
+    .hero-date {
+      font-size: 14px;
+      color: rgba(255,255,255,0.6);
+    }
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1.5rem;
+    }
+    .hero-stat {
+      text-align: center;
+    }
+    .hero-stat-num {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #5BC8F5;
+    }
+    .hero-stat-label {
+      font-size: 12px;
+      color: rgba(255,255,255,0.5);
+    }
+
+    /* 内容区 */
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    /* 分区标题 */
+    .tag-section {
+      margin-bottom: 3rem;
+    }
+    .tag-section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.5rem 0 0.75rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .tag-label {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    .tag-count {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* 卡片网格 */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+
+    /* 文章卡片 */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.1rem 1.2rem;
+      transition: box-shadow 0.2s, transform 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+    .card:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      transform: translateY(-2px);
+    }
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .tag {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+    .source {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    .card-title {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 8px;
+      flex: 1;
+    }
+    .card-title a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    .card-title a:hover {
+      color: var(--accent);
+    }
+    .card-summary {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-bottom: 10px;
+      flex: 1;
+    }
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: auto;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+    .date {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+    .read-more {
+      font-size: 12px;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .read-more:hover {
+      text-decoration: underline;
+    }
+
+    /* 底部 */
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 12px;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+    }
+    .footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    /* 响应式 */
+    @media (max-width: 640px) {
+      .hero { padding: 2rem 1rem 1.5rem; }
+      .hero h1 { font-size: 1.6rem; }
+      .container { padding: 1.5rem 1rem 3rem; }
+      .card-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <p class="hero-eyebrow">AI Daily</p>
+    <h1>今日 AI & 创业资讯</h1>
+    <p class="hero-date">2026-10-26 · 周一</p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-num">31</div>
+        <div class="hero-stat-label">篇精选文章</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">2</div>
+        <div class="hero-stat-label">个分类</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">6</div>
+        <div class="hero-stat-label">个来源</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <section class="tag-section">
+      <div class="tag-section-header" style="border-left: 3px solid #3B6D11">
+        <span class="tag-label" style="color:#3B6D11">Startup</span>
+        <span class="tag-count">11 条</span>
+      </div>
+      <div class="card-grid">
+        
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/25/5-best-apps-track-reading-discover-new-books/" target="_blank">The best apps for tracking your reading and discovering new books</a>
+    </h2>
+    <p class="card-summary">There are numerous apps on the market that promise to do just that, so we’ve compiled a list of some of the best ones to help you pick the right one for you.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-26</span>
+      <a href="https://techcrunch.com/2026/10/25/5-best-apps-track-reading-discover-new-books/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/372863" target="_blank">苹果发 iPhone 折叠屏官方文档，排查铰链故障；触屏 MacBook 或周三发布；《流浪地球 3》将曝光，春节上映｜极客早知道</a>
+    </h2>
+    <p class="card-summary">张雪时隔 17 年圆梦「水上漂」，在家乡麻阳刷新吉尼斯纪录
+10 月 25 日，「张雪机车」创始人张雪驾驶改装摩托车 MX450，在湖南省怀化市麻阳苗族自治县郭公坪镇小坡村，成功挑战「改装摩托车在开阔水域行驶最远距离」吉尼斯世界纪录。
+这场挑战要追溯到 2009 年。当时 22 岁的张雪在央视节目中骑着一辆车轮上焊着铁皮的摩托车冲向水面，四次尝试全部落水，最远只滑出 20 米，离他自己定下的 26 米目标差了一口气。
+
+本次用于挑战的「张雪机车」MX450，是专门为了应对水上滑行而改装的型号。据「张雪机车」研发工程师邓连松介绍，改装摩托车以标准摩托车车架和动力总成作为基础，技术团队进行了相应的</p>
+    <div class="card-footer">
+      <span class="date">2026-10-26</span>
+      <a href="http://www.geekpark.net/news/372863" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/" target="_blank">Grok releases the first seven minutes of its AI-generated ‘Odyssey’</a>
+    </h2>
+    <p class="card-summary">The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-25</span>
+      <a href="https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/25/cyberselfish-author-takes-aim-at-techno-libertarianism-as-her-book-returns-from-the-dead/" target="_blank">‘Cyberselfish’ author takes aim at techno-libertarianism as her book returns from the dead</a>
+    </h2>
+    <p class="card-summary">"That's a 12-year-old view of the world."</p>
+    <div class="card-footer">
+      <span class="date">2026-10-25</span>
+      <a href="https://techcrunch.com/2026/10/25/cyberselfish-author-takes-aim-at-techno-libertarianism-as-her-book-returns-from-the-dead/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/" target="_blank">AI delivers ‘zero financial payoff’ to most companies, Apollo economist says</a>
+    </h2>
+    <p class="card-summary">"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech."</p>
+    <div class="card-footer">
+      <span class="date">2026-10-25</span>
+      <a href="https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/25/techcrunch-mobility-blue-green-is-the-color-of-autonomy/" target="_blank">TechCrunch Mobility: Blue-green is the color of autonomy</a>
+    </h2>
+    <p class="card-summary">Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-25</span>
+      <a href="https://techcrunch.com/2026/10/25/techcrunch-mobility-blue-green-is-the-color-of-autonomy/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/" target="_blank">The hottest AI wearables and gadgets you should know about</a>
+    </h2>
+    <p class="card-summary">We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-25</span>
+      <a href="https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/372860" target="_blank">苹果首批折叠屏遭集中投诉；英国宣布超过 6 亿英镑 AI 投资计划；刘慈欣监制《三体·大史》年内开机</a>
+    </h2>
+    <p class="card-summary">​到手 6 小时、开合不到 20 次屏幕就裂：苹果首批折叠屏遭集中投诉
+苹果首款折叠屏手机 iPhone Duo 刚开售就遇上了麻烦：据海外论坛和小红书多人反馈，不少用户开箱即遇到屏幕爆线、开裂问题，汇总照片显示故障位置高度集中&mdash;&mdash;几乎全部出现在铰链正上方，多数表现为屏幕一侧浮现一条亮像素线。
+一名澳洲用户称，设备到手约 6 小时、开合不到 20 次，向朋友展示展开时先感到内铰链下方异样，随后听到清晰的「咔嚓」声，屏幕随即沿铰链裂开，内屏表面与外部铰链均无磕碰或夹痕，他前往 Apple Store 后苹果直接为其更换了故障机。国内也有类似案例。
+综合目前反馈，问题可能出</p>
+    <div class="card-footer">
+      <span class="date">2026-10-25</span>
+      <a href="http://www.geekpark.net/news/372860" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/" target="_blank">Starlink seems to be working normally again in Ukraine</a>
+    </h2>
+    <p class="card-summary">Elon Musk reportedly ordered SpaceX to throttle Ukraine's Starlink access.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-24</span>
+      <a href="https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/" target="_blank">Will AI expose the rickety infrastructure of the internet?</a>
+    </h2>
+    <p class="card-summary">The moment you realize the internet is "held together by glue and dreams."</p>
+    <div class="card-footer">
+      <span class="date">2026-10-24</span>
+      <a href="https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/372858" target="_blank">iPhone Duo正式交付；Kimi K3.1 Pro 、Seedance 2.5 4K正式发布；红果短剧上线防沉迷｜极客早知道</a>
+    </h2>
+    <p class="card-summary">苹果首款折叠屏手机 iPhone Duo 正式交付用户 部分订单预计明年 1 月才能送达
+苹果首款折叠屏手机 iPhone Duo 于 2026 年 10 月 23 日正式进入上市交付阶段，首批预购用户开始收到新机，苹果零售店也迎来首发日消费者。由于预购需求强劲，加上生产供应受到限制，上市初期的现货数量相当有限，部分消费者即使在首发日下单，也可能需要等待数月才能拿到设备。
+苹果此前表示，iPhone Duo 的预购需求表现异常强劲，公司正在努力尽快将产品交付给消费者。苹果同时确认，全球 Apple Store 门店会提供少量供现场顾客购买的库存，但提醒消费者，这些现货可能很快售罄。对于希望不经</p>
+    <div class="card-footer">
+      <span class="date">2026-10-24</span>
+      <a href="http://www.geekpark.net/news/372858" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+      </div>
+    </section>
+    <section class="tag-section">
+      <div class="tag-section-header" style="border-left: 3px solid #185FA5">
+        <span class="tag-label" style="color:#185FA5">AI & Tech</span>
+        <span class="tag-count">20 条</span>
+      </div>
+      <div class="card-grid">
+        
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1685755?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">早报｜iPhone Duo破发/企业微信回应色情引流信息/曝触屏MacBook Pro周四登场</a>
+    </h2>
+    <p class="card-summary">· OpenAI 给 AI 建「离线世界」，隔离模型仍用 CPU 缓存传话
+· Reddit 开源社区禁止 AI 项目，连 AI 翻译发帖也被排除#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-10-26</span>
+      <a href="https://www.ifanr.com/1685755?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/tech/1018233/ifixit-iphone-duo-teardown-repairability-hinge" target="_blank">iFixit&#8217;s look inside the iPhone Duo may explain those broken screens and hinges</a>
+    </h2>
+    <p class="card-summary">As is tradition, iFixit has torn open the latest iPhone and laid its parts bare on a table. It found some interesting details about how Apple might be hiding the crease on the Duo's folding screen and gave it a 5/10 repairability score. That might not seem particularly high, but it's the best score </p>
+    <div class="card-footer">
+      <span class="date">2026-10-25</span>
+      <a href="https://www.theverge.com/tech/1018233/ifixit-iphone-duo-teardown-repairability-hinge" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/entertainment/1018300/scott-walker-the-drift-music-album-review" target="_blank">Scott Walker’s The Drift will get under your skin</a>
+    </h2>
+    <p class="card-summary">In my mind, Spooky Season music comes in two distinct flavors. There are the fun, occasionally goofy songs like "The Monster Mash" and John Carpenter's "Halloween Theme." Then there is the genuinely terrifying: Throbbing Gristle, The Body, or Scott Walker's The Drift. This 2006 album from the singer</p>
+    <div class="card-footer">
+      <span class="date">2026-10-25</span>
+      <a href="https://www.theverge.com/entertainment/1018300/scott-walker-the-drift-music-album-review" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/tech/1018290/dissected-iphone-duo-crackgate-hinge-screen" target="_blank">A YouTuber dissected an iPhone Duo and thinks he found the cause of crackgate</a>
+    </h2>
+    <p class="card-summary">Social media and the iPhone Duo subreddit are filled with reports of Apple's foldable failing quickly and in spectacular fashion. Some users report having the phone for only a few hours before the hinge seems to catch on something, then audibly crack and break the screen. Tellingly, the cracks all s</p>
+    <div class="card-footer">
+      <span class="date">2026-10-25</span>
+      <a href="https://www.theverge.com/tech/1018290/dissected-iphone-duo-crackgate-hinge-screen" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/tech/1018275/zen-browser-arc-replacement" target="_blank">Zen Browser is the Arc replacement I was looking for</a>
+    </h2>
+    <p class="card-summary">I know many of you are mourning the loss of the Arc browser, and I get it. It felt like the first app in a long time to really offer a new approach to browser design. Atlassian bought the company last year and shifted its focus to developing Dia, its even more AI-focused browser. And [&#8230;]</p>
+    <div class="card-footer">
+      <span class="date">2026-10-25</span>
+      <a href="https://www.theverge.com/tech/1018275/zen-browser-arc-replacement" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/tech/1017508/crkd-nitro-deck-2-nintendo-switch-2-controller-case-hands-on" target="_blank">This Switch 2 sequel accessory was a few millimeters away from being good</a>
+    </h2>
+    <p class="card-summary">The Crkd Nitro Deck was a saving grace for the original Nintendo Switch. The slide-on $59.99 accessory brought Hall effect sticks to drift-plagued consoles - no need to open up your Joy-Con for a complicated repair. The Nitro Deck 2, made for both the original Switch and the larger Switch 2, continu</p>
+    <div class="card-footer">
+      <span class="date">2026-10-25</span>
+      <a href="https://www.theverge.com/tech/1017508/crkd-nitro-deck-2-nintendo-switch-2-controller-case-hands-on" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/tech/1018253/now-you-can-watch-instagram-reels-on-your-apple-tv" target="_blank">Now you can watch Instagram Reels on your Apple TV</a>
+    </h2>
+    <p class="card-summary">Instagram is continuing its expansion into living rooms with Instagram for TV, for Apple TV. The company first started testing a version of the platform focused on Reels, live streams, and other video content, blown up for a bigger screen in December of last year. Then, in June, it launched a slew o</p>
+    <div class="card-footer">
+      <span class="date">2026-10-25</span>
+      <a href="https://www.theverge.com/tech/1018253/now-you-can-watch-instagram-reels-on-your-apple-tv" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban" target="_blank">r/opensource just banned AI, non-English speakers, and more</a>
+    </h2>
+    <p class="card-summary">The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, "If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to this</p>
+    <div class="card-footer">
+      <span class="date">2026-10-25</span>
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/column/1017983/google-ai-search-online-publishing" target="_blank">Google’s AI search changes upended online publishing</a>
+    </h2>
+    <p class="card-summary">This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing industry</p>
+    <div class="card-footer">
+      <span class="date">2026-10-25</span>
+      <a href="https://www.theverge.com/column/1017983/google-ai-search-online-publishing" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1685622?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">iPhone Duo 2 提前曝光：FaceID、操作按钮和长焦都要回来了？</a>
+    </h2>
+    <p class="card-summary">还没捂热呢#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-10-25</span>
+      <a href="https://www.ifanr.com/1685622?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/117460" target="_blank">派早报：iFixit 拆解 iPhone Duo，肯定可维修性但指出内屏隐患</a>
+    </h2>
+    <p class="card-summary">派早报：iFixit 拆解 iPhone Duo，肯定可维修性但指出内屏隐患Spotify 将要求家庭组成员定期扫码验证Arc 浏览器宣布下线央广总台澄清「国补停止」说法谷歌建设虚拟电厂，付费激励电网用户省电留给 AIiTunes Store 重受歌手青睐看看就行的简讯少数派的近期动态你可能错过的好文章查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-10-25</span>
+      <a href="https://sspai.com/post/117460" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/114741" target="_blank">60 元打造你的 vibe coding 神器：小米蓝牙遥控器 2 pro</a>
+    </h2>
+    <p class="card-summary">Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-10-25</span>
+      <a href="https://sspai.com/post/114741" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/science/2026/10/a-1000-mile-cloud-on-mars-may-reveal-physics-never-seen-in-nature/" target="_blank">A 1,000-mile cloud on Mars may reveal physics never seen in nature</a>
+    </h2>
+    <p class="card-summary">A new model suggests Mars may host ice-forming physics never directly observed before.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-24</span>
+      <a href="https://arstechnica.com/science/2026/10/a-1000-mile-cloud-on-mars-may-reveal-physics-never-seen-in-nature/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/science/2026/10/ice-sheet-expansion-may-have-started-2000-years-go-but-we-canceled-that/" target="_blank">Ice sheet expansion may have started 2,000 years ago, but we canceled that</a>
+    </h2>
+    <p class="card-summary">The tiny remains of the Laurentide Ice Sheet began getting somewhat less tiny.</p>
+    <div class="card-footer">
+      <span class="date">2026-10-24</span>
+      <a href="https://arstechnica.com/science/2026/10/ice-sheet-expansion-may-have-started-2000-years-go-but-we-canceled-that/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1685572?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">史上最快宾利！竟然是一辆 SUV？</a>
+    </h2>
+    <p class="card-summary">不愧是精装版纯电卡宴。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-10-24</span>
+      <a href="https://www.ifanr.com/1685572?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1685473?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">一位开发者让电视服用了 Claude，这是它系统发生的变化</a>
+    </h2>
+    <p class="card-summary">欢迎来到「大逆向时代」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-10-24</span>
+      <a href="https://www.ifanr.com/1685473?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1685714?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">突发！iPhone Duo 支持微信平板登录，可与手机、电脑同时在线</a>
+    </h2>
+    <p class="card-summary">来了来了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-10-24</span>
+      <a href="https://www.ifanr.com/1685714?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1685684?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">实测 Kimi K3.1 Pro，国模终于继续卷旗舰</a>
+    </h2>
+    <p class="card-summary">大而美的 Kimi 回来了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-10-24</span>
+      <a href="https://www.ifanr.com/1685684?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1685660?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">早报｜微信初步适配iPhone Duo，仍不能平板登录/全球PC出货下降21%/何刚出任华为董事</a>
+    </h2>
+    <p class="card-summary">· 黄仁勋：对长鑫合作持开放态度，不认为 2029 年内存会过剩
+· 沃尔沃汽车拟全球裁减约 2500 个岗位
+· 华为 Pura90 Plus 开启预订#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-10-24</span>
+      <a href="https://www.ifanr.com/1685660?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/116128" target="_blank">在硅谷，遇见个人计算机历史</a>
+    </h2>
+    <p class="card-summary">从硅谷计算机历史博物馆出发，让书里的故事变得更加具体。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-10-24</span>
+      <a href="https://sspai.com/post/116128" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>由 AI Daily 自动抓取生成 · <a href="https://github.com" target="_blank">开源项目</a></p>
+  </footer>
+
+</body>
+</html>
