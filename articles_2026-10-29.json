@@ -1,0 +1,374 @@
+{
+  "date": "2026-10-29",
+  "total": 46,
+  "articles": [
+    {
+      "title": "Anduril now says its BlueChip laptop will meet Buy American standards at launch",
+      "link": "https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american",
+      "summary": "On Tuesday, defense contractor Anduril and chipmaker Qualcomm announced a partnership to build laptops entirely in the United States, starting with a single model in 2027. They also announced a \"long-term goal\" of pushing the computer industry to create \"a fully domestic supply chain.\" Even a single",
+      "published": "2026-10-29",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "早报｜触屏MacBook Pro发布，发光logo回归/Gemini 4 Carbon发布，超越Opus 5.5/马斯克招寿司厨师，每天需能站立10小时",
+      "link": "https://www.ifanr.com/1686590?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· OpenAI拟采购GoogleTPU，已招聘工程师适配前沿模型\n· 仰望行政旗舰定名「鼎曜」，计划 11 月初在中东亮相\n· 宇树与红杉中国成立「杉宇·创计划」，投资机器人早期项目\n期项目#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-10-29",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "一日一技｜iPhone 恶意被锁，线上移除流程拆招",
+      "link": "https://sspai.com/post/116686",
+      "summary": "如果你从网上购买过 Apple ID，又在自己的设备上登录，那就会存在一种风险：这类共享 ID 的密码掌握在卖家手里，卖家可以随时更改。本文就介绍了移除激活锁的全过程。查看全文",
+      "published": "2026-10-29",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：Apple 推出触控款 MacBook Pro、华为发布多款新品等",
+      "link": "https://sspai.com/post/117750",
+      "summary": "Google 推出世界模型 Genie 4、索尼推出手机主摄图像传感器 LYTIA 720 等。查看全文",
+      "published": "2026-10-29",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Upwind raises $400M after walking away from Datadog acquisition offer",
+      "link": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/",
+      "summary": "The cloud security startup raised a Series C at a $3.8B valuation, instead of selling itself for the same price.",
+      "published": "2026-10-28",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Apple’s touchscreen MacBook Pro pushes laptop pricing to a new extreme",
+      "link": "https://techcrunch.com/2026/10/28/apples-touchscreen-macbook-pro-pushes-laptop-pricing-to-a-new-extreme/",
+      "summary": "Prepare to cough up around $14,549 if you want the new touchscreen MacBook Pro to have every upgrade.",
+      "published": "2026-10-28",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+      "link": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+      "summary": "Microsoft has never disclosed Azure's quarterly revenue in dollars. But for the first time, we can see just how close it is getting to besting the biggest competitor in the market, AWS.",
+      "published": "2026-10-28",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Google expands AI Search ads globally as core ad growth slows",
+      "link": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "summary": "The announcement came alongside parent company Alphabet's third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion.",
+      "published": "2026-10-28",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+      "link": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "summary": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership.",
+      "published": "2026-10-28",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Microsoft hits 10 quarters of record-breaking revenue in a row",
+      "link": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
+      "summary": "Whatever the future of AI might be, the current situation is still very good for Microsoft. The tech giant reported yet another record for quarterly revenue on Wednesday: $92.3 billion, a 19% increase over the year-ago quarter.",
+      "published": "2026-10-28",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Hacker stole personnel data about thousands of Homeland Security employees, including CBP and ICE agents",
+      "link": "https://techcrunch.com/2026/10/28/hacker-stole-personnel-data-about-thousands-of-homeland-security-employees-including-cbp-and-ice-agents/",
+      "summary": "A hacker obtained personally identifiable information about more than 40,000 Homeland Security staffers, which has since been published online.",
+      "published": "2026-10-28",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Anthropic just launched tools to show companies what their AI spending is buying",
+      "link": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "summary": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
+      "published": "2026-10-28",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "ULA's Vulcan rocket is set to return to flight on Friday the 13th",
+      "link": "https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th/",
+      "summary": "This Vulcan launch will be the first to utilize a full complement of six solid rocket boosters.",
+      "published": "2026-10-28",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "As US ties fray, Europe plans first undersea cable link to Greenland",
+      "link": "https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland/",
+      "summary": "Europe's Pan-Arctic Cable will bypass US to link Canada, Japan, and South Korea.",
+      "published": "2026-10-28",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Peptide peddlers cheer as RFK Jr. unilaterally grants access, overruling FDA",
+      "link": "https://arstechnica.com/health/2026/10/peptide-peddlers-cheer-as-rfk-jr-unilaterally-grants-access-overruling-fda/",
+      "summary": "Six unproven peptides popular with MAHA now under \"enforcement discretion policy.\"",
+      "published": "2026-10-28",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Trump admin sues Utah to save Kalshi from the state's total ban on gambling",
+      "link": "https://arstechnica.com/tech-policy/2026/10/trump-admin-sues-utah-to-save-kalshi-from-the-states-total-ban-on-gambling/",
+      "summary": "US agency has sued 10 states for trying to stop gambling on prediction markets.",
+      "published": "2026-10-28",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The last, best hope for space tourism just rolled onto a runway in Arizona",
+      "link": "https://arstechnica.com/space/2026/10/the-last-best-hope-for-space-tourism-just-rolled-onto-a-runway-in-arizona/",
+      "summary": "It has been nearly a year since any space tourism flights occurred.",
+      "published": "2026-10-28",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Touchscreen MacBook Pro hands-on: OLED looks great on a Mac",
+      "link": "https://arstechnica.com/apple/2026/10/touchscreen-macbook-pro-hands-on-oled-looks-great-on-a-mac/",
+      "summary": "It's not as different from the previous model as you might have expected.",
+      "published": "2026-10-28",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+      "link": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+      "summary": "Gemini 4 Carbon is essentially a slightly better version of Argon.",
+      "published": "2026-10-28",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Amazon turns its most capable smart speaker into a smart camera, too",
+      "link": "https://arstechnica.com/gadgets/2026/10/amazon-adds-a-camera-to-its-best-sounding-smart-speaker-for-30-extra/",
+      "summary": "The Echo Studio with Home Camera can \"see and understand what's in front of the camera.\"",
+      "published": "2026-10-28",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+      "summary": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the Colin and Samir podcast to talk about the lau",
+      "published": "2026-10-28",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "A hacker stole more than 40,000 DHS employee records",
+      "link": "https://www.theverge.com/tech/1021528/ice-cbp-data-leak",
+      "summary": "A hacker stole a trove of personal information from the Department of Homeland Security (DHS). The breach exposes the names, job titles, phone numbers, email addresses, and office locations of more than 41,000 employees, including those in US Immigration and Customs Enforcement (ICE) and Customs and",
+      "published": "2026-10-28",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Akai is embracing vibe-coded mods with an open-source MPC",
+      "link": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key",
+      "summary": "The MPC Sample Key isn't even formally announced yet, but Akai is already showing off what the modding community is cooking up through vibe coding. Akai has decided to embrace the explosion of hackers and custom firmware developers by giving them early access to the device, which will have open-sour",
+      "published": "2026-10-28",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Readwise is taking on Kindle and Kobo for ebook supremacy",
+      "link": "https://www.theverge.com/tech/1020264/readwise-books-launch-ebook-store",
+      "summary": "For the last several years, Readwise has been building tools for power readers. There's the eponymous product, Readwise, which stores and categorizes your Kindle highlights to help you remember what you've read. There's Readwise Reader, an app for reading newsletters, PDFs, and web articles you've s",
+      "published": "2026-10-28",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Google says its investments in AI are driving more searches",
+      "link": "https://www.theverge.com/tech/1020811/alphabet-google-earnings-q3-2026",
+      "summary": "Google parent company Alphabet says that its AI investments are leading to a big growth in searches year-over-year, as noted in its Q3 2026 earnings today. \"Our AI investments are driving overall Search query growth, including commercial queries,\" CEO Sundar Pichai says in a statement. \"In fact, our",
+      "published": "2026-10-28",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Microsoft reveals strong cloud growth amid financial reporting overhaul",
+      "link": "https://www.theverge.com/tech/1020785/microsoft-earnings-revenue-q1-2027",
+      "summary": "Microsoft just posted the first quarter of its 2027 fiscal financial results. The software maker made $92.3 billion in revenue and a net income of $33.6 billion during Q1. Revenue is up 19 percent, and net income has increased by 32 percent. It's a new financial year for Microsoft, so the company is",
+      "published": "2026-10-28",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Apple charges $14,549 for a fully specced touchscreen MacBook Pro",
+      "link": "https://www.theverge.com/tech/1021308/apple-touchscreen-macbook-pro-proled-xdr-fully-specced",
+      "summary": "With an OLED display and touchscreen capabilities, it's no surprise that the new MacBook Pro Apple announced today is more expensive than the MBP announced earlier this year. But upgrading the base models that start at $2,899 for the 14-inch, and $3,399 for the 16-inch, with every premium hardware o",
+      "published": "2026-10-28",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "触屏 MacBook Pro 上手体验：变轻变强会发光，凭什么值 11 万？",
+      "link": "https://www.ifanr.com/1686534?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "很强，很亮，很贵#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-10-28",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "顶配 11.26 万！触屏 MacBook Pro 终于来了，乔布斯可能有话说",
+      "link": "https://www.ifanr.com/1686513?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "苹果标会亮！#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-10-28",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "刚刚，Gemini 4 Carbon 正式发布，哈基米重回世界第一",
+      "link": "https://www.ifanr.com/1686587?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "哈基米终于扬眉吐气了\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-10-28",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "iPad mini 首发上手：体验无可替代，刀法无人能及",
+      "link": "https://www.ifanr.com/1686487?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "算力越级，高刷缺席，一款让人爱恨交织的产品#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-10-28",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "补齐短板！理想 i6 上市23.98 万元起，等等党赢麻了",
+      "link": "https://www.ifanr.com/1686458?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "销冠的自我修养。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-10-28",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "iQOO Neo 12 发布：继独显和散热风扇之后，185Hz 屏幕会成为新标配？",
+      "link": "https://www.ifanr.com/1686397?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "游戏手机的下个世代，会有怎样的变化？#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-10-28",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "这机器人从嘴里钻进人体，居然是来救命的",
+      "link": "https://www.ifanr.com/1686368?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "当所有人都在讨论 AI 时，机械工程同样可以给世界带来变化。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-10-28",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "备受期待的国产 3A 游戏新作：《影之刃零》游玩体验",
+      "link": "https://sspai.com/post/117725",
+      "summary": "编注：《影之刃零》（PhantomBladeZero）是由中国游戏开发商「灵游坊」（S-GAME）自主研发的暗黑武侠动作冒险游戏，采用虚幻引擎5打造。游戏以独特的「功夫朋克」美学为特色，将中国传统武侠 ...查看全文",
+      "published": "2026-10-28",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "断舍离只是起点：打造能长期经营的实用主义衣柜",
+      "link": "https://sspai.com/post/116990",
+      "summary": "只扔不买是没有用的，穿衣服时不多费心神才是目的。查看全文",
+      "published": "2026-10-28",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "怀旧手记｜坚果 Pro2 与 R1：当「理想」和「现实」碰撞会发生什么？",
+      "link": "https://sspai.com/post/115533",
+      "summary": "短短几年，罗永浩和锤子科技在国产手机的红海中留下了浓墨重彩的一笔。查看全文",
+      "published": "2026-10-28",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：Apple 发布 M6 版 iMac 和 MacBook Pro 等",
+      "link": "https://sspai.com/post/117684",
+      "summary": "小米发布 REDMI K100 等新品，广电总局发布有线电视与 IPTV 运营服务新规等。查看全文",
+      "published": "2026-10-28",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Creating AI value with enterprise context",
+      "link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+      "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outc",
+      "published": "2026-10-28",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The Download: dead startups fueling AI and interspecies communication",
+      "link": "https://www.technologyreview.com/2026/10/28/1147767/the-download-dead-startups-fueling-ai-interspecies-communication/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. AI labs are buying data from dead startups to train their models When Keelan Miskell began winding down his crypto startup, he didn’t think its data w",
+      "published": "2026-10-28",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Pairing industrial AI autonomy and human control",
+      "link": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
+      "summary": "",
+      "published": "2026-10-28",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "社区速递 163 | 金豪 59 调整版钢笔与九月派友剁手清单",
+      "link": "https://sspai.com/post/117633",
+      "summary": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文",
+      "published": "2026-10-27",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Apple Sports：不看新闻、不聊球，只看我关心的比赛",
+      "link": "https://sspai.com/post/117557",
+      "summary": "作为一个从小看CCTV-5体育频道下饭的「体育迷」，在互联网时代我一般都看新浪门户网站的体育板块来获取最新的体育资讯，在智能手机逐渐普及后，百度贴吧、虎扑、懂球帝等平台又是我获取体育资讯以及和网友们吹 ...查看全文",
+      "published": "2026-10-27",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The Download: Anthropic’s IPO, smarter power grids, and exercise pills",
+      "link": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Will the real Anthropic please stand up? After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages",
+      "published": "2026-10-27",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
+      "link": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
+      "summary": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a particular material behaves, w",
+      "published": "2026-10-27",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "How solid-state transformers could help power the AI boom",
+      "link": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
+      "summary": "Transformers are a crucial but nearly invisible part of our grid. The devices help efficiently move power across long distances, but they’re complicated and in short supply. And given that their basic design hasn’t changed much for about a century, they could use an upgrade.&#160; As the world races",
+      "published": "2026-10-27",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    }
+  ]
+}
