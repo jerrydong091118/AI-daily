@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Daily · 2026-11-04 · 周三</title>
+  <style>
+    :root {
+      --bg: #F8F9FA;
+      --card-bg: #FFFFFF;
+      --border: #E8E8E8;
+      --text-primary: #1A1A1A;
+      --text-secondary: #666666;
+      --text-muted: #999999;
+      --accent: #185FA5;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text-primary);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* 顶部标题区 */
+    .hero {
+      background: linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #0F3460 100%);
+      color: white;
+      padding: 3rem 2rem 2.5rem;
+      text-align: center;
+    }
+    .hero-eyebrow {
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.5);
+      margin-bottom: 8px;
+    }
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 4px;
+    }
+    .hero-date {
+      font-size: 14px;
+      color: rgba(255,255,255,0.6);
+    }
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1.5rem;
+    }
+    .hero-stat {
+      text-align: center;
+    }
+    .hero-stat-num {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #5BC8F5;
+    }
+    .hero-stat-label {
+      font-size: 12px;
+      color: rgba(255,255,255,0.5);
+    }
+
+    /* 内容区 */
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    /* 分区标题 */
+    .tag-section {
+      margin-bottom: 3rem;
+    }
+    .tag-section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.5rem 0 0.75rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .tag-label {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    .tag-count {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* 卡片网格 */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+
+    /* 文章卡片 */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.1rem 1.2rem;
+      transition: box-shadow 0.2s, transform 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+    .card:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      transform: translateY(-2px);
+    }
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .tag {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+    .source {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    .card-title {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 8px;
+      flex: 1;
+    }
+    .card-title a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    .card-title a:hover {
+      color: var(--accent);
+    }
+    .card-summary {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-bottom: 10px;
+      flex: 1;
+    }
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: auto;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+    .date {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+    .read-more {
+      font-size: 12px;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .read-more:hover {
+      text-decoration: underline;
+    }
+
+    /* 底部 */
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 12px;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+    }
+    .footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    /* 响应式 */
+    @media (max-width: 640px) {
+      .hero { padding: 2rem 1rem 1.5rem; }
+      .hero h1 { font-size: 1.6rem; }
+      .container { padding: 1.5rem 1rem 3rem; }
+      .card-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <p class="hero-eyebrow">AI Daily</p>
+    <h1>今日 AI & 创业资讯</h1>
+    <p class="hero-date">2026-11-04 · 周三</p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-num">52</div>
+        <div class="hero-stat-label">篇精选文章</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">2</div>
+        <div class="hero-stat-label">个分类</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">7</div>
+        <div class="hero-stat-label">个来源</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <section class="tag-section">
+      <div class="tag-section-header" style="border-left: 3px solid #185FA5">
+        <span class="tag-label" style="color:#185FA5">AI & Tech</span>
+        <span class="tag-count">39 条</span>
+      </div>
+      <div class="card-grid">
+        
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc" target="_blank">AMD rides data center riches to &#8216;largest and most profitable&#8217; quarter in history</a>
+    </h2>
+    <p class="card-summary">AMD CEO Lisa Su said in the company's quarterly earnings call on Tuesday that Q3 2026 was "was the largest and most profitable in our history." AMD reported a record $13.4 billion in quarterly revenue, and it's predicting it will hit another record high next quarter of $17 billion. The company's dat</p>
+    <div class="card-footer">
+      <span class="date">2026-11-04</span>
+      <a href="https://www.theverge.com/tech/1026148/amd-earnings-q3-2026-data-center-pc" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/games/1026112/the-legend-of-zelda-ocarina-of-time-remake-nintendo-switch-2-news" target="_blank">All the news about The Legend of Zelda: Ocarina of Time remake</a>
+    </h2>
+    <p class="card-summary">Ahead of the release of Rockstar Games&#8217; Grand Theft Auto VI, Nintendo is launching its own fall juggernaut: a Switch 2 remake of The Legend of Zelda: Ocarina of Time. The remake, which is releasing 28 years after the launch of the original version on Nintendo 64, has a much more realistic visu</p>
+    <div class="card-footer">
+      <span class="date">2026-11-04</span>
+      <a href="https://www.theverge.com/games/1026112/the-legend-of-zelda-ocarina-of-time-remake-nintendo-switch-2-news" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures" target="_blank">The biggest modding site in PC gaming is taking a stance on AI</a>
+    </h2>
+    <p class="card-summary">The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare "whether AI has been used in their work," the site announced today as part of a big post about AI-generated content on the platform. "One of the mo</p>
+    <div class="card-footer">
+      <span class="date">2026-11-04</span>
+      <a href="https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1687585?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">连夜实测 iPhone 国行 AI，亮点和槽点都在这了</a>
+    </h2>
+    <p class="card-summary">后来者总有机会。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-04</span>
+      <a href="https://www.ifanr.com/1687585?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1687549?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">抱紧「大腿」！奥迪的全新纯电跑车，本质是一辆保时捷</a>
+    </h2>
+    <p class="card-summary">模拟五缸声浪，迎接万转旗舰。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-04</span>
+      <a href="https://www.ifanr.com/1687549?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1687538?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">15.98 万元起，东风奕派 M8 天元激光版上市，用自研智驾替换华为乾崑</a>
+    </h2>
+    <p class="card-summary">奕派用自研换低价。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-04</span>
+      <a href="https://www.ifanr.com/1687538?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1687477?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">早报｜国行苹果AI开测，Siri接入千问/中兴否认出售手机业务传闻/多所高校免费发Token</a>
+    </h2>
+    <p class="card-summary">· GPT 爆改 Qwen 权重，团队测试数学成绩提升约 6 倍
+· 盗用 AI 平台算力，上海一男子获刑三年
+· 中兴否认出售手机业务传闻#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-04</span>
+      <a href="https://www.ifanr.com/1687477?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/118404" target="_blank">国行 Apple 智能上手：这些功能已经准备好</a>
+    </h2>
+    <p class="card-summary">iOS 27.3 Beta 带来了姗姗来迟的国行版 Apple 智能，这些细节你值得了解。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-04</span>
+      <a href="https://sspai.com/post/118404" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/118402" target="_blank">派早报：Apple 智能国行版开放测试、拓竹发布 H3C 3D 打印机等</a>
+    </h2>
+    <p class="card-summary">Surface 鼠标第 2 代国行预售，Windows 11 优化 8 GB 内存表现等。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-04</span>
+      <a href="https://sspai.com/post/118402" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws/" target="_blank">California fights "preposterous" Trump admin demand to scrap state broadband laws</a>
+    </h2>
+    <p class="card-summary">State tries to obtain broadband funds despite rejecting Trump admin condition.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://arstechnica.com/tech-policy/2026/11/california-fights-preposterous-trump-admin-demand-to-scrap-state-broadband-laws/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/" target="_blank">Ukraine’s drone strikes spur hasty Russian plans for underground data centers</a>
+    </h2>
+    <p class="card-summary">Russia tries to fix exposed digital infrastructure as data center war backfires.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://arstechnica.com/ai/2026/11/russia-looks-to-hide-data-centers-underground-as-ukrainian-drones-strike-back/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/" target="_blank">NYT demands Brave shut down its paywall blocker and end deals with AI firms</a>
+    </h2>
+    <p class="card-summary">Lawsuit calls Brave "supplier, dealer, and distributor" of stolen news content.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/cars/2026/11/yes-to-storage-no-to-piano-black-how-car-interior-design-is-changing/" target="_blank">Buttons are back and storage is king when it comes to car interiors</a>
+    </h2>
+    <p class="card-summary">We talk with Nissan designer Hiren Patel about how vehicle interior designs are changing.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://arstechnica.com/cars/2026/11/yes-to-storage-no-to-piano-black-how-car-interior-design-is-changing/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/" target="_blank">Google will let schools skip AI tools, but they have to give up search, too</a>
+    </h2>
+    <p class="card-summary">Google will offer schools AI tools that purportedly don't give away the answers.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/health/2026/11/another-child-dies-of-measles-as-cdc-reportedly-holds-up-health-alert/" target="_blank">Another child dies of measles as CDC reportedly holds up health alert</a>
+    </h2>
+    <p class="card-summary">NY governor pointed to Kennedy's long-standing anti-vaccine work as spurring outbreaks.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://arstechnica.com/health/2026/11/another-child-dies-of-measles-as-cdc-reportedly-holds-up-health-alert/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/" target="_blank">Google dismantles botnet secretly running on 1.3 million Android TV boxes</a>
+    </h2>
+    <p class="card-summary">Google has cut ties with the company behind the botnet campaign.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://arstechnica.com/google/2026/11/google-dismantles-botnet-secretly-running-on-1-3-million-android-tv-boxes/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/space/2026/11/this-space-company-is-betting-its-future-on-a-propellant-available-everywhere/" target="_blank">This space company is betting its future on a propellant available everywhere</a>
+    </h2>
+    <p class="card-summary">Is that water in your spacecraft, or are you just happy to see the delta-V?</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://arstechnica.com/space/2026/11/this-space-company-is-betting-its-future-on-a-propellant-available-everywhere/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds" target="_blank">Please stop asking me when the AI bubble will pop</a>
+    </h2>
+    <p class="card-summary">People, including on this staff, keep asking me with varying degrees of excitement or trepidation when the AI bubble will burst. I'll tell you what I tell them: If I knew that, I would make a life-changing bet on the market, levered up as far as I could, and then, after I made my money, [&#8230;]</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/tech/1025971/canva-changes-layoffs" target="_blank">Canva is announcing changes and layoffs affecting 22 percent of its staff</a>
+    </h2>
+    <p class="card-summary">Canva is making significant changes affecting 1,271 people, which is 22 percent of its staff, co-founder and CEO Melanie Perkins announced today. "For some people, this will mean changes to their roles or being asked to relocate to centralised hubs," says Perkins. "Sadly, it will also mean saying go</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://www.theverge.com/tech/1025971/canva-changes-layoffs" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/tech/1025903/sonos-presets-27voice-ai-early-access" target="_blank">Sonos adds new Presets and prepares for the 27voice AI beta</a>
+    </h2>
+    <p class="card-summary">Sonos is rolling out a big app update that includes new Presets and early access to its AI voice assistant. You can create a preset to play music at a specific volume in a certain room, which will appear directly on the homescreen so you can quickly start playback. If you're in the US, you [&#8230;]</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://www.theverge.com/tech/1025903/sonos-presets-27voice-ai-early-access" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/games/1025722/valve-steam-game-increase-submissions" target="_blank">Valve is making changes to deal with a ‘significant increase’ in Steam game submissions</a>
+    </h2>
+    <p class="card-summary">In a new post today, Valve acknowledged that it's seen "a significant increase in submissions for store and page review in recent months" and says it's "running a little behind" by taking "up to 12 business days" for reviews instead of the typical 3-5 days. Indie developers have recently expressed f</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://www.theverge.com/games/1025722/valve-steam-game-increase-submissions" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained" target="_blank">Binance says hackers used fake job interviews and an internal AI tool to pull off the $6.3 billion heist</a>
+    </h2>
+    <p class="card-summary">The largest crypto theft to date was pulled off by combining some well-known hacking techniques over the course of a few months, according to Binance. A postmortem from the company says the process started in June with one developer downloading a tampered installer apparently spread by a malicious G</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://www.theverge.com/news/1025576/binance-cyrpto-theft-explained" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1687473?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">iPad mini 8 首发评测：本该是一台完美的平板电脑</a>
+    </h2>
+    <p class="card-summary">全网最细的iPad mini 8 评测，屏幕到底锁没锁帧，我们挖出了超多细节。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://www.ifanr.com/1687473?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1687285?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">GPT-6 Astra 爆改 Qwen 大脑：只动 0.016% 参数，数学成绩疯涨</a>
+    </h2>
+    <p class="card-summary">我「编程」我自己#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://www.ifanr.com/1687285?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1687274?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">不穿的旧衣服呢？放「AI 版转转」，毛利 80%</a>
+    </h2>
+    <p class="card-summary">旧衣千千万，AI 替你挑对的那件#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://www.ifanr.com/1687274?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1687259?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">苹果的一切都在变贵，全怪 AI</a>
+    </h2>
+    <p class="card-summary">赚得多，花得更狠#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://www.ifanr.com/1687259?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/118263" target="_blank">一眼的熟悉，满眼的惊喜：新款 iPad mini 首发体验</a>
+    </h2>
+    <p class="card-summary">更轻、更薄、更好「看」，依然是那台纯粹的 iPad mini。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://sspai.com/post/118263" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/118317" target="_blank">社区速递 164 | 1500 元圆梦昔日卡皇与派友们做的 AI 平替</a>
+    </h2>
+    <p class="card-summary">手工压花器、二手 TITAN V，以及派友们用开源项目与 AI Coding 替代付费订阅的讨论。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://sspai.com/post/118317" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/118211" target="_blank">Disc Image Studio：你想不想在光盘上「画」点什么？</a>
+    </h2>
+    <p class="card-summary">把喜欢的图烧进 CD 里，你也可以。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://sspai.com/post/118211" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/118232" target="_blank">派早报：猛玛推出探境 3 直播相机、美团发布 LongCat-2.5 模型等</a>
+    </h2>
+    <p class="card-summary">Raspberry Pi 再次上调 16 GB 产品价格、Keychron 推出 Q19 HE 8K 磁轴键盘等。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://sspai.com/post/118232" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">MIT Tech Review</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/" target="_blank">The Download: controlling AI agents and “Super Intelligence” loyalty tests</a>
+    </h2>
+    <p class="card-summary">This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. How “reverse game theory” could keep AI agents in check A new approach known as “reverse game theory” aims to control powerful AI models by designing </p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">MIT Tech Review</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/" target="_blank">How “reverse game theory” could keep AI agents in check</a>
+    </h2>
+    <p class="card-summary">A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that ro</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">MIT Tech Review</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/" target="_blank">Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test</a>
+    </h2>
+    <p class="card-summary">This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been c</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/118240" target="_blank">派评 | 近期值得关注的 App</a>
+    </h2>
+    <p class="card-summary">能看见、更聪明的 Android 智能点击器，纯纯写作迎来 iOS 版本，Photon Cam 为 iPhone 旧机型解锁相机新功能等。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-02</span>
+      <a href="https://sspai.com/post/118240" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/118122" target="_blank">TDS REVIEW｜Apple AirPods 5 半入耳降噪真无线耳机体验</a>
+    </h2>
+    <p class="card-summary">这篇文章是TDSStudio在少数派上的第34篇文章，依然是全平台首发。时隔两年，我们又回来写AirPods半入耳型号了。在26年的苹果秋季event上，AirPods5给我们最大的印象其实还是主动降 ...查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-02</span>
+      <a href="https://sspai.com/post/118122" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">MIT Tech Review</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/" target="_blank">Raising the quality of insights in agentic analytics</a>
+    </h2>
+    <p class="card-summary">In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The qualit</p>
+    <div class="card-footer">
+      <span class="date">2026-11-02</span>
+      <a href="https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">MIT Tech Review</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/" target="_blank">Stop counting tokens, start counting what ships</a>
+    </h2>
+    <p class="card-summary">When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls&#8230;</p>
+    <div class="card-footer">
+      <span class="date">2026-11-02</span>
+      <a href="https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">MIT Tech Review</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.technologyreview.com/2026/11/02/1147889/the-download-agentic-web-arrives-eliminating-traffic-deaths/" target="_blank">The Download: the agentic web arrives and the drive for safer roads</a>
+    </h2>
+    <p class="card-summary">This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The agentic web is here In 2001, a decade after inventing the World Wide Web, Tim Berners-Lee articulated a new vision: an internet navigated by auton</p>
+    <div class="card-footer">
+      <span class="date">2026-11-02</span>
+      <a href="https://www.technologyreview.com/2026/11/02/1147889/the-download-agentic-web-arrives-eliminating-traffic-deaths/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">MIT Tech Review</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/" target="_blank">The agentic web is here</a>
+    </h2>
+    <p class="card-summary">In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the “Semantic Web”: an internet designed to be navigated by autonomous softw</p>
+    <div class="card-footer">
+      <span class="date">2026-11-02</span>
+      <a href="https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+      </div>
+    </section>
+    <section class="tag-section">
+      <div class="tag-section-header" style="border-left: 3px solid #3B6D11">
+        <span class="tag-label" style="color:#3B6D11">Startup</span>
+        <span class="tag-count">13 条</span>
+      </div>
+      <div class="card-grid">
+        
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373427" target="_blank">国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道</a>
+    </h2>
+    <p class="card-summary">国行 Apple 智能开始测试：iOS 27.3 首个开发者 Beta 版已推送
+11 月 4 日，苹果向开发者推送 iOS 27.3 首个 Beta 版，国行 iPhone 用户开始测试首批 Apple 智能功能，包括实时翻译、照片消除、写作工具和通知摘要等。国行 Apple 智能与阿里巴巴达成合作，在部分体验中接入千问。国内用户可直接在 Siri、写作工具和视觉智能中调用千问，覆盖文本与图像理解相关能力。
+
+这次开放的是开发者测试版，正式版计划于 12 月推出。首批支持 iPhone 15 Pro 系列、iPhone 16 及后续机型，以及 iPhone Air 和 iPhone Duo；</p>
+    <div class="card-footer">
+      <span class="date">2026-11-04</span>
+      <a href="http://www.geekpark.net/news/373427" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/" target="_blank">Anthropic is working on a system to prove AI models’ identity</a>
+    </h2>
+    <p class="card-summary">Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/" target="_blank">Data centers are turning to old jet engines as the wait for power grows</a>
+    </h2>
+    <p class="card-summary">The years-long wait for access to the grid and new turbines is causing data center builders to turn to an unusual, less-efficient and less environmentally friendly solution: once-discarded jet engines.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/" target="_blank">Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom</a>
+    </h2>
+    <p class="card-summary">Cybersecurity-focused Ballistic Ventures is seeking to raise $360 million for a new flagship fund and another $130 million for a separate investment vehicle.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/" target="_blank">Hiding inside Palantir’s skyrocketing quarter is a foreboding signal</a>
+    </h2>
+    <p class="card-summary">Palantir's U.S. commercial revenue surpassed U.S. government revenue for the first time ever.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/03/orbital-matter-3d-printed-the-first-rigid-beam-in-the-vacuum-of-space/" target="_blank">Orbital Matter 3D-printed the first rigid beam in the vacuum of space</a>
+    </h2>
+    <p class="card-summary">An in-space construction first could be an enabler for the space data centers of the future.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://techcrunch.com/2026/11/03/orbital-matter-3d-printed-the-first-rigid-beam-in-the-vacuum-of-space/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/03/researchers-warned-of-north-korean-hacking-tactics-years-before-record-6-3b-binance-heist/" target="_blank">Researchers warned of North Korean hacking tactics years before record $6.3B Binance heist</a>
+    </h2>
+    <p class="card-summary">Cybersecurity experts have long warned of the persistent and patient threat from North Korea's long-running hacks. The world's largest crypto exchange was still caught off-guard.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://techcrunch.com/2026/11/03/researchers-warned-of-north-korean-hacking-tactics-years-before-record-6-3b-binance-heist/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/" target="_blank">AI inference startup Fal doubles its valuation to $16B as demand surges</a>
+    </h2>
+    <p class="card-summary">The five-year-old startup raised a $1.3  billion round led by Bessemer.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/03/reddit-tests-ads-in-search-results-as-traffic-declines-and-growth-concerns-mount/" target="_blank">Reddit tests ads in search results as traffic declines and growth concerns mount</a>
+    </h2>
+    <p class="card-summary">The new ad placements could help Reddit squeeze more revenue from existing users as Google's AI search changes how people discover its content.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="https://techcrunch.com/2026/11/03/reddit-tests-ads-in-search-results-as-traffic-declines-and-growth-concerns-mount/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373424" target="_blank">拿下近亿美元融资后，他们造了个开放动态真实世界的「行动伙伴」</a>
+    </h2>
+    <p class="card-summary">作者｜苏子华
+编辑｜郑玄
+&nbsp;
+
+博尔赫斯写过一则著名的寓言。一个帝国的制图师们绘制了一张与领土等大的地图，精确到每一寸土地、每一条河流。后代人发现这张地图毫无用处，把它弃置在荒野中，任其腐烂。
+真正在一个地方走路的人，靠的从来不是一张一比一的图纸，而是脚底的感觉、眼睛的判断，以及走错了再调整的能力。
+具身智能行业正在上演这则寓言的现实版。
+过去两年，人形机器人学会了跳舞、翻跟头、弹钢琴。但一个略显尴尬的事实是，这些编排的动作，大多是提前反复排练，且发生在受控的封闭环境里。如果放在现实社会的开放环境中，这些机器人该怎么办，它们到底能帮你干什么？
+费莫一科技（PHYMI）试图回答这个命题</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="http://www.geekpark.net/news/373424" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373399" target="_blank">心言巴布「Bubbo 1」：一台机器人，如何成为家人</a>
+    </h2>
+    <p class="card-summary">&nbsp;
+头图来源：心言机器人
+2026 年 10 月 29 日，心言机器人正式发布具身家庭智能体「巴布（Bubbo 1）」。
+这台毛绒外形的机器人，基于心言自研的 Bubbo OS，主打「伙伴式交互」：它不是一台等人发号施令的家电，而是一个会主动走近、主动回应的家庭成员。产品即日起在京东等官方渠道发售，售价 9499 元，前 1000 名订购者可享 7999 元。
+在心言机器人创始人、Bubbo 1 首席设计师任永亮看来，「技术决定体验的下限，交互决定体验的上限。」过去的 AI，是你不开口它就不在的工具；而巴布要做的，是从「外部」视角搭起一个 Family Agent&mdash;&md</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="http://www.geekpark.net/news/373399" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373358" target="_blank">马斯克回应 Grok Bot 额度消耗过快：服务成本高到难以为继；Altman 称个人内存浪费遭全网声讨；《影之刃零》销量破 400 万份</a>
+    </h2>
+    <p class="card-summary">Anthropic 更新 IPO 招股书：第三季度营收近 170 亿美元，算力承诺达 8954 亿美元
+11 月 2 日，Anthropic 向美国证券交易委员会提交更新后的 S-1 招股文件，首次补充截至今年 9 月底的第三季度财务数据。
+Anthropic 第三季度营收达到 169.6 亿美元，较第二季度增长 47%，但增速低于第二季度的 144%。公司第三季度营业亏损为 5.67 亿美元，而第二季度曾实现 9.74 亿美元营业利润。
+与此同时，Anthropic 披露约 8954 亿美元的 AI 基础设施相关支出承诺，涉及亚马逊、谷歌等合作伙伴。公司警告，部分算力供应依赖第三方融资，如果</p>
+    <div class="card-footer">
+      <span class="date">2026-11-03</span>
+      <a href="http://www.geekpark.net/news/373358" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373252" target="_blank">​传苹果逐步淘汰非触控 MacBook Pro；谷歌 AI 被指正切断互联网流量；赛力斯：问界全面进入欧洲市场</a>
+    </h2>
+    <p class="card-summary">&nbsp;
+
+苹果 CEO：不会为了做 AI 而做产品
+苹果 CEO 约翰&middot;特努斯近日接受采访时，为苹果当前在人工智能领域的布局进行辩护。过去几年，外界常认为苹果在 AI 赛道落后，尤其是苹果推迟推出更强版本的 Siri，该功能直到今年夏天才正式上线。
+特努斯是苹果资深高管，9 月初正式出任 CEO。他承认「每个人都有自己的看法」，但坚称：「我对我们现在所处的阶段很满意。」
+特努斯补充，苹果一定会在新产品中运用人工智能，但他表示：「我们不想为了做 AI 而推出 AI。如果我们做得好，用户不会去思考这个功能到底是 AI 实现的，还是传统软件实现的。重点在于，我们是否打造出用户真正</p>
+    <div class="card-footer">
+      <span class="date">2026-11-02</span>
+      <a href="http://www.geekpark.net/news/373252" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>由 AI Daily 自动抓取生成 · <a href="https://github.com" target="_blank">开源项目</a></p>
+  </footer>
+
+</body>
+</html>
