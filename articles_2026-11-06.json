@@ -1,0 +1,430 @@
+{
+  "date": "2026-11-06",
+  "total": 53,
+  "articles": [
+    {
+      "title": "The New York Times reportedly in talks to buy Letterboxd for $330 million",
+      "link": "https://techcrunch.com/2026/11/05/the-new-york-times-reportedly-in-talks-to-buy-letterboxd-for-330-million/",
+      "summary": "Letterboxd, an online platform for movie lovers, has grown dramatically in recent years.",
+      "published": "2026-11-06",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Meta, Google, and TikTok sue California AG over teen social media law",
+      "link": "https://techcrunch.com/2026/11/05/meta-google-and-tiktok-sue-california-ag-over-teen-social-media-law/",
+      "summary": "If it goes into effect next year, this California law would restrict social media access for children under 16.",
+      "published": "2026-11-06",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Blue Origin says it is building a higher-performing rocket engine at 1/4 the cost",
+      "link": "https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/",
+      "summary": "\"This is going to be a game-changer.\"",
+      "published": "2026-11-06",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "OpenAI is stepping back from NDAs for data center projects",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "summary": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data ",
+      "published": "2026-11-06",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Airbnb is working on an AI travel agent",
+      "link": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+      "summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointmen",
+      "published": "2026-11-06",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "早报｜首款触屏MacBook Pro开卖/2027年放假安排公布，调休减少/GPT-6 Cyber发布，复现1724项漏洞",
+      "link": "https://www.ifanr.com/1688032?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 丰田将设立直属机器人部门，由首席生产官兼任负责人\n· 三季度全球 DRAM 营收逼近 2000 亿美元，价格上涨是主因\n· 鸿蒙电脑累计发货破百万，华为带来政企台式机与企业版#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-11-06",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "更高能效比，带来新惊喜：M6 款 MacBook Pro 初探",
+      "link": "https://sspai.com/post/118570",
+      "summary": "M6 芯片提供了足够的性能保障，无论修图、视频剪辑还是运行入门级的 AI 大模型，它都能应对。在此基础上，你原本可能需要加在 Pro 级 SoC 上的预算就能省下来，花给内存或者硬盘。查看全文",
+      "published": "2026-11-06",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：国务院办公厅发布 2027 年部分节假日放假安排等",
+      "link": "https://sspai.com/post/118587",
+      "summary": "OpenAI 推出 Images 2.6 模型，Nothing CMF Speaker S/M 音箱国行上市等。查看全文",
+      "published": "2026-11-06",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "中期选举后美国芯片股重挫，纳指单日暴跌 5.52%；民主党宣布推动《禁止人工智能法案》；OpenAI 推出 GPT-6 Cyber",
+      "link": "http://www.geekpark.net/news/373554",
+      "summary": "芯片股惨遭重挫，华尔街迎来 1896 年以来中期选举后表现最差的第二个交易日\n据路透社报道，美国民主党在国会中期选举中大胜，引发投资者对 AI 监管加强、数据中心建设放缓的担忧。\n当地时间周四，美国科技股遭遇大规模抛售，华尔街股票市值单日蒸发约 3.2 万亿美元（约合人民币 22.7 万亿元）。纳斯达克综合指数暴跌 5.52%，创下自 2025 年 4 月以来最大单日跌幅，较 10 月初创下的历史高点累计下跌近 12%，进入技术性回调区间。\n此次抛售席卷整个 AI 产业链。费城半导体指数暴跌约 12.3%，英伟达下跌约 9.3%，基本抹去 2026 年以来的累计涨幅；闪迪（SanDisk）暴跌",
+      "published": "2026-11-06",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+      "link": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "summary": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
+      "published": "2026-11-05",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Serve Robotics launches new business to become the AWS for robots",
+      "link": "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/",
+      "summary": "Serve Robotics announced alonsgside its third-quarter earnings that it will launch a new business line called Physical AI Services to offer customers its connectivity and data tools.",
+      "published": "2026-11-05",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Meta says US users can now video chat with their Muse AI avatar",
+      "link": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+      "summary": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
+      "published": "2026-11-05",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+      "link": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
+      "published": "2026-11-05",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "OpenAI released a new cybersecurity model. Is that enough?",
+      "link": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "summary": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
+      "published": "2026-11-05",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "US government warns of ‘ongoing cyber threat’ amid mass hacks of industrial retail and military freezers",
+      "link": "https://techcrunch.com/2026/11/05/u-s-government-warns-of-ongoing-cyber-threat-amid-mass-hacks-of-industrial-retail-and-military-freezers/",
+      "summary": "A joint U.S. government statement says the hacks are affecting the food, transportation, and healthcare industries after reports of global mass hacks.",
+      "published": "2026-11-05",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
+      "link": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
+      "summary": "Certain configurations of Alpine are affected. Other distros may be as well.",
+      "published": "2026-11-05",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "NASA unveils mysterious X-70 experimental aircraft using AI-generated image",
+      "link": "https://arstechnica.com/gadgets/2026/11/nasas-experimental-x-70-aircraft-is-a-big-question-mark/",
+      "summary": "NASA’s X-70 Fractal announcement comes as agency aims to grow X-plane fleet.",
+      "published": "2026-11-05",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Sony revives the original Walkman headphones, adds USB-C",
+      "link": "https://arstechnica.com/gadgets/2026/11/sony-adds-usb-c-to-its-70s-era-mdr-3-walkman-headphones/",
+      "summary": "Orange ear cushions included.",
+      "published": "2026-11-05",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+      "link": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+      "summary": "Google is technically offering schools more choice but not the choices anyone wants.",
+      "published": "2026-11-05",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
+      "link": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
+      "summary": "Bitter energy drinks turned out to be ChatGPT-steered poisoning, lawsuit says.",
+      "published": "2026-11-05",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "BMW bumps battery for the better: The 2027 i7 60 xDrive, driven",
+      "link": "https://arstechnica.com/cars/2026/11/bmw-bumps-battery-for-the-better-the-2027-i7-60-xdrive-driven/",
+      "summary": "BMW has updated its flagship sedan with the newest EV and infotainment tech.",
+      "published": "2026-11-05",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Software squeezes more data out of Webb Telescope for imaging exoplanets",
+      "link": "https://arstechnica.com/science/2026/11/getting-software-to-help-block-out-a-star-so-we-can-see-exoplanets/",
+      "summary": "Software optimizes a physical model of the telescope to reduce noise.",
+      "published": "2026-11-05",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The New York Times is in talks to buy Letterboxd for around $330 million",
+      "link": "https://www.theverge.com/news/1028375/the-new-york-times-letterboxd-acquisition-report",
+      "summary": "The New York Times Company is in talks\"exclusive negotations\" to acquire Letterboxd, the social network for film lovers, for around $330 million, The New York Times reports. The Times Company, Sony Pictures Entertainment, and A24 were all recently rumored to be among those interested in buying Lette",
+      "published": "2026-11-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "T-Mobile owner on Elon Musk launching a wireless carrier: &#8216;Welcome to the party&#8217;",
+      "link": "https://www.theverge.com/tech/1028346/t-mobile-deutsche-telecom-spacex-starlink-mobile",
+      "summary": "The head of T-Mobile's parent company is casting doubt on SpaceX's plans to make Starlink Mobile a \"major\" carrier in the US. During an earnings call on Thursday, Deutsche Telekom CEO Tim H&#246;ttges says he takes the Elon Musk-owned company \"super serious,\" but that it will cost at least $200 bill",
+      "published": "2026-11-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Perplexity launches its own take on AI agents for work",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "summary": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integrate with Perplexity ",
+      "published": "2026-11-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Salon is shutting down after 31 years",
+      "link": "https://www.theverge.com/news/1028281/salon-dot-com-shuts-down",
+      "summary": "Salon launched 31 years ago as one of the first online-only news magazine outlets, and it announced today in an unsigned post that it's ceasing publication. The company said that the \"business realities of independent digital journalism have changed profoundly over the years,\" and it decided that it",
+      "published": "2026-11-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The midterms proved once and for all that X is not real life",
+      "link": "https://www.theverge.com/policy/1028253/midterm-elections-x-right-wing-memes",
+      "summary": "A week before the midterm elections, Vice President JD Vance hosted a town hall in Texas with Fox News host Jesse Watters. It was a friendly event with a friendly audience in what should have been a friendly state, and maybe that's why Vance couldn't help himself. When a college student earnestly as",
+      "published": "2026-11-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Blue Origin’s next launch now won’t happen until 2027",
+      "link": "https://www.theverge.com/science/1028178/blue-origins-next-launch-now-wont-happen-until-2027",
+      "summary": "Blue Origin plans to do its next New Glenn rocket launch in January 2027, according to CNBC and the Financial Times, which cite a memo from CEO Dave Limp sent to staff. The new timeline follows a May launchpad explosion that damaged Blue Origin's New Glenn launchpad ahead of a flight that would have",
+      "published": "2026-11-05",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "MacBook Pro 能触屏了，但这只是它最小的升级｜附选购指南",
+      "link": "https://www.ifanr.com/1687989?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "触控向左，算力向右#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-11-05",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Bose Ultra 开放式耳机 II 体验：听得见好音质，也升级了舒适感",
+      "link": "https://www.ifanr.com/1687834?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "用无损音质和无感佩戴，更新「开放式旗舰」的定义#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-11-05",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Chromebook 统治美国校园，AI 成了没得选的「套餐」",
+      "link": "https://www.ifanr.com/1687912?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "为什么 AI 成了搜索的 「必选项」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-11-05",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "一加 Ace 7 Pro 体验：「二号人物」这次想当主角",
+      "link": "https://www.ifanr.com/1687836?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "很显然，它不想再当一台纯粹的「游戏备用机」了。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-11-05",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "对话星尘智能来杰：机器人的「iPhone 4 时刻」还没到，但可能比想象中更近丨多样性公司",
+      "link": "https://www.ifanr.com/1687805?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "机器人是帮助人的，不是替代人的。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-11-05",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "GPT Images 2.6 突然发布，蓝色大肥鱼实现 GIF 表情包自由",
+      "link": "https://www.ifanr.com/1687778?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "以后表情包斗图，全靠 AI 了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-11-05",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "早报｜苹果收紧员工Token预算/手机越卖越贵，全球手机出货量降19%/雷军：小米机器人在工厂「实习」8小时",
+      "link": "https://www.ifanr.com/1687750?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 彭博调查：69% 中国受访者至少等到明年才换手机\n· ChatGPT 新增 GIF 生成，可调播放速度、逐帧修改\n· 近七成汽车经销商试用 AI，部分已设智能体专员#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-11-05",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "开启 Mac 的下一世代：MacBook Pro (PROLED XDR) 首发体验",
+      "link": "https://sspai.com/post/118546",
+      "summary": "全新 MacBook Pro，开启 Mac 的下一个世代。查看全文",
+      "published": "2026-11-05",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "新玩意 255｜少数派的编辑们最近买了啥？",
+      "link": "https://sspai.com/post/118541",
+      "summary": "编注：很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。内容声明：《新玩意》栏目如含有 ...查看全文",
+      "published": "2026-11-05",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "不用困在厨房也能做出好饭：三十道省事家常蒸菜",
+      "link": "https://sspai.com/prime/story/30-easy-steamed-dishes",
+      "summary": "蒸锅真是懒人做饭好帮手。查看全文本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+      "published": "2026-11-05",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Apple 官网排版细节鉴赏",
+      "link": "https://sspai.com/post/115399",
+      "summary": "Apple 独一无二的品牌价值，正是从这些细节中凝聚的。查看全文",
+      "published": "2026-11-05",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：腾讯发布混元 Hy4 正式版，Google 调整 K-12 教育 AI 政策等",
+      "link": "https://sspai.com/post/118498",
+      "summary": "少数派的近期动态全新设计复古设备鼠标垫上架，会员可使用点数兑换。前往选购iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合。欢迎选购你可能错过的文章国行Apple智能上手：这些功能已经 ...查看全文",
+      "published": "2026-11-05",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "极客公园创新大会 2027 首批嘉宾揭晓！",
+      "link": "http://www.geekpark.net/news/373553",
+      "summary": "今年 12 月 5 日&mdash;6 日，北京 798艺术区，还是老地方。\n极客公园创新大会（GEEKPARK IF），我们又要见面了。\nIF 将进入第 17 年。它像一本记录中国科技行业的「年鉴」，一场科技爱好者的年终盛宴，一次号召创新者聚集、留下历史回音的年度认知集结。\n今年，我们的主题是：Revaluation 价值，另有答案\n我们要探讨的不再是 AI 可以有多厉害，而是更落地的一面&mdash;&mdash;\n工作、创作、生意，你原本笃定的经验，正在一件件被 AI 重新算账。你以为已经看懂的赛道，换个角度，结论可能完全不一样。\n哪些老优势正在缩水？哪些被低估的人和机会，正在悄悄长出新",
+      "published": "2026-11-05",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "世界互联网大会领先科技奖背后，Qoder 凭什么拿下中国 AI 编程市场第一",
+      "link": "http://www.geekpark.net/news/373542",
+      "summary": "作者｜Cynthia\n编辑｜郑玄\n2026 年 11 月，每年乌镇世界互联网大会期间举办的领先科技奖，已经走到第十年。\n作为面向全球征集互联网领域领先成果的国际性科技奖项，领先科技奖每年会选出涵盖基础研究、关键技术与工程研发约 15 至 20 项获奖项目。一定程度上，它的评选也预示了未来几年潮水的走向。\n这一年，传统互联网的光环逐渐退去，AI 成了最大的关键词。其中，仅工程研发组的 8 项获奖成果，从 AMD 的 AI 处理器，到蚂蚁的大模型健康服务平台，再到地平线的整车智能体&hellip;&hellip;就有至少 5 项与 AI 有关。\n而在通用 Agent 这一领域，阿里旗下智能体平台 ",
+      "published": "2026-11-05",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "一个人用得好 AI，为什么一家公司却用不好？",
+      "link": "http://www.geekpark.net/news/373541",
+      "summary": "作者｜老 S\n编辑｜郑玄\n今天的 Agent，已经能够独立完成不少具体的工作。\n写方案、写代码、做分析报告，过去可能需要员工花费几天才能完成的任务，如今 Agent 往往能在较短时间里交出不错的结果。\n但在企业里，完成一份方案，可能只是一项工作的开始。比如，Agent 可以很快制定一份员工考核方案。但要用它真正完成一次考核，还需要获取员工的考勤、业绩等数据，处理特殊情况，并经过业务负责人和 HR 的确认，才能最终确定绩效。\n能够交付阶段性的工作产物，和能进入真实业务、创造实际价值，是两回事。\n随着 Agent 能力快速进化，企业开始面对一个新的问题：如何让这些越来越能干的 AI，真正参与到现有",
+      "published": "2026-11-05",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Apple 智能国行上线，苹果大涨超 6% 重返美股市值第一；英伟达显卡订单排长队，中国客户预计只能拿到 1%；字节限制员工使用个人 AI｜极客早知道",
+      "link": "http://www.geekpark.net/news/373494",
+      "summary": "Apple 智能国行上线，苹果大涨超 6% 重返美股市值第一\n11 月 4 日，Apple 智能伴随 iOS 27.3 的 Developer Beta 向中国大陆用户开放测试，并计划于 12 月随 iOS 27.3 正式版推出。与此同时，苹果也确认与阿里巴巴达成合作，将千问接入 Siri、写作工具及视觉智能，让中国用户能够通过系统直接调用国内大模型的能力。\n不过，这一次上线的并不是完整版 Apple 智能。首批功能主要包括实时翻译、写作工具、视觉智能、照片消除、智绘表情、通知摘要等，而苹果此前展示的新一代 Siri AI，以及 WWDC26 公布的部分下一代 AI 能力，仍然不在此次更新范围",
+      "published": "2026-11-05",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
+      "link": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center market in the US and ground ",
+      "published": "2026-11-05",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "A new bill could change how the US builds energy infrastructure",
+      "link": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/",
+      "summary": "A sweeping bit of legislation designed to cut red tape could speed up the buildout of energy infrastructure in the US. With the dust barely settled on this week’s momentous midterms, the Senate is set to vote on the Bipartisan American Affordability and Jobs Act (BAAJA) on November 9. It’s a plan th",
+      "published": "2026-11-05",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "你不知道的客户端开发：AI 时代下的选型、原生与借力",
+      "link": "https://sspai.com/post/117713",
+      "summary": "选型选得好只是锦上添花，最终还是要先把用户最真实的需求解决好。查看全文",
+      "published": "2026-11-04",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道",
+      "link": "http://www.geekpark.net/news/373427",
+      "summary": "国行 Apple 智能开始测试：iOS 27.3 首个开发者 Beta 版已推送\n11 月 4 日，苹果向开发者推送 iOS 27.3 首个 Beta 版，国行 iPhone 用户开始测试首批 Apple 智能功能，包括实时翻译、照片消除、写作工具和通知摘要等。国行 Apple 智能与阿里巴巴达成合作，在部分体验中接入千问。国内用户可直接在 Siri、写作工具和视觉智能中调用千问，覆盖文本与图像理解相关能力。\n\n这次开放的是开发者测试版，正式版计划于 12 月推出。首批支持 iPhone 15 Pro 系列、iPhone 16 及后续机型，以及 iPhone Air 和 iPhone Duo；",
+      "published": "2026-11-04",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+      "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+      "summary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech&#8217;s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for govern",
+      "published": "2026-11-04",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Roundtables: Inside the Quest for Cognitive Immortality",
+      "link": "https://www.technologyreview.com/2026/11/04/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
+      "summary": "Tuesday, November 17, 2026 In an effort to reach an elusive continuity of the self, some far-thinking technologists are working on ways to keep your brain going—even beyond death. Join science editor Mary Beth Griggs and senior editor for biomedicine Antonio Regalado for a conversation exploring pos",
+      "published": "2026-11-04",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "What’s next for US energy policy after the midterm elections?",
+      "link": "https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/",
+      "summary": "I’ve been locked in to my various screens since results from midterm elections started to roll in last night. And it didn’t take long to see the beginning of the blue wave: Democrats took control of both the US House of Representatives and the Senate, a dramatic swing from Donald Trump’s victory two",
+      "published": "2026-11-04",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "The Download: blended meat, restored sight, and the agentic web",
+      "link": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. These startups hope “blended” food will cut our appetite for red meat&#160; In the fall of 2025, Jeff Dodge served hungry students steaming marinara s",
+      "published": "2026-11-04",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Securing the agentic enterprise with data lineage",
+      "link": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No ",
+      "published": "2026-11-04",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    }
+  ]
+}
