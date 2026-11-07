@@ -1,0 +1,422 @@
+{
+  "date": "2026-11-07",
+  "total": 52,
+  "articles": [
+    {
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "link": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "summary": "The deal highlights the challenges of developing massive AI data centers.",
+      "published": "2026-11-07",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "早报｜触屏MacBook Pro开卖即缺货/仰望U9 Xtreme突破503kph/博世吴永桥：汽车不该拿来订咖啡机票",
+      "link": "https://www.ifanr.com/1688251?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 苹果向部分 iPhone Duo 买家发问卷，询问折痕和屏下相机体验\n· 张雪：将参加 36 名重庆大学学生的校招二面\n· 马斯克称特斯拉得州工厂将缩减 Cybertruck 生产，为 Cybercab 腾出产能#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-11-07",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "博世用豆包工作：让工程师少搬信息，多解问题",
+      "link": "http://www.geekpark.net/news/373643",
+      "summary": "&nbsp;\n头图来源：豆包工作\n客户在群里抛出一个问题，到工程师真正坐下来分析故障，中间隔着多少工作？\n在博世的某研发事业部，答案曾经是：找齐散落在各个群和私聊里的消息，按多个维度整理成完整描述，凭经验判断该找谁，接着再开会，再把结论写成报告。\n故障分析还没开始，大半天已经过去了。\n如今，这中间的一大段路，工程师交给了豆包工作和豆包工作伙伴。\n博世的尝试：让 AI 接手沟通之后的工作\n汽车产业链企业的研发部门，经常会遇到这样的情况：一个工程师要当三个用：研发细节要盯，还有很多日常重复的活儿需要做。\n博世某事业部的工程师，其所在的团队需要对接各家客户，为客户提供系统综合解决方案。面对同一家客户",
+      "published": "2026-11-07",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "办公提效之后，企业级 Agent 开始对经营结果负责",
+      "link": "http://www.geekpark.net/news/373642",
+      "summary": "头图来源：腾讯云\n过去一年，智能体是 AI 行业最受关注的方向之一。\n从查资料、写文档到处理日常办公事务，桌面办公智能体完成了第一轮普及，办公提效的价值已经成为行业共识。但当 AI 进一步走向企业核心业务，搭出一个智能体不难，难的是让它真正跑进业务流程，适配复杂的系统、权限与规则，持续产出可量化的经营价值。\n在腾讯云副总裁吴永坚看来，未来企业级智能体的核心赛道，对话式的桌面办公 Agent 和服务经营的 Service Agent 会是两个长期并行的赛道。大模型提供了理解与推理能力，但想让 AI 真正参与业务经营，还需要一套能够打通系统、管好权限、支撑长期稳定运行的企业级平台。\n在 2026 ",
+      "published": "2026-11-07",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "马斯克官宣 Cybertruck 停产：销量不足预期一成；李飞飞团队推出世界模型「模拟掌机」；小米汽车成立国际事业部｜极客早知道",
+      "link": "http://www.geekpark.net/news/373639",
+      "summary": "电动皮卡中道崩殂！马斯克宣布 Cybertruck 明年逐步停产：销量仅达预期一成\n11 月 6 日消息，特斯拉 CEO 马斯克在社交平台 X 发文表示，公司将于明年年中前后，逐步收尾得州超级工厂的 Cybertruck 电动皮卡生产，为 Cybercab 车型扩产腾出产能空间。\nCybertruck 首席工程师随后回应称，Cybertruck 是特斯拉研发新技术的重要载体，其线控转向等技术已应用于 Cybercab，产品技术生命将在新车型上延续。\n市场表现方面，Cybertruck 实际销量与规划目标差距悬殊，马斯克曾在 2023 年股东大会上预计，产能完全爬坡后该车年销量可达 25 万至 ",
+      "published": "2026-11-07",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+      "published": "2026-11-06",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "The Duo apps are coming, says Apple",
+      "link": "https://techcrunch.com/2026/11/06/the-duo-apps-are-coming-says-apple/",
+      "summary": "There are now 100,000 Duo-optimized apps, says Apple, and thousands more arrive daily.",
+      "published": "2026-11-06",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+      "link": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+      "published": "2026-11-06",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+      "link": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "summary": "Meta's Muse agents continue to get new features and integrations. Spaces promises to be a new way to interact with the AI helpers.",
+      "published": "2026-11-06",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "After the midterms, is the AI industry in for a rough two years?",
+      "link": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers we",
+      "published": "2026-11-06",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Pentagon offers battery startup 6K $250M loan to build US factory",
+      "link": "https://techcrunch.com/2026/11/06/pentagon-offers-battery-startup-6k-250m-loan-to-build-u-s-factory/",
+      "summary": "The Pentagon has conditionally approved a $250 million loan to help 6K scale up its microwave-plasma battery material manufacturing process.",
+      "published": "2026-11-06",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Fox completes its $22B acquisition of Roku",
+      "link": "https://techcrunch.com/2026/11/06/fox-completes-its-22b-acquisition-of-roku/",
+      "summary": "A few months after DOJ investigators were probing the deal, Fox just completed its $22B acquisition of the streaming giant Roku.",
+      "published": "2026-11-06",
+      "source": "TechCrunch",
+      "tag": "Startup"
+    },
+    {
+      "title": "Doctors pull knife from man's eye that went through his brain—and he's fine now",
+      "link": "https://arstechnica.com/health/2026/11/man-unexpectedly-recovers-from-a-knife-wound-through-his-eye-and-brain/",
+      "summary": "It's the exact path, not the apparent severity that matters most, doctors say.",
+      "published": "2026-11-06",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Ships loiter near subsea cables amid Iran's warnings to Trump",
+      "link": "https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump/",
+      "summary": "Iran threatened to attack subsea cables if US escalates military strikes again.",
+      "published": "2026-11-06",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Re-releases of Wing Commander, Ultima titles hit Steam and GOG",
+      "link": "https://arstechnica.com/gaming/2026/11/ea-producer-tells-the-inside-story-behind-new-wing-commander-remasters/",
+      "summary": "It's mostly bad news from EA lately, but preservation efforts are nice to see.",
+      "published": "2026-11-06",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
+      "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+      "summary": "Company said a \"multifront cyberattack\" included AI agents and an on-path data snatch.",
+      "published": "2026-11-06",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Earth's churning mantle may have created the Great Unconformity",
+      "link": "https://arstechnica.com/science/2026/11/earths-churning-mantle-may-have-created-the-great-unconformity/",
+      "summary": "Explaining the Great Unconformity, where Cambrian deposits sit on top of older rocks.",
+      "published": "2026-11-06",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Nvidia hardware worth $11.4M vanished between Oakland and Texas",
+      "link": "https://arstechnica.com/gadgets/2026/11/nvidia-hardware-worth-11-4m-vanished-between-oakland-and-texas/",
+      "summary": "6 pallets of hardware vanished en route to Texas, with no arrests 2 months later.",
+      "published": "2026-11-06",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Developer ends lucrative screensaver deal with Roku because Fox bought it",
+      "link": "https://arstechnica.com/gadgets/2026/11/artist-pulls-popular-screensaver-from-roku-os-because-of-fox-acquisition/",
+      "summary": "Developer: “I can’t be part of the Fox world.”",
+      "published": "2026-11-06",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "FAA to finally ditch floppy disks in what it calls \"historic\" tech upgrade",
+      "link": "https://arstechnica.com/tech-policy/2026/11/faa-to-finally-ditch-floppy-disks-in-what-it-calls-historic-tech-upgrade/",
+      "summary": "FAA information display systems to be floppy-free at 435 sites by end of 2028.",
+      "published": "2026-11-06",
+      "source": "Ars Technica",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall",
+      "published": "2026-11-06",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+      "link": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advance",
+      "published": "2026-11-06",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Starlink Mobile: All the news on SpaceX&#8217;s major mobile carrier ambitions",
+      "link": "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news",
+      "summary": "SpaceX has declared that it&#8217;s going to make Starlink Mobile a &#8220;major&#8221; mobile carrier. The Elon Musk-owned company has already deployed thousands of direct-to-cell satellites, but its next big challenge is building out its 5G network here on Earth. As part of its plans to rival AT&#",
+      "published": "2026-11-06",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "KPop Demon Hunters on 4K Blu-ray costs less than a month of Netflix Premium",
+      "link": "https://www.theverge.com/gadgets/1028640/kpop-demon-hunters-4k-criterion-bluray-deal-sale",
+      "summary": "Buying the 4K Blu-ray disc version of KPop Demon Hunters was already going to be a wise idea for some people, especially those who primarily keep their $26.99 Netflix Premium subscription just to watch the hit animated flick in 4K. But at just $24.99 from Barnes and Noble and Amazon instead of its o",
+      "published": "2026-11-06",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "All the latest updates on AI data centers",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. Data ",
+      "published": "2026-11-06",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Shure’s popular podcasting and streaming mic is almost $50 off",
+      "link": "https://www.theverge.com/gadgets/1028846/shure-mv7-plus-podcasting-streaming-mic-deal-sale",
+      "summary": "While the Shure Mv7 Plus is popular with streamers and podcasters, it’s equally good at impressing your friends and coworkers on meetings and Discord calls. It’s currently marked down to $255 at various retailers, including Amazon, Guitar Center, and directly from Shure. That’s almost $50 lower than",
+      "published": "2026-11-06",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Lame-duck Congress might actually do something: speed up energy projects",
+      "link": "https://www.theverge.com/policy/1028228/energy-infrastructure-permitting-reform-bill-congress-vote",
+      "summary": "A massive permitting bill that could help energy projects come online much quicker and potentially lower utility bills for Americans is advancing with bipartisan support. And while it could be a catalyst for lots of clean energy, it could also speed up polluting projects and limit oversight of new d",
+      "published": "2026-11-06",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Meta&#8217;s Muse AI can create custom &#8216;spaces&#8217; for the version of the app you need right now",
+      "link": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "summary": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you ca",
+      "published": "2026-11-06",
+      "source": "The Verge",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "503.17km/h！比亚迪仰望 U9X 再次刷新全球最速，量产车首次突破 5 字头",
+      "link": "https://www.ifanr.com/1688195?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "站在世界之巅。\n#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-11-06",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "10 月最值得关注的 17 个产品｜明日产品 WATCHLIST",
+      "link": "https://www.ifanr.com/1688060?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "真正重要的产品，往往以充满争议的姿态出现。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-11-06",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "早报｜首款触屏MacBook Pro开卖/2027年放假安排公布，调休减少/GPT-6 Cyber发布，复现1724项漏洞",
+      "link": "https://www.ifanr.com/1688032?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "· 丰田将设立直属机器人部门，由首席生产官兼任负责人\n· 三季度全球 DRAM 营收逼近 2000 亿美元，价格上涨是主因\n· 鸿蒙电脑累计发货破百万，华为带来政企台式机与企业版#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-11-06",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "本周看什么 | 最近值得一看的 9 部作品",
+      "link": "https://sspai.com/post/118623",
+      "summary": "📅本周新预告《戴高乐之战》确认引进11月2日，电影《戴高乐之战》确认引进。该系列分为《戴高乐之战：淬炼时代》《戴高乐之战：我写下你的名字》上下两部曲。由法国百代公司出品，制作成本高达7520万欧元。作 ...查看全文",
+      "published": "2026-11-06",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "iPhone 变强了，但我没有",
+      "link": "https://sspai.com/post/118250",
+      "summary": "我们把 iPhone 18 Pro Max 带到了深圳、香港和吉隆坡，带入了形形色色的街头。在这个过程里，我们记录了使用 iPhone 拍到的美好画面，也借此描绘了自己的心情变化和生活感悟。查看全文",
+      "published": "2026-11-06",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "更高能效比，带来新惊喜：M6 款 MacBook Pro 初探",
+      "link": "https://sspai.com/post/118570",
+      "summary": "M6 芯片提供了足够的性能保障，无论修图、视频剪辑还是运行入门级的 AI 大模型，它都能应对。在此基础上，你原本可能需要加在 Pro 级 SoC 上的预算就能省下来，花给内存或者硬盘。查看全文",
+      "published": "2026-11-06",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "派早报：国务院办公厅发布 2027 年部分节假日放假安排等",
+      "link": "https://sspai.com/post/118587",
+      "summary": "OpenAI 推出 Images 2.6 模型，Nothing CMF Speaker S/M 音箱国行上市等。查看全文",
+      "published": "2026-11-06",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "估值 400 亿美元，美国公司，终于做出了中国开源模型的竞对",
+      "link": "http://www.geekpark.net/news/373637",
+      "summary": "作者｜Wildcard\n编辑｜靖宇11 月 5 日，OpenAI 前 CTO Mira Murati 创立的 Thinking Machines Lab（简称 TML）同一天出了两条新闻。\n当天，公司发布了第二代模型 Inkling 2 Small，第三方评测机构 Artificial Analysis（AA）给的评价相当高：权重放出后，它将成为「中国以外得分最高的开放权重模型」。同一天，据报道，这家公司正以 400 亿美元的投前估值筹集 50 亿美元新融资。\nTML 在 2025 年 2 月对外亮相，至今一年半多。这期间，他们拿过 a16z 领投的 20 亿美元种子轮，也经历了联合创始人 A",
+      "published": "2026-11-06",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "AI 时代没有标准答案的问题，我们面对面聊",
+      "link": "http://www.geekpark.net/news/373636",
+      "summary": "我们刚刚官宣了极客公园创新大会 2027 的首批嘉宾。 今天，再来揭晓「小场深谈」的最新进展。\n10 月底，我们在「小场深谈」的预热文章里做了一次调研，请大家投票选出最想聊的话题。最终，我们选定了最受关注的五组主题，设下了五场专场，每一场都从大家最想聊的那个问题开始。\n这五场专场，恰好瞄向当下行业最受关注、也最要紧的议题上：Personal AI 怎么接管日常、AI 创作怎么重写内容、具身智能怎么走进现实、硬件与制造怎么长出「新图纸」、AI 落地怎么用结果说话。\n每一场，三组话题，深谈 + 现场问答，80 分钟左右。场子都不大，百余人左右。\n\n\n\n\nIF 2026「小场深谈」现场\n还记得去年的",
+      "published": "2026-11-06",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "中期选举后美国芯片股重挫，纳指单日暴跌 5.52%；民主党宣布推动《禁止人工智能法案》；OpenAI 推出 GPT-6 Cyber",
+      "link": "http://www.geekpark.net/news/373554",
+      "summary": "芯片股惨遭重挫，华尔街迎来 1896 年以来中期选举后表现最差的第二个交易日\n据路透社报道，美国民主党在国会中期选举中大胜，引发投资者对 AI 监管加强、数据中心建设放缓的担忧。\n当地时间周四，美国科技股遭遇大规模抛售，华尔街股票市值单日蒸发约 3.2 万亿美元（约合人民币 22.7 万亿元）。纳斯达克综合指数暴跌 5.52%，创下自 2025 年 4 月以来最大单日跌幅，较 10 月初创下的历史高点累计下跌近 12%，进入技术性回调区间。\n此次抛售席卷整个 AI 产业链。费城半导体指数暴跌约 12.3%，英伟达下跌约 9.3%，基本抹去 2026 年以来的累计涨幅；闪迪（SanDisk）暴跌",
+      "published": "2026-11-06",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+      "link": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post about a new humanoid-robot clea",
+      "published": "2026-11-06",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "link": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "summary": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed&#8230;",
+      "published": "2026-11-06",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "MacBook Pro 能触屏了，但这只是它最小的升级｜附选购指南",
+      "link": "https://www.ifanr.com/1687989?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "触控向左，算力向右#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-11-05",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "23.98 万元起！智己 LS8 NEO 正式上市，转向刹车全面线控",
+      "link": "https://www.ifanr.com/1688228?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "全面线控已成智己核心能力。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-11-05",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "你记忆里的那台两座小车回来了！smart #2 上市，9.99 万元起",
+      "link": "https://www.ifanr.com/1688208?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "经典回归。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-11-05",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Bose Ultra 开放式耳机 II 体验：听得见好音质，也升级了舒适感",
+      "link": "https://www.ifanr.com/1687834?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "summary": "用无损音质和无感佩戴，更新「开放式旗舰」的定义#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "published": "2026-11-05",
+      "source": "爱范儿",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "开启 Mac 的下一世代：MacBook Pro (PROLED XDR) 首发体验",
+      "link": "https://sspai.com/post/118546",
+      "summary": "全新 MacBook Pro，开启 Mac 的下一个世代。查看全文",
+      "published": "2026-11-05",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "新玩意 255｜少数派的编辑们最近买了啥？",
+      "link": "https://sspai.com/post/118541",
+      "summary": "编注：很多读者都会好奇少数派的编辑们到底平时都「买了啥」。我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。内容声明：《新玩意》栏目如含有 ...查看全文",
+      "published": "2026-11-05",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "不用困在厨房也能做出好饭：三十道省事家常蒸菜",
+      "link": "https://sspai.com/prime/story/30-easy-steamed-dishes",
+      "summary": "蒸锅真是懒人做饭好帮手。查看全文本文为会员文章，出自《单篇文章》，订阅后可阅读全文。",
+      "published": "2026-11-05",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "Apple 官网排版细节鉴赏",
+      "link": "https://sspai.com/post/115399",
+      "summary": "Apple 独一无二的品牌价值，正是从这些细节中凝聚的。查看全文",
+      "published": "2026-11-05",
+      "source": "少数派",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "极客公园创新大会 2027 首批嘉宾揭晓！",
+      "link": "http://www.geekpark.net/news/373553",
+      "summary": "今年 12 月 5 日&mdash;6 日，北京 798艺术区，还是老地方。\n极客公园创新大会（GEEKPARK IF），我们又要见面了。\nIF 将进入第 17 年。它像一本记录中国科技行业的「年鉴」，一场科技爱好者的年终盛宴，一次号召创新者聚集、留下历史回音的年度认知集结。\n今年，我们的主题是：Revaluation 价值，另有答案\n我们要探讨的不再是 AI 可以有多厉害，而是更落地的一面&mdash;&mdash;\n工作、创作、生意，你原本笃定的经验，正在一件件被 AI 重新算账。你以为已经看懂的赛道，换个角度，结论可能完全不一样。\n哪些老优势正在缩水？哪些被低估的人和机会，正在悄悄长出新",
+      "published": "2026-11-05",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "世界互联网大会领先科技奖背后，Qoder 凭什么拿下中国 AI 编程市场第一",
+      "link": "http://www.geekpark.net/news/373542",
+      "summary": "作者｜Cynthia\n编辑｜郑玄\n2026 年 11 月，每年乌镇世界互联网大会期间举办的领先科技奖，已经走到第十年。\n作为面向全球征集互联网领域领先成果的国际性科技奖项，领先科技奖每年会选出涵盖基础研究、关键技术与工程研发约 15 至 20 项获奖项目。一定程度上，它的评选也预示了未来几年潮水的走向。\n这一年，传统互联网的光环逐渐退去，AI 成了最大的关键词。其中，仅工程研发组的 8 项获奖成果，从 AMD 的 AI 处理器，到蚂蚁的大模型健康服务平台，再到地平线的整车智能体&hellip;&hellip;就有至少 5 项与 AI 有关。\n而在通用 Agent 这一领域，阿里旗下智能体平台 ",
+      "published": "2026-11-05",
+      "source": "极客公园",
+      "tag": "Startup"
+    },
+    {
+      "title": "The Download: Texas’s fragile AI boom and energy policy shifts",
+      "link": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Texas was the new epicenter of the AI data center buildout. That might be kaput. Texas is the fastest-growing data center market in the US and ground ",
+      "published": "2026-11-05",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    },
+    {
+      "title": "A new bill could change how the US builds energy infrastructure",
+      "link": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/",
+      "summary": "A sweeping bit of legislation designed to cut red tape could speed up the buildout of energy infrastructure in the US. With the dust barely settled on this week’s momentous midterms, the Senate is set to vote on the Bipartisan American Affordability and Jobs Act (BAAJA) on November 9. It’s a plan th",
+      "published": "2026-11-05",
+      "source": "MIT Tech Review",
+      "tag": "AI & Tech"
+    }
+  ]
+}
