@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Daily · 2026-11-09 · 周一</title>
+  <style>
+    :root {
+      --bg: #F8F9FA;
+      --card-bg: #FFFFFF;
+      --border: #E8E8E8;
+      --text-primary: #1A1A1A;
+      --text-secondary: #666666;
+      --text-muted: #999999;
+      --accent: #185FA5;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text-primary);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* 顶部标题区 */
+    .hero {
+      background: linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #0F3460 100%);
+      color: white;
+      padding: 3rem 2rem 2.5rem;
+      text-align: center;
+    }
+    .hero-eyebrow {
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.5);
+      margin-bottom: 8px;
+    }
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 4px;
+    }
+    .hero-date {
+      font-size: 14px;
+      color: rgba(255,255,255,0.6);
+    }
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1.5rem;
+    }
+    .hero-stat {
+      text-align: center;
+    }
+    .hero-stat-num {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #5BC8F5;
+    }
+    .hero-stat-label {
+      font-size: 12px;
+      color: rgba(255,255,255,0.5);
+    }
+
+    /* 内容区 */
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    /* 分区标题 */
+    .tag-section {
+      margin-bottom: 3rem;
+    }
+    .tag-section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.5rem 0 0.75rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .tag-label {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    .tag-count {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* 卡片网格 */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+
+    /* 文章卡片 */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.1rem 1.2rem;
+      transition: box-shadow 0.2s, transform 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+    .card:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      transform: translateY(-2px);
+    }
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .tag {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+    .source {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    .card-title {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 8px;
+      flex: 1;
+    }
+    .card-title a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    .card-title a:hover {
+      color: var(--accent);
+    }
+    .card-summary {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-bottom: 10px;
+      flex: 1;
+    }
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: auto;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+    .date {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+    .read-more {
+      font-size: 12px;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .read-more:hover {
+      text-decoration: underline;
+    }
+
+    /* 底部 */
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 12px;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+    }
+    .footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    /* 响应式 */
+    @media (max-width: 640px) {
+      .hero { padding: 2rem 1rem 1.5rem; }
+      .hero h1 { font-size: 1.6rem; }
+      .container { padding: 1.5rem 1rem 3rem; }
+      .card-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <p class="hero-eyebrow">AI Daily</p>
+    <h1>今日 AI & 创业资讯</h1>
+    <p class="hero-date">2026-11-09 · 周一</p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-num">38</div>
+        <div class="hero-stat-label">篇精选文章</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">2</div>
+        <div class="hero-stat-label">个分类</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">6</div>
+        <div class="hero-stat-label">个来源</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <section class="tag-section">
+      <div class="tag-section-header" style="border-left: 3px solid #185FA5">
+        <span class="tag-label" style="color:#185FA5">AI & Tech</span>
+        <span class="tag-count">22 条</span>
+      </div>
+      <div class="card-grid">
+        
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1688410?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">微信 AI 录音笔体验：手机都能装的办公神器，免费！</a>
+    </h2>
+    <p class="card-summary">又能摸鱼了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-09</span>
+      <a href="https://www.ifanr.com/1688410?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1688127?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">M6 MacBook Pro 体验：38 块的灵魂，一万五的身体</a>
+    </h2>
+    <p class="card-summary">苹果的下一座围城，是创作#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-09</span>
+      <a href="https://www.ifanr.com/1688127?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1688379?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">早报｜曝特努斯要求加快AI研发/Win 11优化8GB内存电脑流畅度/马斯克：SpaceX明年12月年化营收或超5000亿美元</a>
+    </h2>
+    <p class="card-summary">· 苹果称超 10 万款应用已适配 iPhone Duo
+· Anthropic 拟于本周启动 IPO 路演
+· 比亚迪李柯回应玛莎拉蒂收购传闻#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-09</span>
+      <a href="https://www.ifanr.com/1688379?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/118612" target="_blank">双十一好物精选：Sonos Play 85 折送充电套装，CD 机加赠透明面盖</a>
+    </h2>
+    <p class="card-summary">从墨水屏到手机壳，从磁吸信息屏到CD播放器，这些看似平常的数码产品，经过一些新的设计和尝试，也能带来不太一样的使用体验。今年双十一，各大平台的促销活动陆续开始，不过满减、凑单等规则可能还是有些繁琐。所 ...查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-09</span>
+      <a href="https://sspai.com/post/118612" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/" target="_blank">Physicists listened to electrical noise to crack a superconductor mystery</a>
+    </h2>
+    <p class="card-summary">Tuning in to electronic noise can tell us whether electrons have paired up or not.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia" target="_blank">Here’s the full text of Jensen Huang’s memo to Nvidia</a>
+    </h2>
+    <p class="card-summary">On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/entertainment/1029579/soul-glo-diaspora-problems-hardcore-punk-review" target="_blank">Soul Glo’s Diaspora Problems is a hardcore record like no other</a>
+    </h2>
+    <p class="card-summary">Soul Glo has a new record called NA I'M GON GRAB ALLAT coming out in January, and I, for one, can not wait. While two singles have dropped, it's not enough to truly tide me over, so I've been revisiting Songs to Yeet at the Sun and my favorite album of 2022 - Diaspora Problems. [&#8230;]</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://www.theverge.com/entertainment/1029579/soul-glo-diaspora-problems-hardcore-punk-review" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/games/1029557/epic-games-launcher-is-coming-to-steamos" target="_blank">Epic Games Launcher is coming to SteamOS</a>
+    </h2>
+    <p class="card-summary">In October, Epic Games said that it was "investigating" making Fortnite compatible with Valve's Linux-based SteamOS. At the time, Epic Games Launcher was in preview, but SteamOS was not specifically listed as a supported distro. Now, Communications Director Jake Jones has confirmed SteamOS compatibi</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://www.theverge.com/games/1029557/epic-games-launcher-is-coming-to-steamos" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy" target="_blank">Nvidia is investigating Jensen Huang’s relationship with a Chinese spy</a>
+    </h2>
+    <p class="card-summary">Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is </p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic" target="_blank">Apple is racing to make Siri more agentic</a>
+    </h2>
+    <p class="card-summary">Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the com</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit" target="_blank">Elvis and Eminem rights holders are suing Suno</a>
+    </h2>
+    <p class="card-summary">Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that </p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/gadgets/1029019/apple-macbook-air-13-15-inch-m5-deal-sale" target="_blank">Apple’s M5 MacBook Air is down to its lowest price since July</a>
+    </h2>
+    <p class="card-summary">The latest 13-inch MacBook Air is currently available for $1,099.99, marking the second time we’ve seen this $200 discount following the company’s hefty price increases over the summer. Although the base model — which features Apple’s M5 processor, 16GB of RAM, and 512GB of storage — often sold for </p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://www.theverge.com/gadgets/1029019/apple-macbook-air-13-15-inch-m5-deal-sale" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/tech/1029526/chatbots-might-be-coming-to-apples-homeview" target="_blank">Chatbots might be coming to Apple’s HomeView</a>
+    </h2>
+    <p class="card-summary">Code in the iOS 27.3 beta suggests that Apple could add support for chatbots to its smart home hub. There's a flag listed for a "Conversational Apps" category. While there are no details about what apps would fall under that heading, it seems reasonable that AI chatbots like ChatGPT and Claude could</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://www.theverge.com/tech/1029526/chatbots-might-be-coming-to-apples-homeview" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1688282?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">别再拿《影之刃零》对比《黑神话》了</a>
+    </h2>
+    <p class="card-summary">《影之刃》有自己的江湖。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://www.ifanr.com/1688282?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1688364?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">被年轻人遗忘的磁带，正在 AI 时代闷声发大财 原</a>
+    </h2>
+    <p class="card-summary">磁带在 AI 时代迎来了第二春。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://www.ifanr.com/1688364?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/118805" target="_blank">派早报：特斯拉将停产 Cybertruck</a>
+    </h2>
+    <p class="card-summary">特斯拉将停产 Cybertruck深圳在 APEC 前夕整顿非法市场美国数据中心股持续遭抛售，大量建设项目被取消京津冀三地消协组织敦促航司、平台规范机票退改签FBI 警告冰柜网络安全攻击风险广电总局部署开展新一轮微短剧专项治理工作看看就行的简讯少数派的近期动态你可能错过的好文章查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://sspai.com/post/118805" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/118114" target="_blank">苹果产品那些不够颠覆，却值得被学习的细节</a>
+    </h2>
+    <p class="card-summary">Matrix首页推荐Matrix是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选Matrix最优质的文章，展示来自用户的最真实的体验和观点。文章代表作者个人观点 ...查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://sspai.com/post/118114" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/" target="_blank">The Bantu expansion changed Africa. Scientists are still tracing how.</a>
+    </h2>
+    <p class="card-summary">Genes and archaeology are revealing how Bantu speakers spread across much of Africa.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-07</span>
+      <a href="https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/security/2026/11/british-soldier-ignored-order-to-pull-his-sim-card-then-got-blackmailed/" target="_blank">British soldier ignored order to pull his SIM card, then got blackmailed</a>
+    </h2>
+    <p class="card-summary">Soldier told repeatedly to lock down devices before deploying, got sextorted, court-martialed.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-07</span>
+      <a href="https://arstechnica.com/security/2026/11/british-soldier-ignored-order-to-pull-his-sim-card-then-got-blackmailed/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1688312?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">最贵比亚迪来了！仰望鼎曜亮相中东，「山河鼎韵」限量版定金 30 万元</a>
+    </h2>
+    <p class="card-summary">性能和豪华，仰望说它全都要。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-07</span>
+      <a href="https://www.ifanr.com/1688312?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1688251?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">早报｜触屏MacBook Pro开卖即缺货/仰望U9 Xtreme突破503kph/博世吴永桥：汽车不该拿来订咖啡机票</a>
+    </h2>
+    <p class="card-summary">· 苹果向部分 iPhone Duo 买家发问卷，询问折痕和屏下相机体验
+· 张雪：将参加 36 名重庆大学学生的校招二面
+· 马斯克称特斯拉得州工厂将缩减 Cybertruck 生产，为 Cybercab 腾出产能#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-07</span>
+      <a href="https://www.ifanr.com/1688251?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/116750" target="_blank">一个 05 后的个人数码编年史</a>
+    </h2>
+    <p class="card-summary">我只想回应自己的感受，自己的记忆，只是因为那时候我满腔少年心气，对一切都充满好奇，对未来充满憧憬。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-07</span>
+      <a href="https://sspai.com/post/116750" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+      </div>
+    </section>
+    <section class="tag-section">
+      <div class="tag-section-header" style="border-left: 3px solid #3B6D11">
+        <span class="tag-label" style="color:#3B6D11">Startup</span>
+        <span class="tag-count">16 条</span>
+      </div>
+      <div class="card-grid">
+        
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373644" target="_blank">实测 HY4：腾讯最「夯」大模型，离一线还有多远？</a>
+    </h2>
+    <p class="card-summary">&nbsp;
+头图来源：腾讯混元
+11 月 4 日，混元 Hy4 正式发布，模型权重将在近期开源，主打性价比的轻量版 Hy4 flash 也一起亮相。腾讯给它的定位是&mdash;&mdash;首次跻身最强开源模型之列。
+过去一年，腾讯在 AI 上最多被人看见的，是 WorkBuddy 这类 Agent 和应用产品；到了更底层的模型上，它的声量明显弱于应用。Hy4 真正要回答的，是腾讯在模型这条线上的身位。
+从榜单表现来看，在开源模型里，Hy4 已经站进第一梯队；放到全球，和顶尖闭源模型的差距仍然清晰。
+而根据国家数据局最近公布的一组数据，我国日均 Token 调用量已经从 2024 年初的 </p>
+    <div class="card-footer">
+      <span class="date">2026-11-09</span>
+      <a href="http://www.geekpark.net/news/373644" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373687" target="_blank">黄仁勋承认「婚外情」，英伟达启动调查；ChatGPT 突现封号风波，200 美元 Pro 用户也遭殃；腾讯姚顺雨谈「AI 公司护城河」：在产品层，而不是模型层</a>
+    </h2>
+    <p class="card-summary">黄仁勋承认「婚外情」，英伟达启动调查
+11 月 9 日消息，英伟达 CEO 黄仁勋当地时间 8 日于公司官网发布致全员公开信，就个人私事致歉，同时披露董事会将针对相关报道提及的国家安全关切展开独立调查。
+黄仁勋在信中承认自己对妻子不忠，坦言该行为伤害家人，对此承担全部责任，并接受外界批评。他表示家人不应为其个人选择负责，恳请公众给予家人隐私空间，希望能有机会重新赢回家人信任。他强调自己对英伟达始终坚定，将努力重新赢得团队与投资方的信赖。
+针对近期报道带出的国家安全相关质疑，黄仁勋确认董事会已启动独立调查，本人将全力配合。
+此前据《纽约时报》报道，美国政府认为黄仁勋与一家名为 Megaspeed</p>
+    <div class="card-footer">
+      <span class="date">2026-11-09</span>
+      <a href="http://www.geekpark.net/news/373687" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373683" target="_blank">具身智能，也到了 API 时刻？</a>
+    </h2>
+    <p class="card-summary">具身智能的 API 时刻意味着部分具身模型已经开始具备跨本体迁移、在一定范围内适应新任务的能力。作者｜Li Yuan编辑｜郑玄具身智能，也到了 API 时刻？过去，想知道一个具身模型有多强，往往要看它在发布视频里完成了什么任务。不过，这条线正在松动。就在近期，一些公司开始把另一种检验方式交到开发者手里：接上你自己的机器人，试着把你的任务做出来。10 月，Physical Intelligence（PI）开放了模型 API 测试。开发者可以上传自己的机器人数据，在平台上微调模型，再通过云端推理驱动机器人。PI 表示，一家公司，用这套服务迭代了四天，让双臂机器人开始为自身的零部件去毛刺。同月，Dr</p>
+    <div class="card-footer">
+      <span class="date">2026-11-09</span>
+      <a href="http://www.geekpark.net/news/373683" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/08/apps-to-distract-you-from-the-endless-cycle-of-doomscrolling/" target="_blank">Apps to distract you from the endless cycle of doomscrolling</a>
+    </h2>
+    <p class="card-summary">It's hard to break the cycle of doomscrolling, but there are plenty of apps that can help you spend more time on content that’s engaging and productive.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://techcrunch.com/2026/11/08/apps-to-distract-you-from-the-endless-cycle-of-doomscrolling/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/" target="_blank">Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy</a>
+    </h2>
+    <p class="card-summary">In a memo to the company, Huang admitted that he had an affair.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/08/if-snaps-specs-are-still-ridiculously-expensive-theyre-also-a-lot-more-comfortable-than-they-used-to-be/" target="_blank">If Snap’s Specs are still ridiculously expensive, they’re also a lot more comfortable than they used to be</a>
+    </h2>
+    <p class="card-summary">Snap's Specs, which have been in development for many years now, are going to market this fall. Will they be a hit with users?</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://techcrunch.com/2026/11/08/if-snaps-specs-are-still-ridiculously-expensive-theyre-also-a-lot-more-comfortable-than-they-used-to-be/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/08/coordinated-disturbances-haunt-grids-worldwide-heres-how-researchers-solved-the-mystery/" target="_blank">Coordinated disturbances haunt grids worldwide. Here’s how researchers solved the mystery.</a>
+    </h2>
+    <p class="card-summary">Mystery solved: Coordinated power drops have been haunting power grid worldwide, but a team of researchers in Germany found the culprit.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://techcrunch.com/2026/11/08/coordinated-disturbances-haunt-grids-worldwide-heres-how-researchers-solved-the-mystery/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/08/sequoia-partners-reportedly-blindsided-when-roelof-botha-joined-spacex-board/" target="_blank">Sequoia partners reportedly blindsided when Roelof Botha joined SpaceX board</a>
+    </h2>
+    <p class="card-summary">A new report claims Sequoia's recent changes undo the legacy of the firm's former steward.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://techcrunch.com/2026/11/08/sequoia-partners-reportedly-blindsided-when-roelof-botha-joined-spacex-board/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/08/snl-has-a-new-impression-of-elon-musk-the-worst-thing-south-africa-has-ever-done/" target="_blank">SNL has a new impression of Elon Musk, ‘the worst thing South Africa has ever done’</a>
+    </h2>
+    <p class="card-summary">SNL seems to have its knives out for tech executives.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://techcrunch.com/2026/11/08/snl-has-a-new-impression-of-elon-musk-the-worst-thing-south-africa-has-ever-done/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/08/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/" target="_blank">He arrested a hacker, then spent 18 months clearing his own name. Now he’s a cybersecurity VC.</a>
+    </h2>
+    <p class="card-summary">Stephen Ward, a former Secret Service agent and Home Depot CISO, is preparing a second fund of roughly $250 million for Brightmind Partners.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://techcrunch.com/2026/11/08/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/08/techcrunch-mobility-the-cybertruck-experiment-is-over/" target="_blank">TechCrunch Mobility: The Cybertruck experiment is over</a>
+    </h2>
+    <p class="card-summary">Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="https://techcrunch.com/2026/11/08/techcrunch-mobility-the-cybertruck-experiment-is-over/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373653" target="_blank">为什么「陪伴」，注定是 Personal AI 的核心</a>
+    </h2>
+    <p class="card-summary">作者｜宇航猿
+编辑｜靖宇
+
+最近这一波 Personal AI 实在太火了，我也注册了一个 Muse 体验了一下。
+整个体验下来，我感觉 Muse 的能力实在一般，远没到让人惊叹的地步。但奇怪的是，它确实带来了一种真切的陪伴感。这种陪伴感，甚至直接改变了我的使用习惯，让我总是忍不住想找它聊聊，哪怕只是把最琐碎的需求丢给它。
+就在本周，Muse 又往前迈了一步，正式上线了实时语音和会动的头像。无独有偶，各家 AI 助手最近都在做同一件事，就是给个人 AI 助手开通语音和对话功能。
+这让我非常好奇，距离 ChatGPT 端出惊艳的语音模式，已经过去两年了，为什么到了现在这个时间点，所有的个人 AI</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="http://www.geekpark.net/news/373653" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373650" target="_blank">创业者做 Personal Agent，有没有一线生机？</a>
+    </h2>
+    <p class="card-summary">最近一阶段，Personal Agent 很热。有趣的是，这个概念迅速火爆又迅速有了一个共识，几波讨论下来大家的观点似乎是： Personal Agent 的机会是大厂的，创业者基本没戏。
+虽然一般情况下，「入口级机会归大厂」确实是大概率发生的事情，但 Personal Agent 真的是个「入口」的问题吗？真的意味着「这件事里没有创业者的位置」吗？
+这依旧值得认真聊一聊。
+&nbsp;
+真正值得兴奋的事：价值可以长在基模外
+我们换一个视角看，Personal Agent 为什么让人兴奋？
+因为它给创业者提供了一种新的可能：产品的终极价值不来自于今天大模型公司提供的智能，而是可以借助大模型的能</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="http://www.geekpark.net/news/373650" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373649" target="_blank">收购 EA 后，银湖资本与沙特基金 250 亿美元报价 Unity；超10万款应用已适配iPhone Duo；美国再发生 NVIDIA AI 设备失窃案</a>
+    </h2>
+    <p class="card-summary">收购 EA 之后，银湖资本与沙特公共投资基金据报出价 250 亿美元收购 Unity
+据路透社援引未具名知情人士的消息报道，由美国私募股权公司银湖资本（Silver Lake Partners）与沙特阿拉伯主权财富基金&mdash;&mdash;公共投资基金（PIF）组成的投资者财团，已向 Unity Software 提出收购要约，对这家公司的估值约为 250 亿美元。据悉，Unity 正在认真考虑这一报价，并已聘请一家投资银行提供咨询。
+
+据路透社援引未具名知情人士的消息报道，由美国私募股权公司银湖资本（Silver Lake Partners）与沙特阿拉伯主权财富基金&mdash;&md</p>
+    <div class="card-footer">
+      <span class="date">2026-11-08</span>
+      <a href="http://www.geekpark.net/news/373649" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373647" target="_blank">「全球最速」之后，比亚迪仰望推出了一台「全球最豪」的新车</a>
+    </h2>
+    <p class="card-summary">中东，阿联酋阿布扎比酋长皇宫酒店草坪上，比亚迪正式曝光了仰望旗下一款超豪华新车「鼎曜」YANGWANG ALTIOR。
+Altior源自拉丁语，意思是「更高」。这也是仰望品牌诞生以来，第一次脱离U7、U8、U9的字母数字序列，单独起了一个名字。
+
+仰望鼎曜 Altior 正式亮相|图片来源：极客公园
+这台新车很可能有 5米 5 的车长，双拼车身和大饼轮毂、对开门，仅从外观设计上就表明，这是一款瞄准超级老钱如劳斯莱斯市场的新竞争者。
+就在一天前，仰望 U9 Extreme 刚刚凭借超过 503 公里每小时的时速，成为受到 FIA 认证的全球最速量产车。
+现在，Altior 的亮相，表明中国车企，</p>
+    <div class="card-footer">
+      <span class="date">2026-11-07</span>
+      <a href="http://www.geekpark.net/news/373647" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373643" target="_blank">博世用豆包工作：让工程师少搬信息，多解问题</a>
+    </h2>
+    <p class="card-summary">&nbsp;
+头图来源：豆包工作
+客户在群里抛出一个问题，到工程师真正坐下来分析故障，中间隔着多少工作？
+在博世的某研发事业部，答案曾经是：找齐散落在各个群和私聊里的消息，按多个维度整理成完整描述，凭经验判断该找谁，接着再开会，再把结论写成报告。
+故障分析还没开始，大半天已经过去了。
+如今，这中间的一大段路，工程师交给了豆包工作和豆包工作伙伴。
+博世的尝试：让 AI 接手沟通之后的工作
+汽车产业链企业的研发部门，经常会遇到这样的情况：一个工程师要当三个用：研发细节要盯，还有很多日常重复的活儿需要做。
+博世某事业部的工程师，其所在的团队需要对接各家客户，为客户提供系统综合解决方案。面对同一家客户</p>
+    <div class="card-footer">
+      <span class="date">2026-11-07</span>
+      <a href="http://www.geekpark.net/news/373643" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>由 AI Daily 自动抓取生成 · <a href="https://github.com" target="_blank">开源项目</a></p>
+  </footer>
+
+</body>
+</html>
