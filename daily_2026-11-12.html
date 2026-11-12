@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Daily · 2026-11-12 · 周四</title>
+  <style>
+    :root {
+      --bg: #F8F9FA;
+      --card-bg: #FFFFFF;
+      --border: #E8E8E8;
+      --text-primary: #1A1A1A;
+      --text-secondary: #666666;
+      --text-muted: #999999;
+      --accent: #185FA5;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text-primary);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* 顶部标题区 */
+    .hero {
+      background: linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #0F3460 100%);
+      color: white;
+      padding: 3rem 2rem 2.5rem;
+      text-align: center;
+    }
+    .hero-eyebrow {
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.5);
+      margin-bottom: 8px;
+    }
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 4px;
+    }
+    .hero-date {
+      font-size: 14px;
+      color: rgba(255,255,255,0.6);
+    }
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1.5rem;
+    }
+    .hero-stat {
+      text-align: center;
+    }
+    .hero-stat-num {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #5BC8F5;
+    }
+    .hero-stat-label {
+      font-size: 12px;
+      color: rgba(255,255,255,0.5);
+    }
+
+    /* 内容区 */
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    /* 分区标题 */
+    .tag-section {
+      margin-bottom: 3rem;
+    }
+    .tag-section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.5rem 0 0.75rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .tag-label {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    .tag-count {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* 卡片网格 */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+
+    /* 文章卡片 */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.1rem 1.2rem;
+      transition: box-shadow 0.2s, transform 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+    .card:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      transform: translateY(-2px);
+    }
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .tag {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+    .source {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    .card-title {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 8px;
+      flex: 1;
+    }
+    .card-title a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    .card-title a:hover {
+      color: var(--accent);
+    }
+    .card-summary {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-bottom: 10px;
+      flex: 1;
+    }
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: auto;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+    .date {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+    .read-more {
+      font-size: 12px;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .read-more:hover {
+      text-decoration: underline;
+    }
+
+    /* 底部 */
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 12px;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+    }
+    .footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    /* 响应式 */
+    @media (max-width: 640px) {
+      .hero { padding: 2rem 1rem 1.5rem; }
+      .hero h1 { font-size: 1.6rem; }
+      .container { padding: 1.5rem 1rem 3rem; }
+      .card-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <p class="hero-eyebrow">AI Daily</p>
+    <h1>今日 AI & 创业资讯</h1>
+    <p class="hero-date">2026-11-12 · 周四</p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-num">52</div>
+        <div class="hero-stat-label">篇精选文章</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">2</div>
+        <div class="hero-stat-label">个分类</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">7</div>
+        <div class="hero-stat-label">个来源</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <section class="tag-section">
+      <div class="tag-section-header" style="border-left: 3px solid #3B6D11">
+        <span class="tag-label" style="color:#3B6D11">Startup</span>
+        <span class="tag-count">16 条</span>
+      </div>
+      <div class="card-grid">
+        
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/" target="_blank">Who could replace Jensen Huang? A highly unscientific list of possible successors</a>
+    </h2>
+    <p class="card-summary">Nvidia has no succession plan and a CEO in hot water, so we’ve drafted a shortlist.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-12</span>
+      <a href="https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373860" target="_blank">体验「跟拍机器人」Beni：谁不想要一个不会喊累还会拍照的出行搭子</a>
+    </h2>
+    <p class="card-summary">作者 | siqi
+编辑 | 郑玄
+&nbsp;
+在智能硬件和具身圈里，可能是今年最受关注的产品之一 Beni 终于开售了。
+我第一次听说 Beni，是今年上半年，这款产品背后的创业团队妙动科技拿到了包括经纬、红杉、美团的多轮投资。他们的两位核心合伙人，一位是前大疆（DJI）高管，另一位曾先后任大疆技术总监和特斯拉 Optimus 人形机器人团队核心算法与控制工程师。可以说兼具硬件和具身背景。
+到了 8 月份，Hardwire 的伙伴 Founder Park 在新加坡组织了一场 AI 线下活动，影石的创始人刘靖康现场分享了对打造「CameraMan」（影像机器人）的想法&mdash;&mda</p>
+    <div class="card-footer">
+      <span class="date">2026-11-12</span>
+      <a href="http://www.geekpark.net/news/373860" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373839" target="_blank">苹果突然永久关闭官方「支持社区」；字节即将推出个人 AI 助手；华为新品牌星芒 OSTA 曝光 | 极客早知道</a>
+    </h2>
+    <p class="card-summary">苹果官方社区即将永久关闭
+11 月 11 日，苹果官网突然宣布，Apple 支持社区将于 2026 年 11 月 20 日永久关闭。即日起，社区将不再接受新帖子，并转为只读模式。用户仍可前往官方 Apple 支持网站，获取值得信赖的指导和帮助。
+苹果公告称，我们衷心感谢各位社区成员一直以来贡献宝贵的时间和专业知识，帮助其他用户解决 Apple 产品使用中遇到的问题。（来源：新浪科技）
+
+
+消息称字节跳动发力智能体赛道，计划推出类似 Meta Muse 的 AI 助手
+11 月 11 日消息，据彭博社报道，字节跳动计划在未来几周内推出一款类似 Meta Muse 的 AI 助手，巩固其在 AI </p>
+    <div class="card-footer">
+      <span class="date">2026-11-12</span>
+      <a href="http://www.geekpark.net/news/373839" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/" target="_blank">The unfolding Jensen Huang scandal: a timeline</a>
+    </h2>
+    <p class="card-summary">The affair could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/" target="_blank">Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang</a>
+    </h2>
+    <p class="card-summary">As soon as Wednesday evening, Nvidia's board could decide to remove its founder and CEO of 33 years.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/" target="_blank">Jensen Huang accused of having another affair — with an Nvidia exec</a>
+    </h2>
+    <p class="card-summary">Jensen Huang, who has come under fire for admitting to an affair with a woman accused of being a Chinese intelligence agent, has been accused of having a separate affair with an Nvidia subordinate.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/" target="_blank">Why the data center you dread might never even be built</a>
+    </h2>
+    <p class="card-summary">The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity.&#160;Before those challenges even come into play, though, there&#8217;s a more basic problem: A lot of the projects being announced may never get b</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/" target="_blank">Meta is losing its longtime head of  infrastructure</a>
+    </h2>
+    <p class="card-summary">Santosh Janardhan, who originally joined the company in 2009, will be stepping down from his role.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/11/olaf-sakkers-is-betting-he-can-beat-the-emerging-manager-squeeze/" target="_blank">Olaf Sakkers is betting he can beat the emerging-manager squeeze</a>
+    </h2>
+    <p class="card-summary">Entering into the world of venture capital has never been easy, especially as a first-time fund manager. But it's especially daunting right now. Olaf Sakkers has spent the past five years proving that difficult doesn't mean impossible.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://techcrunch.com/2026/11/11/olaf-sakkers-is-betting-he-can-beat-the-emerging-manager-squeeze/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/" target="_blank">CoreWeave turns to customer prepayments, shorter contracts to fund AI growth</a>
+    </h2>
+    <p class="card-summary">CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373838" target="_blank">飞行汽车登上 Web Summit 主舞台, 中国科技公司在欧洲讲了一个什么故事?</a>
+    </h2>
+    <p class="card-summary">11 月 9 日晚, 里斯本。近两万人的体育场里，一位中国创始人用中文讲起了飞行汽车。
+这是 Web Summit 开幕式的主舞台。台上的人是小鹏汇天创始人赵德力, 舞台两侧停着他带来的产品:分体式飞行汽车「陆地航母」的陆行体和飞行器。据小鹏汇天介绍, 这是首个登上 Web Summit 主舞台的飞行汽车企业。
+比产品本身更值得注意的, 是这次出场的方式:中文演讲, 主舞台, 面对全球创业者、投资人和监管从业者。
+
+一场不太一样的「出海」
+Web Summit 创立于 2009 年, 常被称为「科技界的奥林匹克」。马斯克、微软总裁布拉德&middot;史密斯、英国前首相布莱尔都在这里演讲过。今</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="http://www.geekpark.net/news/373838" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373816" target="_blank">当美国无法建设数据中心，会对 AI 产生怎样的冲击</a>
+    </h2>
+    <p class="card-summary">作者｜Techno 之王
+编辑｜靖宇
+
+2026 年 11 月 4 日，美国中期选举结果落定后的第二天上午，OpenAI 的高管们坐到了一起。
+据外媒援引知情人士的消息，他们讨论的是要不要重设 2027 年的数据中心容量预期。讨论还没有形成决定，但焦虑已经摆上了台面。
+过去几个月，美国各地的大型数据中心项目接连被按下暂停键。得州前任州长 Abbott 从 8 月起冻结了数据中心的并网和空气许可，要求审计到年底；新当选的州长 Gina Hinojosa 承诺，在州议会立法保护居民之前，暂停所有新数据中心审批，而议会会期要到 2027 年 5 月才结束。
+俄亥俄新州长 Amy Acton 提出有条</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="http://www.geekpark.net/news/373816" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373796" target="_blank">Anthropic 启动 IPO 路演，创始人将套现 17.5 亿美元；谷歌最强 AI 模型正式开放；任天堂招新：经典游戏保存员</a>
+    </h2>
+    <p class="card-summary">英伟达董事会聘请前美国联邦检察官，调查 CEO 黄仁勋相关事件
+11 月 11 日消息，英伟达发布公告，宣布已聘请美国前联邦检察官金正贤（Joon H. Kim）及其所在的律师事务所 Wachtell, Lipton, Rosen &amp; Katz，负责开展一项全面、独立的调查。
+此前，英伟达董事会表示，鉴于近期有关公司创始人兼 CEO 黄仁勋可能成为外国情报机构目标的报道，董事会决定启动独立调查。董事会将成立由独立董事组成的委员会，并在外部独立法律顾问协助下监督调查。
+英伟达董事会此前还表示，目前没有理由认为美国国家安全或英伟达的商业机密已经遭到泄露，但调查将审查所有可获得的信息。黄仁勋</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="http://www.geekpark.net/news/373796" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373765" target="_blank">中国汽车市场，不止一种赢法 | 极客车间</a>
+    </h2>
+    <p class="card-summary">对消费者来说，当下的中国汽车消费市场，新品琳琅满目、供给充沛到足以挑花眼。
+锚定一个预算区间，从外观设计、内饰风格，到舒适配置、智能化能力，总能找到各有所长的产品。选择足够丰富，也让一个问题变得更值得讨论：参数和价格之外，我们究竟为什么选择一辆车？
+从产品定义的角度看，造车很像求解一道「方程式」：在一定的成本和技术条件下，通过一系列判断、决策与取舍，找到品牌个性与用户需求的交点。
+理解这些取舍背后的思考，也许能为我们评价一辆车提供另一个视角。
+2026 年，基于全新纯电架构的全新梅赛德斯-奔驰纯电 GLC 正式上市。在这家百年车企眼中，「电车」本质上首先得是一辆拥有优秀底盘素质的「好车」，然后</p>
+    <div class="card-footer">
+      <span class="date">2026-11-10</span>
+      <a href="http://www.geekpark.net/news/373765" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373760" target="_blank">千问办公押注 Team Agent，企业 AI 的流水线时刻真的来了</a>
+    </h2>
+    <p class="card-summary">作者｜Cynthia
+编辑｜郑玄
+传说，光明之神巴德尔梦见自己将死，于是，巴德尔的母亲弗丽嘉遍走世间，令万物立下了绝不伤害他的誓言。众神也因此放下心来，甚至还发明了一种新的消遣：轮番向巴德尔投掷武器和石块，看着他毫发无损，来确定他们已经战胜了预言。直到一小枝被遗漏的槲寄生投向巴德尔。光明之神轰然倒下，诸神的黄昏由此拉开序章。
+这是北欧神话中巴德尔之死的故事。危险早已被预见，人们也采取了行动，却仍然自欺欺人，把一次次看似成功的演示，当成了问题已经解决的证明。
+2026 年上半年的企业级 Agent 市场，也曾有过这样的笃定。
+每一场发布会上，AI 写方案、做表格、敲代码、生成海报的单任务能力都会</p>
+    <div class="card-footer">
+      <span class="date">2026-11-10</span>
+      <a href="http://www.geekpark.net/news/373760" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/373736" target="_blank">ChatGPT 占全球 AI 聊天流量超 81%；iOS 27.3 曝光 Siri「个人记忆系统」；传玛莎拉蒂+尊界合作新车曝光｜极客早知道</a>
+    </h2>
+    <p class="card-summary">8 天从零搓出操作系统：Anthropic 最强 Claude Fable / Mythos 5.2 AI 模型登场，API 调用费下降 20%11 月 10 日消息，Anthropic 昨日（11 月 9 日）官宣推出 Claude Fable 5.2 和 Claude Mythos 5.2，两款模型基于同一底层模型，前者面向普通用户并内置网络安全与生物安全防护，后者则面向通过审核的网络安全和生命科学机构开放，用于高风险的专业应用。定价方面，Claude Fable 5.2 每 100 万词元（Token）输入费用为 8 美元（IT 之家注：现汇率约合 53.4 元人民币），每 100 万词</p>
+    <div class="card-footer">
+      <span class="date">2026-11-10</span>
+      <a href="http://www.geekpark.net/news/373736" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+      </div>
+    </section>
+    <section class="tag-section">
+      <div class="tag-section-header" style="border-left: 3px solid #185FA5">
+        <span class="tag-label" style="color:#185FA5">AI & Tech</span>
+        <span class="tag-count">36 条</span>
+      </div>
+      <div class="card-grid">
+        
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1689176?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">刚刚，豆包工作官宣接入 Kimi、DeepSeek，AI 模型自由来了</a>
+    </h2>
+    <p class="card-summary">国产大模型开始组团办公#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-12</span>
+      <a href="https://www.ifanr.com/1689176?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1689129?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">拆解触屏 MacBook Pro：点亮苹果 LOGO 的秘密，藏在这里</a>
+    </h2>
+    <p class="card-summary">苹果终于听劝了？#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-12</span>
+      <a href="https://www.ifanr.com/1689129?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1689128?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">联想 Googlebook 15 评测：安卓电脑准备好了，安卓没有</a>
+    </h2>
+    <p class="card-summary">Chromebook's yesterday once more.#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-12</span>
+      <a href="https://www.ifanr.com/1689128?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1689097?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">折叠屏手机的转身｜明日后视镜</a>
+    </h2>
+    <p class="card-summary">折叠屏手机的挑战，生态适配的试炼，也许才刚刚开始#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-12</span>
+      <a href="https://www.ifanr.com/1689097?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1689084?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">我们正目睹乔布斯后科技史上最严重的逼宫</a>
+    </h2>
+    <p class="card-summary">黄仁勋的至暗时刻#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-12</span>
+      <a href="https://www.ifanr.com/1689084?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1689051?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">早报｜苹果支持社区将关停/曝英伟达董事会考虑罢免黄仁勋/余承东官宣华为子品牌OSTA星芒</a>
+    </h2>
+    <p class="card-summary">· 余承东官宣华为子品牌 OSTA 星芒，11 月 20 日首秀
+· 张雪机车第 10 万台整车在重庆下线
+· 曝 Anthropic 承销商考虑上调 IPO 发行价#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-12</span>
+      <a href="https://www.ifanr.com/1689051?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/118921" target="_blank">让老音箱焕发新生：Home Assistant Connect AUX-2 首发体验</a>
+    </h2>
+    <p class="card-summary">玩智能家居这几年，灯光、传感器和开关基本已经靠着Matter和HomeAssistant打通了，唯独多房间音频（Multi-roomAudio）还停留在各自为战的阶段。想让客厅的HomePod、书房的 ...查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-12</span>
+      <a href="https://sspai.com/post/118921" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/118935" target="_blank">派早报：Apple 公布 Swift Student Challenge 安排、微软发布 Auto SR 等</a>
+    </h2>
+    <p class="card-summary">Arm 发布 Cortex-M42 处理器、任天堂宣布「轻松登入」功能将下线等。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-12</span>
+      <a href="https://sspai.com/post/118935" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/" target="_blank">CEO Jensen Huang's job is suddenly on the line at Nvidia</a>
+    </h2>
+    <p class="card-summary">The FBI is investigating as Nvidia’s board holds urgent talks over Huang’s future.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/" target="_blank">T-Mobile illegally imposed 50GB cap on low-income home Internet plan, NY says</a>
+    </h2>
+    <p class="card-summary">Law requires 25Mbps home Internet. T-Mobile lowers speed to 600Kbps after 50GB cap.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/" target="_blank">Anduril says its first satellite can see adversaries maneuver in orbital night</a>
+    </h2>
+    <p class="card-summary">"What's unique is it's got a huge dynamic range. We can see things in full dark."</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/space/2026/11/nasa-takes-an-all-hands-on-deck-approach-in-its-return-to-the-moon/" target="_blank">NASA's secret weapon in the lunar space race may be ... procurement reform?</a>
+    </h2>
+    <p class="card-summary">"The pace that's occurring, and the nature of the procurements, is unprecedented."</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://arstechnica.com/space/2026/11/nasa-takes-an-all-hands-on-deck-approach-in-its-return-to-the-moon/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/" target="_blank">Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI</a>
+    </h2>
+    <p class="card-summary">Latest example of the AI boom’s circular financing comes as AI trade wobbles.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/tech-policy/2026/11/trump-admin-loses-fight-to-spy-on-random-journalists-linkedin-dms/" target="_blank">Trump admin loses fight to spy on random journalists’ LinkedIn DMs</a>
+    </h2>
+    <p class="card-summary">Confidential sources “lifeblood” of free press, court rules in LinkedIn fight.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://arstechnica.com/tech-policy/2026/11/trump-admin-loses-fight-to-spy-on-random-journalists-linkedin-dms/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/" target="_blank">Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.</a>
+    </h2>
+    <p class="card-summary">Any amount of AI coding is too much for many Independent Games Festival judges.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/gadgets/2026/11/apple-is-shuttering-its-28-year-old-online-community-forum/" target="_blank">Apple is shuttering its 28-year-old online community forum</a>
+    </h2>
+    <p class="card-summary">Apple has already made the forum read-only.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://arstechnica.com/gadgets/2026/11/apple-is-shuttering-its-28-year-old-online-community-forum/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/tech/1031652/jensen-huang-rumor" target="_blank">Nvidia is reportedly preparing to fire Jensen Huang</a>
+    </h2>
+    <p class="card-summary">Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second alleged affair was wit</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://www.theverge.com/tech/1031652/jensen-huang-rumor" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/tech/1031601/home-assistant-connect-aux-2-hands-on" target="_blank">Hands on with Home Assistant’s new ‘smart home multi-tool’</a>
+    </h2>
+    <p class="card-summary">Nabu Casa - the commercial side of the Open Home Foundation, which runs Home Assistant - just launched the Home Assistant Connect Aux-2, a multi-function box designed to help you bring more non-smart devices into your smart home. It's part of Home Assistant's ongoing efforts to become more user-frie</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://www.theverge.com/tech/1031601/home-assistant-connect-aux-2-hands-on" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents" target="_blank">United won’t let your AI agent book your flight</a>
+    </h2>
+    <p class="card-summary">United says it won't let personal AI assistants book tickets on the airline, citing both privacy and regulatory concerns. The company says it hasn't yet seen many people try to use AI agents to book their flights, The Wall Street Journal reports, in line with observations from other businesses like </p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection" target="_blank">Loot boxes, influencers, and addictive features face an EU crackdown</a>
+    </h2>
+    <p class="card-summary">Gaming, social media, and e-commerce platforms are facing a fresh wave of sweeping European Union rules that aim to make "your online experience fairer." The newly proposed Digital Fairness Act (DFA) published by the EU Commission on Wednesday is designed to tackle practices that exploit consumers i</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/transportation/1031554/oyota-scion-kei-01-truck-revival" target="_blank">Toyota’s Scion is back, starting with an American-made, 25-mph kei truck</a>
+    </h2>
+    <p class="card-summary">Toyota is dusting off the Scion badge for a radically different mission. Rather than targeting youth-market hatchbacks, "Scion by Toyota" is being positioned as an experimental mobility incubator - and its first vehicle is an authentic Japanese-style kei truck built in Indiana. Kei vehicles, which a</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://www.theverge.com/transportation/1031554/oyota-scion-kei-01-truck-revival" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability" target="_blank">Google’s Tabletop AI experiment lets you build custom collaboration apps</a>
+    </h2>
+    <p class="card-summary">Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends. The Tabletop platform shares some visual similarities with workplace management apps like Asana and Monday, but with a built-in AI feature tha</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026" target="_blank">The best early Black Friday deals you can already shop</a>
+    </h2>
+    <p class="card-summary">The countdown to Black Friday is on, and the first discounts are starting to appear. Although the shopping holiday isn&#8217;t officially until November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount does</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/gadgets/1031301/sharge-140w-gan-charger-lenovo-yoga-mini-desktop-pc-deal-sale" target="_blank">Sharge’s eye-catching MacBook charger is over 25 percent off</a>
+    </h2>
+    <p class="card-summary">Looking for a MacBook and device charger that’s as stylish as it is capable? Both Amazon and Sharge are selling the Pixel 140W GaN charger for $69.88 and $69.90, respectively, a $24 discount on its usual price. If you’re not in need of that much wattage but like the style, Sharge is also selling the</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://www.theverge.com/gadgets/1031301/sharge-140w-gan-charger-lenovo-yoga-mini-desktop-pc-deal-sale" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1689016?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">曝字节要做「中国版 Muse」，给豆包造个「超级大脑」</a>
+    </h2>
+    <p class="card-summary">豆包走出屏幕#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://www.ifanr.com/1689016?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1688966?utm_source=rss&utm_medium=rss&utm_campaign=" target="_blank">4.99 万元起，长安糯玉米 PLUS 变成四门「大玉米」，小车最后还是要「大大大」</a>
+    </h2>
+    <p class="card-summary">微型小车正在集体变大。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://www.ifanr.com/1688966?utm_source=rss&utm_medium=rss&utm_campaign=" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/118781" target="_blank">城市漫步指南 | 安特卫普，时尚就在生活中</a>
+    </h2>
+    <p class="card-summary">原本今年夏天的旅行是要在佛罗伦萨结束的，但突发状况导致我不用上班了，就顺势使用了我的国际机票退改券，增加了一段安特卫普的行程。打卡安特卫普的理由跟意大利一样奇怪——因为这个地方举办过好几届体操世锦赛（ ...查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://sspai.com/post/118781" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/118175" target="_blank">从优胜美地到金门大桥：跟着 macOS 游览加州</a>
+    </h2>
+    <p class="card-summary">陪伴 Mac 用户十余年的加州风景，走出屏幕后究竟是什么模样？查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://sspai.com/post/118175" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/118458" target="_blank">RetroSweeper Go：复古外观、更有手感的扫雷游戏</a>
+    </h2>
+    <p class="card-summary">复古游戏机风格的界面和「手柄」设计，希望可以唤起你的一些回忆。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://sspai.com/post/118458" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/118905" target="_blank">派早报：700 号段保护服务试点获批、Claude Code 设置文件泄露凭据等</a>
+    </h2>
+    <p class="card-summary">卫星导航基准站网安全国标发布，影目召回 4701 副 AIR3 眼镜等。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://sspai.com/post/118905" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">MIT Tech Review</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/" target="_blank">What to know about this year’s UN climate talks</a>
+    </h2>
+    <p class="card-summary">It’s that time of year again: Thousands of delegates, lobbyists, and journalists are gathered for the annual UN climate talks, taking place this time in Antalya, Turkey. COP31 officially kicked off on November 8, marking the beginning of negotiations on one of the biggest stages of the climate world</p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">MIT Tech Review</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/" target="_blank">The Download: preserving minds and weighing open AI risks</a>
+    </h2>
+    <p class="card-summary">This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Six wild ideas for perpetuating your mind As we age, we forget most of what we’ve experienced, yet there’s still undeniable continuity: At 30, or 50, </p>
+    <div class="card-footer">
+      <span class="date">2026-11-11</span>
+      <a href="https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/118861" target="_blank">社区速递 165 | 透明工牌与派友十月购物清单</a>
+    </h2>
+    <p class="card-summary">除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。上周社区速递 ...查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-10</span>
+      <a href="https://sspai.com/post/118861" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/118824" target="_blank">报名人数创下新高，第十一届「移动应用创新赛」圆满落幕</a>
+    </h2>
+    <p class="card-summary">北京时间11月8日，第十一届「移动应用创新赛」在浙江大学紫金港校区完成决赛评选并举行颁奖典礼。从2016年的161所高校开始，这项由全国高等学校计算机教育研究会主办、浙江大学与Apple联合承办的比赛 ...查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-10</span>
+      <a href="https://sspai.com/post/118824" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">MIT Tech Review</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/" target="_blank">The Download: Pelosi’s successor targets AI and data centers face power woes</a>
+    </h2>
+    <p class="card-summary">This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Nancy Pelosi’s replacement is ready to regulate AI —Grace Huckins As a California state senator, Scott Wiener authored legislation aimed at curbing th</p>
+    <div class="card-footer">
+      <span class="date">2026-11-10</span>
+      <a href="https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">MIT Tech Review</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.technologyreview.com/2026/11/10/1147726/evolving-metal-extraction-processes/" target="_blank">Evolving metal extraction processes</a>
+    </h2>
+    <p class="card-summary">The metals industry has experienced transformational moments before: the Bessemer process, flash smelting, electric arc furnaces, and modern continuous casting all changed what was possible. Yet, for more than a century, most extraction processes rely on techniques and pathways that would be familia</p>
+    <div class="card-footer">
+      <span class="date">2026-11-10</span>
+      <a href="https://www.technologyreview.com/2026/11/10/1147726/evolving-metal-extraction-processes/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>由 AI Daily 自动抓取生成 · <a href="https://github.com" target="_blank">开源项目</a></p>
+  </footer>
+
+</body>
+</html>
