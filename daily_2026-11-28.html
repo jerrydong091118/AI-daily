@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Daily · 2026-11-28 · 周六</title>
+  <style>
+    :root {
+      --bg: #F8F9FA;
+      --card-bg: #FFFFFF;
+      --border: #E8E8E8;
+      --text-primary: #1A1A1A;
+      --text-secondary: #666666;
+      --text-muted: #999999;
+      --accent: #185FA5;
+      --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text-primary);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* 顶部标题区 */
+    .hero {
+      background: linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #0F3460 100%);
+      color: white;
+      padding: 3rem 2rem 2.5rem;
+      text-align: center;
+    }
+    .hero-eyebrow {
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.5);
+      margin-bottom: 8px;
+    }
+    .hero h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 4px;
+    }
+    .hero-date {
+      font-size: 14px;
+      color: rgba(255,255,255,0.6);
+    }
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1.5rem;
+    }
+    .hero-stat {
+      text-align: center;
+    }
+    .hero-stat-num {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #5BC8F5;
+    }
+    .hero-stat-label {
+      font-size: 12px;
+      color: rgba(255,255,255,0.5);
+    }
+
+    /* 内容区 */
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+    }
+
+    /* 分区标题 */
+    .tag-section {
+      margin-bottom: 3rem;
+    }
+    .tag-section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.5rem 0 0.75rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .tag-label {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    .tag-count {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* 卡片网格 */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+
+    /* 文章卡片 */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.1rem 1.2rem;
+      transition: box-shadow 0.2s, transform 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+    .card:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      transform: translateY(-2px);
+    }
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .tag {
+      font-size: 11px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+    .source {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+    .card-title {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.5;
+      margin-bottom: 8px;
+      flex: 1;
+    }
+    .card-title a {
+      color: var(--text-primary);
+      text-decoration: none;
+    }
+    .card-title a:hover {
+      color: var(--accent);
+    }
+    .card-summary {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-bottom: 10px;
+      flex: 1;
+    }
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: auto;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+    .date {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+    .read-more {
+      font-size: 12px;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .read-more:hover {
+      text-decoration: underline;
+    }
+
+    /* 底部 */
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 12px;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+    }
+    .footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    /* 响应式 */
+    @media (max-width: 640px) {
+      .hero { padding: 2rem 1rem 1.5rem; }
+      .hero h1 { font-size: 1.6rem; }
+      .container { padding: 1.5rem 1rem 3rem; }
+      .card-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+    <p class="hero-eyebrow">AI Daily</p>
+    <h1>今日 AI & 创业资讯</h1>
+    <p class="hero-date">2026-11-28 · 周六</p>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-num">49</div>
+        <div class="hero-stat-label">篇精选文章</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">2</div>
+        <div class="hero-stat-label">个分类</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">7</div>
+        <div class="hero-stat-label">个来源</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <section class="tag-section">
+      <div class="tag-section-header" style="border-left: 3px solid #185FA5">
+        <span class="tag-label" style="color:#185FA5">AI & Tech</span>
+        <span class="tag-count">36 条</span>
+      </div>
+      <div class="card-grid">
+        
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale" target="_blank">The M5 MacBook Air just got its biggest discount since Apple raised the price</a>
+    </h2>
+    <p class="card-summary">If you’ve been holding off on buying a new MacBook Air since Apple raised prices by $200 in June, you’re in luck. The 13-inch M5 MacBook Air is on sale at Amazon and Best Buy with 16GB of RAM and 512GB of storage starting at $999 ($300 off) for Black Friday, which is the lowest [&#8230;]</p>
+    <div class="card-footer">
+      <span class="date">2026-11-28</span>
+      <a href="https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas" target="_blank">The absolute best Black Friday deals you can still get</a>
+    </h2>
+    <p class="card-summary">Black Friday is nearly over, but many of this year’s best deals are still available. You can still find some of the lowest prices we’ve seen in-store and online for video games, wireless earbuds, TVs, robot vacuums, and so much more. We can’t guarantee a deal you’ve had your eye on will last through</p>
+    <div class="card-footer">
+      <span class="date">2026-11-28</span>
+      <a href="https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/gadgets/1043445/black-friday-best-cheap-tech-deals-under-100-2026" target="_blank">We found 60-odd Black Friday deals we love for $100 or less</a>
+    </h2>
+    <p class="card-summary">Between holiday travel, gifts, and the rising cost of just about everything, expenses can quickly add up during this time of year. Thankfully, you don’t have to dip too far into your savings to take advantage of some of the better Black Friday deals we’ve seen. Below, we’ve rounded up a range of gre</p>
+    <div class="card-footer">
+      <span class="date">2026-11-28</span>
+      <a href="https://www.theverge.com/gadgets/1043445/black-friday-best-cheap-tech-deals-under-100-2026" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge" target="_blank">This purple electric Chinese minivan can go up to 559 miles on a charge</a>
+    </h2>
+    <p class="card-summary">Electric minivans could be the ultimate in utility, with room for passengers, gear, and huge batteries. While VW's ID Buzz only gave us 200 miles of real-world driving on a charge in 2023, China's BYD has just announced a flagship purple peoplemover that can go an estimated 559 miles (900 km) on ele</p>
+    <div class="card-footer">
+      <span class="date">2026-11-28</span>
+      <a href="https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1696001?utm_source=rss&utm_medium=rss&utm_campaign" target="_blank">德系最大 SUV 来了！奥迪 Q9 国内首秀，车长超 5 米 3，还有一台大 V6丨广州车展</a>
+    </h2>
+    <p class="card-summary">奥迪也拥有了他们的「大 9 系」。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-28</span>
+      <a href="https://www.ifanr.com/1696001?utm_source=rss&utm_medium=rss&utm_campaign" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/119651" target="_blank">「黑五」值得买：不容错过的数码硬件优惠</a>
+    </h2>
+    <p class="card-summary">除了软件服务，这个黑五还有这些硬件值得一看。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-28</span>
+      <a href="https://sspai.com/post/119651" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/119686" target="_blank">本月玩什么｜GTA VI、塞尔达传说 时之笛、魔兽世界：无限</a>
+    </h2>
+    <p class="card-summary">以上便是部分近期值得探讨的新游信息汇总，个人角度仅供参考。本期不设特定有奖互动话题，欢迎你在评论区分享11月新作游玩体验，可以是本文出现的，也可以是本文未提及、但你特别想推荐给派友的。我们下期再见！> ...查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-28</span>
+      <a href="https://sspai.com/post/119686" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/shopping/2026/11/the-best-black-friday-deals-ars-could-find/" target="_blank">The best Black Friday deals Ars could find</a>
+    </h2>
+    <p class="card-summary">Perhaps some commerce, to help all the Turkey Day leftovers go down easier?</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://arstechnica.com/shopping/2026/11/the-best-black-friday-deals-ars-could-find/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/" target="_blank">Intel faced a choice: Give Trump 10% or face the consequences</a>
+    </h2>
+    <p class="card-summary">Intel faced pressure to surrender a 10% stake to unlock billions in promised grants.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026/" target="_blank">Books, bikes, and The Burbs: These are Ars staff’s holiday gift picks for 2026</a>
+    </h2>
+    <p class="card-summary">We polled the Ars staff about their favorite pickups this year; here's the list.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/cars/2026/11/volvos-big-batteries-we-drive-its-updated-2028-plug-in-hybrids/" target="_blank">Volvo's big batteries: We drive its updated 2028 plug-in hybrids</a>
+    </h2>
+    <p class="card-summary">There’s just one thing we still don’t know: How much will they cost?</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://arstechnica.com/cars/2026/11/volvos-big-batteries-we-drive-its-updated-2028-plug-in-hybrids/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/gadgets/1043935/best-black-friday-apple-deals-2026" target="_blank">The best Black Friday deals you can still get on AirPods, Macs, and other Apple gear</a>
+    </h2>
+    <p class="card-summary">Black Friday is entering the evening, which means one of the best times of the year to save some cash on a new pair of AirPods or the latest Apple Watch is coming to a close. After all, the holiday savings can help offset the unfortunate price hikes from earlier this year, when Apple raised [&#8230;</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://www.theverge.com/gadgets/1043935/best-black-friday-apple-deals-2026" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/gadgets/1044487/best-black-friday-robot-vacuum-mop-deals-2026" target="_blank">The best robot vacuums we’ve tested are up to 60 percent off for Black Friday</a>
+    </h2>
+    <p class="card-summary">Black Friday is here, and if you want a little help keeping your floors clean this holiday season, now is a great time to pick up a robot vacuum. Some of the best models we’ve tested over the last year or two are on sale for up to 60 percent off, whether you’re after a [&#8230;]</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://www.theverge.com/gadgets/1044487/best-black-friday-robot-vacuum-mop-deals-2026" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale" target="_blank">Sony’s 1000XM4C headphones are a Black Friday bargain at $198</a>
+    </h2>
+    <p class="card-summary">Instead of purely looking forward with its headphone designs, Sony went back to its popular WH-1000XM4 design and made some improvements to make it even better. The 2026 version, called the WH-1000XM4C, sounds nearly as good as the pricier XM6 model (currently $348), but is down to $198 during Black</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">The Verge</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox" target="_blank">Yooka-Laylee’s free upgrade is skipping Xbox</a>
+    </h2>
+    <p class="card-summary">Playtronic Games is getting ready to launch Yooka-Laylee and the Impossible Lair: Definitive Edition as a free update on PlayStation 5, Switch 2, and PC on December 15th. Unfortunately for Xbox owners, the developer says it "can't commit to any additional platforms for the foreseeable future." In a </p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1695987?utm_source=rss&utm_medium=rss&utm_campaign" target="_blank">24.99 万元起！宝马新世代 i3 正式上市，纯电续航高达 1028km丨广州车展</a>
+    </h2>
+    <p class="card-summary">新世代的宝马，依旧是「驾驶者之车」。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://www.ifanr.com/1695987?utm_source=rss&utm_medium=rss&utm_campaign" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1695964?utm_source=rss&utm_medium=rss&utm_campaign" target="_blank">9.69 万元，奇瑞 QQ3 变身一辆可以开咖啡馆的「QQ 啡车」丨广州车展</a>
+    </h2>
+    <p class="card-summary">生活方式，可大可小。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://www.ifanr.com/1695964?utm_source=rss&utm_medium=rss&utm_campaign" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1695948?utm_source=rss&utm_medium=rss&utm_campaign" target="_blank">从「中国特供」变全球旗舰，搭载 Momenta 智驾的本田冠道来了｜广州车展</a>
+    </h2>
+    <p class="card-summary">十年前为中国造大空间，十年后用中国场景定义全球车。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://www.ifanr.com/1695948?utm_source=rss&utm_medium=rss&utm_campaign" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1695936?utm_source=rss&utm_medium=rss&utm_campaign" target="_blank">启源 Q06 迎来大升级！长安发布天枢领航 Ultra 2.0，明年 1 月推车位到车位｜广州车展</a>
+    </h2>
+    <p class="card-summary">15 万级家用车车主，也在认真用高阶智驾了。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://www.ifanr.com/1695936?utm_source=rss&utm_medium=rss&utm_campaign" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1695926?utm_source=rss&utm_medium=rss&utm_campaign" target="_blank">捷途纵横 R700 发布：华为乾崑智驾配大梁，家用硬派两手抓｜广州车展</a>
+    </h2>
+    <p class="card-summary">穿西装的方盒子。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://www.ifanr.com/1695926?utm_source=rss&utm_medium=rss&utm_campaign" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1695915?utm_source=rss&utm_medium=rss&utm_campaign" target="_blank">43.99 万元，只有一个配置，岚图泰山纯电版带来了三腔空悬｜广州车展</a>
+    </h2>
+    <p class="card-summary">一个配置打天下。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://www.ifanr.com/1695915?utm_source=rss&utm_medium=rss&utm_campaign" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">爱范儿</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.ifanr.com/1695904?utm_source=rss&utm_medium=rss&utm_campaign" target="_blank">限时 11.99 万元起，日产 NX7 标配宁德时代电池，还有Momenta 智驾｜广州车展</a>
+    </h2>
+    <p class="card-summary">辅助驾驶上大分。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://www.ifanr.com/1695904?utm_source=rss&utm_medium=rss&utm_campaign" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/119658" target="_blank">本周看什么 | 最近值得一看的 8 部作品</a>
+    </h2>
+    <p class="card-summary">☕️TL;DR近期佳作推荐：[电影]泥面人、[电影]峡湾、[电影]童话继姊妹、[英剧]警之光第四季、[加拿大]槲寄生谋杀案第三季、[国产]今天是太阳雨、[纪录片]一切如你所见、[真人秀]魔鬼的计谋：死 ...查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://sspai.com/post/119658" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/119601" target="_blank">「黑五」值得买：不容错过的 App 和服务优惠</a>
+    </h2>
+    <p class="card-summary">先预祝大家买得愉快、用得舒心。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://sspai.com/post/119601" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/119632" target="_blank">派早报：1Password 确认内部系统遭入侵等</a>
+    </h2>
+    <p class="card-summary">索尼 WH-1000XM4C 无线降噪耳机国行正式发售，微软公布 Windows Server 2028 功能清理计划等。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://sspai.com/post/119632" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">MIT Tech Review</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.technologyreview.com/2026/11/27/1149960/the-download-the-download-innovators-under-35-nominations-bionic-hand/" target="_blank">The Download: Innovators Under 35 nominations are open, and a bionic window into the mind</a>
+    </h2>
+    <p class="card-summary">This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Our 2027 Innovators Under 35 competition is now open Every year, MIT Technology Review honors 35 of the world&#8217;s brightest young scientists, entr</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://www.technologyreview.com/2026/11/27/1149960/the-download-the-download-innovators-under-35-nominations-bionic-hand/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">MIT Tech Review</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.technologyreview.com/2026/11/27/1149857/2027-innovators-under-35-competition-nominate/" target="_blank">Our 2027 Innovators Under 35 competition is now open</a>
+    </h2>
+    <p class="card-summary">Every year, the editors at MIT Technology Review select 35 of the world’s top young scientists, entrepreneurs, and inventors to honor as our newest class of Innovators Under 35. And starting today, our 2027 competition is officially open for nominations.&#160; We’re on the hunt for researchers and f</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://www.technologyreview.com/2026/11/27/1149857/2027-innovators-under-35-competition-nominate/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">MIT Tech Review</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.technologyreview.com/2026/11/27/1149946/cutting-edge-prosthetics-allow-researchers-to-probe-the-human-mind/" target="_blank">How cutting-edge prosthetics can help probe the human mind</a>
+    </h2>
+    <p class="card-summary">Over the last few weeks, I’ve been talking to Alexander (Avi) Davidson. There are a lot of remarkable things about Avi. He sustained a horrific injury as a teenager, which left him paralyzed and without a left hand. Today, he uses his own experience to guide his practice as a trauma therapist. He’s </p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="https://www.technologyreview.com/2026/11/27/1149946/cutting-edge-prosthetics-allow-researchers-to-probe-the-human-mind/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/" target="_blank">Ford unveils the GT41 as it hopes to win Le Mans again</a>
+    </h2>
+    <p class="card-summary">Ford enters the World Endurance Championship in 2027 with the new prototype.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-26</span>
+      <a href="https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/science/2026/11/draining-peatlands-is-responsible-for-a-few-percent-of-our-global-warming/" target="_blank">Draining peatlands is responsible for a few percent of our global warming</a>
+    </h2>
+    <p class="card-summary">Detailed estimate going back to 1800 shows how much carbon is being liberated.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-26</span>
+      <a href="https://arstechnica.com/science/2026/11/draining-peatlands-is-responsible-for-a-few-percent-of-our-global-warming/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">Ars Technica</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://arstechnica.com/features/2026/11/from-minimalist-to-maximalist-ars-staffers-show-off-their-home-offices/" target="_blank">From minimalist to maximalist: Ars staffers show off their home offices</a>
+    </h2>
+    <p class="card-summary">Our home offices range from tasteful to "please explain yourself."</p>
+    <div class="card-footer">
+      <span class="date">2026-11-26</span>
+      <a href="https://arstechnica.com/features/2026/11/from-minimalist-to-maximalist-ars-staffers-show-off-their-home-offices/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/116773" target="_blank">App+1｜Agora：开源、易用、好用，给 Android 用户的 LLM 聊天工具</a>
+    </h2>
+    <p class="card-summary">如果你在通过 API 调用你喜欢的大模型，希望它们能像 Kimi 等商业 AI 客户端那样用着顺手，那 Agora 就是为你而来的。相信我，Agora 不会让你失望。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-26</span>
+      <a href="https://sspai.com/post/116773" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/119563" target="_blank">论文作图不求人，用 ChatGPT 和 Keynote 免费搞定机理图</a>
+    </h2>
+    <p class="card-summary">在 AI 工具玲琅满目的今天，用各种方法「写」出一篇论文已经不算难事。但有一个环节依然很让人头疼——论文里的机理图。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-26</span>
+      <a href="https://sspai.com/post/119563" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">少数派</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://sspai.com/post/117510" target="_blank">我用AI做了一张两千年的中国历史地图</a>
+    </h2>
+    <p class="card-summary">希望这张地图，能陪更多人走一遍故纸堆里的万里江山。查看全文</p>
+    <div class="card-footer">
+      <span class="date">2026-11-26</span>
+      <a href="https://sspai.com/post/117510" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">MIT Tech Review</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/" target="_blank">The Download: Better bionic hands and AI’s natural-gas boom</a>
+    </h2>
+    <p class="card-summary">This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The next generation of bionic hands is here—and they can feel Avi Davidson lost his left hand as a teenager. Since then, he&#8217;s cycled through a f</p>
+    <div class="card-footer">
+      <span class="date">2026-11-26</span>
+      <a href="https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#E6F1FB;color:#185FA5">AI & Tech</span>
+      <span class="source">MIT Tech Review</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/" target="_blank">The next generation of bionic hands is here—and they can feel</a>
+    </h2>
+    <p class="card-summary">Avi Davidson lost his left hand as a teenager. Since then, he’s cycled through a few prosthetics. But his latest is different—it’s wired up to nerves in the upper part of his forearm and allows him to feel pressure. For the first time in years, he can use his left limb to handle delicate objects&#82</p>
+    <div class="card-footer">
+      <span class="date">2026-11-26</span>
+      <a href="https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+      </div>
+    </section>
+    <section class="tag-section">
+      <div class="tag-section-header" style="border-left: 3px solid #3B6D11">
+        <span class="tag-label" style="color:#3B6D11">Startup</span>
+        <span class="tag-count">13 条</span>
+      </div>
+      <div class="card-grid">
+        
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/374621" target="_blank">AI 硬件竞争白热化，OpenAI 反诉苹果窃密；iPhone 18 量产再度推迟；王兴回应美团与小微试点合作</a>
+    </h2>
+    <p class="card-summary">OpenAI 转守为攻：反诉苹果窃密，喊话「不公平竞争」
+当地时间周五（27 日），OpenAI 在美国加利福尼亚州圣何塞联邦法院对苹果提起反诉，指控苹果窃取其商业机密，并阻挠其与硬件供应商合作。
+今年 7 月，苹果曾以窃取商业机密为由起诉 OpenAI。随着 OpenAI 反诉，这场官司从苹果一方起诉变成了双方互诉。
+据报道，OpenAI 正准备推出一系列新的个人设备，并称这些设备有望「在苹果视为自家地盘的领域胜过苹果」。
+据报道，OpenAI 在诉状中称，苹果这样做是为了「不择手段地进行不公平竞争」。OpenAI 还指控苹果利用自身的「规模和财力来阻碍竞争」，存在「各种违法、不公平和侵权行</p>
+    <div class="card-footer">
+      <span class="date">2026-11-28</span>
+      <a href="http://www.geekpark.net/news/374621" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/374601" target="_blank">大厂的应届生名额，正在先让给 AI 预算</a>
+    </h2>
+    <p class="card-summary">在 AI 时代，最敢给自身组织结构动刀、同时也最能整活的大厂微软，又成为了新的 AI 组织实践者。但这次微软带来的不是好消息，而是公开承认「微软已经延缓了应届生的招聘进度」。
+不久前的 The Pragmatic Engineer 播客里，主持人问微软 CEO 萨提亚&middot;纳德拉「微软还招不招应届生」时，纳德拉在节目上公开承认微软应届生招聘的确放慢了，还表示「很多公司都这样」。
+对于这个结论，他解释道眼下「首要任务是确保我们内部的所有人，都被调整到合适的位置」，先把人和 AI 分工写软件的「软件工厂」模式构建起来。
+但在他的计划中，调岗后面的第二步，还是得先把 AI 预算花满。他谈到</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="http://www.geekpark.net/news/374601" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/374593" target="_blank">B 站十几年的家底，在 AI 时代「升值」</a>
+    </h2>
+    <p class="card-summary">作者｜Moonshot
+编辑｜郑玄
+当 AI 能在分秒内给出详尽答案，为什么人们还需要看长视频？
+最需要回答这个问题的平台是 B 站，但它们最新发布的财报，给了个出乎意料的答案。
+11 月 24 日，B 站发布 2026 年第三季度财报，总营收达 83.2 亿元，同比增长 8%，调整后净利润达 8.3 亿元。
+社区三项核心指标均创历史新高：日均活跃用户达 1.24 亿，月均活跃用户达 3.94 亿，用户日均使用时长首次突破两小时，达到 121 分钟，特别是 AI 知识内容，消费时长同比增长了 108%。
+
+钱、用户、内容三线增长。看来 B 站，在 AI 时代过得更好了。
+细看 B 站这份财报，</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="http://www.geekpark.net/news/374593" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/374584" target="_blank">AI 创作，走过产能竞速之后</a>
+    </h2>
+    <p class="card-summary">2026 年，AI 内容行业走到了一个新的节点。
+回头看 2025 年， AI 视频还带着明显的早期痕迹：人物容易失真、镜头只能做短片段，大家讨论更多的是生产效率的提升与制作成本的下探。
+仅仅一年过去，行业的前进速度超出了很多人的预期。2026 年以来，以即梦为代表的 AI 创作工具陆续落地了 4K 画质、分钟级长镜头、人物一致性与局部精修能力，基础画质和叙事流畅度都上了一个台阶。
+行业的关注点开始转向更本质的问题：怎么做出有辨识度的好内容，怎么跑通健康的商业模式，以及在线性内容之外，还有哪些新的形态可以探索。
+在今年的 IF 2027 创新大会上，极客公园联合即梦准备了「AI 创作专场」小场</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="http://www.geekpark.net/news/374584" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/374546" target="_blank">智谱辟谣 GLM-5.5 延期；特斯拉和 SpaceX 冲刺年底合并；18 家平台完成算法协商，覆盖 2500 万新就业形态劳动者｜极客早知道</a>
+    </h2>
+    <p class="card-summary">智谱辟谣 GLM-5.5 延期：性能 Fable 级、上万张国产 AI 卡进展顺利
+11 月 26 日，智谱高管杨昊翊公开辟谣，称此前流传的 GLM-5.5 跳票相关爆料均为假消息。
+此前有外媒发布消息称，原计划 12 月发布的智谱 GLM-5.5 将延期至 2027 年第一季度推出，同时月之暗面旗下的 Kimi K4 也将跳票，还声称跳票原因是海外头部 AI 厂商对蒸馏技术设限，阻碍了国产大模型的研发进度。
+智谱高管杨昊翊在朋友圈辟谣，表示今天下午的所谓爆料新闻都是假消息，算是否认了跳票的消息。
+至于 GLM-5.5 的情况，虽然他没有公布进度，但此前大摩参与的路演会议上提到的还是 12 月</p>
+    <div class="card-footer">
+      <span class="date">2026-11-27</span>
+      <a href="http://www.geekpark.net/news/374546" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/" target="_blank">Nvidia hits pause on chip shipments to Southeast Asia</a>
+    </h2>
+    <p class="card-summary">Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-26</span>
+      <a href="https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/26/is-alice-huang-a-spy-or-not/" target="_blank">Is Alice Huang a spy or not?</a>
+    </h2>
+    <p class="card-summary">The central, still-unproven claim in the Nvidia scandal is that Alice Huang, the former Megaspeed exec with whom Nvidia CEO Jensen Huang had an extramarital affair, is a Chinese spy.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-26</span>
+      <a href="https://techcrunch.com/2026/11/26/is-alice-huang-a-spy-or-not/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/" target="_blank">X finally gets parental controls after 20 years</a>
+    </h2>
+    <p class="card-summary">Elon Musk's social network X has finally added parental controls for teenagers, giving parents and guardians a way to manage what their kids see on the platform.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-26</span>
+      <a href="https://techcrunch.com/2026/11/26/x-finally-gets-parental-controls-after-20-years/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone/" target="_blank">A month with the iPhone Duo has changed how I use my phone</a>
+    </h2>
+    <p class="card-summary">From reading more books to breaking mindless scrolling habits, Apple's foldable has changed my daily routines in ways I didn't anticipate.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-26</span>
+      <a href="https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">TechCrunch</span>
+    </div>
+    <h2 class="card-title">
+      <a href="https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/" target="_blank">Grand Theft Auto VI proves why efficiency isn’t a virtue</a>
+    </h2>
+    <p class="card-summary">On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.</p>
+    <div class="card-footer">
+      <span class="date">2026-11-26</span>
+      <a href="https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/374536" target="_blank">好消息，AI 可以替你打客服电话了；坏消息，电话那头也是 AI</a>
+    </h2>
+    <p class="card-summary">作者｜Lilyann
+编辑｜靖宇
+网上冲浪这么多年，你一定有过这样的经历：想取消一项自动续费，却怎么都找不到入口；明明是商家多扣了钱，申请退款却要层层转接；为了几十块钱，和客服解释半个小时，最后听到一句「非常抱歉，暂时无法为您处理」。
+钱不一定很多，但就是咽不下这口气。更憋屈的是，你明明有道理，却没时间跟它耗。企业有一整套客服系统，而你可能只有一个午休时间。
+现在，这种不对称的关系，终于迎来改变了。
+AI，尤其是 Personal AI 的出现，让消费者可以把这些生活琐事，交给 AI 来处理，无论是邮件往来，或者是 App 上的申诉，Agent 都能一键代劳。
+但是，新的问题，也出现了。
+好消</p>
+    <div class="card-footer">
+      <span class="date">2026-11-26</span>
+      <a href="http://www.geekpark.net/news/374536" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/374532" target="_blank">成本低九成、开源权重：MAGI-2 带动视频模型进入大掀桌时代</a>
+    </h2>
+    <p class="card-summary">作者｜Cynthia
+编辑｜郑玄
+2026 年的视频大模型圈子，有一个心照不宣的保留节目：无论哪家推出新模型，最终的成绩页上，永远会留一行和 Seedance 2.5 的对标数据。
+这款上半年坐稳行业标杆的闭源模型，如今成了整条赛道公认的「基准线」&mdash;&mdash; 快手可灵 Kling 3.0 上线，要比镜头控制与生成时长；阿里 Wan 3.0 推出，主打同画质下的性价比；MiniMax 发 H3 系列，也要在 AA 榜单上标清和 Seedance 的 Elo 分差。
+你方唱罢我登场，榜首的排位刷了一轮又一轮，但行业的底色没变：顶尖能力始终攥在闭源厂商手里，靠云端 API 和创作平</p>
+    <div class="card-footer">
+      <span class="date">2026-11-26</span>
+      <a href="http://www.geekpark.net/news/374532" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag" style="background:#EAF3DE;color:#3B6D11">Startup</span>
+      <span class="source">极客公园</span>
+    </div>
+    <h2 class="card-title">
+      <a href="http://www.geekpark.net/news/374500" target="_blank">黄仁勋复职后首次主持全员大会：向员工道歉；iPhone Duo 零部件成本创历代 iPhone 新高；Anthropic 跌破发行价｜极客早知道</a>
+    </h2>
+    <p class="card-summary">黄仁勋复职后首次主持全员大会：向员工道歉，称将调整管理方式
+当地时间 11 月 24 日，英伟达 CEO 黄仁勋在复职后首次召开的公司全员大会上向员工道歉，承认自己违反了公司行为准则，并表示已经开始接受每日一个半小时的心理治疗。
+他称自己犯下了「非常严重的个人错误」，伤害了家人，也辜负了员工，并感谢公司董事会给予自己第二次机会。
+黄仁勋承认，以往过于强势的管理方式有时影响员工发挥主动性，今后将征求同事反馈，并接受针对自己的 360 度绩效评估。对于继任安排，他表示不认同传统接班人计划，认为董事会可以在需要时从管理团队中选择人选。
+
+黄仁勋称，复职决定由董事会作出。英伟达此前的公告同时披露，董事</p>
+    <div class="card-footer">
+      <span class="date">2026-11-26</span>
+      <a href="http://www.geekpark.net/news/374500" class="read-more" target="_blank">阅读原文 ↗</a>
+    </div>
+  </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>由 AI Daily 自动抓取生成 · <a href="https://github.com" target="_blank">开源项目</a></p>
+  </footer>
+
+</body>
+</html>
